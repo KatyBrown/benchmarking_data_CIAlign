@@ -1,0 +1,63 @@
+2020-09-22 18:27:44,969 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile low_stringent_config_EvolvAGene.ini --infile sim_25/mafft/pep/local_max100.fasta --outfile_stem sim_25/mafft/pep/low_stringent_local_max100
+Config File (low_stringent_config_EvolvAGene.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.05
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.5
+  remove_insertions: 1
+  insertion_min_size:5
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:1
+  make_similarity_matrix_output:1
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2020-09-22 18:27:44,971 - __main__ - INFO - Amino acid alignment detected
+2020-09-22 18:27:44,971 - __main__ - INFO - Removing divergent sequences
+2020-09-22 18:27:45,218 - __main__ - INFO - Removing insertions
+2020-09-22 18:27:45,218 - __main__ - INFO - Removing insertions
+
+2020-09-22 18:27:45,828 - __main__ - INFO - Removing sites 132, 7, 8, 153, 154, 155, 298, 313, 314, 315, 193, 194, 195, 321, 322, 323, 74, 75, 340, 86, 215, 87, 88, 344, 91, 345, 225, 226, 107, 108, 109, 238, 241
+2020-09-22 18:27:45,829 - __main__ - INFO - Cropping ends
+2020-09-22 18:27:45,856 - __main__ - INFO - Building similarity matrix for input alignment
+2020-09-22 18:27:46,089 - __main__ - INFO - Building similarity matrix for output alignment
+2020-09-22 18:27:46,341 - __main__ - INFO - Plotting mini alignment for input
+2020-09-22 18:27:47,080 - __main__ - INFO - Plotting mini alignment for output
+2020-09-22 18:27:47,956 - __main__ - INFO - Building consensus sequence
