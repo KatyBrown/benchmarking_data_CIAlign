@@ -1,0 +1,67 @@
+2021-03-25 07:32:29,073 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BadRead.ini --infile sim_63/mafft/good_nanopore_mafft_localpair.fasta --outfile_stem sim_63/mafft/good_nanopore_highly_stringent_local_max100
+Config File (highly_stringent_config_BadRead.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.5
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      1
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-25 07:32:29,228 - __main__ - INFO - Nucleotide alignment detected
+2021-03-25 07:32:29,228 - __main__ - INFO - Removing divergent sequences
+2021-03-25 07:32:33,485 - __main__ - INFO - Removing insertions
+2021-03-25 07:32:33,485 - __main__ - INFO - Removing insertions
+
+2021-03-25 07:32:43,720 - __main__ - INFO - Removing sites 8192, 4102, 10247, 2058, 6155, 8203, 8204, 8208, 2070, 10266, 4123, 8220, 34, 6179, 2088, 2089, 2090, 10290, 2101, 2104, 58, 10298, 8258, 10311, 10312, 4169, 2122, 81, 8280, 8283, 8284, 94, 95, 4194, 103, 8295, 2159, 4208, 10352, 6259, 8309, 2166, 2167, 8310, 2170, 126, 6272, 10369, 2185, 2186, 4234, 10380, 4240, 4241, 8336, 6300, 10397, 2208, 10406, 4264, 8361, 10410, 6317, 192, 4291, 6349, 4303, 6356, 213, 2261, 8416, 4321, 10464, 232, 10492, 4348, 2300, 10493, 2303, 6401, 10498, 8451, 10514, 4378, 8476, 285, 286, 8485, 10533, 10534, 10541, 2359, 4411, 4412, 10559, 8516, 8527, 337, 10578, 2395, 2396, 4451, 4455, 4456, 4457, 6505, 2412, 6512, 6513, 378, 8573, 2430, 6527, 10628, 6538, 8586, 2444, 2445, 398, 399, 8587, 8588, 10648, 10649, 4512, 8615, 10663, 425, 426, 427, 2474, 8620, 6579, 8627, 439, 440, 450, 2502, 8658, 6614, 4570, 4571, 8675, 2540, 6639, 8693, 506, 507, 2563, 2564, 4614, 6662, 6663, 8724, 533, 4630, 541, 6685, 2594, 2595, 550, 4654, 8758, 567, 2617, 4668, 8764, 6720, 2628, 6728, 6729, 586, 2635, 4689, 4697, 2664, 4716, 625, 4723, 8825, 637, 2688, 645, 8842, 2705, 658, 4763, 6817, 8875, 684, 2732, 8884, 2741, 2746, 8897, 713, 4811, 2764, 4812, 2785, 4833, 4834, 8935, 8936, 8937, 6893, 2805, 8949, 762, 4865, 2819, 8969, 8970, 781, 2840, 6939, 8987, 797, 798, 4893, 2850, 803, 4905, 9011, 4919, 2873, 6978, 9026, 2890, 9037, 2898, 852, 4956, 2910, 9058, 9059, 2919, 875, 9073, 9076, 885, 4988, 9086, 897, 4996, 2952, 7051, 9109, 2967, 920, 2988, 5040, 3000, 9146, 7099, 9150, 959, 960, 3009, 9159, 9160, 7114, 5067, 987, 988, 7134, 7146, 9197, 5107, 5108, 9207, 3069, 1023, 1024, 1030, 7175, 9230, 3090, 7193, 3099, 5148, 9244, 7199, 7200, 3105, 3106, 1063, 1069, 1070, 3128, 9272, 1083, 5189, 9286, 9287, 1099, 7244, 7245, 5204, 3159, 7255, 1118, 7269, 9317, 5223, 3176, 1131, 9329, 3195, 7294, 7295, 9344, 9345, 9373, 7329, 1191, 1192, 1193, 9390, 7345, 1202, 7353, 1213, 3265, 1222, 9417, 5326, 9429, 3289, 1243, 3296, 3305, 7403, 7404, 1263, 1269, 9462, 3326, 9472, 9473, 1280, 5379, 9474, 3336, 9484, 5389, 9485, 9486, 7443, 1305, 1306, 3355, 3356, 5407, 5420, 3376, 9533, 5440, 9538, 7497, 9545, 9546, 3418, 1373, 9567, 5479, 5480, 9576, 9584, 7545, 9593, 3455, 7554, 1411, 7555, 9607, 5515, 3471, 9627, 1444, 1445, 3496, 7606, 9659, 9660, 3517, 5567, 5568, 7620, 9670, 1491, 7646, 1505, 5607, 5608, 9705, 3562, 5615, 1520, 3568, 3569, 3570, 5616, 1526, 7674, 3579, 3584, 5634, 5635, 9732, 7687, 1547, 9741, 9742, 7703, 3608, 5656, 1566, 1579, 7726, 5687, 9783, 5716, 7766, 7767, 7774, 1631, 1635, 9829, 1645, 7791, 1653, 7797, 9849, 5756, 3713, 3714, 5769, 9875, 5782, 1687, 5783, 3740, 7839, 1698, 3750, 7850, 3756, 9900, 7860, 9913, 3770, 9922, 5828, 1734, 3789, 1749, 3802, 1757, 7901, 7914, 3819, 9963, 5877, 7925, 1786, 3834, 9984, 9991, 7947, 10003, 10004, 5916, 1822, 10025, 5930, 1841, 10038, 5948, 7996, 5955, 1869, 8013, 8014, 1882, 10075, 3941, 10086, 10091, 6001, 3954, 8051, 6007, 1912, 3963, 3972, 1927, 1928, 1940, 1941, 6036, 6037, 6038, 6039, 6047, 10153, 10154, 1963, 10155, 8109, 8110, 1970, 4024, 1982, 4031, 10178, 6083, 10179, 4041, 1994, 1995, 6095, 6096, 10192, 8150, 8151, 4062, 4063, 10210, 10211, 6122, 2027, 2028, 10221, 10222, 10223, 8178, 2038, 4090
+2021-03-25 07:32:43,721 - __main__ - INFO - Cropping ends
+2021-03-25 07:32:43,797 - __main__ - INFO - Removed 38 bases from end of @7ad0a209-331f-6c85-16a5-175345dd8d1f NC_004830.2,-strand,1460-3413 length=1898 error-free_length=1953 read_identity=90.61%
+2021-03-25 07:32:43,934 - __main__ - INFO - Removed 66 bases from end of _R_@b1f6c731-5f40-d00a-586e-874fc3db20fa NC_004830.2,+strand,5891-15297 length=4209 error-free_length=4249 read_identity=94.75%
+2021-03-25 07:32:44,104 - __main__ - INFO - Removed 1 bases from start of @2f978a2d-8fea-421c-ccab-528cdb5a105a NC_004830.2,-strand,8959-16021 length=1153 error-free_length=1181 read_identity=91.47%
+2021-03-25 07:32:44,151 - __main__ - INFO - Removed 1 bases from start of @19ed4387-81aa-3f32-6362-23ef3071174d NC_004830.2,-strand,7766-16307 length=2367 error-free_length=2374 read_identity=97.80%
+2021-03-25 07:32:44,348 - __main__ - INFO - Removed 24 bases from start of @f7d01202-8769-6ce4-fbcb-44a5036d64b3 NC_004830.2,-strand,6980-10309 length=3125 error-free_length=3160 read_identity=96.90%
+2021-03-25 07:32:44,374 - __main__ - INFO - Removing short sequences
+2021-03-25 07:32:44,386 - __main__ - INFO - Plotting mini alignment for input
+2021-03-25 07:32:45,242 - __main__ - INFO - Plotting mini alignment for output
+2021-03-25 07:32:46,307 - __main__ - INFO - Building consensus sequence
