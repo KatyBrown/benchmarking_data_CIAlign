@@ -127,3 +127,9 @@ xxx_removed.txt - list of removed positions
 xxx_log.txt - CIAlign log file
 
 All CIAlign outputs are in the same directory as the original alignments with the prefix high_stringent, med_stringent or low_stringent.
+
+## QuanTest2
+
+The QuanTest2 folder contains three subfolders. MSAs are the by QuanTest2 (https://doi.org/10.1093/bioinformatics/btz552) provided test alignments aligned with MUSCLE (http://dx.doi.org/10.1093/nar/gkh340).
+CIAlign_MSAs are the cleaned alignments using CIAlign with default parameters except for a remove_divergent_minperc threshold of 0.15.
+The results folder contains the QuanTest2 output with and without prior CIAlign cleaning.

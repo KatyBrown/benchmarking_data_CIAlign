@@ -1,0 +1,69 @@
+2021-10-30 13:09:43,592 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --infile /Users/charlotte/PhD/benchmarking_data_CIAlign/QuanTest2/MSAs/MoCF_biosynth_muscle.fasta --outfile /Users/charlotte/PhD/benchmarking_data_CIAlign/QuanTest2/CIAlign_MSAs/MoCF_biosynth --clean --remove_divergent_minperc 0.15
+Defaults:
+  --outfile_stem:    CIAlign
+  --crop_ends_mingap_perc:0.05
+  --crop_ends_redefine_perc:0.1
+  --insertion_min_size:3
+  --insertion_max_size:200
+  --insertion_min_flank:5
+  --remove_min_length:50
+  --consensus_type:  majority
+  --consensus_name:  consensus
+  --plot_dpi:        300
+  --plot_format:     png
+  --plot_width:      5
+  --plot_height:     3
+  --sequence_logo_type:bar
+  --sequence_logo_dpi:300
+  --sequence_logo_font:monospace
+  --sequence_logo_nt_per_row:50
+  --sequence_logo_filetype:png
+  --logo_start:      0
+  --logo_end:        0
+  --plot_coverage_dpi:300
+  --plot_coverage_height:3
+  --plot_coverage_width:5
+  --plot_coverage_colour:#007bf5
+  --plot_coverage_filetype:png
+  --make_simmatrix_dp:4
+  --make_simmatrix_minoverlap:1
+  --make_simmatrix_keepgaps:0
+
+2021-10-30 13:09:44,092 - __main__ - INFO - Amino acid alignment detected
+2021-10-30 13:09:44,094 - __main__ - INFO - Removing divergent sequences
+2021-10-30 13:09:57,111 - __main__ - INFO - Removing gap only columns
+2021-10-30 13:09:57,122 - __main__ - INFO - Removing insertions
+2021-10-30 13:09:57,122 - __main__ - INFO - Removing insertions
+
+2021-10-30 13:10:00,915 - __main__ - INFO - Removing sites 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 54, 58, 64, 65, 66, 67, 72, 74, 75, 76, 77, 79, 81, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 102, 104, 105, 111, 112, 113, 119, 120, 121, 122, 132, 133, 136, 137, 140, 141, 142, 143, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 162, 163, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 190, 191, 192, 193, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 228, 230, 231, 232, 233, 234, 235, 236, 237, 239, 240, 241, 242, 243, 246, 247, 248, 251, 252, 253, 254, 255, 256, 257, 258, 259, 262, 263, 265, 266, 267, 268, 269, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 285, 286, 287, 288, 289, 290, 291, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 316, 317, 319, 321, 322, 323, 324, 325, 326, 327, 328, 329, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 493, 494, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 511, 512, 513, 514, 515, 516, 517, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 578, 579, 580, 581, 582, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 628, 629, 630, 631, 632, 633, 634, 635, 636, 640, 644, 646, 647, 648, 649, 650, 651, 652, 653, 654, 671, 672, 675
+2021-10-30 13:10:00,916 - __main__ - INFO - Removing gap only columns
+2021-10-30 13:10:00,920 - __main__ - INFO - Cropping ends
+2021-10-30 13:10:00,924 - __main__ - INFO - Removed 6 bases from start of seq0409
+2021-10-30 13:10:00,946 - __main__ - INFO - Removed 3 bases from end of seq0589
+2021-10-30 13:10:00,959 - __main__ - INFO - Removed 5 bases from end of seq0074
+2021-10-30 13:10:00,961 - __main__ - INFO - Removed 8 bases from end of seq0023
+2021-10-30 13:10:01,059 - __main__ - INFO - Removed 5 bases from end of seq0470
+2021-10-30 13:10:01,179 - __main__ - INFO - Removed 7 bases from start of seq0930
+2021-10-30 13:10:01,203 - __main__ - INFO - Removed 6 bases from end of seq0024
+2021-10-30 13:10:01,215 - __main__ - INFO - Removed 3 bases from start of seq0190
+2021-10-30 13:10:01,228 - __main__ - INFO - Removed 1 bases from start of seq0108
+2021-10-30 13:10:01,244 - __main__ - INFO - Removed 11 bases from start of seq0602
+2021-10-30 13:10:01,254 - __main__ - INFO - Removed 1 bases from start of seq0192
+2021-10-30 13:10:01,294 - __main__ - INFO - Removed 8 bases from end of seq0129
+2021-10-30 13:10:01,304 - __main__ - INFO - Removed 5 bases from end of seq0017
+2021-10-30 13:10:01,321 - __main__ - INFO - Removed 5 bases from end of seq0006
+2021-10-30 13:10:01,334 - __main__ - INFO - Removed 9 bases from start of seq0532
+2021-10-30 13:10:01,342 - __main__ - INFO - Removed 2 bases from end of seq0128
+2021-10-30 13:10:01,343 - __main__ - INFO - Removed 2 bases from end of seq0598
+2021-10-30 13:10:01,347 - __main__ - INFO - Removed 3 bases from end of seq0594
+2021-10-30 13:10:01,350 - __main__ - INFO - Removed 2 bases from end of seq0014
+2021-10-30 13:10:01,555 - __main__ - INFO - Removed 9 bases from start of seq0027
+2021-10-30 13:10:01,559 - __main__ - INFO - Removed 5 bases from end of seq0063
+2021-10-30 13:10:01,598 - __main__ - INFO - Removed 4 bases from end of seq0069
+2021-10-30 13:10:01,604 - __main__ - INFO - Removed 6 bases from end of seq0588
+2021-10-30 13:10:01,627 - __main__ - INFO - Removed 4 bases from start of seq0172
+2021-10-30 13:10:01,662 - __main__ - INFO - Removing gap only columns
+2021-10-30 13:10:01,666 - __main__ - INFO - Removing short sequences
+2021-10-30 13:10:01,669 - __main__ - INFO - Removing gap only columns
