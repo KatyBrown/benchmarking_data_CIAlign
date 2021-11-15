@@ -1,0 +1,463 @@
+2021-07-05 10:55:00,895 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --remove_divergent --remove_divergent_minperc 0.15 --crop_ends --remove_insertion --remove_short --infile combined/aligned/ghf5_aligned.fasta --outfile_stem combined/aligned/cialign/ghf5
+Defaults:
+  --crop_ends_mingap_perc:0.05
+  --crop_ends_redefine_perc:0.1
+  --insertion_min_size:3
+  --insertion_max_size:200
+  --insertion_min_flank:5
+  --remove_min_length:50
+  --consensus_type:  majority
+  --consensus_name:  consensus
+  --plot_dpi:        300
+  --plot_format:     png
+  --plot_width:      5
+  --plot_height:     3
+  --sequence_logo_type:bar
+  --sequence_logo_dpi:300
+  --sequence_logo_font:monospace
+  --sequence_logo_nt_per_row:50
+  --sequence_logo_filetype:png
+  --plot_coverage_dpi:300
+  --plot_coverage_height:3
+  --plot_coverage_width:5
+  --plot_coverage_colour:#007bf5
+  --plot_coverage_filetype:png
+  --make_simmatrix_dp:4
+  --make_simmatrix_minoverlap:1
+  --make_simmatrix_keepgaps:0
+
+2021-07-05 10:55:04,715 - __main__ - INFO - Amino acid alignment detected
+2021-07-05 10:55:04,715 - __main__ - INFO - Removing divergent sequences
+2021-07-05 10:56:50,612 - __main__ - INFO - Removing divergent sequences A0ADQ8_STRAM/17-211, B0KTD5_PSEPG/262-433
+2021-07-05 10:56:50,612 - __main__ - INFO - Removing gap only columns
+2021-07-05 10:56:50,699 - __main__ - INFO - Removing insertions
+2021-07-05 10:56:50,699 - __main__ - INFO - Removing insertions
+
+2021-07-05 10:57:35,815 - __main__ - INFO - Removing sites 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 65, 66, 69, 71, 72, 73, 74, 75, 76, 79, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 100, 101, 102, 103, 104, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 148, 149, 150, 151, 152, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 228, 229, 230, 231, 232, 233, 236, 237, 238, 239, 240, 241, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 321, 323, 326, 327, 328, 329, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 345, 346, 347, 348, 349, 350, 351, 352, 354, 355, 356, 357, 358, 359, 360, 361, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 387, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 460, 461, 462, 463, 464, 465, 466, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 488, 489, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 635, 638, 639, 640, 642, 643, 644, 645, 646, 647, 648, 649, 650, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 692, 693, 697, 699, 700, 701, 703, 704, 705, 706, 707, 708, 709, 710, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881, 882, 883, 884, 885, 886, 887, 888, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 924, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979, 980, 981, 982, 983, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1050, 1051, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064, 1065, 1066, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079, 1080, 1081, 1082, 1084, 1085, 1086, 1087, 1088, 1089, 1090, 1091, 1092, 1093, 1094, 1095, 1096, 1097, 1098, 1099, 1100, 1101, 1102, 1103, 1104, 1105, 1106, 1107, 1108, 1109, 1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1132, 1133, 1134, 1135, 1136, 1137, 1138, 1139, 1140, 1147, 1148, 1149, 1150, 1151, 1152, 1153, 1154, 1155, 1156, 1157, 1158, 1159, 1160, 1161, 1162, 1163, 1164, 1167, 1168, 1171, 1172, 1173, 1174, 1175, 1176, 1177, 1178, 1179, 1180, 1182, 1183, 1184, 1185, 1186, 1187, 1188, 1189, 1190, 1191, 1193, 1194, 1195, 1196, 1197, 1198, 1199, 1200, 1201, 1202, 1203, 1204, 1205, 1206, 1207, 1208, 1209, 1211, 1213, 1214, 1215, 1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223, 1225, 1226, 1227, 1228, 1229, 1230, 1231, 1232, 1233, 1235, 1236, 1237, 1238, 1239, 1240, 1241, 1242, 1243, 1244, 1245, 1246, 1247, 1248, 1249, 1250, 1251, 1252, 1253, 1254, 1255, 1256, 1257, 1258, 1259, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1273, 1274, 1275, 1276, 1277, 1278, 1279, 1280, 1281, 1282, 1286, 1289, 1291, 1292, 1293, 1294, 1295, 1296, 1297, 1298, 1299, 1300, 1301, 1302, 1303, 1304, 1305, 1306, 1307, 1308, 1309, 1310, 1311, 1312, 1313, 1314, 1315, 1316, 1317, 1318, 1319, 1320, 1321, 1322, 1323, 1324, 1325, 1326, 1327, 1328, 1329, 1332, 1333, 1334, 1335, 1336, 1337, 1338, 1339, 1340, 1341, 1342, 1343, 1344, 1345, 1346, 1347, 1348, 1349, 1350, 1351, 1352, 1353, 1354, 1355, 1356, 1357, 1358, 1359, 1361, 1362, 1363, 1364, 1365, 1366, 1367, 1368, 1369, 1370, 1371, 1372, 1373, 1374, 1375, 1376, 1377, 1378, 1379, 1380, 1381, 1382, 1383, 1384, 1385, 1386, 1387, 1388, 1389, 1390, 1391, 1392, 1393, 1394, 1395, 1396, 1397, 1398, 1399, 1400, 1401, 1402, 1403, 1404, 1405, 1406, 1407, 1408, 1409, 1410, 1411, 1412, 1413, 1414, 1419, 1420, 1421, 1422, 1423, 1424, 1425, 1426, 1427, 1428, 1429, 1430, 1431, 1432, 1433, 1434, 1435, 1436, 1437, 1438, 1439, 1440, 1441, 1442, 1443, 1444, 1445, 1446, 1447, 1448, 1449, 1450, 1451, 1452, 1453, 1454, 1455, 1456, 1457, 1458, 1459, 1460, 1461, 1462, 1463, 1464, 1465, 1466, 1467, 1468, 1469, 1471, 1472, 1473, 1474, 1475, 1476, 1477, 1478, 1479, 1480, 1484, 1486, 1487, 1488, 1489, 1490, 1491, 1492, 1493, 1494, 1495, 1496, 1497, 1498, 1499, 1500, 1501, 1502, 1503, 1504, 1505, 1506, 1507, 1508, 1509, 1510, 1511, 1512, 1513, 1514, 1515, 1516, 1517, 1518, 1519, 1528, 1529, 1530, 1531, 1532, 1533, 1534, 1535, 1536, 1537, 1538, 1539, 1540, 1541, 1542, 1543, 1544, 1545, 1546, 1549, 1550, 1551, 1552, 1553, 1554, 1555, 1556, 1557, 1558, 1559, 1560, 1561, 1563, 1564, 1565, 1566, 1568, 1569, 1570, 1571, 1572, 1573, 1574, 1575, 1576, 1577, 1579, 1580, 1581, 1582, 1583, 1584, 1585, 1586, 1587, 1588, 1589, 1590, 1591, 1592, 1593, 1594, 1595, 1596, 1597, 1598, 1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1621, 1622, 1623, 1624, 1625, 1626, 1627, 1628, 1629, 1630, 1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638, 1639, 1640, 1641, 1642, 1643, 1644, 1645, 1646, 1647, 1648, 1649, 1650, 1651, 1652, 1653, 1654, 1655, 1656, 1657, 1658, 1659, 1660, 1661, 1662, 1663, 1664, 1665, 1666, 1667, 1668, 1669, 1670, 1671, 1672, 1673, 1674, 1675, 1676, 1677, 1683, 1684, 1685, 1686, 1687, 1688, 1689, 1690, 1691, 1692, 1693, 1694, 1695, 1696, 1697, 1698, 1699, 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707, 1708, 1709, 1710, 1711, 1712, 1713, 1714, 1715, 1716, 1717, 1718, 1719, 1720, 1721, 1722, 1723, 1724, 1725, 1726, 1727, 1728, 1729, 1730, 1731, 1732, 1733, 1734, 1735, 1736, 1737, 1738, 1739, 1740, 1741, 1742, 1743, 1744, 1745, 1746, 1747, 1748, 1749, 1750, 1751, 1752, 1753, 1754, 1755, 1756, 1757, 1758, 1759, 1760, 1761, 1762, 1763, 1764, 1765, 1766, 1767, 1768, 1769, 1770, 1771, 1772, 1773, 1774, 1775, 1776, 1779, 1780, 1781, 1782, 1783, 1784, 1785, 1786, 1787, 1788, 1789, 1790, 1791, 1792, 1793, 1794, 1795, 1796, 1797, 1798, 1799, 1800, 1801, 1802, 1803, 1804, 1805, 1806, 1807, 1808, 1809, 1810, 1811, 1812, 1813, 1814, 1815, 1816, 1817, 1818, 1819, 1820, 1821, 1822, 1823, 1824, 1825, 1826, 1829, 1830, 1831, 1832, 1833, 1834, 1835, 1836, 1837, 1838, 1839, 1840, 1841, 1842, 1843, 1844, 1845, 1846, 1847, 1848, 1849, 1850, 1851, 1852, 1853, 1854, 1855, 1856, 1857, 1858, 1863, 1864, 1865, 1866, 1867, 1868, 1869, 1870, 1871, 1872, 1873, 1874, 1875, 1876, 1877, 1878, 1879, 1880, 1881, 1882, 1883, 1884, 1885, 1886, 1887, 1888, 1889, 1890, 1891, 1892, 1893, 1894, 1895, 1896, 1897, 1898, 1900, 1902, 1903, 1904, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1916, 1917, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1973, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2038, 2039, 2040, 2041, 2042, 2043, 2044, 2045, 2046, 2047, 2048, 2049, 2050, 2051, 2052, 2053, 2054, 2055, 2056, 2057, 2058, 2059, 2060, 2061, 2062, 2063, 2064, 2065, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075, 2076, 2077, 2078, 2079, 2080, 2081, 2082, 2083, 2084, 2085, 2086, 2087, 2088, 2089, 2090, 2091, 2092, 2093, 2094, 2095, 2096, 2097, 2102, 2103, 2104, 2105, 2106, 2107, 2108, 2109, 2110, 2111, 2112, 2113, 2114, 2115, 2116, 2117, 2118, 2119, 2120, 2121, 2122, 2123, 2124, 2125, 2126, 2127, 2128, 2129, 2130, 2131, 2132, 2133, 2134, 2135, 2136, 2137, 2138, 2139, 2140, 2141, 2142, 2145, 2146, 2147, 2148, 2149, 2150, 2151, 2152, 2153, 2154, 2155, 2156, 2157, 2158, 2159, 2160, 2161, 2162, 2163, 2164, 2165, 2166, 2167, 2168, 2169, 2170, 2171, 2172, 2173, 2174, 2175, 2176, 2177, 2178, 2179, 2180, 2181, 2182, 2183, 2184, 2185, 2186, 2187, 2188, 2189, 2190, 2191, 2192, 2195, 2196, 2197, 2198, 2199, 2200, 2201, 2202, 2203, 2204, 2205, 2206, 2207, 2208, 2209, 2210, 2211, 2214, 2215, 2216, 2217, 2218, 2219, 2220, 2221, 2222, 2223, 2224, 2225, 2226, 2230, 2231, 2232, 2233, 2234, 2235, 2236, 2237, 2238, 2239, 2240, 2241, 2242, 2243, 2244, 2245, 2246, 2247, 2248, 2249, 2250, 2251, 2252, 2253, 2254, 2255, 2256, 2257, 2258, 2259, 2260, 2261, 2262, 2263, 2264, 2265, 2266, 2267, 2268, 2269, 2270, 2271, 2272, 2273, 2274, 2275, 2276, 2277, 2278, 2279, 2280, 2283, 2285, 2286, 2287, 2288, 2290, 2292, 2293, 2294, 2295, 2297, 2298, 2299, 2300, 2301, 2302, 2303, 2304, 2305, 2306, 2307, 2308, 2309, 2310, 2311, 2312, 2313, 2314, 2315, 2316, 2319, 2320, 2321, 2322, 2323, 2325, 2326, 2327, 2328, 2329, 2330, 2331, 2332, 2333, 2334, 2335, 2336, 2337, 2338, 2339, 2340, 2341, 2342, 2343, 2344, 2345, 2346, 2347, 2348, 2350, 2351, 2352, 2353, 2354, 2355, 2356, 2357, 2358, 2359, 2360, 2361, 2363, 2364, 2365, 2366, 2368, 2369, 2370, 2371, 2372, 2373, 2374, 2375, 2376, 2379, 2380, 2381, 2382, 2383, 2384, 2385, 2386, 2387, 2388, 2389, 2391, 2392, 2393, 2394, 2395, 2396, 2397, 2398, 2399, 2400, 2401, 2402, 2403, 2404, 2405, 2406, 2407, 2409, 2410, 2411, 2412, 2413, 2414, 2415, 2416, 2417, 2418, 2419, 2420, 2421, 2422, 2423, 2424, 2425, 2426, 2427, 2428, 2429, 2430, 2431, 2432, 2433, 2434, 2435, 2436, 2437, 2438, 2439, 2440, 2441, 2442, 2443, 2444, 2445, 2446, 2447, 2448, 2449, 2450, 2451, 2452, 2453, 2454, 2455, 2456, 2457, 2458, 2459, 2460, 2461, 2462, 2463, 2464, 2465, 2466, 2467, 2468, 2469, 2470, 2471, 2472, 2473, 2474, 2475, 2476, 2477, 2478, 2479, 2480, 2481, 2482, 2483, 2484, 2485, 2486, 2487, 2488, 2489, 2490, 2491, 2492, 2493, 2494, 2495, 2502, 2503, 2504, 2505, 2506, 2507, 2508, 2509, 2510, 2511, 2512, 2513, 2514, 2515, 2516, 2517, 2518, 2519, 2520, 2521, 2522, 2523, 2524, 2527, 2528, 2529, 2530, 2531, 2532, 2533, 2534, 2535, 2536, 2537, 2538, 2539, 2540, 2541, 2542, 2543, 2552, 2553, 2554, 2555, 2556, 2557, 2558, 2559, 2560, 2561, 2562, 2563, 2564, 2565, 2566, 2567, 2568, 2570, 2571, 2573, 2574, 2575, 2576, 2577, 2578, 2579, 2580, 2581, 2582, 2583, 2584, 2585, 2587, 2588, 2590, 2591, 2592, 2593, 2594, 2595, 2596, 2598, 2599, 2600, 2601, 2602, 2603, 2604, 2605, 2606, 2607, 2608, 2609, 2610, 2611, 2612, 2613, 2614, 2615, 2616, 2617, 2618, 2619, 2620, 2621, 2622, 2623, 2624, 2625, 2626, 2627, 2628, 2629, 2630, 2631, 2632, 2636, 2637, 2638, 2639, 2640, 2641, 2642, 2643, 2644, 2645, 2646, 2647, 2649, 2650, 2651, 2652, 2653, 2654, 2655, 2656, 2657, 2658, 2659, 2660, 2661, 2663, 2664, 2665, 2666, 2667, 2668, 2669, 2670, 2671, 2672, 2673, 2674, 2677, 2678, 2679, 2680, 2681, 2682, 2683, 2686, 2687, 2688, 2689, 2690, 2691, 2692, 2693, 2694, 2695, 2696, 2697, 2698, 2699, 2700, 2701, 2702, 2703, 2704, 2705, 2706, 2707, 2708, 2709, 2710, 2711, 2714, 2715, 2716, 2717, 2718, 2719, 2720, 2721, 2722, 2727, 2728, 2729, 2730, 2731, 2732, 2733, 2734, 2735, 2736, 2737, 2763, 2764, 2765, 2766, 2767, 2768, 2769, 2781, 2782
+2021-07-05 10:57:35,816 - __main__ - INFO - Removing gap only columns
+2021-07-05 10:57:35,826 - __main__ - INFO - Cropping ends
+2021-07-05 10:57:35,832 - __main__ - INFO - Removed 12 bases from start of Q21GC9_SACD2/85-363
+2021-07-05 10:57:35,833 - __main__ - INFO - Removed 9 bases from start of C8R047_9DELT/36-264
+2021-07-05 10:57:35,833 - __main__ - INFO - Removed 13 bases from end of C8R047_9DELT/36-264
+2021-07-05 10:57:35,834 - __main__ - INFO - Removed 9 bases from start of Q1NIX0_9DELT/37-264
+2021-07-05 10:57:35,834 - __main__ - INFO - Removed 12 bases from end of Q1NIX0_9DELT/37-264
+2021-07-05 10:57:35,835 - __main__ - INFO - Removed 9 bases from start of Q1NIB8_9DELT/37-266
+2021-07-05 10:57:35,835 - __main__ - INFO - Removed 14 bases from end of Q1NIB8_9DELT/37-266
+2021-07-05 10:57:35,837 - __main__ - INFO - Removed 9 bases from start of Q1NPV2_9DELT/37-270
+2021-07-05 10:57:35,837 - __main__ - INFO - Removed 6 bases from end of Q1NPV2_9DELT/37-270
+2021-07-05 10:57:35,838 - __main__ - INFO - Removed 4 bases from end of Q1NPV0_9DELT/9-147
+2021-07-05 10:57:35,839 - __main__ - INFO - Removed 3 bases from end of Q1NLK6_9DELT/9-146
+2021-07-05 10:57:35,841 - __main__ - INFO - Removed 9 bases from start of Q1J308_DEIGD/50-358
+2021-07-05 10:57:35,842 - __main__ - INFO - Removed 4 bases from start of A1WGG4_VEREI/58-360
+2021-07-05 10:57:35,843 - __main__ - INFO - Removed 6 bases from start of D2PS55_KRIFD/59-338
+2021-07-05 10:57:35,844 - __main__ - INFO - Removed 12 bases from start of Q55QS9_CRYNE/62-349
+2021-07-05 10:57:35,845 - __main__ - INFO - Removed 12 bases from start of Q5KFD5_CRYNE/62-327
+2021-07-05 10:57:35,846 - __main__ - INFO - Removed 12 bases from start of A8P2Q5_COPC7/45-345
+2021-07-05 10:57:35,847 - __main__ - INFO - Removed 12 bases from start of B8PFN9_POSPM/45-344
+2021-07-05 10:57:35,848 - __main__ - INFO - Removed 12 bases from start of B8PFP0_POSPM/50-345
+2021-07-05 10:57:35,849 - __main__ - INFO - Removed 10 bases from start of A8NDZ6_COPC7/54-349
+2021-07-05 10:57:35,850 - __main__ - INFO - Removed 12 bases from start of C7ZPY6_NECH7/42-340
+2021-07-05 10:57:35,851 - __main__ - INFO - Removed 10 bases from start of C9SGA3_VERA1/53-289
+2021-07-05 10:57:35,851 - __main__ - INFO - Removed 3 bases from end of C9SGA3_VERA1/53-289
+2021-07-05 10:57:35,852 - __main__ - INFO - Removed 12 bases from start of Q0UC53_PHANO/58-347
+2021-07-05 10:57:35,853 - __main__ - INFO - Removed 12 bases from start of B5M499_AURPU/72-318
+2021-07-05 10:57:35,854 - __main__ - INFO - Removed 12 bases from start of B5M6A4_AURPU/72-363
+2021-07-05 10:57:35,855 - __main__ - INFO - Removed 6 bases from start of Q0CD63_ASPTN/61-342
+2021-07-05 10:57:35,856 - __main__ - INFO - Removed 11 bases from start of A1DN84_NEOFI/57-346
+2021-07-05 10:57:35,857 - __main__ - INFO - Removed 10 bases from start of C9SWU0_VERA1/79-367
+2021-07-05 10:57:35,858 - __main__ - INFO - Removed 12 bases from start of A4QZ35_MAGGR/47-340
+2021-07-05 10:57:35,859 - __main__ - INFO - Removed 12 bases from start of C7ZD05_NECH7/71-369
+2021-07-05 10:57:35,860 - __main__ - INFO - Removed 12 bases from start of B2B0H3_PODAN/41-332
+2021-07-05 10:57:35,861 - __main__ - INFO - Removed 12 bases from start of Q6BIZ4_DEBHA/47-335
+2021-07-05 10:57:35,861 - __main__ - INFO - Removed 6 bases from end of Q6BIZ4_DEBHA/47-335
+2021-07-05 10:57:35,862 - __main__ - INFO - Removed 12 bases from start of A5DAT4_PICGU/48-336
+2021-07-05 10:57:35,863 - __main__ - INFO - Removed 6 bases from end of A5DAT4_PICGU/48-336
+2021-07-05 10:57:35,864 - __main__ - INFO - Removed 12 bases from start of C4XZ07_CLAL4/44-335
+2021-07-05 10:57:35,864 - __main__ - INFO - Removed 6 bases from end of C4XZ07_CLAL4/44-335
+2021-07-05 10:57:35,865 - __main__ - INFO - Removed 6 bases from start of A3GHM7_PICST/57-329
+2021-07-05 10:57:35,867 - __main__ - INFO - Removed 11 bases from start of A3GFE5_PICST/52-339
+2021-07-05 10:57:35,867 - __main__ - INFO - Removed 6 bases from end of A3GFE5_PICST/52-339
+2021-07-05 10:57:35,868 - __main__ - INFO - Removed 9 bases from start of A3GFD0_PICST/54-339
+2021-07-05 10:57:35,868 - __main__ - INFO - Removed 6 bases from end of A3GFD0_PICST/54-339
+2021-07-05 10:57:35,869 - __main__ - INFO - Removed 9 bases from start of A6S493_BOTFB/54-339
+2021-07-05 10:57:35,871 - __main__ - INFO - Removed 9 bases from start of A4R3V8_MAGGR/54-336
+2021-07-05 10:57:35,872 - __main__ - INFO - Removed 11 bases from start of C7ZNH0_NECH7/52-335
+2021-07-05 10:57:35,873 - __main__ - INFO - Removed 12 bases from start of B8MX68_ASPFN/50-338
+2021-07-05 10:57:35,874 - __main__ - INFO - Removed 8 bases from start of B6H0N6_PENCW/55-338
+2021-07-05 10:57:35,875 - __main__ - INFO - Removed 8 bases from start of Q4WGN1_ASPFU/55-338
+2021-07-05 10:57:35,876 - __main__ - INFO - Removed 8 bases from start of B0YB12_ASPFC/55-338
+2021-07-05 10:57:35,877 - __main__ - INFO - Removed 9 bases from start of A1DCQ2_NEOFI/54-338
+2021-07-05 10:57:35,879 - __main__ - INFO - Removed 10 bases from start of A1CDP7_ASPCL/53-338
+2021-07-05 10:57:35,880 - __main__ - INFO - Removed 11 bases from start of Q0CIW5_ASPTN/54-340
+2021-07-05 10:57:35,882 - __main__ - INFO - Removed 12 bases from start of D3AHS2_9CLOT/66-353
+2021-07-05 10:57:35,883 - __main__ - INFO - Removed 15 bases from start of C4L676_EXISA/10-328
+2021-07-05 10:57:35,884 - __main__ - INFO - Removed 9 bases from start of C5BSD2_TERTT/36-345
+2021-07-05 10:57:35,885 - __main__ - INFO - Removed 2 bases from start of A6G3R9_9DELT/67-309
+2021-07-05 10:57:35,885 - __main__ - INFO - Removed 12 bases from end of A6G3R9_9DELT/67-309
+2021-07-05 10:57:35,886 - __main__ - INFO - Removed 9 bases from start of Q11U05_CYTH3/41-297
+2021-07-05 10:57:35,903 - __main__ - INFO - Removed 4 bases from start of Q1NIF3_9DELT/18-110
+2021-07-05 10:57:35,904 - __main__ - INFO - Removed 6 bases from start of C8R047_9DELT/396-485
+2021-07-05 10:57:35,910 - __main__ - INFO - Removed 4 bases from end of C3AUQ5_BACMY/1-78
+2021-07-05 10:57:35,911 - __main__ - INFO - Removed 17 bases from end of C3AFK9_BACMY/52-397
+2021-07-05 10:57:35,913 - __main__ - INFO - Removed 17 bases from end of C3AU75_BACMY/30-374
+2021-07-05 10:57:35,914 - __main__ - INFO - Removed 17 bases from end of C3BU57_9BACI/30-374
+2021-07-05 10:57:35,915 - __main__ - INFO - Removed 17 bases from end of C3BC29_BACMY/32-374
+2021-07-05 10:57:35,931 - __main__ - INFO - Removed 17 bases from end of D1B7I1_THEAS/14-343
+2021-07-05 10:57:35,932 - __main__ - INFO - Removed 17 bases from end of C5SHS4_9CAUL/21-351
+2021-07-05 10:57:35,935 - __main__ - INFO - Removed 17 bases from end of A1E3L0_ECOLX/29-360
+2021-07-05 10:57:35,936 - __main__ - INFO - Removed 17 bases from end of Q2SKH4_HAHCH/18-349
+2021-07-05 10:57:35,939 - __main__ - INFO - Removed 17 bases from end of Q88M92_PSEPK/62-391
+2021-07-05 10:57:35,940 - __main__ - INFO - Removed 17 bases from end of A5W7Q1_PSEP1/20-350
+2021-07-05 10:57:35,950 - __main__ - INFO - Removed 2 bases from end of A8F766_THELT/38-230
+2021-07-05 10:57:35,951 - __main__ - INFO - Removed 4 bases from start of C5BVC4_BEUC1/268-401
+2021-07-05 10:57:35,969 - __main__ - INFO - Removed 4 bases from start of C4QUB9_SCHMA/47-230
+2021-07-05 10:57:35,970 - __main__ - INFO - Removed 5 bases from end of C4QIB1_SCHMA/31-230
+2021-07-05 10:57:35,972 - __main__ - INFO - Removed 4 bases from start of C4QQE1_SCHMA/25-203
+2021-07-05 10:57:35,973 - __main__ - INFO - Removed 13 bases from end of C1M2R9_SCHMA/68-371
+2021-07-05 10:57:35,975 - __main__ - INFO - Removed 4 bases from start of C4QRZ3_SCHMA/25-203
+2021-07-05 10:57:35,976 - __main__ - INFO - Removed 4 bases from start of C4QU33_SCHMA/25-203
+2021-07-05 10:57:35,977 - __main__ - INFO - Removed 14 bases from end of D3BTZ5_POLPA/38-387
+2021-07-05 10:57:35,978 - __main__ - INFO - Removed 15 bases from end of A7T0I2_NEMVE/47-382
+2021-07-05 10:57:35,979 - __main__ - INFO - Removed 15 bases from end of A7RV54_NEMVE/47-382
+2021-07-05 10:57:35,980 - __main__ - INFO - Removed 12 bases from end of EGCSE_HYDMA/49-370
+2021-07-05 10:57:35,981 - __main__ - INFO - Removed 14 bases from end of EGCSE_CYANO/61-386
+2021-07-05 10:57:35,983 - __main__ - INFO - Removed 7 bases from start of A9TRN0_PHYPA/157-382
+2021-07-05 10:57:35,984 - __main__ - INFO - Removed 14 bases from end of Q0C7P2_ASPTN/61-398
+2021-07-05 10:57:35,987 - __main__ - INFO - Removed 14 bases from end of A1D0U8_NEOFI/49-398
+2021-07-05 10:57:35,989 - __main__ - INFO - Removed 14 bases from end of B8N5F3_ASPFN/51-400
+2021-07-05 10:57:35,990 - __main__ - INFO - Removed 14 bases from end of Q2UDW2_ASPOR/51-400
+2021-07-05 10:57:35,992 - __main__ - INFO - Removed 14 bases from end of D3AY03_POLPA/50-390
+2021-07-05 10:57:35,993 - __main__ - INFO - Removed 6 bases from start of A9TRN0_PHYPA/15-149
+2021-07-05 10:57:35,993 - __main__ - INFO - Removed 2 bases from end of A9TRN0_PHYPA/15-149
+2021-07-05 10:57:35,994 - __main__ - INFO - Removed 14 bases from end of Q55CF6_DICDI/57-395
+2021-07-05 10:57:35,995 - __main__ - INFO - Removed 14 bases from end of D2V9S5_NAEGR/66-404
+2021-07-05 10:57:36,009 - __main__ - INFO - Removed 5 bases from end of C5BVC4_BEUC1/38-248
+2021-07-05 10:57:36,012 - __main__ - INFO - Removed 5 bases from end of Q55ZA4_CRYNE/68-277
+2021-07-05 10:57:36,013 - __main__ - INFO - Removed 5 bases from end of Q5KNL9_CRYNE/68-277
+2021-07-05 10:57:36,015 - __main__ - INFO - Removed 3 bases from end of Q4P7T3_USTMA/77-285
+2021-07-05 10:57:36,016 - __main__ - INFO - Removed 5 bases from end of C7Z8U7_NECH7/77-297
+2021-07-05 10:57:36,018 - __main__ - INFO - Removed 12 bases from start of B0DMJ0_LACBS/24-264
+2021-07-05 10:57:36,018 - __main__ - INFO - Removed 3 bases from end of B0DMJ0_LACBS/24-264
+2021-07-05 10:57:36,020 - __main__ - INFO - Removed 1 bases from start of Q4P7T3_USTMA/451-608
+2021-07-05 10:57:36,021 - __main__ - INFO - Removed 1 bases from start of C7Z8U7_NECH7/442-595
+2021-07-05 10:57:36,023 - __main__ - INFO - Removed 5 bases from end of B8PML2_POSPM/91-340
+2021-07-05 10:57:36,024 - __main__ - INFO - Removed 1 bases from start of B8PFU1_POSPM/39-251
+2021-07-05 10:57:36,024 - __main__ - INFO - Removed 5 bases from end of B8PFU1_POSPM/39-251
+2021-07-05 10:57:36,025 - __main__ - INFO - Removed 5 bases from end of C5DJ57_LACTC/54-273
+2021-07-05 10:57:36,026 - __main__ - INFO - Removed 5 bases from end of C7GJG5_YEAS2/55-279
+2021-07-05 10:57:36,028 - __main__ - INFO - Removed 5 bases from end of YIS7_YEAST/55-279
+2021-07-05 10:57:36,029 - __main__ - INFO - Removed 5 bases from end of A6ZVS6_YEAS7/55-279
+2021-07-05 10:57:36,030 - __main__ - INFO - Removed 5 bases from end of B3LTK2_YEAS1/55-279
+2021-07-05 10:57:36,031 - __main__ - INFO - Removed 5 bases from end of C8ZAQ6_YEAS8/55-279
+2021-07-05 10:57:36,032 - __main__ - INFO - Removed 5 bases from end of B5VKU1_YEAS6/54-279
+2021-07-05 10:57:36,034 - __main__ - INFO - Removed 6 bases from start of C4Y9K3_CLAL4/104-228
+2021-07-05 10:57:36,034 - __main__ - INFO - Removed 2 bases from end of C4Y9K3_CLAL4/104-228
+2021-07-05 10:57:36,035 - __main__ - INFO - Removed 5 bases from end of Q6BRU0_DEBHA/158-374
+2021-07-05 10:57:36,036 - __main__ - INFO - Removed 4 bases from end of A3LQN7_PICST/109-326
+2021-07-05 10:57:36,037 - __main__ - INFO - Removed 2 bases from end of Q6CF03_YARLI/54-257
+2021-07-05 10:57:36,038 - __main__ - INFO - Removed 3 bases from end of A5DB54_PICGU/104-323
+2021-07-05 10:57:36,039 - __main__ - INFO - Removed 8 bases from end of A5E3B6_LODEL/114-333
+2021-07-05 10:57:36,041 - __main__ - INFO - Removed 3 bases from end of C5MJ99_CANTT/105-324
+2021-07-05 10:57:36,042 - __main__ - INFO - Removed 9 bases from end of C9SGP0_VERA1/59-346
+2021-07-05 10:57:36,044 - __main__ - INFO - Removed 5 bases from start of A6SQU5_BOTFB/43-152
+2021-07-05 10:57:36,044 - __main__ - INFO - Removed 1 bases from end of A6SQU5_BOTFB/43-152
+2021-07-05 10:57:36,045 - __main__ - INFO - Removed 3 bases from start of B9WI78_CANDC/112-252
+2021-07-05 10:57:36,046 - __main__ - INFO - Removed 4 bases from start of Q5AJY9_CANAL/111-252
+2021-07-05 10:57:36,047 - __main__ - INFO - Removed 4 bases from start of C4YS44_CANAL/111-254
+2021-07-05 10:57:36,049 - __main__ - INFO - Removed 8 bases from end of C4R7I9_PICPG/89-306
+2021-07-05 10:57:36,050 - __main__ - INFO - Removed 7 bases from end of Q75ER2_ASHGO/45-276
+2021-07-05 10:57:36,051 - __main__ - INFO - Removed 9 bases from end of B2W901_PYRTR/48-281
+2021-07-05 10:57:36,052 - __main__ - INFO - Removed 9 bases from end of Q0TXN8_PHANO/45-281
+2021-07-05 10:57:36,053 - __main__ - INFO - Removed 8 bases from end of A7F3M1_SCLS1/61-266
+2021-07-05 10:57:36,054 - __main__ - INFO - Removed 5 bases from end of B6H988_PENCW/51-261
+2021-07-05 10:57:36,055 - __main__ - INFO - Removed 3 bases from end of C5FTR3_NANOT/54-257
+2021-07-05 10:57:36,057 - __main__ - INFO - Removed 3 bases from end of D4AK83_ARTBE/54-257
+2021-07-05 10:57:36,058 - __main__ - INFO - Removed 3 bases from end of D4D7P3_TRIVC/54-257
+2021-07-05 10:57:36,059 - __main__ - INFO - Removed 5 bases from end of Q3HYB8_COCPO/50-260
+2021-07-05 10:57:36,060 - __main__ - INFO - Removed 5 bases from end of C5PB42_COCP7/50-260
+2021-07-05 10:57:36,061 - __main__ - INFO - Removed 5 bases from end of C4JZJ8_UNCRE/50-260
+2021-07-05 10:57:36,062 - __main__ - INFO - Removed 4 bases from end of C1HDI5_PARBA/51-260
+2021-07-05 10:57:36,064 - __main__ - INFO - Removed 3 bases from end of C0S1Y9_PARBP/50-259
+2021-07-05 10:57:36,065 - __main__ - INFO - Removed 3 bases from end of C1GAD3_PARBD/50-259
+2021-07-05 10:57:36,066 - __main__ - INFO - Removed 3 bases from end of C0NAU4_AJECG/50-259
+2021-07-05 10:57:36,067 - __main__ - INFO - Removed 15 bases from end of C6H462_AJECH/49-431
+2021-07-05 10:57:36,068 - __main__ - INFO - Removed 3 bases from end of A6R3Y5_AJECN/49-258
+2021-07-05 10:57:36,069 - __main__ - INFO - Removed 5 bases from end of C5GH75_AJEDR/49-261
+2021-07-05 10:57:36,071 - __main__ - INFO - Removed 5 bases from end of C5JHJ2_AJEDS/49-261
+2021-07-05 10:57:36,072 - __main__ - INFO - Removed 8 bases from end of B6QVJ6_PENMQ/69-266
+2021-07-05 10:57:36,073 - __main__ - INFO - Removed 8 bases from end of B8MTI6_TALSN/56-266
+2021-07-05 10:57:36,074 - __main__ - INFO - Removed 9 bases from end of B8MTI5_TALSN/56-267
+2021-07-05 10:57:36,075 - __main__ - INFO - Removed 5 bases from end of B6HH54_PENCW/56-259
+2021-07-05 10:57:36,076 - __main__ - INFO - Removed 4 bases from end of Q5B8W7_EMENI/49-259
+2021-07-05 10:57:36,078 - __main__ - INFO - Removed 4 bases from end of C8VIW0_EMENI/49-259
+2021-07-05 10:57:36,079 - __main__ - INFO - Removed 4 bases from end of A2R731_ASPNC/45-259
+2021-07-05 10:57:36,080 - __main__ - INFO - Removed 4 bases from end of A1CJZ8_ASPCL/52-259
+2021-07-05 10:57:36,081 - __main__ - INFO - Removed 4 bases from end of Q0CXJ2_ASPTN/49-258
+2021-07-05 10:57:36,082 - __main__ - INFO - Removed 4 bases from end of A1D7G7_NEOFI/53-259
+2021-07-05 10:57:36,084 - __main__ - INFO - Removed 5 bases from end of Q4WXA7_ASPFU/50-260
+2021-07-05 10:57:36,085 - __main__ - INFO - Removed 5 bases from end of B0XYB1_ASPFC/50-260
+2021-07-05 10:57:36,086 - __main__ - INFO - Removed 5 bases from end of B8MZY6_ASPFN/45-261
+2021-07-05 10:57:36,087 - __main__ - INFO - Removed 5 bases from end of Q2UQ51_ASPOR/45-261
+2021-07-05 10:57:36,088 - __main__ - INFO - Removed 4 bases from end of Q6C6U5_YARLI/49-260
+2021-07-05 10:57:36,090 - __main__ - INFO - Removed 6 bases from end of C7YPC5_NECH7/55-263
+2021-07-05 10:57:36,091 - __main__ - INFO - Removed 7 bases from end of A4RDT0_MAGGR/60-265
+2021-07-05 10:57:36,092 - __main__ - INFO - Removed 7 bases from end of B2AKZ0_PODAN/63-294
+2021-07-05 10:57:36,093 - __main__ - INFO - Removed 9 bases from end of D1Z8X2_SORMA/51-277
+2021-07-05 10:57:36,094 - __main__ - INFO - Removed 11 bases from end of Q7S4G1_NEUCR/56-279
+2021-07-05 10:57:36,095 - __main__ - INFO - Removed 10 bases from end of B8PJW7_POSPM/81-293
+2021-07-05 10:57:36,096 - __main__ - INFO - Removed 10 bases from end of B8P639_POSPM/70-293
+2021-07-05 10:57:36,098 - __main__ - INFO - Removed 5 bases from end of Q4PI14_USTMA/58-284
+2021-07-05 10:57:36,099 - __main__ - INFO - Removed 7 bases from end of A8P9X2_COPC7/80-288
+2021-07-05 10:57:36,100 - __main__ - INFO - Removed 3 bases from end of Q5KCW9_CRYNE/80-280
+2021-07-05 10:57:36,101 - __main__ - INFO - Removed 3 bases from end of Q5KCW8_CRYNE/80-280
+2021-07-05 10:57:36,102 - __main__ - INFO - Removed 7 bases from end of B0D2R1_LACBS/64-289
+2021-07-05 10:57:36,104 - __main__ - INFO - Removed 5 bases from end of B0SMH8_LEPBP/48-268
+2021-07-05 10:57:36,105 - __main__ - INFO - Removed 5 bases from end of B0SEF0_LEPBA/48-268
+2021-07-05 10:57:36,106 - __main__ - INFO - Removed 3 bases from end of B9JQD4_AGRRK/51-255
+2021-07-05 10:57:36,107 - __main__ - INFO - Removed 5 bases from end of A7HRC3_PARL1/53-268
+2021-07-05 10:57:36,108 - __main__ - INFO - Removed 5 bases from end of Q75FJ1_LEPIC/37-253
+2021-07-05 10:57:36,109 - __main__ - INFO - Removed 5 bases from end of Q8EXG1_LEPIN/37-253
+2021-07-05 10:57:36,110 - __main__ - INFO - Removed 3 bases from end of Q04ND1_LEPBJ/43-250
+2021-07-05 10:57:36,112 - __main__ - INFO - Removed 3 bases from end of Q04WL1_LEPBL/49-251
+2021-07-05 10:57:36,113 - __main__ - INFO - Removed 3 bases from end of C5KJM3_9ALVE/138-352
+2021-07-05 10:57:36,114 - __main__ - INFO - Removed 10 bases from end of C5LQG4_9ALVE/147-370
+2021-07-05 10:57:36,115 - __main__ - INFO - Removed 9 bases from end of D0MUH4_PHYIN/88-289
+2021-07-05 10:57:36,116 - __main__ - INFO - Removed 9 bases from end of D0MUI5_PHYIN/70-294
+2021-07-05 10:57:36,118 - __main__ - INFO - Removed 5 bases from end of D0MUI8_PHYIN/59-252
+2021-07-05 10:57:36,119 - __main__ - INFO - Removed 4 bases from end of A7TSX9_VANPO/48-277
+2021-07-05 10:57:36,120 - __main__ - INFO - Removed 4 bases from end of C5DWI3_ZYGRC/50-267
+2021-07-05 10:57:36,121 - __main__ - INFO - Removed 3 bases from end of Q6FKQ8_CANGA/49-264
+2021-07-05 10:57:36,122 - __main__ - INFO - Removed 4 bases from start of Q6CVI8_KLULA/53-190
+2021-07-05 10:57:36,124 - __main__ - INFO - Removed 15 bases from start of B5ZX72_RHILW/431-719
+2021-07-05 10:57:36,124 - __main__ - INFO - Removed 9 bases from end of B5ZX72_RHILW/431-719
+2021-07-05 10:57:36,147 - __main__ - INFO - Removed 3 bases from end of B8PID7_POSPM/18-156
+2021-07-05 10:57:36,154 - __main__ - INFO - Removed 5 bases from start of B2B694_PODAN/106-323
+2021-07-05 10:57:36,155 - __main__ - INFO - Removed 3 bases from end of Q0UQM4_PHANO/2-155
+2021-07-05 10:57:36,156 - __main__ - INFO - Removed 11 bases from end of A4R6A2_MAGGR/80-248
+2021-07-05 10:57:36,159 - __main__ - INFO - Removed 11 bases from start of Q2HC41_CHAGB/75-276
+2021-07-05 10:57:36,184 - __main__ - INFO - Removed 5 bases from start of Q0CRK7_ASPTN/141-301
+2021-07-05 10:57:36,184 - __main__ - INFO - Removed 3 bases from end of Q0CRK7_ASPTN/141-301
+2021-07-05 10:57:36,201 - __main__ - INFO - Removed 6 bases from start of C9SBM1_VERA1/39-133
+2021-07-05 10:57:36,201 - __main__ - INFO - Removed 3 bases from end of C9SBM1_VERA1/39-133
+2021-07-05 10:57:36,394 - __main__ - INFO - Removed 6 bases from start of Q4ZMJ2_PSEU2/14-358
+2021-07-05 10:57:36,394 - __main__ - INFO - Removed 6 bases from end of Q4ZMJ2_PSEU2/14-358
+2021-07-05 10:57:36,395 - __main__ - INFO - Removed 6 bases from start of Q48NR5_PSE14/14-358
+2021-07-05 10:57:36,395 - __main__ - INFO - Removed 6 bases from end of Q48NR5_PSE14/14-358
+2021-07-05 10:57:36,396 - __main__ - INFO - Removed 6 bases from start of A3F8B2_9PSED/14-358
+2021-07-05 10:57:36,396 - __main__ - INFO - Removed 6 bases from end of A3F8B2_9PSED/14-358
+2021-07-05 10:57:36,400 - __main__ - INFO - Removed 4 bases from start of D1ZYP0_SORMA/23-190
+2021-07-05 10:57:36,401 - __main__ - INFO - Removed 2 bases from end of D1ZYP0_SORMA/23-190
+2021-07-05 10:57:36,403 - __main__ - INFO - Removed 3 bases from start of C2AIM7_TSUPA/1-213
+2021-07-05 10:57:36,407 - __main__ - INFO - Removed 12 bases from end of C9XNC7_CLODC/35-312
+2021-07-05 10:57:36,408 - __main__ - INFO - Removed 3 bases from start of Q97GE6_CLOAB/46-159
+2021-07-05 10:57:36,411 - __main__ - INFO - Removed 4 bases from start of C9KZZ7_9BACE/63-262
+2021-07-05 10:57:36,412 - __main__ - INFO - Removed 14 bases from start of D1RDL1_LEGLO/28-449
+2021-07-05 10:57:36,413 - __main__ - INFO - Removed 16 bases from end of D1RDL1_LEGLO/28-449
+2021-07-05 10:57:36,414 - __main__ - INFO - Removed 14 bases from start of D3HMS2_LEGLO/28-449
+2021-07-05 10:57:36,414 - __main__ - INFO - Removed 16 bases from end of D3HMS2_LEGLO/28-449
+2021-07-05 10:57:36,415 - __main__ - INFO - Removed 14 bases from start of Q5WVD3_LEGPL/28-453
+2021-07-05 10:57:36,415 - __main__ - INFO - Removed 16 bases from end of Q5WVD3_LEGPL/28-453
+2021-07-05 10:57:36,416 - __main__ - INFO - Removed 14 bases from start of Q5ZU89_LEGPH/28-453
+2021-07-05 10:57:36,416 - __main__ - INFO - Removed 16 bases from end of Q5ZU89_LEGPH/28-453
+2021-07-05 10:57:36,417 - __main__ - INFO - Removed 14 bases from start of Q5X3Y8_LEGPA/28-453
+2021-07-05 10:57:36,417 - __main__ - INFO - Removed 16 bases from end of Q5X3Y8_LEGPA/28-453
+2021-07-05 10:57:36,418 - __main__ - INFO - Removed 14 bases from start of A5ID76_LEGPC/28-452
+2021-07-05 10:57:36,418 - __main__ - INFO - Removed 16 bases from end of A5ID76_LEGPC/28-452
+2021-07-05 10:57:36,454 - __main__ - INFO - Removed 1 bases from start of A2XUQ4_ORYSI/139-274
+2021-07-05 10:57:36,480 - __main__ - INFO - Removed 7 bases from start of C9SM77_VERA1/12-287
+2021-07-05 10:57:36,482 - __main__ - INFO - Removed 4 bases from start of D1ZHA5_SORMA/187-349
+2021-07-05 10:57:36,504 - __main__ - INFO - Removed 14 bases from end of Q2J1E0_RHOP2/43-385
+2021-07-05 10:57:36,505 - __main__ - INFO - Removed 13 bases from end of Q13C38_RHOPS/43-384
+2021-07-05 10:57:36,515 - __main__ - INFO - Removed 3 bases from start of B1M3L0_METRJ/3-145
+2021-07-05 10:57:36,515 - __main__ - INFO - Removed 6 bases from end of B1M3L0_METRJ/3-145
+2021-07-05 10:57:36,516 - __main__ - INFO - Removed 2 bases from start of A6UGB3_SINMW/4-146
+2021-07-05 10:57:36,516 - __main__ - INFO - Removed 6 bases from end of A6UGB3_SINMW/4-146
+2021-07-05 10:57:36,518 - __main__ - INFO - Removed 2 bases from start of Q92WT8_RHIME/4-146
+2021-07-05 10:57:36,518 - __main__ - INFO - Removed 6 bases from end of Q92WT8_RHIME/4-146
+2021-07-05 10:57:36,538 - __main__ - INFO - Removed 9 bases from start of Q4UZ18_XANC8/29-339
+2021-07-05 10:57:36,538 - __main__ - INFO - Removed 5 bases from end of Q4UZ18_XANC8/29-339
+2021-07-05 10:57:36,539 - __main__ - INFO - Removed 9 bases from start of Q8P513_XANCP/29-339
+2021-07-05 10:57:36,539 - __main__ - INFO - Removed 5 bases from end of Q8P513_XANCP/29-339
+2021-07-05 10:57:36,540 - __main__ - INFO - Removed 9 bases from start of B0RNG4_XANCB/105-415
+2021-07-05 10:57:36,540 - __main__ - INFO - Removed 5 bases from end of B0RNG4_XANCB/105-415
+2021-07-05 10:57:36,541 - __main__ - INFO - Removed 9 bases from start of B2SM54_XANOP/29-339
+2021-07-05 10:57:36,541 - __main__ - INFO - Removed 5 bases from end of B2SM54_XANOP/29-339
+2021-07-05 10:57:36,542 - __main__ - INFO - Removed 9 bases from start of Q5GVI3_XANOR/29-339
+2021-07-05 10:57:36,542 - __main__ - INFO - Removed 5 bases from end of Q5GVI3_XANOR/29-339
+2021-07-05 10:57:36,543 - __main__ - INFO - Removed 9 bases from start of Q2NYR6_XANOM/29-339
+2021-07-05 10:57:36,543 - __main__ - INFO - Removed 5 bases from end of Q2NYR6_XANOM/29-339
+2021-07-05 10:57:36,544 - __main__ - INFO - Removed 13 bases from end of B0U4Y6_XYLFM/29-244
+2021-07-05 10:57:36,545 - __main__ - INFO - Removed 13 bases from end of Q3R5Y4_XYLFA/29-244
+2021-07-05 10:57:36,547 - __main__ - INFO - Removed 13 bases from end of Q3RGG2_XYLFA/29-244
+2021-07-05 10:57:36,548 - __main__ - INFO - Removed 13 bases from end of Q3R7E5_XYLFA/29-244
+2021-07-05 10:57:36,549 - __main__ - INFO - Removed 13 bases from end of Q87AG9_XYLFT/14-229
+2021-07-05 10:57:36,550 - __main__ - INFO - Removed 13 bases from end of B2I9A2_XYLF2/29-244
+2021-07-05 10:57:36,569 - __main__ - INFO - Removed 18 bases from start of Q2I007_9STRA/68-388
+2021-07-05 10:57:36,573 - __main__ - INFO - Removed 2 bases from end of A0FEW9_9STRA/169-381
+2021-07-05 10:57:36,621 - __main__ - INFO - Removed 3 bases from end of A4UWN1_9EUKA/24-339
+2021-07-05 10:57:36,630 - __main__ - INFO - Removed 9 bases from end of C7HE60_CLOTM/52-299
+2021-07-05 10:57:36,631 - __main__ - INFO - Removed 9 bases from end of D1NNT8_CLOTM/52-299
+2021-07-05 10:57:36,632 - __main__ - INFO - Removed 9 bases from end of A3DHG6_CLOTH/52-299
+2021-07-05 10:57:36,633 - __main__ - INFO - Removed 6 bases from start of Q88XL3_LACPL/47-320
+2021-07-05 10:57:36,634 - __main__ - INFO - Removed 4 bases from start of Q6C6U5_YARLI/376-557
+2021-07-05 10:57:36,635 - __main__ - INFO - Removed 6 bases from start of C5MJ99_CANTT/469-651
+2021-07-05 10:57:36,636 - __main__ - INFO - Removed 1 bases from start of Q0U2A9_PHANO/21-324
+2021-07-05 10:57:36,637 - __main__ - INFO - Removed 6 bases from start of Q0CY60_ASPTN/12-320
+2021-07-05 10:57:36,638 - __main__ - INFO - Removed 3 bases from start of Q76G11_9HYPO/19-324
+2021-07-05 10:57:36,645 - __main__ - INFO - Removed 9 bases from start of C6Q8V8_9THEO/1-126
+2021-07-05 10:57:36,654 - __main__ - INFO - Removed 16 bases from start of D0WLJ8_9ACTO/15-299
+2021-07-05 10:57:36,658 - __main__ - INFO - Removed 14 bases from end of B9XM31_9BACT/50-311
+2021-07-05 10:57:36,659 - __main__ - INFO - Removed 12 bases from end of B4D607_9BACT/47-299
+2021-07-05 10:57:36,660 - __main__ - INFO - Removed 2 bases from end of Q08W72_STIAU/39-232
+2021-07-05 10:57:36,680 - __main__ - INFO - Removed 2 bases from start of A9GCD0_SORC5/280-507
+2021-07-05 10:57:36,682 - __main__ - INFO - Removed 4 bases from start of A6E7U8_9SPHI/170-391
+2021-07-05 10:57:36,683 - __main__ - INFO - Removed 4 bases from end of C1MYK8_9CHLO/148-318
+2021-07-05 10:57:36,684 - __main__ - INFO - Removed 11 bases from start of Q1D522_MYXXD/125-353
+2021-07-05 10:57:36,687 - __main__ - INFO - Removed 1 bases from start of C1E4L9_9CHLO/131-405
+2021-07-05 10:57:36,687 - __main__ - INFO - Removed 5 bases from end of C1E4L9_9CHLO/131-405
+2021-07-05 10:57:36,688 - __main__ - INFO - Removed 1 bases from end of C6J3L1_9BACL/15-259
+2021-07-05 10:57:36,722 - __main__ - INFO - Removed 5 bases from start of B2W7C0_PYRTR/106-297
+2021-07-05 10:57:36,723 - __main__ - INFO - Removed 5 bases from end of A6RNL4_BOTFB/75-264
+2021-07-05 10:57:36,730 - __main__ - INFO - Removed 16 bases from start of MANA_ASPCL/43-327
+2021-07-05 10:57:36,747 - __main__ - INFO - Removed 1 bases from start of C8VKA9_EMENI/149-283
+2021-07-05 10:57:36,749 - __main__ - INFO - Removed 1 bases from start of Q5B9S1_EMENI/149-283
+2021-07-05 10:57:36,754 - __main__ - INFO - Removed 17 bases from end of A8N5N5_COPC7/37-350
+2021-07-05 10:57:36,773 - __main__ - INFO - Removed 10 bases from start of A0LSH9_ACIC1/106-382
+2021-07-05 10:57:36,777 - __main__ - INFO - Removed 6 bases from start of A4RSG2_OSTLU/111-263
+2021-07-05 10:57:36,778 - __main__ - INFO - Removed 8 bases from start of C1MKB3_9CHLO/127-442
+2021-07-05 10:57:36,779 - __main__ - INFO - Removed 3 bases from start of Q01DK8_OSTTA/56-330
+2021-07-05 10:57:36,844 - __main__ - INFO - Removed 9 bases from end of B8A311_MAIZE/43-264
+2021-07-05 10:57:36,857 - __main__ - INFO - Removed 3 bases from end of MANP_ARATH/35-337
+2021-07-05 10:57:36,858 - __main__ - WARNING - Given the length of sequence A5C9G4_VITVI/1-76, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 10:57:36,861 - __main__ - INFO - Removed 1 bases from start of Q8GTA2_DATFE/2-84
+2021-07-05 10:57:36,861 - __main__ - INFO - Removed 3 bases from end of Q8GTA2_DATFE/2-84
+2021-07-05 10:57:36,867 - __main__ - INFO - Removed 1 bases from start of A8I258_CHLRE/101-181
+2021-07-05 10:57:36,867 - __main__ - INFO - Removed 1 bases from end of A8I258_CHLRE/101-181
+2021-07-05 10:57:36,875 - __main__ - INFO - Removed 2 bases from start of C3YY84_BRAFL/123-393
+2021-07-05 10:57:36,876 - __main__ - INFO - Removed 14 bases from end of B1A1I2_9SPHI/168-466
+2021-07-05 10:57:36,878 - __main__ - INFO - Removed 3 bases from start of B3IXL6_9GAMM/210-406
+2021-07-05 10:57:36,882 - __main__ - INFO - Removed 1 bases from start of A7HFC4_ANADF/149-439
+2021-07-05 10:57:36,882 - __main__ - INFO - Removed 16 bases from end of A7HFC4_ANADF/149-439
+2021-07-05 10:57:36,884 - __main__ - INFO - Removed 15 bases from end of A4XMG1_CALS8/55-336
+2021-07-05 10:57:36,901 - __main__ - INFO - Removed 5 bases from end of B9LJZ5_CHLSY/51-351
+2021-07-05 10:57:36,902 - __main__ - INFO - Removed 5 bases from end of A9WHX8_CHLAA/116-416
+2021-07-05 10:57:36,903 - __main__ - INFO - Removed 12 bases from start of A5UWM5_ROSS1/32-244
+2021-07-05 10:57:36,904 - __main__ - INFO - Removed 8 bases from start of A7NMM3_ROSCS/41-249
+2021-07-05 10:57:36,905 - __main__ - INFO - Removed 11 bases from start of D1C2X9_SPHTD/59-260
+2021-07-05 10:57:36,906 - __main__ - INFO - Removed 12 bases from start of B9L0G9_THERP/51-264
+2021-07-05 10:57:36,909 - __main__ - INFO - Removed 6 bases from start of D3EZ73_CONWI/20-323
+2021-07-05 10:57:36,916 - __main__ - INFO - Removed 3 bases from start of B8GCF6_CHLAD/230-429
+2021-07-05 10:57:36,916 - __main__ - INFO - Removed 2 bases from end of B8GCF6_CHLAD/230-429
+2021-07-05 10:57:36,917 - __main__ - INFO - Removed 8 bases from start of B9LBX7_CHLSY/230-412
+2021-07-05 10:57:36,918 - __main__ - INFO - Removed 8 bases from start of A9WK09_CHLAA/230-412
+2021-07-05 10:57:36,923 - __main__ - INFO - Removed 7 bases from start of C7PTR3_CHIPD/144-318
+2021-07-05 10:57:36,923 - __main__ - INFO - Removed 2 bases from end of C7PTR3_CHIPD/144-318
+2021-07-05 10:57:36,924 - __main__ - INFO - Removed 6 bases from end of D3B7V2_POLPA/102-288
+2021-07-05 10:57:36,925 - __main__ - INFO - Removed 5 bases from end of B9XLC6_9BACT/25-309
+2021-07-05 10:57:36,926 - __main__ - INFO - Removed 3 bases from end of B2IJV6_BEII9/25-323
+2021-07-05 10:57:36,927 - __main__ - INFO - Removed 9 bases from start of Q1BMV2_BURCA/62-298
+2021-07-05 10:57:36,928 - __main__ - INFO - Removed 9 bases from start of B1K9A4_BURCC/62-298
+2021-07-05 10:57:36,930 - __main__ - INFO - Removed 9 bases from start of A0AZW1_BURCH/62-298
+2021-07-05 10:57:36,950 - __main__ - INFO - Removed 16 bases from start of Q2T8A4_BURTA/56-311
+2021-07-05 10:57:36,951 - __main__ - INFO - Removed 8 bases from start of D2W397_NAEGR/654-909
+2021-07-05 10:57:36,952 - __main__ - INFO - Removed 19 bases from start of D2V6B9_NAEGR/148-404
+2021-07-05 10:57:36,954 - __main__ - INFO - Removed 2 bases from start of C0A6J6_9BACT/575-726
+2021-07-05 10:57:36,954 - __main__ - INFO - Removed 6 bases from end of C0A6J6_9BACT/575-726
+2021-07-05 10:57:36,955 - __main__ - INFO - Removed 2 bases from start of D1N6L3_9BACT/71-274
+2021-07-05 10:57:36,955 - __main__ - INFO - Removed 4 bases from end of D1N6L3_9BACT/71-274
+2021-07-05 10:57:36,956 - __main__ - INFO - Removed 4 bases from start of D1N2X8_9BACT/1-280
+2021-07-05 10:57:36,957 - __main__ - INFO - Removed 9 bases from start of A7NNF7_ROSCS/108-309
+2021-07-05 10:57:36,963 - __main__ - INFO - Removed 2 bases from start of B9C756_9BURK/41-299
+2021-07-05 10:57:36,964 - __main__ - INFO - Removed 2 bases from start of B9BY89_9BURK/41-299
+2021-07-05 10:57:36,965 - __main__ - INFO - Removed 13 bases from start of C0A5L5_9BACT/232-505
+2021-07-05 10:57:36,967 - __main__ - INFO - Removed 11 bases from start of A7IL93_XANP2/165-358
+2021-07-05 10:57:36,967 - __main__ - INFO - Removed 6 bases from end of A7IL93_XANP2/165-358
+2021-07-05 10:57:36,969 - __main__ - INFO - Removed 3 bases from start of C7NMC5_HALUD/105-354
+2021-07-05 10:57:36,975 - __main__ - INFO - Removed 16 bases from end of D1PFT4_9BACT/71-355
+2021-07-05 10:57:36,977 - __main__ - INFO - Removed 1 bases from end of B3C9G1_9BACE/42-327
+2021-07-05 10:57:37,011 - __main__ - INFO - Removed 6 bases from start of Q5D5C5_9BACI/10-121
+2021-07-05 10:57:37,085 - __main__ - INFO - Removed 3 bases from start of C0M092_9BACT/3-111
+2021-07-05 10:57:37,145 - __main__ - INFO - Removed 7 bases from start of Q9GRU6_HETSC/4-236
+2021-07-05 10:57:37,198 - __main__ - INFO - Removed 6 bases from start of C0M0A3_9BACT/1-87
+2021-07-05 10:57:37,199 - __main__ - INFO - Removed 4 bases from end of Q92U14_RHIME/68-209
+2021-07-05 10:57:37,205 - __main__ - INFO - Removed 4 bases from end of D1N3W0_9BACT/465-593
+2021-07-05 10:57:37,206 - __main__ - INFO - Removed 1 bases from start of C0M0A4_9BACT/1-81
+2021-07-05 10:57:37,327 - __main__ - INFO - Removed 1 bases from end of C5M0B8_9ALVE/1-74
+2021-07-05 10:57:37,341 - __main__ - INFO - Removed 1 bases from start of Q60100_XANAL/115-253
+2021-07-05 10:57:37,341 - __main__ - INFO - Removed 3 bases from end of Q60100_XANAL/115-253
+2021-07-05 10:57:37,352 - __main__ - INFO - Removed 3 bases from start of C0A2N1_9BACT/2-191
+2021-07-05 10:57:37,362 - __main__ - INFO - Removed 8 bases from start of C4RIZ2_9ACTO/4-125
+2021-07-05 10:57:37,366 - __main__ - INFO - Removed 2 bases from start of D3BCU7_POLPA/46-292
+2021-07-05 10:57:37,368 - __main__ - INFO - Removed 8 bases from start of Q9F4L1_FIBSS/95-291
+2021-07-05 10:57:37,378 - __main__ - INFO - Removed 8 bases from start of C7PXS1_CATAD/149-325
+2021-07-05 10:57:37,380 - __main__ - INFO - Removed 6 bases from end of C7I5J4_THIIN/184-467
+2021-07-05 10:57:37,381 - __main__ - INFO - Removed 1 bases from start of Q4ZRR7_PSEU2/113-354
+2021-07-05 10:57:37,385 - __main__ - INFO - Removed 10 bases from start of Q2Y7C9_NITMU/92-296
+2021-07-05 10:57:37,427 - __main__ - INFO - Removed 8 bases from start of A4XIF9_CALS8/1-217
+2021-07-05 10:57:37,455 - __main__ - INFO - Removed 3 bases from start of A2ESA2_TRIVA/1-170
+2021-07-05 10:57:37,455 - __main__ - INFO - Removed 8 bases from end of A2ESA2_TRIVA/1-170
+2021-07-05 10:57:37,468 - __main__ - INFO - Removed 5 bases from start of B1ZXQ3_OPITP/46-225
+2021-07-05 10:57:37,474 - __main__ - INFO - Removed 12 bases from start of C9L2E7_9BACE/291-525
+2021-07-05 10:57:37,479 - __main__ - INFO - Removed 5 bases from start of C9L2E7_9BACE/43-183
+2021-07-05 10:57:37,479 - __main__ - INFO - Removed 5 bases from end of C9L2E7_9BACE/43-183
+2021-07-05 10:57:37,484 - __main__ - INFO - Removed 3 bases from start of Q0AP13_MARMM/60-351
+2021-07-05 10:57:37,498 - __main__ - INFO - Removed 11 bases from start of B7L198_METC4/56-385
+2021-07-05 10:57:37,498 - __main__ - INFO - Removed 13 bases from end of B7L198_METC4/56-385
+2021-07-05 10:57:37,530 - __main__ - INFO - Removed 4 bases from start of Q97IS7_CLOAB/1-62
+2021-07-05 10:57:37,539 - __main__ - INFO - Removed 14 bases from start of C9SGA5_VERA1/59-280
+2021-07-05 10:57:37,547 - __main__ - INFO - Removed 3 bases from end of Q2UJ64_ASPOR/43-138
+2021-07-05 10:57:37,571 - __main__ - INFO - Removed 1 bases from end of D4JS96_9FIRM/66-227
+2021-07-05 10:57:37,630 - __main__ - INFO - Removed 1 bases from end of D2KFK5_9FIRM/50-346
+2021-07-05 10:57:37,638 - __main__ - INFO - Removed 5 bases from end of C7Q3D0_CATAD/192-488
+2021-07-05 10:57:37,643 - __main__ - INFO - Removed 6 bases from start of C9D771_9BACT/6-120
+2021-07-05 10:57:37,644 - __main__ - INFO - Removed 7 bases from start of C9D769_9BACT/4-120
+2021-07-05 10:57:37,645 - __main__ - INFO - Removed 7 bases from start of C9D770_9BACT/4-120
+2021-07-05 10:57:37,647 - __main__ - INFO - Removed 9 bases from start of C9D764_9BACT/2-121
+2021-07-05 10:57:37,648 - __main__ - INFO - Removed 7 bases from start of C9D765_9BACT/4-121
+2021-07-05 10:57:37,649 - __main__ - INFO - Removed 8 bases from start of C9D767_9BACT/3-121
+2021-07-05 10:57:37,650 - __main__ - INFO - Removed 8 bases from start of C9D766_9BACT/3-121
+2021-07-05 10:57:37,664 - __main__ - INFO - Removed 6 bases from start of A4UWS3_9EUKA/42-349
+2021-07-05 10:57:37,672 - __main__ - INFO - Removed 4 bases from end of A7B1D3_RUMGN/56-282
+2021-07-05 10:57:37,751 - __main__ - INFO - Removed 16 bases from end of A7STC8_NEMVE/365-631
+2021-07-05 10:57:37,752 - __main__ - INFO - Removed 16 bases from end of A7STC8_NEMVE/24-288
+2021-07-05 10:57:37,792 - __main__ - INFO - Removed 2 bases from end of A6RA34_AJECN/479-672
+2021-07-05 10:57:37,822 - __main__ - INFO - Removed 11 bases from end of Q5K8Q6_CRYNE/328-626
+2021-07-05 10:57:37,823 - __main__ - INFO - Removed 11 bases from end of Q5K8Q7_CRYNE/328-626
+2021-07-05 10:57:37,829 - __main__ - INFO - Removed 10 bases from end of A8NQ10_COPC7/281-561
+2021-07-05 10:57:37,831 - __main__ - INFO - Removed 1 bases from start of A8NBK4_COPC7/270-438
+2021-07-05 10:57:37,831 - __main__ - INFO - Removed 3 bases from end of A8NBK4_COPC7/270-438
+2021-07-05 10:57:37,853 - __main__ - INFO - Removed 5 bases from end of EXG1_HANAN/81-372
+2021-07-05 10:57:37,863 - __main__ - INFO - Removed 1 bases from end of A7TPE2_VANPO/103-263
+2021-07-05 10:57:37,874 - __main__ - INFO - Removed 3 bases from start of Q875Y9_SACCA/93-184
+2021-07-05 10:57:37,875 - __main__ - INFO - Removed 1 bases from start of Q6FR70_CANGA/93-263
+2021-07-05 10:57:37,950 - __main__ - INFO - Removed 3 bases from start of Q4PI28_USTMA/116-288
+2021-07-05 10:57:37,960 - __main__ - INFO - Removed 8 bases from start of Q12540_AGABI/65-159
+2021-07-05 10:57:37,973 - __main__ - INFO - Removed 3 bases from end of Q5KJ34_CRYNE/86-305
+2021-07-05 10:57:37,993 - __main__ - INFO - Removed 3 bases from start of Q8GTM7_ORYSJ/187-315
+2021-07-05 10:57:37,993 - __main__ - INFO - Removed 4 bases from end of Q8GTM7_ORYSJ/187-315
+2021-07-05 10:57:37,997 - __main__ - INFO - Removed 9 bases from end of A2Z6J5_ORYSI/2-253
+2021-07-05 10:57:38,000 - __main__ - INFO - Removed 6 bases from start of B9G5E7_ORYSJ/183-405
+2021-07-05 10:57:38,014 - __main__ - INFO - Removed 5 bases from start of B9H758_POPTR/172-296
+2021-07-05 10:57:38,023 - __main__ - INFO - Removed 7 bases from end of A5B2F4_VITVI/2-158
+2021-07-05 10:57:38,027 - __main__ - INFO - Removed 3 bases from end of D0MUT1_PHYIN/52-298
+2021-07-05 10:57:38,033 - __main__ - INFO - Removed 8 bases from end of B9CNU2_9ACTN/49-258
+2021-07-05 10:57:38,062 - __main__ - INFO - Removed 9 bases from end of D0N1M9_PHYIN/8-232
+2021-07-05 10:57:38,063 - __main__ - INFO - Removed 2 bases from end of D0NCV1_PHYIN/139-435
+2021-07-05 10:57:38,064 - __main__ - INFO - Removed 2 bases from end of Q8S315_PHYIN/166-464
+2021-07-05 10:57:38,065 - __main__ - INFO - Removed 2 bases from end of D0NEL9_PHYIN/164-464
+2021-07-05 10:57:38,067 - __main__ - INFO - Removed 3 bases from start of D0NEL8_PHYIN/153-276
+2021-07-05 10:57:38,068 - __main__ - INFO - Removed 2 bases from end of Q8S313_PHYIN/6-294
+2021-07-05 10:57:38,069 - __main__ - INFO - Removed 1 bases from end of D0NCV2_PHYIN/132-420
+2021-07-05 10:57:38,071 - __main__ - INFO - Removed 1 bases from end of B7GA46_PHATR/14-294
+2021-07-05 10:57:38,073 - __main__ - INFO - Removed 4 bases from start of B0CTA3_LACBS/306-430
+2021-07-05 10:57:38,100 - __main__ - INFO - Removed 1 bases from start of A9VDK4_MONBE/61-388
+2021-07-05 10:57:38,100 - __main__ - INFO - Removed 2 bases from end of A9VDK4_MONBE/61-388
+2021-07-05 10:57:38,101 - __main__ - INFO - Removed 3 bases from start of A4RQL3_OSTLU/146-338
+2021-07-05 10:57:38,101 - __main__ - INFO - Removed 5 bases from end of A4RQL3_OSTLU/146-338
+2021-07-05 10:57:38,102 - __main__ - INFO - Removed 5 bases from end of Q01GZ0_OSTTA/197-487
+2021-07-05 10:57:38,197 - __main__ - INFO - Removing gap only columns
+2021-07-05 10:57:38,207 - __main__ - INFO - Removing short sequences
+2021-07-05 10:57:38,215 - __main__ - INFO - Removing too short sequences A5C9G4_VITVI/1-76, C9D763_9BACT/5-64, Q97IS7_CLOAB/1-62, C5M0B8_9ALVE/1-74, A8I258_CHLRE/101-181, A5AS93_VITVI/1-89, C3AUQ5_BACMY/1-78, Q8GTA2_DATFE/2-84, C3BTH0_9BACI/1-112
+2021-07-05 10:57:38,215 - __main__ - INFO - Removing gap only columns

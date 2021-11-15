@@ -1,0 +1,75 @@
+2021-03-03 03:03:05,742 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini --infile reference_set_3/mafft/RV30_BB30020_local_max100.fasta --outfile_stem reference_set_3/mafft/med_stringency_RV30_BB30020_local_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.3
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 03:03:05,778 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 03:03:05,778 - __main__ - INFO - Removing divergent sequences
+2021-03-03 03:03:06,158 - __main__ - INFO - Removing divergent sequences ADRX_YEAST, SMT3_YEAST, SMT3_ARATH, FER5_AQUAE, SMT3_CAEEL, 1iyf_A, FER6_RHOCA, ADXH_DROME, 1ubi_, 1lm8_B, NED8_HUMAN, SMT3_SCHPO, FER_BUCBP, SM31_HUMAN, UBL1_SCHPO, UBIL_NPVAC
+2021-03-03 03:03:06,158 - __main__ - INFO - Removing insertions
+2021-03-03 03:03:06,158 - __main__ - INFO - Removing insertions
+
+2021-03-03 03:03:06,924 - __main__ - INFO - Removing sites 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 411, 408, 412, 413, 414, 409, 573, 574, 575, 576, 577, 582, 410, 602, 605, 426, 615, 108, 631, 638, 639, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 652, 144, 653, 145, 146, 147, 662, 663, 664, 153, 154, 148, 149, 669, 670, 671, 672, 673, 674, 675, 676, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 692, 693, 180, 181, 182, 183, 647, 690, 691, 648, 694, 695, 696, 698, 649, 704, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 749, 750, 237, 238, 239, 240, 241, 747, 245, 246, 247, 248, 249, 263, 264, 791, 744, 805, 806, 807, 808, 809, 810, 811, 745, 326, 327, 328, 329, 330, 331, 332, 333, 334, 677, 335, 336, 337, 746, 338, 339, 340, 341, 342, 343, 344, 678, 679, 856, 680, 354, 681, 682, 683, 877, 878, 684, 685, 699, 686, 687, 748, 688, 390, 391, 392, 850, 689, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 851, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 697, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 701, 702, 751, 703, 980, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 650, 752, 700, 651
+2021-03-03 03:03:06,924 - __main__ - INFO - Cropping ends
+2021-03-03 03:03:06,928 - __main__ - INFO - Removed 1 bases from start of DSK2_YEAST
+2021-03-03 03:03:06,931 - __main__ - INFO - Removed 6 bases from start of 1a5r_
+2021-03-03 03:03:06,945 - __main__ - INFO - Removed 1 bases from start of 1jq4_A
+2021-03-03 03:03:06,945 - __main__ - INFO - Removed 2 bases from end of 1jq4_A
+2021-03-03 03:03:06,948 - __main__ - INFO - Removed 5 bases from end of RFBI_SALTY
+2021-03-03 03:03:06,951 - __main__ - INFO - Removed 7 bases from start of YCBX_ECOLI
+2021-03-03 03:03:06,954 - __main__ - INFO - Removed 4 bases from end of FER2_SYNP6
+2021-03-03 03:03:06,994 - __main__ - INFO - Removed 4 bases from start of 2pia_
+2021-03-03 03:03:06,997 - __main__ - INFO - Removed 7 bases from start of PHT2_PSEPU
+2021-03-03 03:03:07,000 - __main__ - INFO - Removed 7 bases from start of POBB_PSEPS
+2021-03-03 03:03:07,002 - __main__ - INFO - Removed 1 bases from start of YEAX_ECOLI
+2021-03-03 03:03:07,005 - __main__ - INFO - Removed 1 bases from start of VANB_PSESP
+2021-03-03 03:03:07,008 - __main__ - INFO - Removed 1 bases from start of VANB_PSEPU
+2021-03-03 03:03:07,011 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 03:03:07,427 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 03:03:07,795 - __main__ - INFO - Building consensus sequence

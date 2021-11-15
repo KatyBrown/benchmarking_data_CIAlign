@@ -1,0 +1,70 @@
+2021-07-01 01:46:25,248 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile med_stringent_config_BB.ini --infile reference_set_3/muscle/RV30_BB30009_max100.fasta --outfile_stem reference_set_3/muscle/med_stringent_RV30_BB30009_max100
+Config File (med_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.2
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 01:46:25,257 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 01:46:25,257 - __main__ - INFO - Removing divergent sequences
+2021-07-01 01:46:25,578 - __main__ - INFO - Removing divergent sequences TRPR_YERPE, TRPR_VIBVU, TRPR_VIBCH, TRPR_CHLCV, TRPR_CHLTR, TRPR_VIBPA, ARGR_SHEON, 1jhg_A, TRPR_HAEIN, ARGR_PASMU
+2021-07-01 01:46:25,578 - __main__ - INFO - Removing insertions
+2021-07-01 01:46:25,578 - __main__ - INFO - Removing insertions
+
+2021-07-01 01:46:25,846 - __main__ - INFO - Removing sites 11, 12, 13, 14, 15, 16, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 66, 67, 85, 91, 92, 227, 107
+2021-07-01 01:46:25,846 - __main__ - INFO - Cropping ends
+2021-07-01 01:46:25,848 - __main__ - WARNING - Given the length of sequence 1aoy_, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:46:25,850 - __main__ - INFO - Removed 6 bases from end of 1aoy_
+2021-07-01 01:46:25,852 - __main__ - INFO - Removed 2 bases from start of H12_CAEEL
+2021-07-01 01:46:25,852 - __main__ - INFO - Removed 18 bases from end of H12_CAEEL
+2021-07-01 01:46:25,854 - __main__ - INFO - Removed 2 bases from start of H11_CAEEL
+2021-07-01 01:46:25,855 - __main__ - INFO - Removed 17 bases from end of H11_CAEEL
+2021-07-01 01:46:25,868 - __main__ - WARNING - Given the length of sequence 1hst_A, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:46:25,874 - __main__ - INFO - Removed 18 bases from end of H1D_STRPU
+2021-07-01 01:46:25,876 - __main__ - INFO - Removed 7 bases from start of H1_PARAN
+2021-07-01 01:46:25,881 - __main__ - INFO - Removed 17 bases from end of H11_GLYBA
+2021-07-01 01:46:25,883 - __main__ - INFO - Removed 5 bases from start of H12_GLYBA

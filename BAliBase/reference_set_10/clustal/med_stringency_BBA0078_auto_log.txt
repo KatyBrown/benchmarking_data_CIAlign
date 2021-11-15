@@ -1,0 +1,88 @@
+2021-03-03 09:03:14,515 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini --infile reference_set_10/clustal/BBA0078_auto.fasta --outfile_stem reference_set_10/clustal/med_stringency_BBA0078_auto
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.3
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 09:03:14,671 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 09:03:14,671 - __main__ - INFO - Removing divergent sequences
+2021-03-03 09:03:19,815 - __main__ - INFO - Removing divergent sequences seq191, seq159, seq192, seq190, seq197, seq196, seq198, seq193, seq189, seq194
+2021-03-03 09:03:19,815 - __main__ - INFO - Removing insertions
+2021-03-03 09:03:19,815 - __main__ - INFO - Removing insertions
+
+2021-03-03 09:03:21,677 - __main__ - INFO - Removing sites 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 48, 49, 50, 51, 69, 70, 81, 82, 83, 93, 94, 95, 96, 97, 98, 99, 100, 101, 107, 158, 159, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 218, 258, 259, 260, 261, 262, 263, 264, 282, 295, 296, 297, 298, 299, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 332, 333, 334, 335, 344, 345, 346, 347, 348, 349, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 381, 382, 383, 384, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 425, 426, 427, 438, 439, 440, 441, 442, 462, 463, 464, 465, 466, 467, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 526, 527, 528, 529, 530, 531, 532, 533, 538, 539, 557, 558, 559, 565, 591, 592, 593, 594, 595, 596, 597, 602, 603, 630, 635, 636, 637, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 720, 737, 738, 740, 758, 795, 796, 797, 798, 799, 818, 819, 820, 821, 822, 823, 824, 825, 827, 828, 829, 830, 831, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 866, 867, 868, 869, 870, 871, 900, 901, 902, 903, 904, 931, 932, 936, 937, 938, 939, 947, 954, 955, 979, 990, 996, 997, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1051, 1052, 1066, 1105, 1106, 1107, 1108, 1109, 1110, 1111, 1112, 1113, 1129, 1130
+2021-03-03 09:03:21,677 - __main__ - INFO - Cropping ends
+2021-03-03 09:03:21,887 - __main__ - INFO - Removed 7 bases from start of seq076
+2021-03-03 09:03:21,934 - __main__ - INFO - Removed 19 bases from start of seq092
+2021-03-03 09:03:21,994 - __main__ - INFO - Removed 2 bases from end of seq114
+2021-03-03 09:03:21,997 - __main__ - INFO - Removed 5 bases from end of seq115
+2021-03-03 09:03:22,000 - __main__ - INFO - Removed 5 bases from end of seq116
+2021-03-03 09:03:22,006 - __main__ - INFO - Removed 5 bases from end of seq118
+2021-03-03 09:03:22,104 - __main__ - INFO - Removed 54 bases from end of seq154
+2021-03-03 09:03:22,107 - __main__ - INFO - Removed 52 bases from end of seq155
+2021-03-03 09:03:22,111 - __main__ - INFO - Removed 60 bases from end of seq156
+2021-03-03 09:03:22,114 - __main__ - INFO - Removed 57 bases from end of seq157
+2021-03-03 09:03:22,117 - __main__ - INFO - Removed 53 bases from end of seq158
+2021-03-03 09:03:22,121 - __main__ - INFO - Removed 57 bases from end of seq160
+2021-03-03 09:03:22,124 - __main__ - INFO - Removed 19 bases from end of seq161
+2021-03-03 09:03:22,128 - __main__ - INFO - Removed 19 bases from end of seq162
+2021-03-03 09:03:22,132 - __main__ - INFO - Removed 19 bases from end of seq163
+2021-03-03 09:03:22,136 - __main__ - INFO - Removed 19 bases from end of seq164
+2021-03-03 09:03:22,139 - __main__ - INFO - Removed 19 bases from end of seq165
+2021-03-03 09:03:22,143 - __main__ - INFO - Removed 19 bases from end of seq166
+2021-03-03 09:03:22,147 - __main__ - INFO - Removed 19 bases from end of seq167
+2021-03-03 09:03:22,151 - __main__ - INFO - Removed 19 bases from end of seq168
+2021-03-03 09:03:22,163 - __main__ - INFO - Removed 19 bases from end of seq172
+2021-03-03 09:03:22,167 - __main__ - INFO - Removed 19 bases from end of seq173
+2021-03-03 09:03:22,170 - __main__ - INFO - Removed 19 bases from end of seq174
+2021-03-03 09:03:22,174 - __main__ - INFO - Removed 19 bases from end of seq175
+2021-03-03 09:03:22,178 - __main__ - INFO - Removed 19 bases from end of seq176
+2021-03-03 09:03:22,212 - __main__ - INFO - Removed 28 bases from end of seq188
+2021-03-03 09:03:22,240 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 09:03:22,874 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 09:03:23,416 - __main__ - INFO - Building consensus sequence

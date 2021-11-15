@@ -1,0 +1,142 @@
+2021-03-03 03:21:01,373 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini --infile reference_set_3/mafft/RV30_BBS30028_global_max100.fasta --outfile_stem reference_set_3/mafft/med_stringency_RV30_BBS30028_global_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.3
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 03:21:01,400 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 03:21:01,400 - __main__ - INFO - Removing divergent sequences
+2021-03-03 03:21:02,483 - __main__ - INFO - Removing divergent sequences 1fhu_A, MENC_YERPE, MENC_PASMU, MENC_HAEIN, GUDH_ECOLI, 1bqg_, MENC_VIBCH
+2021-03-03 03:21:02,483 - __main__ - INFO - Removing insertions
+2021-03-03 03:21:02,483 - __main__ - INFO - Removing insertions
+
+2021-03-03 03:21:02,945 - __main__ - INFO - Removing sites 32, 33, 49, 50, 51, 52, 53, 54, 57, 60, 61, 62, 63, 64, 65, 66, 70, 71, 72, 73, 74, 80, 81, 82, 111, 112, 113, 114, 115, 121, 122, 123, 124, 142, 173, 174, 175, 176, 177, 178, 179, 189, 194, 206, 230, 231, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 257, 258, 261, 262, 264, 266, 267, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 291, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 348, 376, 377, 378, 392, 393, 394, 462, 467
+2021-03-03 03:21:02,945 - __main__ - INFO - Cropping ends
+2021-03-03 03:21:02,946 - __main__ - INFO - Removed 19 bases from end of GUDH_STRCO
+2021-03-03 03:21:02,948 - __main__ - INFO - Removed 19 bases from end of GUDH_BACSU
+2021-03-03 03:21:02,949 - __main__ - INFO - Removed 19 bases from end of GUDX_ECOLI
+2021-03-03 03:21:02,950 - __main__ - INFO - Removed 3 bases from start of 4enl_
+2021-03-03 03:21:02,951 - __main__ - INFO - Removed 3 bases from start of ENO1_CANAL
+2021-03-03 03:21:02,952 - __main__ - INFO - Removed 3 bases from start of ENO_ALTAL
+2021-03-03 03:21:02,954 - __main__ - INFO - Removed 3 bases from start of ERR1_YEAST
+2021-03-03 03:21:02,955 - __main__ - INFO - Removed 3 bases from start of EN11_SCHPO
+2021-03-03 03:21:02,956 - __main__ - INFO - Removed 3 bases from start of EN12_SCHPO
+2021-03-03 03:21:02,958 - __main__ - INFO - Removed 3 bases from start of ENO_NEOFR
+2021-03-03 03:21:02,959 - __main__ - INFO - Removed 3 bases from start of ENO_CUNEL
+2021-03-03 03:21:02,960 - __main__ - INFO - Removed 3 bases from start of ENO_CAEEL
+2021-03-03 03:21:02,961 - __main__ - INFO - Removed 3 bases from start of ENOA_ALLMI
+2021-03-03 03:21:02,962 - __main__ - INFO - Removed 3 bases from start of ENO_LOLPE
+2021-03-03 03:21:02,964 - __main__ - INFO - Removed 3 bases from start of ENO_FASHE
+2021-03-03 03:21:02,965 - __main__ - INFO - Removed 3 bases from start of ENO_SCHJA
+2021-03-03 03:21:02,966 - __main__ - INFO - Removed 3 bases from start of ENO_DROME
+2021-03-03 03:21:02,967 - __main__ - INFO - Removed 3 bases from start of ENO_HOMGA
+2021-03-03 03:21:02,968 - __main__ - INFO - Removed 3 bases from start of ENO1_HEVBR
+2021-03-03 03:21:02,971 - __main__ - INFO - Removed 3 bases from start of ENO_PLAFA
+2021-03-03 03:21:02,972 - __main__ - INFO - Removed 3 bases from start of ENO_MASBA
+2021-03-03 03:21:02,973 - __main__ - INFO - Removed 3 bases from start of ENO1_ENTHI
+2021-03-03 03:21:02,975 - __main__ - INFO - Removed 2 bases from start of ENO_METJA
+2021-03-03 03:21:02,976 - __main__ - INFO - Removed 3 bases from start of ENO_METAC
+2021-03-03 03:21:02,978 - __main__ - INFO - Removed 3 bases from start of ENO_AERPE
+2021-03-03 03:21:02,979 - __main__ - INFO - Removed 2 bases from start of ENO_PYRAB
+2021-03-03 03:21:02,981 - __main__ - INFO - Removed 2 bases from start of ENO_METKA
+2021-03-03 03:21:02,982 - __main__ - INFO - Removed 3 bases from start of ENO_SYNY3
+2021-03-03 03:21:02,983 - __main__ - INFO - Removed 3 bases from start of ENO_THETN
+2021-03-03 03:21:02,984 - __main__ - INFO - Removed 3 bases from start of ENO_CLOPE
+2021-03-03 03:21:02,985 - __main__ - INFO - Removed 3 bases from start of ENO_CLOAB
+2021-03-03 03:21:02,987 - __main__ - INFO - Removed 2 bases from start of ENO_BACHD
+2021-03-03 03:21:02,988 - __main__ - INFO - Removed 3 bases from start of ENO_LISMO
+2021-03-03 03:21:02,989 - __main__ - INFO - Removed 3 bases from start of ENO_ENTFA
+2021-03-03 03:21:02,990 - __main__ - INFO - Removed 3 bases from start of ENO_BACFR
+2021-03-03 03:21:02,992 - __main__ - INFO - Removed 3 bases from start of ENO_STAAM
+2021-03-03 03:21:02,993 - __main__ - INFO - Removed 3 bases from start of ENOA_LACLA
+2021-03-03 03:21:02,994 - __main__ - INFO - Removed 3 bases from start of ENOA_LACPL
+2021-03-03 03:21:02,995 - __main__ - INFO - Removed 3 bases from start of ENO_LEPIN
+2021-03-03 03:21:02,997 - __main__ - INFO - Removed 3 bases from start of ENO_RALSO
+2021-03-03 03:21:02,998 - __main__ - INFO - Removed 3 bases from start of ENO_NITEU
+2021-03-03 03:21:02,999 - __main__ - INFO - Removed 3 bases from start of ENO_NEIMA
+2021-03-03 03:21:03,000 - __main__ - INFO - Removed 3 bases from start of ENO_BORBU
+2021-03-03 03:21:03,001 - __main__ - INFO - Removed 2 bases from start of ENO_AGRT5
+2021-03-03 03:21:03,003 - __main__ - INFO - Removed 2 bases from start of ENO_BARHE
+2021-03-03 03:21:03,004 - __main__ - INFO - Removed 3 bases from start of ENO_CAUCR
+2021-03-03 03:21:03,005 - __main__ - INFO - Removed 3 bases from start of ENO_ZYMMO
+2021-03-03 03:21:03,006 - __main__ - INFO - Removed 3 bases from start of ENO2_CHLTE
+2021-03-03 03:21:03,008 - __main__ - INFO - Removed 3 bases from start of ENO_XANAC
+2021-03-03 03:21:03,009 - __main__ - INFO - Removed 3 bases from start of ENO_FUSNN
+2021-03-03 03:21:03,010 - __main__ - INFO - Removed 3 bases from start of ENO_AQUAE
+2021-03-03 03:21:03,011 - __main__ - INFO - Removed 3 bases from start of ENO_THEMA
+2021-03-03 03:21:03,013 - __main__ - INFO - Removed 3 bases from start of ENO1_STRCO
+2021-03-03 03:21:03,014 - __main__ - INFO - Removed 2 bases from start of ENO_COREF
+2021-03-03 03:21:03,015 - __main__ - INFO - Removed 2 bases from start of ENO_MYCLE
+2021-03-03 03:21:03,016 - __main__ - INFO - Removed 3 bases from start of ENO_DESVM
+2021-03-03 03:21:03,017 - __main__ - INFO - Removed 2 bases from start of ENO_DEIRA
+2021-03-03 03:21:03,019 - __main__ - INFO - Removed 3 bases from start of ENO_SYNEL
+2021-03-03 03:21:03,020 - __main__ - INFO - Removed 3 bases from start of ENO_ANASP
+2021-03-03 03:21:03,021 - __main__ - INFO - Removed 3 bases from start of ENO2_STRCO
+2021-03-03 03:21:03,022 - __main__ - INFO - Removed 3 bases from start of ENO1_PSESM
+2021-03-03 03:21:03,024 - __main__ - INFO - Removed 3 bases from start of ENO_AERHY
+2021-03-03 03:21:03,025 - __main__ - INFO - Removed 3 bases from start of ENO_BUCAI
+2021-03-03 03:21:03,026 - __main__ - INFO - Removed 3 bases from start of ENO_WIGBR
+2021-03-03 03:21:03,028 - __main__ - INFO - Removed 3 bases from start of ENO_BUCBP
+2021-03-03 03:21:03,029 - __main__ - INFO - Removed 3 bases from start of ENO_BIFLO
+2021-03-03 03:21:03,030 - __main__ - INFO - Removed 3 bases from start of ENO_TREPA
+2021-03-03 03:21:03,031 - __main__ - INFO - Removed 2 bases from start of ENO_CAMJE
+2021-03-03 03:21:03,032 - __main__ - INFO - Removed 3 bases from start of ENO_HELPJ
+2021-03-03 03:21:03,034 - __main__ - INFO - Removed 3 bases from start of ENO_CHLCV
+2021-03-03 03:21:03,035 - __main__ - INFO - Removed 3 bases from start of ENO_CHLTR
+2021-03-03 03:21:03,036 - __main__ - INFO - Removed 3 bases from start of ENO_CHLPN
+2021-03-03 03:21:03,037 - __main__ - INFO - Removed 3 bases from start of ENO1_CHLTE
+2021-03-03 03:21:03,039 - __main__ - INFO - Removed 3 bases from start of ENO2_PSESM
+2021-03-03 03:21:03,040 - __main__ - INFO - Removed 3 bases from start of ENO_MYCPN
+2021-03-03 03:21:03,041 - __main__ - INFO - Removed 3 bases from start of ENO_MYCGE
+2021-03-03 03:21:03,042 - __main__ - INFO - Removed 3 bases from start of ENO_MYCPE
+2021-03-03 03:21:03,044 - __main__ - INFO - Removed 2 bases from start of ENOB_LACPL
+2021-03-03 03:21:03,045 - __main__ - INFO - Removed 3 bases from start of ENO_MYCPU
+2021-03-03 03:21:03,046 - __main__ - INFO - Removed 3 bases from start of ENO_UREPA
+2021-03-03 03:21:03,050 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 03:21:03,473 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 03:21:03,872 - __main__ - INFO - Building consensus sequence

@@ -1,0 +1,81 @@
+2021-03-03 01:36:20,054 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_1/mafft/RV12_BB12037_local_max100.fasta --outfile_stem reference_set_1/mafft/high_stringency_RV12_BB12037_local_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 01:36:20,087 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 01:36:20,087 - __main__ - INFO - Removing divergent sequences
+2021-03-03 01:36:20,578 - __main__ - INFO - Removing insertions
+2021-03-03 01:36:20,578 - __main__ - INFO - Removing insertions
+
+2021-03-03 01:36:23,439 - __main__ - INFO - Removing sites 6, 7, 8, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 2217, 2218, 2225, 2226, 2227, 2254, 2274, 2275, 2276, 2277, 2278, 2279, 2280, 2281, 2282, 2283, 2284, 2285, 2286, 2287, 2288, 2289, 2290, 2291, 2292, 2306, 2307, 2319, 2320, 2321, 2322, 2323, 2324, 2347, 2348, 2349, 2350, 2351, 2352, 2364, 2365, 2366, 2389, 2390, 2391, 2392, 2393, 2394, 2395, 2440, 2441, 2477, 2478, 2496, 2497, 2498, 2499, 2518, 2519, 2520, 2534, 2535, 2536, 2546, 2547, 2548, 2549, 2550, 2551, 2593, 2594, 2595, 2596, 2597, 2606, 2613, 2624, 2625, 2626, 2627, 2628, 2629, 2649, 2650, 2680, 2699, 2700, 2701, 2702, 2703, 2704, 2705, 2714, 2715, 2722, 2723, 2724, 2725, 2726, 2727, 2728, 2731, 2732, 2743, 2744, 2745, 2746, 2747, 2748, 2749, 2756, 2757, 2758, 2759, 2760, 2768, 2795, 2796, 2797, 2798, 2799, 2800, 2801, 2802, 2803, 2804, 2805, 2806, 2809, 2810, 2811, 2821, 2822, 2823, 2834, 2844, 2845, 2862, 2863, 2864, 2865, 2866, 2867, 2868, 2869, 2870, 2871, 2872, 2873, 2874, 2875, 2876, 2877, 2878, 2879, 2880, 2881, 2882, 2883, 2884, 2885, 2886, 2887, 2888, 2889, 2890, 2891, 2892, 2893, 2894, 2895, 2896, 2897, 2898, 2899, 2900, 2901, 2902, 2903, 2904, 2905, 2906, 2907, 2908, 2909, 2910, 2911, 2912, 2913, 2914, 2915, 2916, 2917, 2918, 2919, 2920, 2921, 2922, 2923, 2924, 2925, 2926, 2927, 2928, 2929, 2930, 2931, 2932, 2933, 2934, 2935, 2936, 2937, 2938, 2939, 2940, 2941, 2942, 2949, 2950, 2951, 2952, 2953, 2954, 2955, 2956, 2957, 2958, 2959, 2960, 2961, 2962, 2963, 2964, 2965, 2966, 2967, 2968, 2969, 2970, 2971, 2972, 2973, 2974, 2975, 2976, 2977, 2978, 2979, 2980, 2981, 2982, 2983, 2984, 2985, 2986, 2987, 2988, 2989, 2990, 2991, 2992, 2993, 2994, 2995, 2996, 2997, 2998, 2999, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010, 3011, 3012, 3013, 3014, 3015, 3016, 3017, 3018, 3019, 3020, 3021, 3022, 3023, 3024, 3025, 3026, 3027, 3028, 3029, 3030, 3031, 3032, 3033, 3034, 3035, 3036, 3037, 3038, 3039, 3040, 3041, 3042, 3043, 3044, 3045, 3046, 3047, 3048, 3049, 3050, 3051, 3052, 3055, 3056, 3057, 3058, 1560, 1561, 1562, 1563, 1564, 1565, 1566, 1567, 1568, 1569, 1570, 1571, 1572, 1573, 1574, 1575, 1576, 1577, 1578, 1579, 1580, 1581, 1582, 1583, 1584, 1591, 1592, 1593, 1594, 1595, 1596, 1597, 1598, 1599, 1600
+2021-03-03 01:36:23,440 - __main__ - INFO - Cropping ends
+2021-03-03 01:36:23,453 - __main__ - INFO - Removed 7 bases from start of 1acj_
+2021-03-03 01:36:23,477 - __main__ - INFO - Removed 7 bases from start of 1dx4_A
+2021-03-03 01:36:23,494 - __main__ - INFO - Removed 8 bases from start of 1akn_
+2021-03-03 01:36:23,494 - __main__ - INFO - Removed 5 bases from end of 1akn_
+2021-03-03 01:36:23,509 - __main__ - INFO - Removed 47 bases from start of NLG4_HUMAN
+2021-03-03 01:36:23,523 - __main__ - INFO - Removed 31 bases from start of EST1_CAEBR
+2021-03-03 01:36:23,523 - __main__ - INFO - Removed 4 bases from end of EST1_CAEBR
+2021-03-03 01:36:23,548 - __main__ - INFO - Removed 46 bases from start of CRYS_DICDI
+2021-03-03 01:36:23,548 - __main__ - INFO - Removed 15 bases from end of CRYS_DICDI
+2021-03-03 01:36:23,566 - __main__ - INFO - Removed 39 bases from start of EST6_DROMA
+2021-03-03 01:36:23,566 - __main__ - INFO - Removed 2 bases from end of EST6_DROMA
+2021-03-03 01:36:23,582 - __main__ - INFO - Removed 29 bases from start of ESTE_MYZPE
+2021-03-03 01:36:23,602 - __main__ - INFO - Removed 18 bases from start of EST2_CAEEL
+2021-03-03 01:36:23,602 - __main__ - INFO - Removed 19 bases from end of EST2_CAEEL
+2021-03-03 01:36:23,616 - __main__ - INFO - Removed 32 bases from start of ESTJ_HELVI
+2021-03-03 01:36:23,617 - __main__ - INFO - Removed 2 bases from end of ESTJ_HELVI
+2021-03-03 01:36:23,639 - __main__ - INFO - Removed 10 bases from start of EST1_CULPI
+2021-03-03 01:36:23,639 - __main__ - INFO - Removed 6 bases from end of EST1_CULPI
+2021-03-03 01:36:23,653 - __main__ - INFO - Removed 18 bases from start of PCD_ARTOX
+2021-03-03 01:36:23,653 - __main__ - INFO - Removed 5 bases from end of PCD_ARTOX
+2021-03-03 01:36:23,658 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 01:36:24,377 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 01:36:25,011 - __main__ - INFO - Building consensus sequence

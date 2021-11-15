@@ -1,0 +1,74 @@
+2021-07-01 02:53:03,957 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile med_stringent_config_BB.ini --infile reference_set_5/muscle/RV50_BB50011_max100.fasta --outfile_stem reference_set_5/muscle/med_stringent_RV50_BB50011_max100
+Config File (med_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.2
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 02:53:03,997 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 02:53:03,997 - __main__ - INFO - Removing divergent sequences
+2021-07-01 02:53:04,712 - __main__ - INFO - Removing insertions
+2021-07-01 02:53:04,712 - __main__ - INFO - Removing insertions
+
+2021-07-01 02:53:06,178 - __main__ - INFO - Removing sites 11, 12, 13, 14, 42, 45, 46, 47, 59, 60, 61, 84, 88, 89, 94, 101, 103, 140, 141, 142, 149, 150, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 197, 202, 203, 204, 205, 206, 207, 227, 228, 234, 235, 236, 274, 275, 276, 277, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 338, 339, 340, 341, 342, 343, 344, 345, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 378, 379, 380, 392, 399, 400, 401, 402, 403, 404, 405, 411, 422, 423, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 491, 492, 493, 494, 495, 508, 509, 510, 511, 512, 527, 528, 529, 530, 531, 532, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 551, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 647, 648, 649, 650, 651, 652, 653, 661, 663, 664, 665, 666, 667, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 725, 726, 727, 728, 729, 730, 753, 768, 769, 770, 771, 772, 781, 782, 783, 784, 785, 786, 787, 810, 811, 847, 848, 849, 861, 883, 893, 894, 923, 945, 946, 947, 948, 949, 950, 951, 958, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 1015, 1019, 1020, 1021, 1032, 1033, 1039, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1076, 1092, 1093, 1094, 1095, 1096, 1097, 1098, 1118, 1119, 1124, 1125, 1126, 1127, 1128, 1129, 1132, 1133, 1134, 1157, 1158, 1183, 1184, 1185, 1186, 1198, 1237, 1238, 1239, 1240, 1241, 1242, 1243, 1262, 1277, 1278, 1279, 1280, 1281, 1282, 1283, 1284, 1285, 1286, 1287, 1288, 1289, 1290, 1291, 1292, 1293, 1294, 1295, 1296, 1297, 1298, 1299, 1300, 1301, 1302, 1303, 1304, 1305, 1306, 1307, 1308, 1309, 1310, 1311, 1312, 1313, 1314, 1315, 1316, 1317, 1318, 1319, 1320, 1321, 1322, 1323, 1324, 1325, 1326, 1327, 1328, 1329, 1330, 1331, 1332, 1333, 1334, 1335, 1336, 1337, 1338, 1339, 1340, 1341, 1342, 1343, 1344, 1345, 1346, 1347, 1348
+2021-07-01 02:53:06,178 - __main__ - INFO - Cropping ends
+2021-07-01 02:53:06,187 - __main__ - INFO - Removed 24 bases from start of 1exn_A
+2021-07-01 02:53:06,195 - __main__ - INFO - Removed 18 bases from end of EX53_BACHD
+2021-07-01 02:53:06,198 - __main__ - INFO - Removed 14 bases from end of EX53_BACSU
+2021-07-01 02:53:06,202 - __main__ - INFO - Removed 12 bases from end of EX53_UREPA
+2021-07-01 02:53:06,205 - __main__ - INFO - Removed 14 bases from end of EX53_MYCPN
+2021-07-01 02:53:06,209 - __main__ - INFO - Removed 14 bases from end of EX53_MYCGE
+2021-07-01 02:53:06,212 - __main__ - INFO - Removed 17 bases from start of EX53_AQUAE
+2021-07-01 02:53:06,212 - __main__ - INFO - Removed 24 bases from end of EX53_AQUAE
+2021-07-01 02:53:06,228 - __main__ - INFO - Removed 29 bases from end of RAD2_YEAST
+2021-07-01 02:53:06,231 - __main__ - INFO - Removed 24 bases from start of EX53_STRCO
+2021-07-01 02:53:06,231 - __main__ - INFO - Removed 17 bases from end of EX53_STRCO
+2021-07-01 02:53:06,235 - __main__ - INFO - Removed 18 bases from end of EX53_MYCTU
+2021-07-01 02:53:06,247 - __main__ - INFO - Removed 36 bases from end of DIN7_YEAST
+2021-07-01 02:53:06,253 - __main__ - INFO - Removed 36 bases from end of FEN1_HUMAN
+2021-07-01 02:53:06,257 - __main__ - INFO - Removed 35 bases from end of RAD2_SCHPO
+2021-07-01 02:53:06,260 - __main__ - INFO - Removed 35 bases from end of RA27_YEAST

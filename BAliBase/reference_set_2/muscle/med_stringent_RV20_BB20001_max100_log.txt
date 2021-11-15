@@ -1,0 +1,67 @@
+2021-07-01 00:50:49,568 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile med_stringent_config_BB.ini --infile reference_set_2/muscle/RV20_BB20001_max100.fasta --outfile_stem reference_set_2/muscle/med_stringent_RV20_BB20001_max100
+Config File (med_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.2
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 00:50:49,580 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 00:50:49,580 - __main__ - INFO - Removing divergent sequences
+2021-07-01 00:50:49,946 - __main__ - INFO - Removing insertions
+2021-07-01 00:50:49,946 - __main__ - INFO - Removing insertions
+
+2021-07-01 00:50:51,016 - __main__ - INFO - Removing sites 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 618, 619, 661, 662, 151, 664, 665, 152, 667, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 681, 173, 174, 175, 176, 680, 682, 683, 684, 685, 686, 687, 688, 689, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 196, 197, 198, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 663, 666, 668, 669, 670, 671, 672, 673, 674, 325, 675, 676, 677, 678, 679, 409, 412, 413, 459, 460, 461, 462, 463, 464, 472, 492
+2021-07-01 00:50:51,017 - __main__ - INFO - Cropping ends
+2021-07-01 00:50:51,017 - __main__ - WARNING - Given the length of sequence 2lef_A, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 00:50:51,028 - __main__ - INFO - Removed 2 bases from end of HMGL_TRYBR
+2021-07-01 00:50:51,040 - __main__ - INFO - Removed 8 bases from start of HMGH_STRPU
+2021-07-01 00:50:51,055 - __main__ - WARNING - Given the length of sequence 1aab_, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 00:50:51,063 - __main__ - INFO - Removed 6 bases from end of 1aab_
+2021-07-01 00:50:51,072 - __main__ - INFO - Removed 5 bases from start of HMGL_VICFA
+2021-07-01 00:50:51,078 - __main__ - INFO - Removed 5 bases from start of HMGL_SOYBN
+2021-07-01 00:50:51,092 - __main__ - WARNING - Given the length of sequence HMGC_TETTH, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 00:50:51,099 - __main__ - WARNING - Given the length of sequence 1e7j_A, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.

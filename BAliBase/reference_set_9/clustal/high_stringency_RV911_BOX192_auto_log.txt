@@ -1,0 +1,140 @@
+2021-03-24 16:28:01,331 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_9/clustal/RV911_BOX192_auto.fasta --outfile_stem reference_set_9/clustal/high_stringency_RV911_BOX192_auto
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-24 16:28:01,341 - __main__ - INFO - Amino acid alignment detected
+2021-03-24 16:28:01,341 - __main__ - INFO - Removing divergent sequences
+2021-03-24 16:28:01,557 - __main__ - INFO - Removing divergent sequences Q05A98, Q2M1V0
+2021-03-24 16:28:01,557 - __main__ - INFO - Removing insertions
+2021-03-24 16:28:01,557 - __main__ - INFO - Removing insertions
+
+2021-03-24 16:28:02,594 - __main__ - INFO - Removing sites 814, 815, 548, 549, 550, 551, 561, 562, 563, 564, 565, 566, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 832, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 674, 675, 676, 677, 678, 679, 680, 681, 682, 692, 684, 685, 686, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 649, 701, 702, 703, 705, 706, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 772, 663, 743, 266, 780, 664, 781, 782, 783, 274, 275, 276, 277, 665, 279, 280, 281, 282, 283, 666, 667, 668, 744, 803, 804, 805, 669, 806, 807, 808, 809, 670, 810, 811, 302, 812, 671, 817, 818, 305, 306, 307, 308, 309, 672, 816, 745, 673, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 839, 840, 841, 833, 834, 835, 836, 837, 838, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 746, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865, 747, 683, 372, 373, 374, 375, 376, 377, 378, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 687, 688, 399, 689, 690, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 693, 694, 695, 696, 697, 439, 440, 441, 442, 443, 444, 698, 699, 700, 691, 813
+2021-03-24 16:28:02,594 - __main__ - INFO - Cropping ends
+2021-03-24 16:28:02,597 - __main__ - INFO - Removed 17 bases from end of P54366
+2021-03-24 16:28:02,600 - __main__ - INFO - Removed 17 bases from end of Q90277
+2021-03-24 16:28:02,604 - __main__ - INFO - Removed 18 bases from start of Q174A7
+2021-03-24 16:28:02,607 - __main__ - INFO - Removed 32 bases from end of Q9Y2V3
+2021-03-24 16:28:02,612 - __main__ - INFO - Removed 19 bases from end of O08934
+2021-03-24 16:28:02,615 - __main__ - INFO - Removed 18 bases from end of PRRX1_MOUSE
+2021-03-24 16:28:02,622 - __main__ - INFO - Removed 3 bases from start of Q09VU4
+2021-03-24 16:28:02,625 - __main__ - INFO - Removed 4 bases from start of O42115
+2021-03-24 16:28:02,626 - __main__ - INFO - Plotting mini alignment for input
+2021-03-24 16:28:03,092 - __main__ - INFO - Plotting mini alignment for output
+2021-03-24 16:28:03,508 - __main__ - INFO - Building consensus sequence
+2021-03-24 16:57:48,737 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_9/clustal/RV911_BOX192_auto.fasta --outfile_stem reference_set_9/clustal/high_stringency_RV911_BOX192_auto
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-24 16:57:48,749 - __main__ - INFO - Amino acid alignment detected
+2021-03-24 16:57:48,749 - __main__ - INFO - Removing divergent sequences
+2021-03-24 16:57:49,052 - __main__ - INFO - Removing divergent sequences Q2M1V0, Q05A98
+2021-03-24 16:57:49,053 - __main__ - INFO - Removing insertions
+2021-03-24 16:57:49,053 - __main__ - INFO - Removing insertions
+
+2021-03-24 16:57:50,648 - __main__ - INFO - Removing sites 814, 815, 548, 549, 550, 551, 561, 562, 563, 564, 565, 566, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 832, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 674, 675, 676, 677, 678, 679, 680, 681, 682, 692, 684, 685, 686, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 649, 701, 702, 703, 705, 706, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 772, 663, 743, 266, 780, 664, 781, 782, 783, 274, 275, 276, 277, 665, 279, 280, 281, 282, 283, 666, 667, 668, 744, 803, 804, 805, 669, 806, 807, 808, 809, 670, 810, 811, 302, 812, 671, 817, 818, 305, 306, 307, 308, 309, 672, 816, 745, 673, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 839, 840, 841, 833, 834, 835, 836, 837, 838, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 746, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865, 747, 683, 372, 373, 374, 375, 376, 377, 378, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 687, 688, 399, 689, 690, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 693, 694, 695, 696, 697, 439, 440, 441, 442, 443, 444, 698, 699, 700, 691, 813
+2021-03-24 16:57:50,648 - __main__ - INFO - Cropping ends
+2021-03-24 16:57:50,652 - __main__ - INFO - Removed 17 bases from end of P54366
+2021-03-24 16:57:50,657 - __main__ - INFO - Removed 17 bases from end of Q90277
+2021-03-24 16:57:50,662 - __main__ - INFO - Removed 18 bases from start of Q174A7
+2021-03-24 16:57:50,666 - __main__ - INFO - Removed 32 bases from end of Q9Y2V3
+2021-03-24 16:57:50,673 - __main__ - INFO - Removed 19 bases from end of O08934
+2021-03-24 16:57:50,678 - __main__ - INFO - Removed 18 bases from end of PRRX1_MOUSE
+2021-03-24 16:57:50,689 - __main__ - INFO - Removed 3 bases from start of Q09VU4
+2021-03-24 16:57:50,693 - __main__ - INFO - Removed 4 bases from start of O42115
+2021-03-24 16:57:50,695 - __main__ - INFO - Plotting mini alignment for input
+2021-03-24 16:57:51,247 - __main__ - INFO - Plotting mini alignment for output
+2021-03-24 16:57:51,843 - __main__ - INFO - Building consensus sequence

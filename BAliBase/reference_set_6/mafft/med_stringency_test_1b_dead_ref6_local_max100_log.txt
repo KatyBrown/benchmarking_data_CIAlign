@@ -1,0 +1,65 @@
+2021-03-03 04:14:55,523 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini --infile reference_set_6/mafft/test_1b_dead_ref6_local_max100.fasta --outfile_stem reference_set_6/mafft/med_stringency_test_1b_dead_ref6_local_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.3
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 04:14:55,535 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 04:14:55,536 - __main__ - INFO - Removing divergent sequences
+2021-03-03 04:14:55,890 - __main__ - INFO - Removing insertions
+2021-03-03 04:14:55,890 - __main__ - INFO - Removing insertions
+
+2021-03-03 04:14:57,401 - __main__ - INFO - Removing sites 48, 49, 50, 51, 52, 53, 54, 63, 133, 153, 154, 155, 156, 171, 172, 173, 180, 181, 182, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 301, 302, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 372, 373, 374, 375, 376, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 446, 447, 448, 449, 450, 505, 506, 507, 525, 526, 576, 577, 578, 579, 580, 581, 582, 583, 616, 623, 627, 628, 633, 634, 655, 656, 663, 687, 706, 707, 708, 738, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 749, 750, 775, 776, 782, 801, 802, 850, 851, 856, 857, 952, 1004, 1005, 1031, 1032, 1067, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079, 1080, 1081, 1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1160, 1169, 1170, 1171, 1172, 1173, 1174, 1175, 1178, 1200, 1201, 1202, 1203, 1204, 1205, 1206, 1207, 1261, 1268, 1269, 1270, 1279, 1280, 1281, 1282, 1283, 1284, 1285, 1286, 1287, 1288, 1289, 1290, 1291, 1292, 1293, 1312, 1338, 1339, 1352, 1353, 1354, 1355, 1356, 1357, 1370, 1384, 1385, 1386, 1387, 1388, 1389, 1390, 1391, 1392, 1393, 1394, 1395, 1396, 1397, 1398, 1399, 1400, 1401, 1402, 1403, 1404, 1405, 1406, 1407, 1408, 1409, 1418, 1419, 1449, 1450, 1451, 1452, 1453, 1454, 1461, 1462, 1463, 1464, 1465, 1497, 1498, 1499, 1500, 1501, 1502, 1503, 1504, 1505, 1506, 1507, 1508, 1509, 1510, 1511, 1512, 1513, 1514, 1515, 1516, 1517, 1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525, 1526, 1527, 1528, 1529, 1530, 1531, 1532, 1533, 1534, 1535, 1536, 1537, 1538, 1539, 1540, 1541, 1542, 1543, 1544, 1545, 1546, 1547, 1548, 1549, 1550, 1551, 1552, 1553, 1554, 1555, 1556, 1557, 1558, 1559, 1560, 1561, 1562, 1563, 1564, 1565, 1566, 1567, 1568, 1569, 1570, 1571, 1572, 1573, 1574, 1575, 1576, 1577, 1578, 1579, 1580, 1584, 1585, 1586, 1587, 1588, 1589, 1590, 1591, 1592, 1593, 1594, 1595, 1596, 1597, 1598, 1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607, 1608, 1609, 1610, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1622, 1623, 1624, 1625, 1626, 1627, 1628, 1629, 1630, 1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638, 1639, 1640, 1641, 1642, 1643, 1644, 1645, 1646, 1647, 1648, 1649, 1650, 1651, 1652, 1663, 1664, 1665, 1666, 1667, 1668, 1669, 1670, 1671, 1672, 1673, 1674, 1675, 1676, 1677, 1678, 1679, 1680, 1681, 1682, 1683, 1684, 1685, 1686, 1687, 1688, 1689
+2021-03-03 04:14:57,401 - __main__ - INFO - Cropping ends
+2021-03-03 04:14:57,414 - __main__ - INFO - Removed 11 bases from start of P53327_1
+2021-03-03 04:14:57,433 - __main__ - INFO - Removed 16 bases from start of Q9XWI5_1
+2021-03-03 04:14:57,447 - __main__ - INFO - Removed 20 bases from start of YPRA_BACSU
+2021-03-03 04:14:57,447 - __main__ - INFO - Removed 26 bases from end of YPRA_BACSU
+2021-03-03 04:14:57,449 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 04:14:57,935 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 04:14:58,392 - __main__ - INFO - Building consensus sequence

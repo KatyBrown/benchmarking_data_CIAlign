@@ -1,0 +1,116 @@
+2021-03-03 02:57:58,042 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini --infile reference_set_3/mafft/RV30_BB30012_local_max100.fasta --outfile_stem reference_set_3/mafft/med_stringency_RV30_BB30012_local_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.3
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 02:57:58,092 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 02:57:58,092 - __main__ - INFO - Removing divergent sequences
+2021-03-03 02:57:59,404 - __main__ - INFO - Removing divergent sequences THCD_RHOER, BEDA_PSEPU, NAOX_ENTFA, CAMA_PSEPU, TERA_PSESP, 1d7y_A, NAOX_MYCGE
+2021-03-03 02:57:59,405 - __main__ - INFO - Removing insertions
+2021-03-03 02:57:59,405 - __main__ - INFO - Removing insertions
+
+2021-03-03 02:58:00,477 - __main__ - INFO - Removing sites 514, 515, 516, 519, 535, 538, 539, 540, 311, 542, 312, 550, 313, 314, 558, 559, 315, 566, 567, 568, 569, 570, 59, 571, 316, 317, 318, 579, 319, 320, 591, 592, 593, 594, 595, 321, 322, 324, 609, 610, 611, 612, 613, 618, 632, 633, 634, 635, 636, 637, 638, 639, 640, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 163, 164, 675, 676, 677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 861, 238, 239, 844, 245, 246, 247, 248, 249, 250, 251, 252, 863, 864, 255, 256, 257, 258, 259, 260, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 279, 785, 786, 787, 788, 789, 790, 795, 796, 797, 798, 799, 800, 801, 293, 294, 295, 296, 297, 298, 299, 300, 301, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 323, 845, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 342, 854, 855, 856, 857, 858, 859, 860, 350, 862, 353, 354, 355, 356, 357, 364, 365, 366, 367, 368, 877, 878, 884, 879, 881, 882, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 408, 865, 866, 413, 414, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 435, 436, 437, 438, 439, 440, 802, 456, 457, 458, 803, 804, 805, 806, 807, 808, 809, 883, 810, 811, 500, 501, 812, 502, 813
+2021-03-03 02:58:00,477 - __main__ - INFO - Cropping ends
+2021-03-03 02:58:00,479 - __main__ - INFO - Removed 1 bases from start of 1nhp_
+2021-03-03 02:58:00,482 - __main__ - INFO - Removed 1 bases from start of 1lvl_
+2021-03-03 02:58:00,484 - __main__ - INFO - Removed 1 bases from start of DLDH_MYCPN
+2021-03-03 02:58:00,484 - __main__ - INFO - Removed 1 bases from end of DLDH_MYCPN
+2021-03-03 02:58:00,487 - __main__ - INFO - Removed 1 bases from start of DLDH_ALCEU
+2021-03-03 02:58:00,489 - __main__ - INFO - Removed 1 bases from start of DLD2_PSEPU
+2021-03-03 02:58:00,492 - __main__ - INFO - Removed 1 bases from start of DLD1_BACST
+2021-03-03 02:58:00,494 - __main__ - INFO - Removed 1 bases from start of DLD1_BACSU
+2021-03-03 02:58:00,496 - __main__ - INFO - Removed 1 bases from start of DLDH_STAAM
+2021-03-03 02:58:00,499 - __main__ - INFO - Removed 1 bases from start of DLDH_HALVO
+2021-03-03 02:58:00,501 - __main__ - INFO - Removed 1 bases from start of DLDH_RHOCA
+2021-03-03 02:58:00,504 - __main__ - INFO - Removed 1 bases from start of DLDH_TRYBB
+2021-03-03 02:58:00,507 - __main__ - INFO - Removed 20 bases from start of DLDH_PEA
+2021-03-03 02:58:00,510 - __main__ - INFO - Removed 1 bases from start of DLD3_PSEPU
+2021-03-03 02:58:00,512 - __main__ - INFO - Removed 9 bases from start of DLDH_YEAST
+2021-03-03 02:58:00,514 - __main__ - INFO - Removed 25 bases from start of DLDH_SCHPO
+2021-03-03 02:58:00,517 - __main__ - INFO - Removed 24 bases from start of DLDH_CANFA
+2021-03-03 02:58:00,520 - __main__ - INFO - Removed 1 bases from start of DLDH_ECOLI
+2021-03-03 02:58:00,525 - __main__ - INFO - Removed 1 bases from start of DLDH_BUCAP
+2021-03-03 02:58:00,527 - __main__ - INFO - Removed 1 bases from start of DLDH_CHLTE
+2021-03-03 02:58:00,530 - __main__ - INFO - Removed 1 bases from start of DLDH_ZYMMO
+2021-03-03 02:58:00,532 - __main__ - INFO - Removed 1 bases from start of DLD2_BACSU
+2021-03-03 02:58:00,534 - __main__ - INFO - Removed 1 bases from start of 1cl0_A
+2021-03-03 02:58:00,538 - __main__ - INFO - Removed 1 bases from start of TRXB_HAEIN
+2021-03-03 02:58:00,542 - __main__ - INFO - Removed 1 bases from start of TRXB_BUCAI
+2021-03-03 02:58:00,544 - __main__ - INFO - Removed 1 bases from start of TRXB_COXBU
+2021-03-03 02:58:00,547 - __main__ - INFO - Removed 1 bases from start of TRXB_BUCAP
+2021-03-03 02:58:00,550 - __main__ - INFO - Removed 3 bases from start of TRXB_BUCBP
+2021-03-03 02:58:00,550 - __main__ - INFO - Removed 1 bases from end of TRXB_BUCBP
+2021-03-03 02:58:00,552 - __main__ - INFO - Removed 1 bases from start of TRXB_RICCN
+2021-03-03 02:58:00,556 - __main__ - INFO - Removed 1 bases from start of TRXB_CHLPN
+2021-03-03 02:58:00,561 - __main__ - INFO - Removed 1 bases from start of TRXB_CHLMU
+2021-03-03 02:58:00,564 - __main__ - INFO - Removed 1 bases from start of TRXB_SCHPO
+2021-03-03 02:58:00,568 - __main__ - INFO - Removed 10 bases from end of TRXB_NEUCR
+2021-03-03 02:58:00,571 - __main__ - INFO - Removed 5 bases from end of TRXB_PENCH
+2021-03-03 02:58:00,575 - __main__ - INFO - Removed 1 bases from start of TRB1_ARATH
+2021-03-03 02:58:00,575 - __main__ - INFO - Removed 4 bases from end of TRB1_ARATH
+2021-03-03 02:58:00,577 - __main__ - INFO - Removed 3 bases from start of TRXB_MYCPN
+2021-03-03 02:58:00,579 - __main__ - INFO - Removed 3 bases from start of TRXB_MYCGE
+2021-03-03 02:58:00,582 - __main__ - INFO - Removed 2 bases from end of TRXB_BACSU
+2021-03-03 02:58:00,584 - __main__ - INFO - Removed 1 bases from start of TRXB_STAAM
+2021-03-03 02:58:00,588 - __main__ - INFO - Removed 1 bases from start of TRXB_LISIN
+2021-03-03 02:58:00,594 - __main__ - INFO - Removed 1 bases from start of TRXB_CLOLI
+2021-03-03 02:58:00,600 - __main__ - INFO - Removed 1 bases from start of TRXB_TREPA
+2021-03-03 02:58:00,604 - __main__ - INFO - Removed 1 bases from start of R34K_CLOPA
+2021-03-03 02:58:00,608 - __main__ - INFO - Removed 1 bases from start of TRXB_MYCSM
+2021-03-03 02:58:00,611 - __main__ - INFO - Removed 1 bases from start of TRXB_MYCLE
+2021-03-03 02:58:00,614 - __main__ - INFO - Removed 9 bases from end of TRXB_STRCL
+2021-03-03 02:58:00,618 - __main__ - INFO - Removed 3 bases from start of TRXB_BORBU
+2021-03-03 02:58:00,621 - __main__ - INFO - Removed 1 bases from start of TRXB_METJA
+2021-03-03 02:58:00,623 - __main__ - INFO - Removed 1 bases from start of TRXB_AQUAE
+2021-03-03 02:58:00,626 - __main__ - INFO - Removed 1 bases from start of TRXB_HELPJ
+2021-03-03 02:58:00,628 - __main__ - INFO - Removed 1 bases from start of TRXB_MYCPU
+2021-03-03 02:58:00,631 - __main__ - INFO - Removed 1 bases from start of TRXB_UREPA
+2021-03-03 02:58:00,645 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 02:58:01,212 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 02:58:01,685 - __main__ - INFO - Building consensus sequence

@@ -1,0 +1,67 @@
+2021-03-03 10:53:14,119 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_10/clustal/BBA0163_auto.fasta --outfile_stem reference_set_10/clustal/high_stringency_BBA0163_auto
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 10:53:14,227 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 10:53:14,227 - __main__ - INFO - Removing divergent sequences
+2021-03-03 10:53:15,141 - __main__ - INFO - Removing divergent sequences seq002, seq032, seq005, seq010, seq003, seq017, seq046, seq035, seq045, seq025, seq001, seq029, seq008, seq052, seq018, seq020, seq056, seq024, seq058, seq028, seq016, seq033, seq055, seq023, seq049, seq009, seq026, seq011, seq015, seq031, seq039, seq040, seq014, seq048, seq012, seq038, seq044, seq051, seq004, seq050, seq006, seq057, seq022, seq054, seq030, seq019, seq027, seq053, seq047, seq036, seq021, seq034
+2021-03-03 10:53:15,141 - __main__ - INFO - Removing insertions
+2021-03-03 10:53:15,141 - __main__ - INFO - Removing insertions
+
+2021-03-03 10:53:16,883 - __main__ - INFO - Removing sites 2048, 2342, 2343, 2580, 2075, 2082, 2083, 2084, 2085, 2086, 2087, 2088, 2089, 2090, 2091, 2092, 2093, 2094, 2095, 2096, 2097, 2098, 2099, 2100, 2101, 2102, 2103, 2104, 2105, 2106, 2107, 2108, 2109, 2110, 2111, 2112, 2114, 2115, 2116, 2508, 2146, 2147, 2148, 2149, 2150, 2151, 2152, 2153, 2154, 2155, 2156, 2157, 2158, 2159, 2160, 2161, 2162, 2163, 2164, 2165, 2166, 2167, 2168, 2169, 2170, 2171, 2172, 2173, 2174, 2175, 2176, 2177, 2178, 2179, 2180, 2181, 2182, 2183, 2184, 2243, 2244, 2245, 2246, 2272, 2273, 2274, 2275, 2276, 2277, 2278, 2279, 2280, 2281, 2282, 2291, 2292, 2293, 2294, 2295, 2296, 2297, 2298, 2299, 2300, 2301, 2302, 2303, 2304, 2307, 2308, 1800, 1801, 1802, 1812, 1813, 1814, 2335, 2336, 1825, 1826, 1827, 1828, 2341, 1829, 1830, 2344, 2345, 2346, 2347, 2348, 1831, 1832, 1835, 1836, 1837, 1838, 1841, 1842, 1843, 1844, 1845, 1846, 2362, 2363, 2364, 2365, 2366, 2367, 2368, 2369, 2370, 2371, 2372, 2373, 2374, 1863, 1864, 2375, 2376, 2377, 2378, 2379, 2380, 2381, 2382, 2383, 2384, 2385, 2386, 2387, 1878, 1879, 1880, 2388, 2389, 2390, 1886, 1887, 1888, 1889, 1890, 1891, 2406, 2407, 1896, 2408, 2409, 2410, 2411, 2412, 2413, 2414, 2415, 2416, 2417, 2418, 2419, 2420, 1912, 1913, 1914, 1915, 1916, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1926, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1943, 1952, 1954, 1955, 1956, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 2492, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2520, 2521, 2522, 2523, 2012, 2013, 2014, 2015, 2016, 2017, 2024, 2025, 2026, 2027, 2028, 2029, 2030, 2337, 2031, 2439, 2033, 2034, 2338, 2035, 2036, 2037, 2038, 2440, 2047
+2021-03-03 10:53:16,883 - __main__ - INFO - Cropping ends
+2021-03-03 10:53:16,893 - __main__ - INFO - Removed 34 bases from end of seq007
+2021-03-03 10:53:16,904 - __main__ - INFO - Removed 3 bases from end of seq013
+2021-03-03 10:53:16,921 - __main__ - INFO - Removed 2 bases from start of seq041
+2021-03-03 10:53:16,931 - __main__ - INFO - Removed 2 bases from start of seq042
+2021-03-03 10:53:16,941 - __main__ - INFO - Removed 15 bases from start of seq043
+2021-03-03 10:53:16,944 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 10:53:17,545 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 10:53:18,012 - __main__ - INFO - Building consensus sequence

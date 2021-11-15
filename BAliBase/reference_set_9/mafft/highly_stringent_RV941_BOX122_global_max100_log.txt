@@ -1,0 +1,248 @@
+2021-07-01 07:02:54,750 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BB.ini --infile reference_set_9/mafft/RV941_BOX122_global_max100.fasta --outfile_stem reference_set_9/mafft/highly_stringent_RV941_BOX122_global_max100
+Config File (highly_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 07:02:54,921 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 07:02:54,921 - __main__ - INFO - Removing divergent sequences
+2021-07-01 07:03:00,618 - __main__ - INFO - Removing insertions
+2021-07-01 07:03:00,618 - __main__ - INFO - Removing insertions
+
+2021-07-01 07:03:03,619 - __main__ - INFO - Removing sites 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 308, 309, 310, 311, 312, 313, 319, 320, 321, 322, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 432, 433, 434, 435, 436, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 574, 575, 577, 578, 579, 580, 581, 582, 583, 584, 586, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 615, 616, 617, 626, 632, 633, 634, 635, 636, 637, 638, 640, 646, 647, 648, 649, 650, 654, 655, 656, 657, 658, 659, 660, 661, 662, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 685, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 708, 709, 710, 716, 717, 718, 719, 720, 721, 722, 738, 739, 740, 741, 742, 743, 744, 745, 751, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 786, 787, 790, 792, 793, 794, 795, 800, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 820, 821, 822, 828, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881, 882, 883, 884, 885, 886, 887, 891, 895, 921, 932, 934, 935, 936, 937, 938, 939, 940, 943, 944, 945, 975, 977, 978, 979, 980, 981, 982, 983, 984, 992, 993, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1005, 1007, 1011, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1035, 1037, 1052, 1054, 1072, 1073, 1075, 1076, 1077, 1079, 1080, 1082, 1083, 1084, 1087, 1088, 1100, 1101, 1121, 1136, 1139, 1141, 1150, 1152, 1153, 1154, 1155, 1156, 1163, 1164, 1181, 1186, 1208, 1241, 1244, 1259, 1295, 1296, 1299, 1302, 1324, 1325, 1326, 1327, 1330, 1337, 1338, 1339, 1340, 1342, 1346, 1347, 1348, 1349, 1350, 1357, 1358, 1359, 1360, 1361, 1362, 1363, 1364, 1365, 1366, 1368, 1369, 1375, 1376, 1377, 1378, 1379, 1380, 1381, 1382, 1383, 1384, 1385, 1386, 1389, 1390, 1391, 1392, 1393, 1394, 1395, 1396, 1397, 1398, 1401, 1409, 1410, 1411, 1412
+2021-07-01 07:03:03,620 - __main__ - INFO - Cropping ends
+2021-07-01 07:03:03,623 - __main__ - INFO - Removed 7 bases from start of P22309
+2021-07-01 07:03:03,625 - __main__ - INFO - Removed 7 bases from start of Q64550
+2021-07-01 07:03:03,628 - __main__ - INFO - Removed 7 bases from start of O46423
+2021-07-01 07:03:03,630 - __main__ - INFO - Removed 7 bases from start of Q5DSZ9
+2021-07-01 07:03:03,633 - __main__ - INFO - Removed 7 bases from start of O46549
+2021-07-01 07:03:03,635 - __main__ - INFO - Removed 5 bases from start of Q6T5F0
+2021-07-01 07:03:03,638 - __main__ - INFO - Removed 7 bases from start of Q28612
+2021-07-01 07:03:03,640 - __main__ - INFO - Removed 5 bases from start of Q6XL46
+2021-07-01 07:03:03,643 - __main__ - INFO - Removed 7 bases from start of Q5DSZ5
+2021-07-01 07:03:03,645 - __main__ - INFO - Removed 7 bases from start of Q9XS56
+2021-07-01 07:03:03,648 - __main__ - INFO - Removed 7 bases from start of Q9W710
+2021-07-01 07:03:03,650 - __main__ - INFO - Removed 1 bases from start of Q32LW4
+2021-07-01 07:03:03,652 - __main__ - INFO - Removed 5 bases from start of Q09M14
+2021-07-01 07:03:03,657 - __main__ - INFO - Removed 8 bases from end of Q7QJN2
+2021-07-01 07:03:03,660 - __main__ - INFO - Removed 8 bases from end of Q17KR8
+2021-07-01 07:03:03,662 - __main__ - INFO - Removed 4 bases from start of Q9VGT2
+2021-07-01 07:03:03,665 - __main__ - INFO - Removed 12 bases from start of Q17KZ7
+2021-07-01 07:03:03,665 - __main__ - INFO - Removed 8 bases from end of Q17KZ7
+2021-07-01 07:03:03,667 - __main__ - INFO - Removed 2 bases from start of Q17K51
+2021-07-01 07:03:03,667 - __main__ - INFO - Removed 20 bases from end of Q17K51
+2021-07-01 07:03:03,670 - __main__ - INFO - Removed 4 bases from start of Q9VGT0
+2021-07-01 07:03:03,670 - __main__ - INFO - Removed 8 bases from end of Q9VGT0
+2021-07-01 07:03:03,672 - __main__ - INFO - Removed 9 bases from end of Q9VDA5
+2021-07-01 07:03:03,675 - __main__ - INFO - Removed 1 bases from start of Q16NL2
+2021-07-01 07:03:03,677 - __main__ - INFO - Removed 5 bases from start of Q9VGT4
+2021-07-01 07:03:03,680 - __main__ - INFO - Removed 42 bases from start of Q7K7B0
+2021-07-01 07:03:03,680 - __main__ - INFO - Removed 3 bases from end of Q7K7B0
+2021-07-01 07:03:03,683 - __main__ - INFO - Removed 5 bases from start of Q9XYN4
+2021-07-01 07:03:03,685 - __main__ - INFO - Removed 3 bases from end of Q9VJI0
+2021-07-01 07:03:03,688 - __main__ - INFO - Removed 3 bases from start of Q9V9X9
+2021-07-01 07:03:03,690 - __main__ - INFO - Removed 2 bases from start of Q9VJ81
+2021-07-01 07:03:03,690 - __main__ - INFO - Removed 10 bases from end of Q9VJ81
+2021-07-01 07:03:03,695 - __main__ - INFO - Removed 6 bases from start of Q9VGT1
+2021-07-01 07:03:03,697 - __main__ - INFO - Removed 7 bases from start of Q17GE3
+2021-07-01 07:03:03,700 - __main__ - INFO - Removed 7 bases from start of Q17GE4
+2021-07-01 07:03:03,702 - __main__ - INFO - Removed 1 bases from start of Q9W2J4
+2021-07-01 07:03:03,702 - __main__ - INFO - Removed 8 bases from end of Q9W2J4
+2021-07-01 07:03:03,705 - __main__ - INFO - Removed 7 bases from start of Q1HRH8
+2021-07-01 07:03:03,705 - __main__ - INFO - Removed 14 bases from end of Q1HRH8
+2021-07-01 07:03:03,708 - __main__ - INFO - Removed 24 bases from start of Q16YF6
+2021-07-01 07:03:03,708 - __main__ - INFO - Removed 8 bases from end of Q16YF6
+2021-07-01 07:03:03,710 - __main__ - INFO - Removed 6 bases from start of Q17K48
+2021-07-01 07:03:03,711 - __main__ - INFO - Removed 8 bases from end of Q17K48
+2021-07-01 07:03:03,713 - __main__ - INFO - Removed 7 bases from start of Q17HG0
+2021-07-01 07:03:03,716 - __main__ - INFO - Removed 42 bases from start of Q9VIM9
+2021-07-01 07:03:03,718 - __main__ - INFO - Removed 1 bases from start of Q9VG30
+2021-07-01 07:03:03,721 - __main__ - INFO - Removed 4 bases from start of Q16T44
+2021-07-01 07:03:03,721 - __main__ - INFO - Removed 23 bases from end of Q16T44
+2021-07-01 07:03:03,726 - __main__ - INFO - Removed 11 bases from end of Q17KR9
+2021-07-01 07:03:03,732 - __main__ - INFO - Removed 1 bases from start of Q17K53
+2021-07-01 07:03:03,732 - __main__ - INFO - Removed 8 bases from end of Q17K53
+2021-07-01 07:03:03,735 - __main__ - INFO - Removed 5 bases from start of Q9VGT5
+2021-07-01 07:03:03,735 - __main__ - INFO - Removed 24 bases from end of Q9VGT5
+2021-07-01 07:03:03,737 - __main__ - INFO - Removed 1 bases from start of Q4V5F2
+2021-07-01 07:03:03,737 - __main__ - INFO - Removed 8 bases from end of Q4V5F2
+2021-07-01 07:03:03,740 - __main__ - INFO - Removed 5 bases from start of Q7Q3K2
+2021-07-01 07:03:03,740 - __main__ - INFO - Removed 34 bases from end of Q7Q3K2
+2021-07-01 07:03:03,743 - __main__ - INFO - Removed 7 bases from start of Q16GW8
+2021-07-01 07:03:03,743 - __main__ - INFO - Removed 6 bases from end of Q16GW8
+2021-07-01 07:03:03,745 - __main__ - INFO - Removed 13 bases from start of Q8WPG4
+2021-07-01 07:03:03,745 - __main__ - INFO - Removed 15 bases from end of Q8WPG4
+2021-07-01 07:03:03,748 - __main__ - INFO - Removed 7 bases from start of Q7PTF6
+2021-07-01 07:03:03,750 - __main__ - INFO - Removed 12 bases from start of Q0IG96
+2021-07-01 07:03:03,750 - __main__ - INFO - Removed 10 bases from end of Q0IG96
+2021-07-01 07:03:03,753 - __main__ - INFO - Removed 23 bases from end of Q9VJH9
+2021-07-01 07:03:03,762 - __main__ - INFO - Removed 12 bases from start of Q16XV9
+2021-07-01 07:03:03,762 - __main__ - INFO - Removed 8 bases from end of Q16XV9
+2021-07-01 07:03:03,764 - __main__ - INFO - Removed 1 bases from start of Q9VJ47
+2021-07-01 07:03:03,767 - __main__ - INFO - Removed 9 bases from end of Q9VJ46
+2021-07-01 07:03:03,769 - __main__ - INFO - Removed 2 bases from start of Q9VJ45
+2021-07-01 07:03:03,769 - __main__ - INFO - Removed 14 bases from end of Q9VJ45
+2021-07-01 07:03:03,772 - __main__ - INFO - Removed 8 bases from end of Q1HPX7
+2021-07-01 07:03:03,775 - __main__ - INFO - Removed 1 bases from start of Q7QCS2
+2021-07-01 07:03:03,775 - __main__ - INFO - Removed 35 bases from end of Q7QCS2
+2021-07-01 07:03:03,777 - __main__ - INFO - Removed 1 bases from start of Q0IFB9
+2021-07-01 07:03:03,777 - __main__ - INFO - Removed 35 bases from end of Q0IFB9
+2021-07-01 07:03:03,780 - __main__ - INFO - Removed 19 bases from start of Q61JV7
+2021-07-01 07:03:03,780 - __main__ - INFO - Removed 12 bases from end of Q61JV7
+2021-07-01 07:03:03,782 - __main__ - INFO - Removed 6 bases from start of Q22295
+2021-07-01 07:03:03,782 - __main__ - INFO - Removed 6 bases from end of Q22295
+2021-07-01 07:03:03,785 - __main__ - INFO - Removed 1 bases from start of Q17399
+2021-07-01 07:03:03,785 - __main__ - INFO - Removed 16 bases from end of Q17399
+2021-07-01 07:03:03,788 - __main__ - INFO - Removed 50 bases from start of O16276
+2021-07-01 07:03:03,790 - __main__ - INFO - Removed 50 bases from start of Q60YX3
+2021-07-01 07:03:03,793 - __main__ - INFO - Removed 7 bases from end of Q18081
+2021-07-01 07:03:03,795 - __main__ - INFO - Removed 20 bases from start of Q60ZW4
+2021-07-01 07:03:03,798 - __main__ - INFO - Removed 47 bases from start of Q22770
+2021-07-01 07:03:03,801 - __main__ - INFO - Removed 8 bases from end of Q61KG9
+2021-07-01 07:03:03,803 - __main__ - INFO - Removed 2 bases from start of Q21706
+2021-07-01 07:03:03,806 - __main__ - INFO - Removed 10 bases from start of Q23333
+2021-07-01 07:03:03,808 - __main__ - INFO - Removed 1 bases from start of Q965X5
+2021-07-01 07:03:03,811 - __main__ - INFO - Removed 16 bases from end of Q611B1
+2021-07-01 07:03:03,813 - __main__ - INFO - Removed 2 bases from start of Q60IY5
+2021-07-01 07:03:03,818 - __main__ - INFO - Removed 1 bases from start of Q61JW1
+2021-07-01 07:03:03,820 - __main__ - INFO - Removed 1 bases from start of Q17404
+2021-07-01 07:03:03,825 - __main__ - INFO - Removed 1 bases from start of Q625M9
+2021-07-01 07:03:03,827 - __main__ - INFO - Removed 1 bases from start of Q17403
+2021-07-01 07:03:03,830 - __main__ - INFO - Removed 1 bases from start of O18009
+2021-07-01 07:03:03,830 - __main__ - INFO - Removed 27 bases from end of O18009
+2021-07-01 07:03:03,835 - __main__ - INFO - Removed 11 bases from start of O45109
+2021-07-01 07:03:03,835 - __main__ - INFO - Removed 11 bases from end of O45109
+2021-07-01 07:03:03,837 - __main__ - INFO - Removed 3 bases from start of Q60KU1
+2021-07-01 07:03:03,840 - __main__ - INFO - Removed 5 bases from start of Q52GY8
+2021-07-01 07:03:03,844 - __main__ - INFO - Removed 1 bases from start of Q60QT6
+2021-07-01 07:03:03,847 - __main__ - INFO - Removed 6 bases from start of Q61JY1
+2021-07-01 07:03:03,849 - __main__ - INFO - Removed 6 bases from start of Q18470
+2021-07-01 07:03:03,852 - __main__ - INFO - Removed 6 bases from start of Q18354
+2021-07-01 07:03:03,854 - __main__ - INFO - Removed 1 bases from start of Q18361
+2021-07-01 07:03:03,857 - __main__ - INFO - Removed 1 bases from start of O44149
+2021-07-01 07:03:03,857 - __main__ - INFO - Removed 7 bases from end of O44149
+2021-07-01 07:03:03,862 - __main__ - INFO - Removed 17 bases from end of Q60XS8
+2021-07-01 07:03:03,865 - __main__ - INFO - Removed 49 bases from start of Q61LL0
+2021-07-01 07:03:03,865 - __main__ - INFO - Removed 7 bases from end of Q61LL0
+2021-07-01 07:03:03,867 - __main__ - INFO - Removed 1 bases from start of O01614
+2021-07-01 07:03:03,870 - __main__ - INFO - Removed 1 bases from start of Q9TXZ4
+2021-07-01 07:03:03,872 - __main__ - INFO - Removed 1 bases from start of Q9TXZ5
+2021-07-01 07:03:03,872 - __main__ - INFO - Removed 6 bases from end of Q9TXZ5
+2021-07-01 07:03:03,875 - __main__ - INFO - Removed 1 bases from start of O01616
+2021-07-01 07:03:03,877 - __main__ - INFO - Removed 1 bases from start of Q61LK7
+2021-07-01 07:03:03,880 - __main__ - INFO - Removed 1 bases from start of O01617
+2021-07-01 07:03:03,880 - __main__ - INFO - Removed 8 bases from end of O01617
+2021-07-01 07:03:03,882 - __main__ - INFO - Removed 1 bases from start of Q9TXZ6
+2021-07-01 07:03:03,882 - __main__ - INFO - Removed 8 bases from end of Q9TXZ6
+2021-07-01 07:03:03,885 - __main__ - INFO - Removed 1 bases from start of Q61LL2
+2021-07-01 07:03:03,887 - __main__ - INFO - Removed 1 bases from start of Q18629
+2021-07-01 07:03:03,890 - __main__ - INFO - Removed 1 bases from start of Q23323
+2021-07-01 07:03:03,890 - __main__ - INFO - Removed 7 bases from end of Q23323
+2021-07-01 07:03:03,893 - __main__ - INFO - Removed 1 bases from start of Q60J25
+2021-07-01 07:03:03,895 - __main__ - INFO - Removed 47 bases from start of O16988
+2021-07-01 07:03:03,895 - __main__ - INFO - Removed 20 bases from end of O16988
+2021-07-01 07:03:03,898 - __main__ - INFO - Removed 56 bases from start of O17401
+2021-07-01 07:03:03,900 - __main__ - INFO - Removed 3 bases from start of Q622Y6
+2021-07-01 07:03:03,903 - __main__ - INFO - Removed 5 bases from end of Q8IA78
+2021-07-01 07:03:03,906 - __main__ - INFO - Removed 5 bases from end of Q8MNX7
+2021-07-01 07:03:03,911 - __main__ - INFO - Removed 1 bases from start of Q17813
+2021-07-01 07:03:03,913 - __main__ - INFO - Removed 1 bases from start of Q18636
+2021-07-01 07:03:03,916 - __main__ - INFO - Removed 1 bases from start of Q9TYY5
+2021-07-01 07:03:03,918 - __main__ - INFO - Removed 1 bases from start of Q61U04
+2021-07-01 07:03:03,921 - __main__ - INFO - Removed 18 bases from start of Q9GYR7
+2021-07-01 07:03:03,923 - __main__ - INFO - Removed 1 bases from start of P91037
+2021-07-01 07:03:03,923 - __main__ - INFO - Removed 16 bases from end of P91037
+2021-07-01 07:03:03,934 - __main__ - INFO - Removed 5 bases from start of Q9U3Q6
+2021-07-01 07:03:03,937 - __main__ - INFO - Removed 1 bases from start of Q9TYY4
+2021-07-01 07:03:03,942 - __main__ - INFO - Removed 5 bases from start of O16914
+2021-07-01 07:03:03,944 - __main__ - INFO - Removed 1 bases from start of O17757
+2021-07-01 07:03:03,947 - __main__ - INFO - Removed 6 bases from end of Q61MQ0
+2021-07-01 07:03:03,949 - __main__ - INFO - Removed 1 bases from start of Q61M42
+2021-07-01 07:03:03,952 - __main__ - INFO - Removed 1 bases from start of O16243
+2021-07-01 07:03:03,954 - __main__ - INFO - Removed 1 bases from start of Q23335
+2021-07-01 07:03:03,957 - __main__ - INFO - Removed 2 bases from start of O17123
+2021-07-01 07:03:03,959 - __main__ - INFO - Removed 47 bases from start of Q61C72
+2021-07-01 07:03:03,959 - __main__ - INFO - Removed 20 bases from end of Q61C72
+2021-07-01 07:03:03,962 - __main__ - INFO - Removed 1 bases from start of Q23336
+2021-07-01 07:03:03,962 - __main__ - INFO - Removed 7 bases from end of Q23336
+2021-07-01 07:03:03,965 - __main__ - INFO - Removed 1 bases from start of Q23334
+2021-07-01 07:03:03,967 - __main__ - INFO - Removed 14 bases from start of Q61H12
+2021-07-01 07:03:03,967 - __main__ - INFO - Removed 41 bases from end of Q61H12
+2021-07-01 07:03:03,970 - __main__ - INFO - Removed 12 bases from start of Q0IG98
+2021-07-01 07:03:03,970 - __main__ - INFO - Removed 10 bases from end of Q0IG98
+2021-07-01 07:03:03,972 - __main__ - INFO - Removed 1 bases from start of Q6PDD0
+2021-07-01 07:03:03,975 - __main__ - INFO - Removed 1 bases from start of Q9Y4X1
+2021-07-01 07:03:03,977 - __main__ - INFO - Removed 1 bases from start of Q9R110
+2021-07-01 07:03:03,980 - __main__ - INFO - Removed 1 bases from start of Q5RFJ3
+2021-07-01 07:03:03,982 - __main__ - INFO - Removed 1 bases from start of Q8BWQ1
+2021-07-01 07:03:03,985 - __main__ - INFO - Removed 1 bases from start of Q0II94
+2021-07-01 07:03:03,989 - __main__ - INFO - Removed 1 bases from start of Q3UEI8
+2021-07-01 07:03:03,994 - __main__ - INFO - Removed 1 bases from start of P36512
+2021-07-01 07:03:03,997 - __main__ - INFO - Removed 1 bases from start of Q8VIF8
+2021-07-01 07:03:03,999 - __main__ - INFO - Removed 1 bases from start of P36537
+2021-07-01 07:03:04,001 - __main__ - INFO - Removed 1 bases from start of P54855
+2021-07-01 07:03:04,004 - __main__ - INFO - Removed 1 bases from start of P36513
+2021-07-01 07:03:04,006 - __main__ - INFO - Removed 1 bases from start of P09875
+2021-07-01 07:03:04,009 - __main__ - INFO - Removed 1 bases from start of Q2KIH0
+2021-07-01 07:03:04,012 - __main__ - INFO - Removed 1 bases from start of Q6K1J1
+2021-07-01 07:03:04,014 - __main__ - INFO - Removed 1 bases from start of Q62789
+2021-07-01 07:03:04,017 - __main__ - INFO - Removed 1 bases from start of Q8K154
+2021-07-01 07:03:04,021 - __main__ - INFO - Removed 22 bases from start of Q0P492
+2021-07-01 07:03:04,024 - __main__ - INFO - Removed 2 bases from start of Q4S687
+2021-07-01 07:03:04,026 - __main__ - INFO - Removed 4 bases from start of Q08C45
+2021-07-01 07:03:04,029 - __main__ - INFO - Removed 38 bases from start of Q32LS4
+2021-07-01 07:03:04,032 - __main__ - INFO - Removed 6 bases from start of Q1RLP0
+2021-07-01 07:03:04,034 - __main__ - INFO - Removed 1 bases from start of Q6XA17
+2021-07-01 07:03:04,037 - __main__ - INFO - Removed 1 bases from start of Q3UP49
+2021-07-01 07:03:04,040 - __main__ - INFO - Removed 1 bases from start of Q96DM6
+2021-07-01 07:03:04,042 - __main__ - INFO - Removed 1 bases from start of Q1LZI1
+2021-07-01 07:03:04,045 - __main__ - INFO - Removed 1 bases from start of Q63ZR6
+2021-07-01 07:03:04,047 - __main__ - INFO - Removed 32 bases from start of Q17A89
+2021-07-01 07:03:04,047 - __main__ - INFO - Removed 6 bases from end of Q17A89
+2021-07-01 07:03:04,050 - __main__ - INFO - Removed 6 bases from end of Q7QC46
+2021-07-01 07:03:04,054 - __main__ - INFO - Removed 44 bases from start of Q20086

@@ -1,0 +1,124 @@
+2021-03-03 03:19:39,775 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_3/clustal/RV30_BBS30025_auto.fasta --outfile_stem reference_set_3/clustal/high_stringency_RV30_BBS30025_auto
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 03:19:39,781 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 03:19:39,781 - __main__ - INFO - Removing divergent sequences
+2021-03-03 03:19:40,014 - __main__ - INFO - Removing divergent sequences GLR1_SCHPO, SH3M_HUMAN, RESA_OCEIH, NRFX_HAEIN, TXL2_HUMAN, GLRX_HAEIN, GLRX_PSEAE, RESA_BACHD, DSBE_VIBCH, THIO_MYCGE, GLR2_SCHPO, GLRX_ORYSA, SH3B_HUMAN, NRFX_PASMU, GLRX_RICPR, GLRX_NEIMA, GLRX_VERFO, 1j0f_A, THIO_ICTPU, THIO_COPCM, RESA_BACAA, CYCY_RHILV, DSBE_CHRVI, TXN4_HUMAN, GLRX_RICCO, RESA_BACSU, THIO_MYCPN, THIO_BUCAI, THI3_DICDI, 1b4q_A, CCMG_PARDE, GLR1_SALTY, SH3N_HUMAN, DSBE_XYLFA, SH3B_DROME, GLRX_BOVIN, TYPX_TRYBB, GLRX_CHICK, 1grx_, 1mek_, SH3L_HUMAN, 1fov_A, GLR3_ECOLI
+2021-03-03 03:19:40,014 - __main__ - INFO - Removing insertions
+2021-03-03 03:19:40,014 - __main__ - INFO - Removing insertions
+
+2021-03-03 03:19:40,079 - __main__ - INFO - Removing sites 18, 19, 20, 21, 22, 23, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 62, 74, 75, 76, 111, 112
+2021-03-03 03:19:40,079 - __main__ - INFO - Cropping ends
+2021-03-03 03:19:40,080 - __main__ - INFO - Removed 5 bases from start of GLRX_LYCES
+2021-03-03 03:19:40,080 - __main__ - INFO - Removed 5 bases from end of GLRX_LYCES
+2021-03-03 03:19:40,080 - __main__ - INFO - Removed 7 bases from start of 1kng_A
+2021-03-03 03:19:40,080 - __main__ - INFO - Removed 7 bases from end of 1kng_A
+2021-03-03 03:19:40,080 - __main__ - INFO - Removed 7 bases from start of HELX_RHOCA
+2021-03-03 03:19:40,080 - __main__ - INFO - Removed 7 bases from end of HELX_RHOCA
+2021-03-03 03:19:40,081 - __main__ - INFO - Removed 7 bases from start of DSBE_PSEFL
+2021-03-03 03:19:40,081 - __main__ - INFO - Removed 7 bases from end of DSBE_PSEFL
+2021-03-03 03:19:40,081 - __main__ - INFO - Removed 7 bases from start of DSBE_PSEAE
+2021-03-03 03:19:40,081 - __main__ - INFO - Removed 7 bases from end of DSBE_PSEAE
+2021-03-03 03:19:40,082 - __main__ - INFO - Removed 7 bases from start of DSBE_YERPE
+2021-03-03 03:19:40,082 - __main__ - INFO - Removed 7 bases from end of DSBE_YERPE
+2021-03-03 03:19:40,082 - __main__ - INFO - Removed 7 bases from start of DSBE_ECOLI
+2021-03-03 03:19:40,082 - __main__ - INFO - Removed 7 bases from end of DSBE_ECOLI
+2021-03-03 03:19:40,082 - __main__ - INFO - Removed 7 bases from start of DSBE_PANCI
+2021-03-03 03:19:40,082 - __main__ - INFO - Removed 7 bases from end of DSBE_PANCI
+2021-03-03 03:19:40,083 - __main__ - INFO - Removed 7 bases from start of DSBE_HAEIN
+2021-03-03 03:19:40,083 - __main__ - INFO - Removed 7 bases from end of DSBE_HAEIN
+2021-03-03 03:19:40,083 - __main__ - INFO - Removed 7 bases from start of DSBE_PASMU
+2021-03-03 03:19:40,083 - __main__ - INFO - Removed 7 bases from end of DSBE_PASMU
+2021-03-03 03:19:40,084 - __main__ - INFO - Removed 7 bases from start of THI2_CORNE
+2021-03-03 03:19:40,084 - __main__ - INFO - Removed 7 bases from end of THI2_CORNE
+2021-03-03 03:19:40,084 - __main__ - INFO - Removed 7 bases from start of THIO_MYCGA
+2021-03-03 03:19:40,084 - __main__ - INFO - Removed 7 bases from end of THIO_MYCGA
+2021-03-03 03:19:40,084 - __main__ - INFO - Removed 7 bases from start of TRX2_YEAST
+2021-03-03 03:19:40,084 - __main__ - INFO - Removed 8 bases from end of TRX2_YEAST
+2021-03-03 03:19:40,085 - __main__ - INFO - Removed 7 bases from start of THIO_CHLPN
+2021-03-03 03:19:40,085 - __main__ - INFO - Removed 7 bases from end of THIO_CHLPN
+2021-03-03 03:19:40,085 - __main__ - INFO - Removed 7 bases from start of THIO_CHLCV
+2021-03-03 03:19:40,085 - __main__ - INFO - Removed 7 bases from end of THIO_CHLCV
+2021-03-03 03:19:40,085 - __main__ - INFO - Removed 7 bases from start of THIM_CHLRE
+2021-03-03 03:19:40,086 - __main__ - INFO - Removed 7 bases from end of THIM_CHLRE
+2021-03-03 03:19:40,086 - __main__ - INFO - Removed 7 bases from start of THIO_GRIPA
+2021-03-03 03:19:40,086 - __main__ - INFO - Removed 7 bases from end of THIO_GRIPA
+2021-03-03 03:19:40,086 - __main__ - INFO - Removed 7 bases from start of THIM_PEA
+2021-03-03 03:19:40,086 - __main__ - INFO - Removed 7 bases from end of THIM_PEA
+2021-03-03 03:19:40,087 - __main__ - INFO - Removed 7 bases from start of THIM_SPIOL
+2021-03-03 03:19:40,087 - __main__ - INFO - Removed 7 bases from end of THIM_SPIOL
+2021-03-03 03:19:40,087 - __main__ - INFO - Removed 7 bases from start of THIM_ORYSA
+2021-03-03 03:19:40,087 - __main__ - INFO - Removed 7 bases from end of THIM_ORYSA
+2021-03-03 03:19:40,087 - __main__ - INFO - Removed 7 bases from start of THIM_MAIZE
+2021-03-03 03:19:40,087 - __main__ - INFO - Removed 7 bases from end of THIM_MAIZE
+2021-03-03 03:19:40,088 - __main__ - INFO - Removed 7 bases from start of THIO_RHORU
+2021-03-03 03:19:40,088 - __main__ - INFO - Removed 7 bases from end of THIO_RHORU
+2021-03-03 03:19:40,088 - __main__ - INFO - Removed 7 bases from start of THM4_ARATH
+2021-03-03 03:19:40,088 - __main__ - INFO - Removed 7 bases from end of THM4_ARATH
+2021-03-03 03:19:40,089 - __main__ - INFO - Removed 7 bases from start of THIM_BRANA
+2021-03-03 03:19:40,089 - __main__ - INFO - Removed 7 bases from end of THIM_BRANA
+2021-03-03 03:19:40,089 - __main__ - INFO - Removed 7 bases from start of THM2_ARATH
+2021-03-03 03:19:40,089 - __main__ - INFO - Removed 7 bases from end of THM2_ARATH
+2021-03-03 03:19:40,089 - __main__ - INFO - Removed 7 bases from start of THIO_ECHGR
+2021-03-03 03:19:40,089 - __main__ - INFO - Removed 8 bases from end of THIO_ECHGR
+2021-03-03 03:19:40,090 - __main__ - INFO - Removed 7 bases from start of TRX1_YEAST
+2021-03-03 03:19:40,090 - __main__ - INFO - Removed 8 bases from end of TRX1_YEAST
+2021-03-03 03:19:40,091 - __main__ - INFO - Removed 7 bases from start of THIO_EMENI
+2021-03-03 03:19:40,091 - __main__ - INFO - Removed 8 bases from end of THIO_EMENI
+2021-03-03 03:19:40,091 - __main__ - INFO - Removed 7 bases from start of THH1_ARATH
+2021-03-03 03:19:40,091 - __main__ - INFO - Removed 8 bases from end of THH1_ARATH
+2021-03-03 03:19:40,092 - __main__ - INFO - Removed 7 bases from start of THH2_TOBAC
+2021-03-03 03:19:40,092 - __main__ - INFO - Removed 8 bases from end of THH2_TOBAC
+2021-03-03 03:19:40,092 - __main__ - INFO - Removed 7 bases from start of THH1_TOBAC
+2021-03-03 03:19:40,092 - __main__ - INFO - Removed 8 bases from end of THH1_TOBAC
+2021-03-03 03:19:40,092 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 03:19:40,436 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 03:19:40,758 - __main__ - INFO - Building consensus sequence

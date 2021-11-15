@@ -1,0 +1,62 @@
+2021-07-01 17:51:34,699 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile low_stringent_config_INDELible_pep.ini --infile poa/INDELible_sim_48_aa.fasta --outfile_stem poa/cialign/low_stringent_INDELible_sim_48_aa
+Config File (low_stringent_config_INDELible_pep.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.05
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.15
+  remove_insertions: 1
+  insertion_min_size:5
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      1
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 17:51:34,705 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 17:51:34,705 - __main__ - INFO - Removing divergent sequences
+2021-07-01 17:51:34,825 - __main__ - INFO - Removing insertions
+2021-07-01 17:51:34,825 - __main__ - INFO - Removing insertions
+
+2021-07-01 17:51:35,218 - __main__ - INFO - Removing sites 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 100, 101, 104, 112, 113, 121, 126, 127, 128, 129, 130, 132, 139, 140, 141, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 169, 170, 207, 208, 214, 216, 217, 219, 220, 221, 222, 223, 225, 226, 227, 228, 229, 230, 238, 239, 250, 251, 256, 257, 258, 259, 260, 272, 273, 288, 305, 310, 314, 316, 324, 325, 326, 327, 346, 347, 348, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396
+2021-07-01 17:51:35,218 - __main__ - INFO - Cropping ends
+2021-07-01 17:51:35,226 - __main__ - INFO - Removed 2 bases from end of A3
+2021-07-01 17:51:35,228 - __main__ - INFO - Removed 2 bases from end of A4
+2021-07-01 17:51:35,229 - __main__ - INFO - Removing short sequences
+2021-07-01 17:51:35,230 - __main__ - INFO - Building consensus sequence

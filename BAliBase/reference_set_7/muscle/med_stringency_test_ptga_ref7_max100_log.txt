@@ -1,0 +1,80 @@
+2021-03-03 05:14:19,645 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini --infile reference_set_7/muscle/test_ptga_ref7_max100.fasta --outfile_stem reference_set_7/muscle/med_stringency_test_ptga_ref7_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.3
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 05:14:19,682 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 05:14:19,682 - __main__ - INFO - Removing divergent sequences
+2021-03-03 05:14:20,667 - __main__ - INFO - Removing divergent sequences PTLB_LACLA, PTCC_BACST, ptcc_ecoli
+2021-03-03 05:14:20,668 - __main__ - INFO - Removing insertions
+2021-03-03 05:14:20,668 - __main__ - INFO - Removing insertions
+
+2021-03-03 05:14:21,679 - __main__ - INFO - Removing sites 64, 73, 86, 87, 88, 89, 101, 102, 107, 108, 109, 110, 111, 112, 121, 122, 123, 124, 125, 126, 150, 151, 158, 165, 166, 167, 168, 170, 177, 178, 185, 186, 198, 199, 200, 215, 216, 217, 218, 224, 225, 239, 240, 241, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 290, 291, 313, 330, 343, 346, 347, 348, 354, 355, 357, 373, 378, 379, 380, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 418, 419, 420, 421, 422, 423, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 444, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 506, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 659, 660, 661, 663, 726, 727, 728, 729, 739, 740, 751, 752, 753, 754, 763, 764, 765, 766, 767, 768, 781, 784, 789, 803, 819, 820, 821, 822, 823, 824, 825, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 899, 913, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 1024, 1025, 1059, 1060, 1061, 1062, 1063, 1064, 1065, 1066, 1079, 1123
+2021-03-03 05:14:21,680 - __main__ - INFO - Cropping ends
+2021-03-03 05:14:21,690 - __main__ - INFO - Removed 27 bases from end of Q45579
+2021-03-03 05:14:21,736 - __main__ - INFO - Removed 14 bases from start of PTGA_MYCGE
+2021-03-03 05:14:21,739 - __main__ - INFO - Removed 26 bases from start of PTGA_MYCPN
+2021-03-03 05:14:21,743 - __main__ - INFO - Removed 2 bases from start of Q9RL52
+2021-03-03 05:14:21,746 - __main__ - INFO - Removed 5 bases from start of PTOA_ECOLI
+2021-03-03 05:14:21,748 - __main__ - INFO - Removed 3 bases from start of P96159
+2021-03-03 05:14:21,751 - __main__ - INFO - Removed 13 bases from start of O51143
+2021-03-03 05:14:21,751 - __main__ - INFO - Removed 50 bases from end of O51143
+2021-03-03 05:14:21,754 - __main__ - INFO - Removed 12 bases from start of Q9S2H4
+2021-03-03 05:14:21,756 - __main__ - INFO - Removed 11 bases from start of Q9S2H5
+2021-03-03 05:14:21,759 - __main__ - INFO - Removed 25 bases from start of O32444
+2021-03-03 05:14:21,759 - __main__ - INFO - Removed 14 bases from end of O32444
+2021-03-03 05:14:21,762 - __main__ - INFO - Removed 37 bases from start of O34521
+2021-03-03 05:14:21,764 - __main__ - INFO - Removed 39 bases from start of PTAA_ECOLI
+2021-03-03 05:14:21,767 - __main__ - INFO - Removed 39 bases from start of PTAA_KLEPN
+2021-03-03 05:14:21,773 - __main__ - INFO - Removed 40 bases from start of PTGB_ECOLI
+2021-03-03 05:14:21,776 - __main__ - INFO - Removed 40 bases from start of PTGB_SALTY
+2021-03-03 05:14:21,779 - __main__ - INFO - Removed 41 bases from start of YBFS_BACSU
+2021-03-03 05:14:21,789 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 05:14:22,232 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 05:14:22,634 - __main__ - INFO - Building consensus sequence

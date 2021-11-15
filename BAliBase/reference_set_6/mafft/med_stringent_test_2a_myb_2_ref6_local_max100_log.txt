@@ -1,0 +1,119 @@
+2021-07-01 03:09:04,923 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile med_stringent_config_BB.ini --infile reference_set_6/mafft/test_2a_myb_2_ref6_local_max100.fasta --outfile_stem reference_set_6/mafft/med_stringent_test_2a_myb_2_ref6_local_max100
+Config File (med_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.2
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 03:09:04,984 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 03:09:04,985 - __main__ - INFO - Removing divergent sequences
+2021-07-01 03:09:05,801 - __main__ - INFO - Removing insertions
+2021-07-01 03:09:05,801 - __main__ - INFO - Removing insertions
+
+2021-07-01 03:09:07,323 - __main__ - INFO - Removing sites 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 214, 215, 216, 227, 228, 229, 230, 231, 252, 253, 254, 272, 298, 299, 300, 301, 302, 303, 312, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 342, 343, 350, 359, 365, 366, 367, 368, 369, 384, 389, 390, 408, 409, 410, 411, 412, 413, 414, 424, 434, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 494, 495, 496, 497, 498, 499, 500, 501, 510, 511, 512, 513, 514, 515, 516, 517, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 550, 551, 552, 553, 554, 566, 572, 573, 574, 575, 576, 588, 592, 593, 594, 609, 610, 611, 612, 613, 614, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 640, 641, 642, 643, 686, 687, 688, 689, 690, 691, 692, 693, 694, 701, 707, 708, 709, 728, 744, 745, 746, 747, 748, 749, 750, 751, 785, 786, 795, 796, 806, 807, 808, 809, 822, 823, 824, 825, 826, 827, 828, 833, 834, 846, 847, 848, 849, 850, 851, 869, 870, 871, 872, 879, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 938, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979, 980, 981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1029, 1057, 1062, 1067
+2021-07-01 03:09:07,323 - __main__ - INFO - Cropping ends
+2021-07-01 03:09:07,323 - __main__ - WARNING - Given the length of sequence Q9S7G7_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,326 - __main__ - WARNING - Given the length of sequence Q9S7G7_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,331 - __main__ - WARNING - Given the length of sequence Q9SPN3_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,333 - __main__ - WARNING - Given the length of sequence Q9SPN3_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,339 - __main__ - INFO - Removed 25 bases from end of Q9SPN3_3
+2021-07-01 03:09:07,340 - __main__ - WARNING - Given the length of sequence MYBA_CHICK_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,345 - __main__ - INFO - Removed 6 bases from start of MYBA_CHICK_1
+2021-07-01 03:09:07,346 - __main__ - WARNING - Given the length of sequence MYBA_CHICK_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,351 - __main__ - WARNING - Given the length of sequence MYBA_HUMAN_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,355 - __main__ - INFO - Removed 6 bases from start of MYBA_HUMAN_1
+2021-07-01 03:09:07,355 - __main__ - WARNING - Given the length of sequence MYBA_HUMAN_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,361 - __main__ - WARNING - Given the length of sequence MYBA_MOUSE_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,364 - __main__ - INFO - Removed 6 bases from start of MYBA_MOUSE_1
+2021-07-01 03:09:07,364 - __main__ - WARNING - Given the length of sequence MYBA_MOUSE_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,369 - __main__ - WARNING - Given the length of sequence MYBA_XENLA_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,373 - __main__ - INFO - Removed 6 bases from start of MYBA_XENLA_1
+2021-07-01 03:09:07,373 - __main__ - WARNING - Given the length of sequence MYBA_XENLA_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,378 - __main__ - WARNING - Given the length of sequence MYBB_CHICK_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,381 - __main__ - INFO - Removed 6 bases from start of MYBB_CHICK_1
+2021-07-01 03:09:07,382 - __main__ - WARNING - Given the length of sequence MYBB_CHICK_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,386 - __main__ - WARNING - Given the length of sequence MYBB_HUMAN_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,391 - __main__ - INFO - Removed 6 bases from start of MYBB_HUMAN_1
+2021-07-01 03:09:07,391 - __main__ - WARNING - Given the length of sequence MYBB_HUMAN_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,397 - __main__ - WARNING - Given the length of sequence MYBB_MOUSE_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,400 - __main__ - INFO - Removed 6 bases from start of MYBB_MOUSE_1
+2021-07-01 03:09:07,400 - __main__ - WARNING - Given the length of sequence MYBB_MOUSE_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,404 - __main__ - WARNING - Given the length of sequence MYBB_XENLA_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,408 - __main__ - INFO - Removed 6 bases from start of MYBB_XENLA_1
+2021-07-01 03:09:07,408 - __main__ - WARNING - Given the length of sequence MYBB_XENLA_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,413 - __main__ - WARNING - Given the length of sequence MYBH_DICDI_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,416 - __main__ - INFO - Removed 1 bases from start of MYBH_DICDI_1
+2021-07-01 03:09:07,417 - __main__ - WARNING - Given the length of sequence MYBH_DICDI_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,421 - __main__ - INFO - Removed 18 bases from end of MYBH_DICDI_3
+2021-07-01 03:09:07,424 - __main__ - WARNING - Given the length of sequence MYB_AVIMB-F_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,430 - __main__ - INFO - Removed 3 bases from end of MYB_AVIMB-F_3
+2021-07-01 03:09:07,430 - __main__ - WARNING - Given the length of sequence MYB_BOVIN_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,432 - __main__ - WARNING - Given the length of sequence MYB_BOVIN_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,436 - __main__ - INFO - Removed 43 bases from end of MYB_BOVIN_3
+2021-07-01 03:09:07,437 - __main__ - WARNING - Given the length of sequence MYB_CHICK_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,439 - __main__ - WARNING - Given the length of sequence MYB_CHICK_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,446 - __main__ - INFO - Removed 43 bases from end of MYB_CHICK_3
+2021-07-01 03:09:07,447 - __main__ - WARNING - Given the length of sequence MYB_DROME_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,449 - __main__ - WARNING - Given the length of sequence MYB_DROME_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,453 - __main__ - WARNING - Given the length of sequence MYB_HUMAN_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,456 - __main__ - WARNING - Given the length of sequence MYB_HUMAN_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,462 - __main__ - INFO - Removed 43 bases from end of MYB_HUMAN_3
+2021-07-01 03:09:07,463 - __main__ - WARNING - Given the length of sequence MYB_MOUSE_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,466 - __main__ - WARNING - Given the length of sequence MYB_MOUSE_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,470 - __main__ - INFO - Removed 43 bases from end of MYB_MOUSE_3
+2021-07-01 03:09:07,470 - __main__ - WARNING - Given the length of sequence MYB_XENLA_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,473 - __main__ - WARNING - Given the length of sequence MYB_XENLA_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,479 - __main__ - INFO - Removed 41 bases from end of MYB_XENLA_3
+2021-07-01 03:09:07,480 - __main__ - WARNING - Given the length of sequence O01719_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,483 - __main__ - INFO - Removed 3 bases from start of O01719_1
+2021-07-01 03:09:07,483 - __main__ - WARNING - Given the length of sequence O01719_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,488 - __main__ - WARNING - Given the length of sequence P87467-F_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,490 - __main__ - WARNING - Given the length of sequence P87467-F_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,493 - __main__ - WARNING - Given the length of sequence P87467-F_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,495 - __main__ - WARNING - Given the length of sequence P97753-F_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,497 - __main__ - WARNING - Given the length of sequence P97753-F_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:09:07,499 - __main__ - WARNING - Given the length of sequence P97753-F_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.

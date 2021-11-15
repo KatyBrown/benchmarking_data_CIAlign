@@ -1,0 +1,92 @@
+2021-03-02 22:36:56,749 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_2/mafft/RV20_BB20004_local_max100.fasta --outfile_stem reference_set_2/clustal/high_stringency_RV20_BB20004_local_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:1
+  make_similarity_matrix_output:1
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-02 22:36:56,782 - __main__ - INFO - Amino acid alignment detected
+2021-03-02 22:36:56,782 - __main__ - INFO - Removing divergent sequences
+2021-03-02 22:36:57,948 - __main__ - INFO - Removing divergent sequences SYT_MYCPN, 1nj8_A, SYT_MYCGE
+2021-03-02 22:36:57,948 - __main__ - INFO - Removing insertions
+2021-03-02 22:36:57,948 - __main__ - INFO - Removing insertions
+
+2021-03-02 22:36:58,742 - __main__ - INFO - Removing sites 513, 514, 515, 10, 11, 12, 13, 14, 544, 553, 47, 48, 49, 50, 51, 52, 577, 578, 579, 584, 585, 77, 78, 79, 596, 600, 601, 602, 603, 105, 627, 628, 629, 630, 631, 632, 639, 640, 641, 642, 140, 141, 142, 143, 144, 658, 659, 660, 150, 151, 152, 153, 154, 675, 165, 682, 683, 689, 181, 697, 700, 189, 190, 191, 192, 193, 194, 195, 701, 702, 198, 199, 703, 704, 705, 706, 707, 708, 709, 710, 210, 211, 733, 734, 735, 736, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 759, 760, 761, 762, 763, 764, 264, 275, 276, 791, 795, 288, 289, 290, 291, 295, 296, 297, 298, 299, 300, 301, 302, 807, 813, 314, 315, 316, 317, 318, 319, 320, 826, 838, 839, 840, 841, 337, 338, 855, 856, 857, 858, 859, 860, 861, 392, 393, 407, 453, 468, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484
+2021-03-02 22:36:58,742 - __main__ - INFO - Cropping ends
+2021-03-02 22:36:58,749 - __main__ - INFO - Removed 9 bases from start of SYTC_SCHPO
+2021-03-02 22:36:58,751 - __main__ - INFO - Removed 3 bases from start of SYT_THETN
+2021-03-02 22:36:58,756 - __main__ - INFO - Removed 1 bases from start of SYT_THEMA
+2021-03-02 22:36:58,759 - __main__ - INFO - Removed 2 bases from start of SYT2_BACSU
+2021-03-02 22:36:58,768 - __main__ - INFO - Removed 1 bases from start of SYT_HELPJ
+2021-03-02 22:36:58,776 - __main__ - INFO - Removed 2 bases from start of SYT_CHLTE
+2021-03-02 22:36:58,779 - __main__ - INFO - Removed 1 bases from end of SYT_SYNY3
+2021-03-02 22:36:58,781 - __main__ - INFO - Removed 2 bases from start of SYT_AQUAE
+2021-03-02 22:36:58,784 - __main__ - INFO - Removed 5 bases from start of SYT_BORBU
+2021-03-02 22:36:58,786 - __main__ - INFO - Removed 2 bases from start of SYT_STRCO
+2021-03-02 22:36:58,786 - __main__ - INFO - Removed 1 bases from end of SYT_STRCO
+2021-03-02 22:36:58,789 - __main__ - INFO - Removed 10 bases from start of SYT_MYCLE
+2021-03-02 22:36:58,789 - __main__ - INFO - Removed 2 bases from end of SYT_MYCLE
+2021-03-02 22:36:58,792 - __main__ - INFO - Removed 1 bases from start of SYT1_BACSU
+2021-03-02 22:36:58,794 - __main__ - INFO - Removed 1 bases from start of SYT_BACHD
+2021-03-02 22:36:58,801 - __main__ - INFO - Removed 2 bases from start of SYT_UREPA
+2021-03-02 22:36:58,804 - __main__ - INFO - Removed 13 bases from start of SYT_MYCPU
+2021-03-02 22:36:58,806 - __main__ - INFO - Removed 1 bases from start of SYT_SULTO
+2021-03-02 22:36:58,809 - __main__ - INFO - Removed 1 bases from start of SYT_SULSO
+2021-03-02 22:36:58,818 - __main__ - INFO - Removed 2 bases from start of SYT_LACPL
+2021-03-02 22:36:58,828 - __main__ - INFO - Removed 11 bases from start of SYT1_AERPE
+2021-03-02 22:36:58,828 - __main__ - INFO - Removed 3 bases from end of SYT1_AERPE
+2021-03-02 22:36:58,831 - __main__ - INFO - Removed 3 bases from start of SYT_HALN1
+2021-03-02 22:36:58,849 - __main__ - INFO - Removed 2 bases from start of SYT_BRUME
+2021-03-02 22:36:58,852 - __main__ - INFO - Removed 2 bases from start of SYT_AGRT5
+2021-03-02 22:36:58,854 - __main__ - INFO - Removed 3 bases from start of SYT_TREPA
+2021-03-02 22:36:58,870 - __main__ - INFO - Removed 8 bases from start of SYT_HUMAN
+2021-03-02 22:36:58,870 - __main__ - INFO - Removed 1 bases from end of SYT_HUMAN
+2021-03-02 22:36:58,877 - __main__ - INFO - Building similarity matrix for input alignment
+2021-03-02 22:37:06,345 - __main__ - INFO - Building similarity matrix for output alignment
+2021-03-02 22:37:12,392 - __main__ - INFO - Plotting mini alignment for input
+2021-03-02 22:37:12,842 - __main__ - INFO - Plotting mini alignment for output
+2021-03-02 22:37:13,259 - __main__ - INFO - Building consensus sequence

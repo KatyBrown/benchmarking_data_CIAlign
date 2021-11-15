@@ -1,0 +1,77 @@
+2021-03-03 02:06:02,831 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini --infile reference_set_2/muscle/RV20_BB20013_max100.fasta --outfile_stem reference_set_2/muscle/med_stringency_RV20_BB20013_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.3
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 02:06:02,858 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 02:06:02,859 - __main__ - INFO - Removing divergent sequences
+2021-03-03 02:06:03,541 - __main__ - INFO - Removing divergent sequences 1jgt_A
+2021-03-03 02:06:03,541 - __main__ - INFO - Removing insertions
+2021-03-03 02:06:03,541 - __main__ - INFO - Removing insertions
+
+2021-03-03 02:06:05,100 - __main__ - INFO - Removing sites 512, 513, 514, 515, 516, 517, 518, 519, 523, 524, 511, 530, 531, 532, 717, 543, 544, 546, 547, 548, 549, 550, 551, 552, 553, 554, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 725, 582, 583, 597, 598, 599, 91, 92, 93, 94, 95, 96, 97, 608, 832, 103, 104, 616, 617, 618, 619, 620, 110, 621, 622, 623, 624, 625, 626, 640, 641, 642, 643, 644, 133, 646, 647, 645, 648, 649, 650, 651, 652, 653, 654, 655, 656, 146, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 157, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 171, 680, 681, 682, 683, 684, 685, 686, 687, 692, 181, 182, 183, 184, 185, 186, 187, 188, 189, 693, 694, 192, 193, 697, 698, 699, 700, 701, 702, 200, 704, 705, 706, 707, 708, 709, 719, 720, 721, 713, 714, 715, 716, 726, 718, 216, 217, 218, 219, 723, 724, 734, 223, 727, 728, 729, 730, 731, 732, 733, 231, 735, 736, 748, 749, 750, 722, 248, 249, 251, 252, 253, 254, 255, 256, 257, 787, 788, 789, 790, 791, 283, 802, 803, 804, 805, 806, 807, 808, 809, 810, 309, 311, 312, 313, 314, 823, 824, 825, 826, 827, 828, 829, 830, 831, 836, 837, 838, 839, 840, 841, 834, 835, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 353, 354, 355, 356, 357, 358, 359, 360, 361, 866, 867, 383, 384, 385, 386, 394, 395, 396, 397, 398, 399, 400, 401, 408, 409, 921, 418, 419, 420, 421, 695, 696, 462, 463, 464, 703, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 710, 500, 711, 507, 508, 509, 510, 712
+2021-03-03 02:06:05,100 - __main__ - INFO - Cropping ends
+2021-03-03 02:06:05,115 - __main__ - INFO - Removed 12 bases from end of PUR1_SOYBN
+2021-03-03 02:06:05,146 - __main__ - INFO - Removed 39 bases from start of ASNH_BACSU
+2021-03-03 02:06:05,149 - __main__ - INFO - Removed 40 bases from start of ASNS_CRIGR
+2021-03-03 02:06:05,150 - __main__ - INFO - Removed 21 bases from end of ASNS_CRIGR
+2021-03-03 02:06:05,153 - __main__ - INFO - Removed 38 bases from start of ASNS_SCHPO
+2021-03-03 02:06:05,153 - __main__ - INFO - Removed 22 bases from end of ASNS_SCHPO
+2021-03-03 02:06:05,156 - __main__ - INFO - Removed 37 bases from start of ASN1_YEAST
+2021-03-03 02:06:05,156 - __main__ - INFO - Removed 22 bases from end of ASN1_YEAST
+2021-03-03 02:06:05,159 - __main__ - INFO - Removed 38 bases from start of 1ct9_A
+2021-03-03 02:06:05,162 - __main__ - INFO - Removed 38 bases from start of ASN1_LOTJA
+2021-03-03 02:06:05,166 - __main__ - INFO - Removed 38 bases from start of ASNS_MAIZE
+2021-03-03 02:06:05,171 - __main__ - INFO - Removed 43 bases from start of ASN2_METJA
+2021-03-03 02:06:05,174 - __main__ - INFO - Removed 39 bases from start of ASNO_BACSU
+2021-03-03 02:06:05,177 - __main__ - INFO - Removed 44 bases from start of ASNH_MYCTU
+2021-03-03 02:06:05,180 - __main__ - INFO - Removed 39 bases from start of ASNB_BACSU
+2021-03-03 02:06:05,183 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 02:06:05,770 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 02:06:06,259 - __main__ - INFO - Building consensus sequence

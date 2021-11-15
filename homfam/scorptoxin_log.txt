@@ -1,0 +1,76 @@
+2021-07-06 07:08:03,666 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --remove_divergent --remove_divergent_minperc 0.15 --crop_ends --remove_insertion --remove_short --infile combined/aligned/scorptoxin_aligned.fasta --outfile_stem combined/aligned/cialign/scorptoxin
+Defaults:
+  --crop_ends_mingap_perc:0.05
+  --crop_ends_redefine_perc:0.1
+  --insertion_min_size:3
+  --insertion_max_size:200
+  --insertion_min_flank:5
+  --remove_min_length:50
+  --consensus_type:  majority
+  --consensus_name:  consensus
+  --plot_dpi:        300
+  --plot_format:     png
+  --plot_width:      5
+  --plot_height:     3
+  --sequence_logo_type:bar
+  --sequence_logo_dpi:300
+  --sequence_logo_font:monospace
+  --sequence_logo_nt_per_row:50
+  --sequence_logo_filetype:png
+  --plot_coverage_dpi:300
+  --plot_coverage_height:3
+  --plot_coverage_width:5
+  --plot_coverage_colour:#007bf5
+  --plot_coverage_filetype:png
+  --make_simmatrix_dp:4
+  --make_simmatrix_minoverlap:1
+  --make_simmatrix_keepgaps:0
+
+2021-07-06 07:08:03,686 - __main__ - INFO - Amino acid alignment detected
+2021-07-06 07:08:03,686 - __main__ - INFO - Removing divergent sequences
+2021-07-06 07:08:04,455 - __main__ - INFO - Removing gap only columns
+2021-07-06 07:08:04,455 - __main__ - INFO - Removing insertions
+2021-07-06 07:08:04,455 - __main__ - INFO - Removing insertions
+
+2021-07-06 07:08:04,584 - __main__ - INFO - Removing sites 6, 10, 11, 13, 23, 24, 25, 26, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 53, 57, 58, 63, 64, 65, 66, 71, 72, 73, 74, 75, 76, 88, 98, 99, 104
+2021-07-06 07:08:04,584 - __main__ - INFO - Removing gap only columns
+2021-07-06 07:08:04,585 - __main__ - INFO - Cropping ends
+2021-07-06 07:08:04,585 - __main__ - INFO - Removed 1 bases from end of 1vna
+2021-07-06 07:08:04,585 - __main__ - INFO - Removed 1 bases from end of 2sn3
+2021-07-06 07:08:04,586 - __main__ - INFO - Removed 1 bases from end of 2b3ca
+2021-07-06 07:08:04,586 - __main__ - INFO - Removed 2 bases from end of 1cn2
+2021-07-06 07:08:04,600 - __main__ - WARNING - Given the length of sequence SCX8_BUTOC/2-36, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:08:04,600 - __main__ - WARNING - Given the length of sequence SCX5_BUTOC/2-24, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:08:04,602 - __main__ - WARNING - Given the length of sequence SCX9_BUTOC/6-33, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:08:04,602 - __main__ - INFO - Removed 2 bases from end of SCX9_BUTOC/6-33
+2021-07-06 07:08:04,617 - __main__ - WARNING - Given the length of sequence TX20_ANDCR/2-23, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:08:04,626 - __main__ - INFO - Removed 4 bases from end of SCX2_BUTEU/1-51
+2021-07-06 07:08:04,629 - __main__ - WARNING - Given the length of sequence B8XH07_BUTOS/1-27, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:08:04,642 - __main__ - INFO - Removed 1 bases from end of Q6V4X9_CENSC/1-44
+2021-07-06 07:08:04,649 - __main__ - WARNING - Given the length of sequence DEFN_HELVI/5-44, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:08:04,649 - __main__ - INFO - Removed 2 bases from start of DEFN_HELVI/5-44
+2021-07-06 07:08:04,649 - __main__ - WARNING - Given the length of sequence DEFN_ARCDE/4-44, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:08:04,650 - __main__ - INFO - Removed 3 bases from start of DEFN_ARCDE/4-44
+2021-07-06 07:08:04,650 - __main__ - INFO - Removed 4 bases from start of DF197_ARATH/27-89
+2021-07-06 07:08:04,650 - __main__ - INFO - Removed 3 bases from start of Q6ZZK8_ARALP/27-88
+2021-07-06 07:08:04,651 - __main__ - INFO - Removed 4 bases from start of Q3ECV5_ARATH/29-91
+2021-07-06 07:08:04,651 - __main__ - INFO - Removed 4 bases from start of DF192_ARATH/28-90
+2021-07-06 07:08:04,651 - __main__ - WARNING - Given the length of sequence B9VS65_DESSO/33-94, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:08:04,651 - __main__ - INFO - Removed 3 bases from start of B9VS65_DESSO/33-94
+2021-07-06 07:08:04,652 - __main__ - INFO - Removed 4 bases from start of Q6ZZL0_ARALP/27-90
+2021-07-06 07:08:04,653 - __main__ - WARNING - Given the length of sequence Q2MD62_BRANA/30-89, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:08:04,653 - __main__ - INFO - Removed 3 bases from start of Q2MD62_BRANA/30-89
+2021-07-06 07:08:04,653 - __main__ - INFO - Removed 4 bases from start of DF196_ARATH/29-89
+2021-07-06 07:08:04,654 - __main__ - INFO - Removed 4 bases from start of Q2MD61_BRANA/30-90
+2021-07-06 07:08:04,654 - __main__ - WARNING - Given the length of sequence DEF4_BRANA/1-60, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:08:04,654 - __main__ - INFO - Removed 3 bases from start of DEF4_BRANA/1-60
+2021-07-06 07:08:04,654 - __main__ - INFO - Removed 4 bases from start of Q6ZZK9_ARALP/28-96
+2021-07-06 07:08:04,654 - __main__ - WARNING - Given the length of sequence DF194_ARATH/28-82, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:08:04,655 - __main__ - INFO - Removed 3 bases from start of DF194_ARATH/28-82
+2021-07-06 07:08:04,656 - __main__ - WARNING - Given the length of sequence Q95P87_MESMA/2-35, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:08:04,658 - __main__ - INFO - Removing gap only columns
+2021-07-06 07:08:04,659 - __main__ - INFO - Removing short sequences
+2021-07-06 07:08:04,659 - __main__ - INFO - Removing too short sequences SCL6_LEIQH/2-53, SCNA5_TITDI/21-71, SIX1C_LEIQH/20-69, SCX4_CENSC/1-55, SCX4_TITFA/2-52, TX32_ANDCR/2-55, SCX6_CENLL/20-72, SCX4_CENEX/20-74, SCX5C_CENLL/20-74, SIX1_LEIQU/2-51, SCXX_CENSC/20-73, SCX5_CENEX/2-56, B8XGZ9_BUTOS/24-77, SCX8_CENEX/2-54, Q6V4Y8_CENNO/1-54, B8XH17_BUTOS/21-70, SCX7_TITCO/1-51, SCX2_CENSU/1-55, Q6V4Y3_CENSC/1-54, SCX1_CENSC/20-74, SCX2_TITZU/8-59, DF196_ARATH/29-89, Q2TSD9_BUTJU/20-69, SCBT_MESMA/21-70, SCX1_CENNO/20-73, SCX3_ANDMA/2-53, SCNA6_TITDI/21-72, SCX6_CENEX/2-56, SCXJ_TITBA/1-52, SIX1_MESMA/20-69, TX22_ANDCR/2-55, TTX6_TITSE/2-52, SCXA_BUTEU/2-54, SCX7_CENLL/20-72, Q6V4Y2_CENNO/1-54, SIX2_ISOVI/2-51, B8XH20_BUTOS/21-69, DEFN_ARCDE/4-44, SIX1A_LEIQH/20-69, SCX3_CENSC/20-74, SIXP_MESMA/20-69, SCXY_CENNO/20-73, SCXX_CENNO/20-74, SCX9_CENEX/1-54, SCX9_CENLL/20-72, SCX5B_CENLL/20-74, DEF2_SINAL/28-90, SCX2_CENEX/20-74, TX20_ANDCR/2-23, TX23_ANDCR/2-55, B8XH16_BUTOS/21-69, SCX3_CENNO/1-55, SCXA_CENNO/14-68, SCX12_CENEX/20-71, B8XH05_BUTOS/20-69, DF197_ARATH/27-89, SCX2_ANUPH/2-59, SCX1_CENEX/20-74, Q6V4Y4_CENSC/1-54, SCXL_ANDAU/2-54, DF193_ARATH/26-90, SIX2_ANDAU/20-69, Q6V4Z2_CENNO/1-54, SCX11_CENEX/1-53, SCX2_CENSC/20-74, B8XH02_BUTOS/24-75, NTXP_TITSE/21-71, TX21_ANDCR/2-55, SCX1_ANDAU/21-72, SX21_LEIQH/21-70, Q6V4Y7_CENNO/1-54, B8XGZ1_BUTOS/21-72, Q95P87_MESMA/2-35, Q2MD63_BRANA/26-88, SCXI_TITBA/2-52, SCX8_CENLL/5-59, SCXD_ANDAU/21-72, SCX4_ANDAU/21-72, B8XH01_BUTOS/24-77, DF195_ARATH/26-88, SCNA4_TITDI/21-71, B8XH04_BUTOS/20-69, SCX2_TITBA/1-52, TX13_ANDCR/26-77, B8XH12_BUTOS/21-72, SCX3_ANDAU/21-72, Q6V4Y5_CENSC/1-54, SCX1_MESTA/2-55, SCNA9_TITDI/22-73, AMP1_TITDI/1-51, DF194_ARATH/28-82, Q3ECV5_ARATH/29-91, B8XGZ7_BUTOS/24-77, SCX4_CENNO/20-74, DEFN_HELVI/5-44, Q6V4Y6_CENSC/1-54, SCX3_CENEX/2-56, Q6ZZK8_ARALP/27-88, SCX1_CENLL/1-55, SCX7_TITSE/21-71, SCNA3_TITDI/21-71, SCX5_CENNO/20-74, SIX1D_LEIQH/20-69, Q6V4Z1_CENSC/1-54, TXA25_ANDAU/24-74, SCX12_CENNO/1-54, SCNAA_TITDI/21-71, B8XH07_BUTOS/1-27, SCNA2_TITDI/1-51, SCXI_CENSC/20-73, DF192_ARATH/28-90, SCX39_CENSU/20-74, SIX1_ANDAU/20-69, Q6V4Z3_CENNO/1-54, SCX2_TITST/1-52, SCX8_CENNO/1-55, SC2B_CENLL/20-74, SCNA1_TITDI/21-71, B8XH03_BUTOS/26-77, SCXR_CENLL/1-55, SCX9_BUTOC/6-33, SCXM_CENSC/1-54, Q53WR2_SINAL/28-90, Q6ZZL0_ARALP/27-90, SIX1B_LEIQH/20-69, DEF4_BRANA/1-60, SCX1_CENII/1-55, Q6ZZK9_ARALP/28-96, TXA7_ANDAU/23-74, Q2MD62_BRANA/30-89, SCXE_ANDAU/21-72, Q6ZZL1_ARALP/26-88, SCX1_ANDAM/21-72, SCX2_TITSE/1-52, SCX5_BUTOC/2-24, SCX7_CENEX/2-56, SCX5X_CENLL/18-72, SCX2_CENLL/1-55, SIX1_ISOVI/2-51, Q6V4X9_CENSC/1-44, SCX2_CENNO/17-71, SCX2_CENGR/1-55, LVP1A_BUTOC/24-75, B8XH18_BUTOS/1-49, SCX10_CENEX/1-54, SCX1_CENLI/1-55, SCX8_CENSC/20-72, SCX7_CENNO/1-55, B8XH14_BUTOS/21-69, SCX13_CENEX/8-60, B8XH00_BUTOS/9-62, A0F0C2_MESMA/24-75, SCX7_TITBA/21-71, SCXC_ANDAU/21-72, Q2MD61_BRANA/30-90, B8XH19_BUTOS/21-69, TXA1_ANDAU/27-77, Q6V4Z0_CENSC/1-54, SCXV_CENSC/2-52, TX31_ANDCR/2-55, SCX1_TITST/21-71, SCX8_BUTOC/2-36, B8XH13_BUTOS/21-69, B9VS65_DESSO/33-94, SCX5_CENSC/1-49, SCX3_ANUPH/5-59, SCX38_TITCO/21-71, Q6V4Y9_CENSC/1-54, SCX2_BUTEU/1-51, SCX6_ANDAU/2-54, SCX9_CENSC/20-71
+2021-07-06 07:08:04,659 - __main__ - INFO - Removing gap only columns

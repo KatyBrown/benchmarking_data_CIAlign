@@ -1,0 +1,65 @@
+2021-03-03 04:46:00,526 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_6/muscle/test_4_zf_2_ref6_max100.fasta --outfile_stem reference_set_6/muscle/high_stringency_test_4_zf_2_ref6_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 04:46:00,551 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 04:46:00,551 - __main__ - INFO - Removing divergent sequences
+2021-03-03 04:46:00,939 - __main__ - INFO - Removing divergent sequences P70121_2, Q61329_3, ZFH2_DROME_3, ZFH2_DROME_2, P70121_1, Q9UK11, P70121_3, Q60542, Q61329_4, Q61329_2
+2021-03-03 04:46:00,940 - __main__ - INFO - Removing insertions
+2021-03-03 04:46:00,940 - __main__ - INFO - Removing insertions
+
+2021-03-03 04:46:02,716 - __main__ - INFO - Removing sites 2048, 2049, 2050, 2051, 2052, 2053, 2054, 1036, 1037, 1046, 1047, 1048, 1049, 1938, 1939, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 2108, 1606, 1607, 1608, 1609, 1610, 1611, 1612, 1613, 1620, 1621, 1110, 1111, 1112, 1622, 1630, 1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638, 1639, 1640, 1641, 1642, 1643, 1644, 1645, 1646, 1647, 1648, 1649, 1650, 1651, 1652, 1653, 1654, 2158, 2159, 2160, 2161, 2162, 2163, 2164, 2165, 2166, 2167, 2168, 2169, 2170, 2171, 2172, 2173, 2174, 2175, 1673, 1674, 1675, 1676, 2189, 2190, 1165, 1166, 1167, 1168, 1169, 1170, 1171, 1172, 1173, 1174, 1175, 1176, 1177, 1178, 1179, 1180, 1181, 1182, 1183, 1184, 1185, 1186, 1187, 1188, 1189, 1190, 1191, 1192, 1193, 1194, 1195, 2176, 2177, 1229, 1230, 1231, 2178, 2179, 2180, 2181, 2044, 2182, 2183, 2184, 2185, 1677, 2186, 1678, 2187, 2188, 773, 774, 775, 776, 777, 778, 779, 780, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 2099, 2100, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 905, 906, 907, 791, 908, 909, 910, 1936, 1937, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 1940, 1941, 1942, 1943, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 2156, 2030, 2031, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 2042, 2043, 2157, 2045, 2046, 2047
+2021-03-03 04:46:02,717 - __main__ - INFO - Cropping ends
+2021-03-03 04:46:02,724 - __main__ - INFO - Removed 110 bases from end of Q61329_1
+2021-03-03 04:46:02,740 - __main__ - INFO - Removed 71 bases from end of ZFH1_DROME
+2021-03-03 04:46:02,749 - __main__ - INFO - Removed 52 bases from start of Q94196
+2021-03-03 04:46:02,751 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 04:46:03,270 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 04:46:03,764 - __main__ - INFO - Building consensus sequence

@@ -1,0 +1,90 @@
+2021-07-01 03:10:08,224 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile med_stringent_config_BB.ini --infile reference_set_6/muscle/test_2b_ank_1_ref6_max100.fasta --outfile_stem reference_set_6/muscle/med_stringent_test_2b_ank_1_ref6_max100
+Config File (med_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.2
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 03:10:08,251 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 03:10:08,252 - __main__ - INFO - Removing divergent sequences
+2021-07-01 03:10:08,541 - __main__ - INFO - Removing insertions
+2021-07-01 03:10:08,541 - __main__ - INFO - Removing insertions
+
+2021-07-01 03:10:09,272 - __main__ - INFO - Removing sites 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 316, 317, 318, 835, 844, 845, 846, 847, 848, 849, 861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 872, 873, 874, 875, 880, 881, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895
+2021-07-01 03:10:09,272 - __main__ - INFO - Cropping ends
+2021-07-01 03:10:09,273 - __main__ - WARNING - Given the length of sequence KDGZ_HUMAN_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,280 - __main__ - WARNING - Given the length of sequence p532_human_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,283 - __main__ - WARNING - Given the length of sequence cdn2_mouse_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,288 - __main__ - INFO - Removed 5 bases from start of cdn2_mouse_4
+2021-07-01 03:10:09,289 - __main__ - WARNING - Given the length of sequence cdn2_human_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,293 - __main__ - WARNING - Given the length of sequence cdn5_MOUSE_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,306 - __main__ - INFO - Removed 28 bases from end of SWI6_YEAST_1
+2021-07-01 03:10:09,306 - __main__ - WARNING - Given the length of sequence SWI6_YEAST_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,310 - __main__ - WARNING - Given the length of sequence cc10_SCHPO_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,317 - __main__ - WARNING - Given the length of sequence SWI6_YEAST_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,321 - __main__ - WARNING - Given the length of sequence cc10_SCHPO_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,333 - __main__ - WARNING - Given the length of sequence akr_ARATH_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,336 - __main__ - WARNING - Given the length of sequence cdn2_mouse_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,340 - __main__ - WARNING - Given the length of sequence cdn2_human_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,343 - __main__ - WARNING - Given the length of sequence cdn5_MOUSE_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,356 - __main__ - INFO - Removed 28 bases from end of akr_ARATH_1
+2021-07-01 03:10:09,356 - __main__ - WARNING - Given the length of sequence cdn2_mouse_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,361 - __main__ - WARNING - Given the length of sequence cdn2_human_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,365 - __main__ - WARNING - Given the length of sequence cdn5_MOUSE_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,368 - __main__ - WARNING - Given the length of sequence KDGZ_HUMAN_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,372 - __main__ - WARNING - Given the length of sequence cdn5_MOUSE_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,376 - __main__ - WARNING - Given the length of sequence cdn2_mouse_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,379 - __main__ - WARNING - Given the length of sequence cdn2_human_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,383 - __main__ - WARNING - Given the length of sequence akr_ARATH_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,386 - __main__ - WARNING - Given the length of sequence KDGZ_HUMAN_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,390 - __main__ - WARNING - Given the length of sequence Q13418_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,395 - __main__ - WARNING - Given the length of sequence akr_ARATH_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,399 - __main__ - INFO - Removed 5 bases from start of akr_ARATH_4
+2021-07-01 03:10:09,400 - __main__ - WARNING - Given the length of sequence Q13418_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,403 - __main__ - WARNING - Given the length of sequence Q13418_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,407 - __main__ - WARNING - Given the length of sequence p532_human_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:10:09,411 - __main__ - WARNING - Given the length of sequence p532_human_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.

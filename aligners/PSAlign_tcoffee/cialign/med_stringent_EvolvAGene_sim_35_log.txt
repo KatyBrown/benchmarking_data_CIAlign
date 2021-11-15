@@ -1,0 +1,61 @@
+2021-06-19 00:54:55,110 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile med_stringent_config_EvolvAGene.ini --infile PSAlign_tcoffee/EvolvAGene_sim_35.fasta --outfile_stem PSAlign_tcoffee/cialign/med_stringent_EvolvAGene_sim_35
+Config File (med_stringent_config_EvolvAGene.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.65
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      1
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-06-19 00:54:55,118 - __main__ - INFO - Nucleotide alignment detected
+2021-06-19 00:54:55,118 - __main__ - INFO - Removing divergent sequences
+2021-06-19 00:54:55,399 - __main__ - INFO - Removing insertions
+2021-06-19 00:54:55,399 - __main__ - INFO - Removing insertions
+
+2021-06-19 00:54:56,493 - __main__ - INFO - Removing sites 1024, 10, 11, 12, 13, 14, 15, 545, 546, 547, 548, 549, 550, 555, 556, 557, 558, 559, 560, 561, 562, 563, 59, 60, 61, 62, 63, 64, 65, 66, 67, 577, 578, 579, 580, 581, 582, 76, 77, 78, 79, 80, 81, 1103, 1104, 1105, 1106, 598, 599, 600, 601, 602, 603, 1107, 605, 606, 607, 608, 609, 610, 99, 100, 101, 102, 103, 104, 105, 106, 107, 620, 621, 622, 623, 624, 625, 637, 638, 639, 640, 641, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 1170, 1171, 1172, 1173, 667, 668, 669, 158, 159, 160, 642, 670, 671, 643, 165, 166, 167, 672, 644, 673, 674, 675, 682, 645, 683, 684, 197, 198, 199, 200, 201, 202, 763, 764, 768, 769, 770, 771, 772, 773, 1174, 1175, 1176, 1177, 1178, 301, 302, 303, 304, 305, 306, 819, 308, 309, 310, 311, 312, 313, 820, 821, 822, 823, 824, 826, 827, 828, 829, 830, 831, 834, 835, 836, 841, 842, 843, 340, 341, 342, 343, 344, 345, 855, 856, 857, 858, 859, 860, 862, 863, 864, 865, 866, 867, 358, 359, 360, 361, 362, 363, 364, 365, 366, 424, 425, 426, 427, 428, 429, 944, 945, 946, 947, 948, 949, 966, 967, 968, 969, 970, 971, 1108, 1109, 1110, 1111, 489, 490, 491, 492, 493, 494, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023
+2021-06-19 00:54:56,493 - __main__ - INFO - Cropping ends
+2021-06-19 00:54:56,518 - __main__ - INFO - Removed 37 bases from start of A7
+2021-06-19 00:54:56,522 - __main__ - INFO - Removed 37 bases from start of A8
+2021-06-19 00:54:56,524 - __main__ - INFO - Removing short sequences

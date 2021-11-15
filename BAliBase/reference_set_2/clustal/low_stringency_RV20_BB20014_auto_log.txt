@@ -1,0 +1,130 @@
+2021-03-02 22:58:55,139 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/low_config_BAliBase.ini --infile reference_set_2/clustal/RV20_BB20014_auto.fasta --outfile_stem reference_set_2/clustal/low_stringency_RV20_BB20014_auto
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/low_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.05
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.2
+  remove_insertions: 1
+  insertion_min_size:5
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:1
+  make_similarity_matrix_output:1
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-02 22:58:55,188 - __main__ - INFO - Amino acid alignment detected
+2021-03-02 22:58:55,189 - __main__ - INFO - Removing divergent sequences
+2021-03-02 22:58:56,041 - __main__ - INFO - Removing divergent sequences 1agj_A, 1hav_A
+2021-03-02 22:58:56,041 - __main__ - INFO - Removing insertions
+2021-03-02 22:58:56,041 - __main__ - INFO - Removing insertions
+
+2021-03-02 22:58:57,094 - __main__ - INFO - Removing sites 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 341, 350, 351, 352, 353, 354, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 442, 443, 444, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 541, 542, 543, 544, 545, 579, 580, 594, 595, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 717, 718, 719, 720, 721, 723, 724, 725, 751, 752, 753, 754, 755, 756, 757, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 835, 836, 837, 845, 847, 848, 849, 854, 855, 858, 859, 877, 878, 879, 880, 881, 882, 883, 884, 885, 886, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 937, 956, 957, 958, 959, 960, 961, 962, 963, 975, 976, 977, 1000, 1001
+2021-03-02 22:58:57,095 - __main__ - INFO - Cropping ends
+2021-03-02 22:58:57,161 - __main__ - INFO - Removed 4 bases from start of FA9_BOVIN
+2021-03-02 22:58:57,231 - __main__ - INFO - Removed 9 bases from start of 2sga_
+2021-03-02 22:58:57,239 - __main__ - INFO - Building similarity matrix for input alignment
+2021-03-02 22:59:07,554 - __main__ - INFO - Building similarity matrix for output alignment
+2021-03-02 22:59:15,013 - __main__ - INFO - Plotting mini alignment for input
+2021-03-02 22:59:15,481 - __main__ - INFO - Plotting mini alignment for output
+2021-03-02 22:59:15,919 - __main__ - INFO - Building consensus sequence
+2021-03-03 02:06:50,638 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/low_config_BAliBase.ini --infile reference_set_2/clustal/RV20_BB20014_auto.fasta --outfile_stem reference_set_2/clustal/low_stringency_RV20_BB20014_auto
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/low_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.05
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.2
+  remove_insertions: 1
+  insertion_min_size:5
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 02:06:50,688 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 02:06:50,688 - __main__ - INFO - Removing divergent sequences
+2021-03-03 02:06:51,802 - __main__ - INFO - Removing divergent sequences 1agj_A, 1hav_A
+2021-03-03 02:06:51,803 - __main__ - INFO - Removing insertions
+2021-03-03 02:06:51,803 - __main__ - INFO - Removing insertions
+
+2021-03-03 02:06:53,573 - __main__ - INFO - Removing sites 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 341, 350, 351, 352, 353, 354, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 442, 443, 444, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 541, 542, 543, 544, 545, 579, 580, 594, 595, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 717, 718, 719, 720, 721, 723, 724, 725, 751, 752, 753, 754, 755, 756, 757, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 835, 836, 837, 845, 847, 848, 849, 854, 855, 858, 859, 877, 878, 879, 880, 881, 882, 883, 884, 885, 886, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 937, 956, 957, 958, 959, 960, 961, 962, 963, 975, 976, 977, 1000, 1001
+2021-03-03 02:06:53,573 - __main__ - INFO - Cropping ends
+2021-03-03 02:06:53,643 - __main__ - INFO - Removed 4 bases from start of FA9_BOVIN
+2021-03-03 02:06:53,719 - __main__ - INFO - Removed 9 bases from start of 2sga_
+2021-03-03 02:06:53,728 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 02:06:54,329 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 02:06:54,836 - __main__ - INFO - Building consensus sequence

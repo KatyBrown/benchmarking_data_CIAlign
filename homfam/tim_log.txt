@@ -1,0 +1,160 @@
+2021-07-06 07:46:50,775 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --remove_divergent --remove_divergent_minperc 0.15 --crop_ends --remove_insertion --remove_short --infile combined/aligned/tim_aligned.fasta --outfile_stem combined/aligned/cialign/tim
+Defaults:
+  --crop_ends_mingap_perc:0.05
+  --crop_ends_redefine_perc:0.1
+  --insertion_min_size:3
+  --insertion_max_size:200
+  --insertion_min_flank:5
+  --remove_min_length:50
+  --consensus_type:  majority
+  --consensus_name:  consensus
+  --plot_dpi:        300
+  --plot_format:     png
+  --plot_width:      5
+  --plot_height:     3
+  --sequence_logo_type:bar
+  --sequence_logo_dpi:300
+  --sequence_logo_font:monospace
+  --sequence_logo_nt_per_row:50
+  --sequence_logo_filetype:png
+  --plot_coverage_dpi:300
+  --plot_coverage_height:3
+  --plot_coverage_width:5
+  --plot_coverage_colour:#007bf5
+  --plot_coverage_filetype:png
+  --make_simmatrix_dp:4
+  --make_simmatrix_minoverlap:1
+  --make_simmatrix_keepgaps:0
+
+2021-07-06 07:46:52,071 - __main__ - INFO - Amino acid alignment detected
+2021-07-06 07:46:52,071 - __main__ - INFO - Removing divergent sequences
+2021-07-06 07:49:08,406 - __main__ - INFO - Removing gap only columns
+2021-07-06 07:49:08,433 - __main__ - INFO - Removing insertions
+2021-07-06 07:49:08,433 - __main__ - INFO - Removing insertions
+
+2021-07-06 07:49:15,834 - __main__ - INFO - Removing sites 18, 19, 20, 21, 23, 26, 27, 28, 30, 38, 39, 40, 41, 45, 46, 47, 48, 49, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 88, 89, 90, 91, 92, 93, 95, 96, 97, 98, 100, 101, 102, 103, 104, 105, 106, 107, 108, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 151, 152, 158, 162, 167, 168, 169, 170, 173, 175, 176, 177, 178, 179, 180, 181, 183, 184, 185, 186, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 212, 213, 214, 215, 216, 217, 218, 219, 220, 222, 223, 224, 225, 226, 229, 231, 232, 233, 234, 236, 237, 239, 240, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 261, 263, 290, 291, 292, 293, 295, 297, 298, 299, 300, 301, 302, 303, 306, 307, 309, 310, 311, 312, 313, 314, 315, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 344, 348, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 376, 377, 378, 379, 380, 381, 382, 384, 395, 396, 397, 401, 402, 403, 404, 405, 407, 408, 410, 411, 412, 416, 417, 418, 419, 420, 421, 422, 423, 424, 427, 428, 430, 431, 432, 433, 434, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 455, 456, 457, 458, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 479, 486, 490, 491, 492, 497, 498, 499, 509, 511, 516, 517, 518, 519, 520, 523, 524, 525, 526, 527, 531, 532, 533, 536, 539, 540, 541, 542, 543, 547, 561, 562, 563, 564, 568, 569, 570, 571, 572, 573, 592, 593, 594, 595, 596, 597
+2021-07-06 07:49:15,834 - __main__ - INFO - Removing gap only columns
+2021-07-06 07:49:15,845 - __main__ - INFO - Cropping ends
+2021-07-06 07:49:15,864 - __main__ - WARNING - Given the length of sequence Q2LWZ4_SYNAS/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:15,865 - __main__ - INFO - Removed 3 bases from start of Q2LWZ4_SYNAS/1-39
+2021-07-06 07:49:15,865 - __main__ - INFO - Removed 3 bases from end of Q2LWZ4_SYNAS/1-39
+2021-07-06 07:49:15,940 - __main__ - WARNING - Given the length of sequence A4KV58_9SALA/1-38, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:15,986 - __main__ - INFO - Removed 4 bases from start of Q4N1Q3_THEPA/156-249
+2021-07-06 07:49:16,896 - __main__ - INFO - Removed 2 bases from end of A4P038_HAEIN/5-124
+2021-07-06 07:49:16,897 - __main__ - INFO - Removed 3 bases from end of A4NC18_HAEIN/5-47
+2021-07-06 07:49:17,079 - __main__ - WARNING - Given the length of sequence A9DBU2_9GAMM/6-35, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,349 - __main__ - WARNING - Given the length of sequence C5ID23_GIALA/1-28, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,430 - __main__ - INFO - Removed 12 bases from start of B0W5W4_CULQU/25-217
+2021-07-06 07:49:17,498 - __main__ - WARNING - Given the length of sequence B8R4P4_9NEOP/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,501 - __main__ - WARNING - Given the length of sequence Q8ISS7_9NEOP/1-38, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,502 - __main__ - WARNING - Given the length of sequence B8R4M8_9NEOP/1-36, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,502 - __main__ - WARNING - Given the length of sequence A6H510_9NEOP/1-33, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,503 - __main__ - WARNING - Given the length of sequence A6H506_9NEOP/1-33, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,504 - __main__ - WARNING - Given the length of sequence A6H513_9NEOP/1-33, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,504 - __main__ - WARNING - Given the length of sequence A6H505_9NEOP/1-33, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,506 - __main__ - WARNING - Given the length of sequence Q8ISS5_9NEOP/1-23, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,520 - __main__ - WARNING - Given the length of sequence Q4U1G9_9NEOP/1-37, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,584 - __main__ - WARNING - Given the length of sequence B8R4M6_9NEOP/1-38, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,586 - __main__ - WARNING - Given the length of sequence B8R4N8_9NEOP/1-38, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,587 - __main__ - WARNING - Given the length of sequence B8R4N6_9NEOP/1-35, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,588 - __main__ - WARNING - Given the length of sequence Q8ISS6_9NEOP/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,592 - __main__ - WARNING - Given the length of sequence Q0PXK6_9NEOP/1-33, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,592 - __main__ - WARNING - Given the length of sequence B8R4N9_9NEOP/1-30, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,593 - __main__ - WARNING - Given the length of sequence Q4U1H8_9NEOP/1-37, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,609 - __main__ - INFO - Removed 3 bases from end of Q9BH98_9BILA/5-173
+2021-07-06 07:49:17,610 - __main__ - INFO - Removed 3 bases from end of Q9BHA8_9BILA/5-173
+2021-07-06 07:49:17,688 - __main__ - WARNING - Given the length of sequence Q3LBU6_9MOLU/8-48, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,692 - __main__ - INFO - Removed 5 bases from end of C9DE08_9METZ/1-100
+2021-07-06 07:49:17,695 - __main__ - INFO - Removed 2 bases from end of C5L5U9_9ALVE/5-113
+2021-07-06 07:49:17,712 - __main__ - INFO - Removed 5 bases from end of Q5BSY4_SCHJA/1-82
+2021-07-06 07:49:17,739 - __main__ - INFO - Removed 4 bases from end of A9S7S2_PHYPA/1-75
+2021-07-06 07:49:17,744 - __main__ - INFO - Removed 6 bases from start of Q0DNG9_ORYSJ/14-78
+2021-07-06 07:49:17,746 - __main__ - INFO - Removed 2 bases from start of B8AJY7_ORYSI/56-123
+2021-07-06 07:49:17,752 - __main__ - INFO - Removed 4 bases from end of B4FCE2_MAIZE/55-277
+2021-07-06 07:49:17,757 - __main__ - INFO - Removed 2 bases from start of A3C0Z2_ORYSJ/85-235
+2021-07-06 07:49:17,774 - __main__ - WARNING - Given the length of sequence Q506W8_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,775 - __main__ - WARNING - Given the length of sequence A9Y5B9_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,776 - __main__ - WARNING - Given the length of sequence A9Y5A9_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,777 - __main__ - WARNING - Given the length of sequence A9Y593_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,777 - __main__ - WARNING - Given the length of sequence A9Y5D1_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,778 - __main__ - WARNING - Given the length of sequence A9Y5A1_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,779 - __main__ - WARNING - Given the length of sequence Q506W2_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,779 - __main__ - WARNING - Given the length of sequence Q506X0_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,780 - __main__ - WARNING - Given the length of sequence Q506Y1_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,781 - __main__ - WARNING - Given the length of sequence A9Y5B1_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,781 - __main__ - WARNING - Given the length of sequence Q507A5_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,782 - __main__ - WARNING - Given the length of sequence Q507A7_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,783 - __main__ - WARNING - Given the length of sequence Q506W9_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,783 - __main__ - WARNING - Given the length of sequence Q506W5_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,784 - __main__ - WARNING - Given the length of sequence Q506X1_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,785 - __main__ - WARNING - Given the length of sequence Q506W4_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,785 - __main__ - WARNING - Given the length of sequence Q506W3_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,786 - __main__ - WARNING - Given the length of sequence Q506Z8_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,787 - __main__ - WARNING - Given the length of sequence A9Y5F7_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,787 - __main__ - WARNING - Given the length of sequence Q506W6_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,792 - __main__ - INFO - Removed 3 bases from end of Q43279_ARATH/1-96
+2021-07-06 07:49:17,802 - __main__ - WARNING - Given the length of sequence A9Y5G0_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,803 - __main__ - WARNING - Given the length of sequence A9Y5F4_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,803 - __main__ - WARNING - Given the length of sequence Q506V9_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,804 - __main__ - WARNING - Given the length of sequence Q506V8_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,805 - __main__ - WARNING - Given the length of sequence Q506W1_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,805 - __main__ - WARNING - Given the length of sequence A9Y5F2_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,806 - __main__ - WARNING - Given the length of sequence Q506W0_9ROSA/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,820 - __main__ - INFO - Removed 1 bases from start of B6SMV7_MAIZE/67-226
+2021-07-06 07:49:17,828 - __main__ - INFO - Removed 2 bases from start of B4FY90_MAIZE/12-151
+2021-07-06 07:49:17,842 - __main__ - INFO - Removed 6 bases from end of B9SZM2_RICCO/5-117
+2021-07-06 07:49:17,882 - __main__ - INFO - Removed 3 bases from start of Q27193_TETPY/2-58
+2021-07-06 07:49:17,886 - __main__ - INFO - Removed 5 bases from start of D2X5X8_9BASI/8-99
+2021-07-06 07:49:17,912 - __main__ - WARNING - Given the length of sequence Q7LZE5_MELGA/82-117, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:49:17,924 - __main__ - INFO - Removed 13 bases from start of Q9URS2_KLULA/44-180
+2021-07-06 07:49:18,039 - __main__ - INFO - Removed 3 bases from end of C8PRQ2_9SPIO/4-74
+2021-07-06 07:49:18,042 - __main__ - INFO - Removed 4 bases from end of D0MZB6_PHYIN/5-203
+2021-07-06 07:49:18,112 - __main__ - INFO - Removed 2 bases from end of A6B8Q2_VIBPA/4-62
+2021-07-06 07:49:18,192 - __main__ - INFO - Removed 9 bases from start of B8FW49_DESHD/139-292
+2021-07-06 07:49:18,193 - __main__ - INFO - Removed 9 bases from start of Q24XE8_DESHY/155-308
+2021-07-06 07:49:18,204 - __main__ - INFO - Removed 2 bases from end of Q26512_SCHJA/1-72
+2021-07-06 07:49:18,205 - __main__ - INFO - Removed 6 bases from start of C8P5U4_9LACO/33-174
+2021-07-06 07:49:18,231 - __main__ - INFO - Removed 5 bases from start of C5GWQ1_AJEDR/121-268
+2021-07-06 07:49:18,234 - __main__ - INFO - Removed 4 bases from end of C1H6R9_PARBA/12-217
+2021-07-06 07:49:18,254 - __main__ - INFO - Removed 4 bases from end of B2B354_PODAN/32-168
+2021-07-06 07:49:18,307 - __main__ - INFO - Removed 4 bases from start of C7MF36_BRAFD/55-271
+2021-07-06 07:49:18,310 - __main__ - INFO - Removed 4 bases from start of C8T6T7_KLEPR/6-182
+2021-07-06 07:49:18,327 - __main__ - INFO - Removed 2 bases from end of C5EI34_9FIRM/10-137
+2021-07-06 07:49:18,329 - __main__ - INFO - Removed 15 bases from end of D0GLQ6_9FUSO/4-180
+2021-07-06 07:49:18,331 - __main__ - INFO - Removed 4 bases from end of C9AZ24_ENTCA/9-139
+2021-07-06 07:49:18,332 - __main__ - INFO - Removed 4 bases from end of C9CME9_ENTCA/9-139
+2021-07-06 07:49:18,333 - __main__ - INFO - Removed 2 bases from end of C9AB35_ENTCA/9-137
+2021-07-06 07:49:18,334 - __main__ - INFO - Removed 14 bases from end of C5WEK9_STRDG/8-182
+2021-07-06 07:49:18,336 - __main__ - INFO - Removed 17 bases from end of C8NF90_9LACT/7-186
+2021-07-06 07:49:18,337 - __main__ - INFO - Removed 12 bases from end of A6D176_9VIBR/7-180
+2021-07-06 07:49:18,338 - __main__ - INFO - Removed 14 bases from end of B0MAV9_9FIRM/14-189
+2021-07-06 07:49:18,339 - __main__ - INFO - Removed 3 bases from end of C4V450_9FIRM/7-136
+2021-07-06 07:49:18,341 - __main__ - INFO - Removed 2 bases from end of Q034F3_LACC3/7-135
+2021-07-06 07:49:18,342 - __main__ - INFO - Removed 3 bases from end of C2D6W7_9ACTN/9-138
+2021-07-06 07:49:18,343 - __main__ - INFO - Removed 3 bases from end of B9CMD4_9ACTN/9-138
+2021-07-06 07:49:18,344 - __main__ - INFO - Removed 5 bases from end of D4GUQ2_HALVO/6-138
+2021-07-06 07:49:18,346 - __main__ - INFO - Removed 2 bases from end of D3SSB4_NATMA/7-135
+2021-07-06 07:49:18,347 - __main__ - INFO - Removed 1 bases from end of A2BLD3_HYPBU/29-160
+2021-07-06 07:49:18,366 - __main__ - INFO - Removed 3 bases from end of TPIS_METMJ/4-134
+2021-07-06 07:49:18,375 - __main__ - INFO - Removed 2 bases from end of D2RSL3_HALTV/1-125
+2021-07-06 07:49:18,384 - __main__ - INFO - Removed 3 bases from end of TPIS_METMA/4-134
+2021-07-06 07:49:18,397 - __main__ - INFO - Removed 4 bases from end of A9A2D5_NITMS/1-130
+2021-07-06 07:49:18,405 - __main__ - INFO - Removed 1 bases from end of TPIS_PYRIL/4-132
+2021-07-06 07:49:18,406 - __main__ - INFO - Removed 3 bases from end of TPIS_METS5/4-127
+2021-07-06 07:49:18,407 - __main__ - INFO - Removed 5 bases from end of D0KNR4_SULS9/4-129
+2021-07-06 07:49:18,408 - __main__ - INFO - Removed 5 bases from end of TPIS_SULSO/4-129
+2021-07-06 07:49:18,409 - __main__ - INFO - Removed 3 bases from end of C3NFN6_SULIN/4-127
+2021-07-06 07:49:18,410 - __main__ - INFO - Removed 3 bases from end of C3NCL2_SULIY/4-127
+2021-07-06 07:49:18,411 - __main__ - INFO - Removed 3 bases from end of D2PII1_SULID/4-127
+2021-07-06 07:49:18,412 - __main__ - INFO - Removed 3 bases from end of C3MN75_SULIL/4-127
+2021-07-06 07:49:18,413 - __main__ - INFO - Removed 3 bases from end of C3MTD4_SULIM/4-127
+2021-07-06 07:49:18,414 - __main__ - INFO - Removed 3 bases from end of C4KF32_SULIK/4-127
+2021-07-06 07:49:18,415 - __main__ - INFO - Removed 3 bases from end of C3N3N5_SULIA/4-127
+2021-07-06 07:49:18,416 - __main__ - INFO - Removed 3 bases from end of TPIS_SULTO/4-127
+2021-07-06 07:49:18,417 - __main__ - INFO - Removed 2 bases from end of TPIS_SULAC/4-126
+2021-07-06 07:49:18,653 - __main__ - INFO - Removing gap only columns
+2021-07-06 07:49:18,664 - __main__ - INFO - Removing short sequences
+2021-07-06 07:49:18,672 - __main__ - INFO - Removing too short sequences A9Y5F2_9ROSA/1-39, A6H510_9NEOP/1-33, A4KV69_9SALA/1-42, B8R4M5_9NEOP/1-45, Q507A7_9ROSA/1-39, Q0PXK2_9NEOP/1-49, A4KV75_9SALA/1-42, A4KV81_9SALA/1-42, A4KV29_9SALA/1-42, Q4U1G7_9NEOP/1-40, A4KV73_9SALA/1-42, A4KV31_9SALA/1-42, A9Y5G0_9ROSA/1-39, Q4U1H8_9NEOP/1-37, A9Y5D1_9ROSA/1-39, A9Y5A1_9ROSA/1-39, B8R4P9_9NEOP/1-45, B8R4P0_9NEOP/1-48, Q506W9_9ROSA/1-39, A4KV71_9SALA/1-42, Q0PXK1_9NEOP/1-50, A9DBU2_9GAMM/6-35, Q506W4_9ROSA/1-39, Q506W0_9ROSA/1-39, C5ID22_GIALA/1-47, A5JUW7_ROSRU/1-47, B1PL62_9MYRT/1-51, A9Y5F4_9ROSA/1-39, Q8ST38_ANAFT/1-50, A4KV49_9SALA/1-42, A4NC18_HAEIN/5-47, Q8T5D7_ANAAA/1-49, A9Y5B9_9ROSA/1-39, A4KV51_9SALA/1-42, Q506V9_9ROSA/1-39, B8R4M8_9NEOP/1-36, Q8I0E6_9NEOP/1-49, B8R4M7_9NEOP/1-42, A9Y5B1_9ROSA/1-39, Q2LWZ4_SYNAS/1-39, Q8I0E7_9NEOP/1-49, C5ID20_GIALA/1-46, A9Y5F7_9ROSA/1-39, A5YAH9_9TELE/1-51, A5YAH6_9TELE/1-51, Q3LBU6_9MOLU/8-48, A4KV83_PLEYO/1-42, Q506W3_9ROSA/1-39, B5LN88_9ASTR/1-50, B5LN86_9ASTR/1-49, A4KV39_9SALA/1-42, B8R4N9_9NEOP/1-30, Q506W1_9ROSA/1-39, Q4U1H4_9NEOP/1-47, A4KV53_PLEJO/1-42, B8R4M6_9NEOP/1-38, A4KV61_9SALA/1-42, A6H506_9NEOP/1-33, Q6QCX9_9NEOP/1-49, A4KV65_9SALA/1-42, Q506V8_9ROSA/1-39, Q4U1G8_9NEOP/1-48, Q4U1G9_9NEOP/1-37, A4KV43_9SALA/1-42, C5ID21_GIALA/1-41, A9Y593_9ROSA/1-39, A4KV47_9SALA/1-42, Q507A5_9ROSA/1-39, A4KV67_9SALA/1-42, D2DSU3_9EUCA/7-51, Q6QCY0_9NEOP/1-49, B3EXF2_ORENI/1-47, C5ID19_GIALA/1-43, Q8ISS5_9NEOP/1-23, Q4U1H6_9NEOP/1-45, A4KV77_9SALA/1-42, A6H513_9NEOP/1-33, A4KV63_9SALA/1-42, Q506Y1_9ROSA/1-39, C5ID18_GIALA/1-45, A4KV55_9SALA/1-42, Q506X0_9ROSA/1-39, A4KV33_9SALA/1-42, A4KV37_9SALA/1-42, Q506W2_9ROSA/1-39, Q506W5_9ROSA/1-39, Q0PXK6_9NEOP/1-33, Q506W8_9ROSA/1-39, Q8I0E5_9NEOP/1-49, A4KV57_9SALA/1-42, Q41186_LACSA/1-44, B8R4N8_9NEOP/1-38, Q8JH26_9TELE/1-49, C5ID23_GIALA/1-28, A4KV59_9SALA/1-42, A4KV79_9SALA/1-42, A6H505_9NEOP/1-33, A9Y5A9_9ROSA/1-39, B8R4M9_9NEOP/1-48, B8R4N6_9NEOP/1-35, A4KV45_9SALA/1-42, Q7LZE5_MELGA/82-117, A4KV27_9SALA/1-42, Q8ISS7_9NEOP/1-38, Q506Z8_9ROSA/1-39, Q95VF9_DRYIU/1-50, Q8JH25_9TELE/1-49, A4KV35_9SALA/1-42, A4KV41_9SALA/1-42, A4KV58_9SALA/1-38, B8R4Q0_9NEOP/1-50, B8R4P4_9NEOP/1-39, Q8ISS6_9NEOP/1-39, Q506X1_9ROSA/1-39, Q8ISS4_9NEOP/1-49, Q506W6_9ROSA/1-39, D3L6E1_9BACT/1-48, B8R4Q6_9NEOP/1-45
+2021-07-06 07:49:18,673 - __main__ - INFO - Removing gap only columns

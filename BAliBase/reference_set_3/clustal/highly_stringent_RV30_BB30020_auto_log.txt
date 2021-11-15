@@ -1,0 +1,123 @@
+2021-07-01 01:52:35,275 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BB.ini --infile reference_set_3/clustal/RV30_BB30020_auto.fasta --outfile_stem reference_set_3/clustal/highly_stringent_RV30_BB30020_auto
+Config File (highly_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 01:52:35,326 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 01:52:35,326 - __main__ - INFO - Removing divergent sequences
+2021-07-01 01:52:35,971 - __main__ - INFO - Removing divergent sequences NED8_HUMAN, FER5_AQUAE, 1iyf_A, 1a5r_, UBIL_NPVAC, 1lm8_B, SMT3_ARATH, SM31_HUMAN, SMT3_CAEEL, SMT3_YEAST, 1ubi_, UBL1_SCHPO, RUB3_ARATH
+2021-07-01 01:52:35,971 - __main__ - INFO - Removing insertions
+2021-07-01 01:52:35,971 - __main__ - INFO - Removing insertions
+
+2021-07-01 01:52:37,465 - __main__ - INFO - Removing sites 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 528, 529, 534, 535, 536, 537, 538, 539, 540, 541, 542, 550, 551, 579, 581, 589, 832, 608, 833, 613, 614, 834, 835, 629, 630, 631, 632, 633, 634, 635, 643, 644, 645, 665, 947, 948, 174, 175, 176, 694, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 231, 232, 233, 234, 235, 236, 237, 746, 747, 748, 749, 750, 243, 751, 752, 753, 754, 755, 252, 253, 254, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 300, 301, 302, 303, 812, 813, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, 828, 829, 830, 831, 825, 826, 827, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 345, 346, 347, 348, 349, 358, 384, 385, 386, 392, 393, 394, 395, 396, 397, 398, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 944, 945, 946, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511
+2021-07-01 01:52:37,465 - __main__ - INFO - Cropping ends
+2021-07-01 01:52:37,473 - __main__ - INFO - Removed 1 bases from start of DSK2_YEAST
+2021-07-01 01:52:37,474 - __main__ - WARNING - Given the length of sequence SMT3_SCHPO, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,484 - __main__ - INFO - Removed 8 bases from start of SMT3_SCHPO
+2021-07-01 01:52:37,485 - __main__ - WARNING - Given the length of sequence 1i7h_A, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,495 - __main__ - INFO - Removed 2 bases from start of 1i7h_A
+2021-07-01 01:52:37,496 - __main__ - WARNING - Given the length of sequence FER_PSEAE, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,505 - __main__ - INFO - Removed 3 bases from start of FER_PSEAE
+2021-07-01 01:52:37,506 - __main__ - WARNING - Given the length of sequence FER_HAEIN, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,515 - __main__ - INFO - Removed 2 bases from start of FER_HAEIN
+2021-07-01 01:52:37,515 - __main__ - WARNING - Given the length of sequence FER_BUCAI, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,522 - __main__ - INFO - Removed 3 bases from start of FER_BUCAI
+2021-07-01 01:52:37,524 - __main__ - WARNING - Given the length of sequence FER_BUCAP, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,533 - __main__ - INFO - Removed 3 bases from start of FER_BUCAP
+2021-07-01 01:52:37,534 - __main__ - WARNING - Given the length of sequence FER_BUCBP, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,542 - __main__ - INFO - Removed 3 bases from start of FER_BUCBP
+2021-07-01 01:52:37,543 - __main__ - WARNING - Given the length of sequence FER6_RHOCA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,552 - __main__ - INFO - Removed 6 bases from start of FER6_RHOCA
+2021-07-01 01:52:37,558 - __main__ - WARNING - Given the length of sequence ADRX_YEAST, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,562 - __main__ - WARNING - Given the length of sequence ADXH_DROME, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,566 - __main__ - WARNING - Given the length of sequence 1jq4_A, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,570 - __main__ - INFO - Removed 4 bases from start of 1jq4_A
+2021-07-01 01:52:37,581 - __main__ - INFO - Removed 27 bases from end of YCBX_ECOLI
+2021-07-01 01:52:37,581 - __main__ - WARNING - Given the length of sequence FER2_SYNP6, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,585 - __main__ - INFO - Removed 8 bases from start of FER2_SYNP6
+2021-07-01 01:52:37,585 - __main__ - WARNING - Given the length of sequence 1awd_, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,592 - __main__ - INFO - Removed 6 bases from start of 1awd_
+2021-07-01 01:52:37,593 - __main__ - WARNING - Given the length of sequence FER1_ANASP, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,598 - __main__ - INFO - Removed 4 bases from start of FER1_ANASP
+2021-07-01 01:52:37,598 - __main__ - WARNING - Given the length of sequence FER1_CYAPA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,602 - __main__ - INFO - Removed 4 bases from start of FER1_CYAPA
+2021-07-01 01:52:37,602 - __main__ - WARNING - Given the length of sequence FER3_CYACA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,611 - __main__ - INFO - Removed 4 bases from start of FER3_CYACA
+2021-07-01 01:52:37,613 - __main__ - WARNING - Given the length of sequence FER1_CYACA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,620 - __main__ - INFO - Removed 4 bases from start of FER1_CYACA
+2021-07-01 01:52:37,621 - __main__ - WARNING - Given the length of sequence FER2_CYACA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,627 - __main__ - INFO - Removed 3 bases from start of FER2_CYACA
+2021-07-01 01:52:37,628 - __main__ - WARNING - Given the length of sequence FER_PORPU, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,632 - __main__ - INFO - Removed 4 bases from start of FER_PORPU
+2021-07-01 01:52:37,632 - __main__ - WARNING - Given the length of sequence FER_ODOSI, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,637 - __main__ - INFO - Removed 4 bases from start of FER_ODOSI
+2021-07-01 01:52:37,639 - __main__ - WARNING - Given the length of sequence FER_BUMFI, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,650 - __main__ - INFO - Removed 4 bases from start of FER_BUMFI
+2021-07-01 01:52:37,651 - __main__ - WARNING - Given the length of sequence FER_SYNEL, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,656 - __main__ - INFO - Removed 4 bases from start of FER_SYNEL
+2021-07-01 01:52:37,657 - __main__ - WARNING - Given the length of sequence FER1_RAPSA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,662 - __main__ - INFO - Removed 4 bases from start of FER1_RAPSA
+2021-07-01 01:52:37,663 - __main__ - WARNING - Given the length of sequence FER_APHSA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,668 - __main__ - INFO - Removed 8 bases from start of FER_APHSA
+2021-07-01 01:52:37,668 - __main__ - WARNING - Given the length of sequence FER_MARPO, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,674 - __main__ - INFO - Removed 7 bases from start of FER_MARPO
+2021-07-01 01:52:37,674 - __main__ - WARNING - Given the length of sequence FER1_DUNSA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,680 - __main__ - INFO - Removed 7 bases from start of FER1_DUNSA
+2021-07-01 01:52:37,680 - __main__ - WARNING - Given the length of sequence FER_LEUGL, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,684 - __main__ - INFO - Removed 7 bases from start of FER_LEUGL
+2021-07-01 01:52:37,685 - __main__ - WARNING - Given the length of sequence FER_SOLLY, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,690 - __main__ - INFO - Removed 8 bases from start of FER_SOLLY
+2021-07-01 01:52:37,690 - __main__ - WARNING - Given the length of sequence FER_PERBI, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,695 - __main__ - INFO - Removed 6 bases from start of FER_PERBI
+2021-07-01 01:52:37,695 - __main__ - WARNING - Given the length of sequence FER_GLEJA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,700 - __main__ - INFO - Removed 8 bases from start of FER_GLEJA
+2021-07-01 01:52:37,700 - __main__ - WARNING - Given the length of sequence FER_EUGVI, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,704 - __main__ - INFO - Removed 8 bases from start of FER_EUGVI
+2021-07-01 01:52:37,705 - __main__ - WARNING - Given the length of sequence FER_RHOPL, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:52:37,709 - __main__ - INFO - Removed 8 bases from start of FER_RHOPL

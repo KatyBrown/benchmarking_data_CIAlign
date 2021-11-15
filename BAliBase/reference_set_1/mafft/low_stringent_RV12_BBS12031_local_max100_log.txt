@@ -1,0 +1,58 @@
+2021-07-01 00:45:34,706 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile low_stringent_config_BB.ini --infile reference_set_1/mafft/RV12_BBS12031_local_max100.fasta --outfile_stem reference_set_1/mafft/low_stringent_RV12_BBS12031_local_max100
+Config File (low_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.05
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.15
+  remove_insertions: 1
+  insertion_min_size:5
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 00:45:34,724 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 00:45:34,724 - __main__ - INFO - Removing divergent sequences
+2021-07-01 00:45:35,405 - __main__ - INFO - Removing insertions
+2021-07-01 00:45:35,405 - __main__ - INFO - Removing insertions
+
+2021-07-01 00:45:37,450 - __main__ - INFO - Removing sites 512, 513, 514, 515, 516, 517, 518, 519, 520, 1025, 1026, 1028, 1029, 1030, 1031, 1033, 1034, 1035, 1036, 511, 535, 536, 537, 538, 509, 32, 33, 34, 1024, 510, 39, 1069, 1070, 1027, 570, 571, 572, 573, 574, 575, 576, 65, 66, 67, 68, 69, 70, 71, 1032, 1105, 1106, 1107, 1108, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 640, 641, 650, 651, 652, 653, 654, 144, 145, 674, 675, 676, 166, 167, 688, 180, 181, 182, 183, 184, 254, 255, 256, 257, 767, 768, 777, 792, 793, 299, 319, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 869, 870, 871, 876, 371, 372, 373, 374, 385, 386, 387, 393, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 923, 508, 436, 437, 438, 439, 467, 468, 469, 470, 471, 472, 473, 474, 475, 507, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 1019, 1020, 1021, 1022, 1023
+2021-07-01 00:45:37,450 - __main__ - INFO - Cropping ends

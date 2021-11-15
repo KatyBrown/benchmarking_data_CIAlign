@@ -1,0 +1,390 @@
+2021-03-03 07:54:30,447 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_10/mafft/BBA0004_local_max100.fasta --outfile_stem reference_set_10/mafft/high_stringency_BBA0004_local_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 07:54:30,505 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 07:54:30,505 - __main__ - INFO - Removing divergent sequences
+2021-03-03 07:54:31,859 - __main__ - INFO - Removing divergent sequences seq085, seq153, seq241, seq248, seq080, seq105, seq115, seq089, seq095, seq096, seq097, seq244, seq082, seq093, seq223, seq081, seq091, seq180, seq222, seq242, seq243, seq151, seq092, seq094, seq172, seq247
+2021-03-03 07:54:31,859 - __main__ - INFO - Removing insertions
+2021-03-03 07:54:31,860 - __main__ - INFO - Removing insertions
+
+2021-03-03 07:54:32,370 - __main__ - INFO - Removing sites 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 103, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 147, 165, 166, 167, 168, 169, 170, 190, 191, 192, 193, 194, 200, 201, 202, 203, 207, 208, 209, 210, 211, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 234, 235, 236, 237, 239, 240, 242, 245, 246, 249, 250, 251, 252, 253, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 294, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 311, 317, 318, 319, 320, 321, 322, 327, 329
+2021-03-03 07:54:32,370 - __main__ - INFO - Cropping ends
+2021-03-03 07:54:32,371 - __main__ - INFO - Removed 6 bases from start of seq001
+2021-03-03 07:54:32,371 - __main__ - INFO - Removed 6 bases from end of seq001
+2021-03-03 07:54:32,372 - __main__ - INFO - Removed 6 bases from start of seq002
+2021-03-03 07:54:32,372 - __main__ - INFO - Removed 6 bases from end of seq002
+2021-03-03 07:54:32,373 - __main__ - INFO - Removed 6 bases from start of seq003
+2021-03-03 07:54:32,373 - __main__ - INFO - Removed 6 bases from end of seq003
+2021-03-03 07:54:32,373 - __main__ - INFO - Removed 6 bases from start of seq004
+2021-03-03 07:54:32,373 - __main__ - INFO - Removed 6 bases from end of seq004
+2021-03-03 07:54:32,374 - __main__ - INFO - Removed 6 bases from start of seq005
+2021-03-03 07:54:32,374 - __main__ - INFO - Removed 6 bases from end of seq005
+2021-03-03 07:54:32,375 - __main__ - INFO - Removed 6 bases from start of seq006
+2021-03-03 07:54:32,375 - __main__ - INFO - Removed 6 bases from end of seq006
+2021-03-03 07:54:32,375 - __main__ - INFO - Removed 6 bases from start of seq007
+2021-03-03 07:54:32,375 - __main__ - INFO - Removed 6 bases from end of seq007
+2021-03-03 07:54:32,376 - __main__ - INFO - Removed 6 bases from start of seq008
+2021-03-03 07:54:32,376 - __main__ - INFO - Removed 6 bases from end of seq008
+2021-03-03 07:54:32,377 - __main__ - INFO - Removed 6 bases from start of seq009
+2021-03-03 07:54:32,377 - __main__ - INFO - Removed 6 bases from end of seq009
+2021-03-03 07:54:32,377 - __main__ - INFO - Removed 6 bases from start of seq010
+2021-03-03 07:54:32,377 - __main__ - INFO - Removed 6 bases from end of seq010
+2021-03-03 07:54:32,378 - __main__ - INFO - Removed 6 bases from start of seq011
+2021-03-03 07:54:32,378 - __main__ - INFO - Removed 6 bases from end of seq011
+2021-03-03 07:54:32,379 - __main__ - INFO - Removed 6 bases from start of seq012
+2021-03-03 07:54:32,379 - __main__ - INFO - Removed 6 bases from end of seq012
+2021-03-03 07:54:32,380 - __main__ - INFO - Removed 6 bases from start of seq013
+2021-03-03 07:54:32,380 - __main__ - INFO - Removed 6 bases from end of seq013
+2021-03-03 07:54:32,380 - __main__ - INFO - Removed 6 bases from start of seq014
+2021-03-03 07:54:32,380 - __main__ - INFO - Removed 6 bases from end of seq014
+2021-03-03 07:54:32,381 - __main__ - INFO - Removed 6 bases from start of seq015
+2021-03-03 07:54:32,381 - __main__ - INFO - Removed 6 bases from end of seq015
+2021-03-03 07:54:32,382 - __main__ - INFO - Removed 6 bases from start of seq016
+2021-03-03 07:54:32,382 - __main__ - INFO - Removed 6 bases from end of seq016
+2021-03-03 07:54:32,382 - __main__ - INFO - Removed 6 bases from start of seq017
+2021-03-03 07:54:32,382 - __main__ - INFO - Removed 6 bases from end of seq017
+2021-03-03 07:54:32,383 - __main__ - INFO - Removed 5 bases from start of seq018
+2021-03-03 07:54:32,383 - __main__ - INFO - Removed 5 bases from end of seq018
+2021-03-03 07:54:32,384 - __main__ - INFO - Removed 6 bases from start of seq019
+2021-03-03 07:54:32,384 - __main__ - INFO - Removed 6 bases from end of seq019
+2021-03-03 07:54:32,384 - __main__ - INFO - Removed 6 bases from start of seq020
+2021-03-03 07:54:32,385 - __main__ - INFO - Removed 6 bases from end of seq020
+2021-03-03 07:54:32,385 - __main__ - INFO - Removed 6 bases from start of seq021
+2021-03-03 07:54:32,385 - __main__ - INFO - Removed 6 bases from end of seq021
+2021-03-03 07:54:32,386 - __main__ - INFO - Removed 6 bases from start of seq022
+2021-03-03 07:54:32,386 - __main__ - INFO - Removed 6 bases from end of seq022
+2021-03-03 07:54:32,387 - __main__ - INFO - Removed 6 bases from start of seq023
+2021-03-03 07:54:32,387 - __main__ - INFO - Removed 6 bases from end of seq023
+2021-03-03 07:54:32,388 - __main__ - INFO - Removed 6 bases from start of seq024
+2021-03-03 07:54:32,388 - __main__ - INFO - Removed 6 bases from end of seq024
+2021-03-03 07:54:32,388 - __main__ - INFO - Removed 6 bases from start of seq025
+2021-03-03 07:54:32,388 - __main__ - INFO - Removed 6 bases from end of seq025
+2021-03-03 07:54:32,389 - __main__ - INFO - Removed 6 bases from start of seq026
+2021-03-03 07:54:32,389 - __main__ - INFO - Removed 6 bases from end of seq026
+2021-03-03 07:54:32,390 - __main__ - INFO - Removed 6 bases from start of seq027
+2021-03-03 07:54:32,390 - __main__ - INFO - Removed 6 bases from end of seq027
+2021-03-03 07:54:32,390 - __main__ - INFO - Removed 6 bases from start of seq028
+2021-03-03 07:54:32,390 - __main__ - INFO - Removed 6 bases from end of seq028
+2021-03-03 07:54:32,391 - __main__ - INFO - Removed 6 bases from start of seq029
+2021-03-03 07:54:32,391 - __main__ - INFO - Removed 6 bases from end of seq029
+2021-03-03 07:54:32,392 - __main__ - INFO - Removed 6 bases from start of seq030
+2021-03-03 07:54:32,392 - __main__ - INFO - Removed 6 bases from end of seq030
+2021-03-03 07:54:32,392 - __main__ - INFO - Removed 6 bases from start of seq031
+2021-03-03 07:54:32,392 - __main__ - INFO - Removed 6 bases from end of seq031
+2021-03-03 07:54:32,393 - __main__ - INFO - Removed 6 bases from start of seq032
+2021-03-03 07:54:32,393 - __main__ - INFO - Removed 6 bases from end of seq032
+2021-03-03 07:54:32,394 - __main__ - INFO - Removed 6 bases from start of seq033
+2021-03-03 07:54:32,394 - __main__ - INFO - Removed 6 bases from end of seq033
+2021-03-03 07:54:32,394 - __main__ - INFO - Removed 6 bases from start of seq034
+2021-03-03 07:54:32,394 - __main__ - INFO - Removed 6 bases from end of seq034
+2021-03-03 07:54:32,395 - __main__ - INFO - Removed 6 bases from start of seq035
+2021-03-03 07:54:32,395 - __main__ - INFO - Removed 6 bases from end of seq035
+2021-03-03 07:54:32,396 - __main__ - INFO - Removed 6 bases from start of seq036
+2021-03-03 07:54:32,396 - __main__ - INFO - Removed 6 bases from end of seq036
+2021-03-03 07:54:32,397 - __main__ - INFO - Removed 6 bases from start of seq037
+2021-03-03 07:54:32,397 - __main__ - INFO - Removed 6 bases from end of seq037
+2021-03-03 07:54:32,398 - __main__ - INFO - Removed 6 bases from start of seq038
+2021-03-03 07:54:32,398 - __main__ - INFO - Removed 6 bases from end of seq038
+2021-03-03 07:54:32,398 - __main__ - INFO - Removed 6 bases from start of seq039
+2021-03-03 07:54:32,398 - __main__ - INFO - Removed 6 bases from end of seq039
+2021-03-03 07:54:32,399 - __main__ - INFO - Removed 6 bases from start of seq040
+2021-03-03 07:54:32,400 - __main__ - INFO - Removed 6 bases from end of seq040
+2021-03-03 07:54:32,400 - __main__ - INFO - Removed 6 bases from start of seq041
+2021-03-03 07:54:32,400 - __main__ - INFO - Removed 6 bases from end of seq041
+2021-03-03 07:54:32,401 - __main__ - INFO - Removed 6 bases from start of seq042
+2021-03-03 07:54:32,401 - __main__ - INFO - Removed 6 bases from end of seq042
+2021-03-03 07:54:32,402 - __main__ - INFO - Removed 6 bases from start of seq043
+2021-03-03 07:54:32,402 - __main__ - INFO - Removed 6 bases from end of seq043
+2021-03-03 07:54:32,402 - __main__ - INFO - Removed 6 bases from start of seq044
+2021-03-03 07:54:32,402 - __main__ - INFO - Removed 6 bases from end of seq044
+2021-03-03 07:54:32,403 - __main__ - INFO - Removed 6 bases from start of seq045
+2021-03-03 07:54:32,403 - __main__ - INFO - Removed 6 bases from end of seq045
+2021-03-03 07:54:32,404 - __main__ - INFO - Removed 6 bases from start of seq046
+2021-03-03 07:54:32,404 - __main__ - INFO - Removed 6 bases from end of seq046
+2021-03-03 07:54:32,405 - __main__ - INFO - Removed 6 bases from start of seq047
+2021-03-03 07:54:32,405 - __main__ - INFO - Removed 6 bases from end of seq047
+2021-03-03 07:54:32,405 - __main__ - INFO - Removed 6 bases from start of seq048
+2021-03-03 07:54:32,405 - __main__ - INFO - Removed 6 bases from end of seq048
+2021-03-03 07:54:32,406 - __main__ - INFO - Removed 6 bases from start of seq049
+2021-03-03 07:54:32,406 - __main__ - INFO - Removed 6 bases from end of seq049
+2021-03-03 07:54:32,407 - __main__ - INFO - Removed 6 bases from start of seq050
+2021-03-03 07:54:32,407 - __main__ - INFO - Removed 6 bases from end of seq050
+2021-03-03 07:54:32,407 - __main__ - INFO - Removed 6 bases from start of seq051
+2021-03-03 07:54:32,407 - __main__ - INFO - Removed 6 bases from end of seq051
+2021-03-03 07:54:32,408 - __main__ - INFO - Removed 6 bases from start of seq052
+2021-03-03 07:54:32,408 - __main__ - INFO - Removed 6 bases from end of seq052
+2021-03-03 07:54:32,409 - __main__ - INFO - Removed 6 bases from start of seq053
+2021-03-03 07:54:32,409 - __main__ - INFO - Removed 6 bases from end of seq053
+2021-03-03 07:54:32,409 - __main__ - INFO - Removed 6 bases from start of seq054
+2021-03-03 07:54:32,409 - __main__ - INFO - Removed 6 bases from end of seq054
+2021-03-03 07:54:32,410 - __main__ - INFO - Removed 6 bases from start of seq055
+2021-03-03 07:54:32,410 - __main__ - INFO - Removed 6 bases from end of seq055
+2021-03-03 07:54:32,411 - __main__ - INFO - Removed 6 bases from start of seq056
+2021-03-03 07:54:32,411 - __main__ - INFO - Removed 6 bases from end of seq056
+2021-03-03 07:54:32,411 - __main__ - INFO - Removed 6 bases from start of seq057
+2021-03-03 07:54:32,412 - __main__ - INFO - Removed 6 bases from end of seq057
+2021-03-03 07:54:32,412 - __main__ - INFO - Removed 6 bases from start of seq058
+2021-03-03 07:54:32,412 - __main__ - INFO - Removed 6 bases from end of seq058
+2021-03-03 07:54:32,413 - __main__ - INFO - Removed 6 bases from start of seq059
+2021-03-03 07:54:32,413 - __main__ - INFO - Removed 6 bases from end of seq059
+2021-03-03 07:54:32,413 - __main__ - INFO - Removed 6 bases from start of seq060
+2021-03-03 07:54:32,414 - __main__ - INFO - Removed 6 bases from end of seq060
+2021-03-03 07:54:32,414 - __main__ - INFO - Removed 6 bases from start of seq061
+2021-03-03 07:54:32,414 - __main__ - INFO - Removed 6 bases from end of seq061
+2021-03-03 07:54:32,415 - __main__ - INFO - Removed 6 bases from start of seq062
+2021-03-03 07:54:32,415 - __main__ - INFO - Removed 6 bases from end of seq062
+2021-03-03 07:54:32,416 - __main__ - INFO - Removed 6 bases from start of seq063
+2021-03-03 07:54:32,416 - __main__ - INFO - Removed 6 bases from end of seq063
+2021-03-03 07:54:32,416 - __main__ - INFO - Removed 6 bases from start of seq064
+2021-03-03 07:54:32,416 - __main__ - INFO - Removed 6 bases from end of seq064
+2021-03-03 07:54:32,417 - __main__ - INFO - Removed 6 bases from start of seq065
+2021-03-03 07:54:32,417 - __main__ - INFO - Removed 6 bases from end of seq065
+2021-03-03 07:54:32,418 - __main__ - INFO - Removed 6 bases from start of seq066
+2021-03-03 07:54:32,418 - __main__ - INFO - Removed 6 bases from end of seq066
+2021-03-03 07:54:32,418 - __main__ - INFO - Removed 6 bases from start of seq067
+2021-03-03 07:54:32,418 - __main__ - INFO - Removed 6 bases from end of seq067
+2021-03-03 07:54:32,419 - __main__ - INFO - Removed 9 bases from start of seq068
+2021-03-03 07:54:32,420 - __main__ - INFO - Removed 3 bases from start of seq069
+2021-03-03 07:54:32,420 - __main__ - INFO - Removed 3 bases from start of seq070
+2021-03-03 07:54:32,421 - __main__ - INFO - Removed 1 bases from start of seq071
+2021-03-03 07:54:32,422 - __main__ - INFO - Removed 9 bases from start of seq072
+2021-03-03 07:54:32,422 - __main__ - INFO - Removed 9 bases from start of seq073
+2021-03-03 07:54:32,423 - __main__ - INFO - Removed 9 bases from start of seq074
+2021-03-03 07:54:32,423 - __main__ - INFO - Removed 9 bases from start of seq075
+2021-03-03 07:54:32,424 - __main__ - INFO - Removed 1 bases from start of seq076
+2021-03-03 07:54:32,424 - __main__ - INFO - Removed 1 bases from start of seq077
+2021-03-03 07:54:32,425 - __main__ - INFO - Removed 1 bases from start of seq078
+2021-03-03 07:54:32,426 - __main__ - INFO - Removed 3 bases from start of seq079
+2021-03-03 07:54:32,426 - __main__ - INFO - Removed 3 bases from start of seq083
+2021-03-03 07:54:32,427 - __main__ - INFO - Removed 3 bases from start of seq084
+2021-03-03 07:54:32,427 - __main__ - INFO - Removed 3 bases from start of seq086
+2021-03-03 07:54:32,428 - __main__ - INFO - Removed 4 bases from start of seq087
+2021-03-03 07:54:32,428 - __main__ - INFO - Removed 4 bases from start of seq088
+2021-03-03 07:54:32,429 - __main__ - INFO - Removed 4 bases from start of seq090
+2021-03-03 07:54:32,429 - __main__ - INFO - Removed 12 bases from start of seq098
+2021-03-03 07:54:32,430 - __main__ - INFO - Removed 5 bases from end of seq098
+2021-03-03 07:54:32,430 - __main__ - INFO - Removed 8 bases from start of seq099
+2021-03-03 07:54:32,430 - __main__ - INFO - Removed 8 bases from end of seq099
+2021-03-03 07:54:32,431 - __main__ - INFO - Removed 8 bases from start of seq100
+2021-03-03 07:54:32,431 - __main__ - INFO - Removed 8 bases from end of seq100
+2021-03-03 07:54:32,431 - __main__ - INFO - Removed 8 bases from start of seq101
+2021-03-03 07:54:32,431 - __main__ - INFO - Removed 8 bases from end of seq101
+2021-03-03 07:54:32,432 - __main__ - INFO - Removed 8 bases from start of seq102
+2021-03-03 07:54:32,432 - __main__ - INFO - Removed 8 bases from end of seq102
+2021-03-03 07:54:32,434 - __main__ - INFO - Removed 1 bases from start of seq108
+2021-03-03 07:54:32,440 - __main__ - INFO - Removed 8 bases from start of seq121
+2021-03-03 07:54:32,440 - __main__ - INFO - Removed 8 bases from end of seq121
+2021-03-03 07:54:32,441 - __main__ - INFO - Removed 8 bases from start of seq122
+2021-03-03 07:54:32,441 - __main__ - INFO - Removed 8 bases from end of seq122
+2021-03-03 07:54:32,441 - __main__ - INFO - Removed 8 bases from start of seq123
+2021-03-03 07:54:32,441 - __main__ - INFO - Removed 8 bases from end of seq123
+2021-03-03 07:54:32,442 - __main__ - INFO - Removed 8 bases from start of seq124
+2021-03-03 07:54:32,442 - __main__ - INFO - Removed 8 bases from end of seq124
+2021-03-03 07:54:32,442 - __main__ - INFO - Removed 5 bases from end of seq125
+2021-03-03 07:54:32,443 - __main__ - INFO - Removed 5 bases from end of seq126
+2021-03-03 07:54:32,444 - __main__ - INFO - Removed 5 bases from end of seq127
+2021-03-03 07:54:32,444 - __main__ - INFO - Removed 5 bases from end of seq128
+2021-03-03 07:54:32,445 - __main__ - INFO - Removed 5 bases from end of seq129
+2021-03-03 07:54:32,445 - __main__ - INFO - Removed 5 bases from end of seq130
+2021-03-03 07:54:32,446 - __main__ - INFO - Removed 5 bases from end of seq131
+2021-03-03 07:54:32,447 - __main__ - INFO - Removed 5 bases from end of seq132
+2021-03-03 07:54:32,447 - __main__ - INFO - Removed 5 bases from end of seq133
+2021-03-03 07:54:32,448 - __main__ - INFO - Removed 5 bases from end of seq134
+2021-03-03 07:54:32,448 - __main__ - INFO - Removed 5 bases from end of seq135
+2021-03-03 07:54:32,449 - __main__ - INFO - Removed 3 bases from start of seq136
+2021-03-03 07:54:32,449 - __main__ - INFO - Removed 5 bases from end of seq136
+2021-03-03 07:54:32,450 - __main__ - INFO - Removed 5 bases from end of seq137
+2021-03-03 07:54:32,450 - __main__ - INFO - Removed 7 bases from end of seq138
+2021-03-03 07:54:32,451 - __main__ - INFO - Removed 5 bases from end of seq139
+2021-03-03 07:54:32,451 - __main__ - INFO - Removed 5 bases from end of seq140
+2021-03-03 07:54:32,452 - __main__ - INFO - Removed 5 bases from end of seq141
+2021-03-03 07:54:32,453 - __main__ - INFO - Removed 5 bases from end of seq142
+2021-03-03 07:54:32,453 - __main__ - INFO - Removed 5 bases from end of seq143
+2021-03-03 07:54:32,454 - __main__ - INFO - Removed 5 bases from end of seq144
+2021-03-03 07:54:32,454 - __main__ - INFO - Removed 5 bases from end of seq145
+2021-03-03 07:54:32,455 - __main__ - INFO - Removed 5 bases from end of seq146
+2021-03-03 07:54:32,456 - __main__ - INFO - Removed 5 bases from end of seq147
+2021-03-03 07:54:32,456 - __main__ - INFO - Removed 5 bases from end of seq148
+2021-03-03 07:54:32,457 - __main__ - INFO - Removed 5 bases from end of seq149
+2021-03-03 07:54:32,457 - __main__ - INFO - Removed 5 bases from end of seq150
+2021-03-03 07:54:32,458 - __main__ - INFO - Removed 5 bases from end of seq152
+2021-03-03 07:54:32,459 - __main__ - INFO - Removed 5 bases from end of seq154
+2021-03-03 07:54:32,459 - __main__ - INFO - Removed 5 bases from end of seq155
+2021-03-03 07:54:32,460 - __main__ - INFO - Removed 5 bases from end of seq156
+2021-03-03 07:54:32,460 - __main__ - INFO - Removed 5 bases from end of seq157
+2021-03-03 07:54:32,461 - __main__ - INFO - Removed 5 bases from end of seq158
+2021-03-03 07:54:32,461 - __main__ - INFO - Removed 5 bases from end of seq159
+2021-03-03 07:54:32,462 - __main__ - INFO - Removed 5 bases from end of seq160
+2021-03-03 07:54:32,463 - __main__ - INFO - Removed 5 bases from end of seq161
+2021-03-03 07:54:32,463 - __main__ - INFO - Removed 5 bases from end of seq162
+2021-03-03 07:54:32,464 - __main__ - INFO - Removed 5 bases from end of seq163
+2021-03-03 07:54:32,464 - __main__ - INFO - Removed 6 bases from end of seq164
+2021-03-03 07:54:32,465 - __main__ - INFO - Removed 5 bases from end of seq165
+2021-03-03 07:54:32,466 - __main__ - INFO - Removed 5 bases from end of seq166
+2021-03-03 07:54:32,466 - __main__ - INFO - Removed 5 bases from end of seq167
+2021-03-03 07:54:32,467 - __main__ - INFO - Removed 5 bases from end of seq168
+2021-03-03 07:54:32,467 - __main__ - INFO - Removed 5 bases from end of seq169
+2021-03-03 07:54:32,468 - __main__ - INFO - Removed 5 bases from end of seq170
+2021-03-03 07:54:32,469 - __main__ - INFO - Removed 5 bases from end of seq171
+2021-03-03 07:54:32,469 - __main__ - INFO - Removed 5 bases from end of seq173
+2021-03-03 07:54:32,470 - __main__ - INFO - Removed 5 bases from end of seq174
+2021-03-03 07:54:32,470 - __main__ - INFO - Removed 5 bases from end of seq175
+2021-03-03 07:54:32,471 - __main__ - INFO - Removed 5 bases from end of seq176
+2021-03-03 07:54:32,472 - __main__ - INFO - Removed 5 bases from end of seq177
+2021-03-03 07:54:32,472 - __main__ - INFO - Removed 5 bases from end of seq178
+2021-03-03 07:54:32,473 - __main__ - INFO - Removed 5 bases from end of seq179
+2021-03-03 07:54:32,474 - __main__ - INFO - Removed 1 bases from start of seq182
+2021-03-03 07:54:32,474 - __main__ - INFO - Removed 5 bases from end of seq182
+2021-03-03 07:54:32,474 - __main__ - INFO - Removed 5 bases from end of seq183
+2021-03-03 07:54:32,475 - __main__ - INFO - Removed 5 bases from end of seq184
+2021-03-03 07:54:32,476 - __main__ - INFO - Removed 1 bases from start of seq185
+2021-03-03 07:54:32,476 - __main__ - INFO - Removed 5 bases from end of seq185
+2021-03-03 07:54:32,476 - __main__ - INFO - Removed 1 bases from start of seq186
+2021-03-03 07:54:32,476 - __main__ - INFO - Removed 5 bases from end of seq186
+2021-03-03 07:54:32,477 - __main__ - INFO - Removed 1 bases from start of seq187
+2021-03-03 07:54:32,477 - __main__ - INFO - Removed 5 bases from end of seq187
+2021-03-03 07:54:32,477 - __main__ - INFO - Removed 1 bases from start of seq188
+2021-03-03 07:54:32,477 - __main__ - INFO - Removed 5 bases from end of seq188
+2021-03-03 07:54:32,478 - __main__ - INFO - Removed 1 bases from start of seq189
+2021-03-03 07:54:32,478 - __main__ - INFO - Removed 5 bases from end of seq189
+2021-03-03 07:54:32,479 - __main__ - INFO - Removed 1 bases from start of seq190
+2021-03-03 07:54:32,479 - __main__ - INFO - Removed 5 bases from end of seq190
+2021-03-03 07:54:32,479 - __main__ - INFO - Removed 9 bases from end of seq191
+2021-03-03 07:54:32,480 - __main__ - INFO - Removed 5 bases from end of seq192
+2021-03-03 07:54:32,480 - __main__ - INFO - Removed 3 bases from start of seq193
+2021-03-03 07:54:32,481 - __main__ - INFO - Removed 5 bases from end of seq193
+2021-03-03 07:54:32,481 - __main__ - INFO - Removed 5 bases from end of seq194
+2021-03-03 07:54:32,482 - __main__ - INFO - Removed 1 bases from start of seq195
+2021-03-03 07:54:32,482 - __main__ - INFO - Removed 5 bases from end of seq195
+2021-03-03 07:54:32,482 - __main__ - INFO - Removed 1 bases from start of seq196
+2021-03-03 07:54:32,482 - __main__ - INFO - Removed 5 bases from end of seq196
+2021-03-03 07:54:32,483 - __main__ - INFO - Removed 1 bases from start of seq197
+2021-03-03 07:54:32,483 - __main__ - INFO - Removed 5 bases from end of seq197
+2021-03-03 07:54:32,483 - __main__ - INFO - Removed 1 bases from start of seq198
+2021-03-03 07:54:32,484 - __main__ - INFO - Removed 5 bases from end of seq198
+2021-03-03 07:54:32,484 - __main__ - INFO - Removed 1 bases from start of seq199
+2021-03-03 07:54:32,484 - __main__ - INFO - Removed 5 bases from end of seq199
+2021-03-03 07:54:32,485 - __main__ - INFO - Removed 1 bases from start of seq200
+2021-03-03 07:54:32,485 - __main__ - INFO - Removed 5 bases from end of seq200
+2021-03-03 07:54:32,485 - __main__ - INFO - Removed 3 bases from start of seq201
+2021-03-03 07:54:32,485 - __main__ - INFO - Removed 3 bases from end of seq201
+2021-03-03 07:54:32,486 - __main__ - INFO - Removed 1 bases from start of seq202
+2021-03-03 07:54:32,486 - __main__ - INFO - Removed 5 bases from end of seq202
+2021-03-03 07:54:32,487 - __main__ - INFO - Removed 1 bases from start of seq203
+2021-03-03 07:54:32,487 - __main__ - INFO - Removed 5 bases from end of seq203
+2021-03-03 07:54:32,487 - __main__ - INFO - Removed 1 bases from start of seq204
+2021-03-03 07:54:32,487 - __main__ - INFO - Removed 5 bases from end of seq204
+2021-03-03 07:54:32,488 - __main__ - INFO - Removed 1 bases from start of seq205
+2021-03-03 07:54:32,488 - __main__ - INFO - Removed 5 bases from end of seq205
+2021-03-03 07:54:32,489 - __main__ - INFO - Removed 5 bases from end of seq206
+2021-03-03 07:54:32,489 - __main__ - INFO - Removed 1 bases from start of seq207
+2021-03-03 07:54:32,489 - __main__ - INFO - Removed 5 bases from end of seq207
+2021-03-03 07:54:32,490 - __main__ - INFO - Removed 1 bases from start of seq208
+2021-03-03 07:54:32,490 - __main__ - INFO - Removed 5 bases from end of seq208
+2021-03-03 07:54:32,490 - __main__ - INFO - Removed 1 bases from start of seq209
+2021-03-03 07:54:32,490 - __main__ - INFO - Removed 5 bases from end of seq209
+2021-03-03 07:54:32,491 - __main__ - INFO - Removed 8 bases from start of seq210
+2021-03-03 07:54:32,491 - __main__ - INFO - Removed 8 bases from end of seq210
+2021-03-03 07:54:32,492 - __main__ - INFO - Removed 1 bases from start of seq211
+2021-03-03 07:54:32,492 - __main__ - INFO - Removed 5 bases from end of seq211
+2021-03-03 07:54:32,493 - __main__ - INFO - Removed 5 bases from end of seq212
+2021-03-03 07:54:32,494 - __main__ - INFO - Removed 5 bases from end of seq213
+2021-03-03 07:54:32,494 - __main__ - INFO - Removed 5 bases from end of seq214
+2021-03-03 07:54:32,495 - __main__ - INFO - Removed 5 bases from end of seq215
+2021-03-03 07:54:32,496 - __main__ - INFO - Removed 5 bases from end of seq216
+2021-03-03 07:54:32,497 - __main__ - INFO - Removed 5 bases from end of seq217
+2021-03-03 07:54:32,497 - __main__ - INFO - Removed 5 bases from end of seq218
+2021-03-03 07:54:32,498 - __main__ - INFO - Removed 1 bases from start of seq219
+2021-03-03 07:54:32,498 - __main__ - INFO - Removed 5 bases from end of seq219
+2021-03-03 07:54:32,498 - __main__ - INFO - Removed 1 bases from start of seq220
+2021-03-03 07:54:32,498 - __main__ - INFO - Removed 5 bases from end of seq220
+2021-03-03 07:54:32,499 - __main__ - INFO - Removed 5 bases from end of seq221
+2021-03-03 07:54:32,500 - __main__ - INFO - Removed 6 bases from start of seq224
+2021-03-03 07:54:32,500 - __main__ - INFO - Removed 6 bases from end of seq224
+2021-03-03 07:54:32,500 - __main__ - INFO - Removed 6 bases from start of seq225
+2021-03-03 07:54:32,500 - __main__ - INFO - Removed 6 bases from end of seq225
+2021-03-03 07:54:32,501 - __main__ - INFO - Removed 6 bases from start of seq226
+2021-03-03 07:54:32,501 - __main__ - INFO - Removed 6 bases from end of seq226
+2021-03-03 07:54:32,502 - __main__ - INFO - Removed 6 bases from start of seq227
+2021-03-03 07:54:32,502 - __main__ - INFO - Removed 6 bases from end of seq227
+2021-03-03 07:54:32,503 - __main__ - INFO - Removed 6 bases from start of seq228
+2021-03-03 07:54:32,503 - __main__ - INFO - Removed 6 bases from end of seq228
+2021-03-03 07:54:32,503 - __main__ - INFO - Removed 6 bases from start of seq229
+2021-03-03 07:54:32,503 - __main__ - INFO - Removed 6 bases from end of seq229
+2021-03-03 07:54:32,504 - __main__ - INFO - Removed 6 bases from start of seq230
+2021-03-03 07:54:32,504 - __main__ - INFO - Removed 6 bases from end of seq230
+2021-03-03 07:54:32,505 - __main__ - INFO - Removed 6 bases from start of seq231
+2021-03-03 07:54:32,505 - __main__ - INFO - Removed 6 bases from end of seq231
+2021-03-03 07:54:32,506 - __main__ - INFO - Removed 6 bases from start of seq232
+2021-03-03 07:54:32,506 - __main__ - INFO - Removed 6 bases from end of seq232
+2021-03-03 07:54:32,506 - __main__ - INFO - Removed 6 bases from start of seq233
+2021-03-03 07:54:32,506 - __main__ - INFO - Removed 6 bases from end of seq233
+2021-03-03 07:54:32,507 - __main__ - INFO - Removed 6 bases from start of seq234
+2021-03-03 07:54:32,507 - __main__ - INFO - Removed 6 bases from end of seq234
+2021-03-03 07:54:32,508 - __main__ - INFO - Removed 6 bases from start of seq235
+2021-03-03 07:54:32,508 - __main__ - INFO - Removed 6 bases from end of seq235
+2021-03-03 07:54:32,508 - __main__ - INFO - Removed 6 bases from start of seq236
+2021-03-03 07:54:32,508 - __main__ - INFO - Removed 6 bases from end of seq236
+2021-03-03 07:54:32,509 - __main__ - INFO - Removed 6 bases from start of seq237
+2021-03-03 07:54:32,509 - __main__ - INFO - Removed 6 bases from end of seq237
+2021-03-03 07:54:32,510 - __main__ - INFO - Removed 6 bases from start of seq238
+2021-03-03 07:54:32,510 - __main__ - INFO - Removed 6 bases from end of seq238
+2021-03-03 07:54:32,510 - __main__ - INFO - Removed 6 bases from start of seq239
+2021-03-03 07:54:32,510 - __main__ - INFO - Removed 6 bases from end of seq239
+2021-03-03 07:54:32,511 - __main__ - INFO - Removed 1 bases from start of seq240
+2021-03-03 07:54:32,511 - __main__ - INFO - Removed 1 bases from end of seq240
+2021-03-03 07:54:32,512 - __main__ - INFO - Removed 6 bases from start of seq245
+2021-03-03 07:54:32,512 - __main__ - INFO - Removed 6 bases from end of seq245
+2021-03-03 07:54:32,512 - __main__ - INFO - Removed 6 bases from start of seq246
+2021-03-03 07:54:32,513 - __main__ - INFO - Removed 6 bases from end of seq246
+2021-03-03 07:54:32,517 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 07:54:32,922 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 07:54:33,268 - __main__ - INFO - Building consensus sequence

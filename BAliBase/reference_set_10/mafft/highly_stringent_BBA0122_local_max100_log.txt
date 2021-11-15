@@ -1,0 +1,125 @@
+2021-07-01 10:28:58,896 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BB.ini --infile reference_set_10/mafft/BBA0122_local_max100.fasta --outfile_stem reference_set_10/mafft/highly_stringent_BBA0122_local_max100
+Config File (highly_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 10:28:58,984 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 10:28:58,984 - __main__ - INFO - Removing divergent sequences
+2021-07-01 10:29:02,347 - __main__ - INFO - Removing insertions
+2021-07-01 10:29:02,347 - __main__ - INFO - Removing insertions
+
+2021-07-01 10:29:05,158 - __main__ - INFO - Removing sites 12, 13, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 105, 106, 107, 108, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 310, 311, 317, 318, 319, 320, 321, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 410, 411, 412, 413, 414, 415, 416, 417, 419, 424, 425, 426, 427, 428, 429, 430, 455, 457, 458, 460, 461, 462, 463, 464, 465, 466, 467, 472, 473, 491, 492, 493, 494, 495, 496, 497, 498, 499, 506, 515, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 535, 536, 537, 538, 539, 540, 541, 542, 543, 545, 548, 549, 550, 551, 552, 553, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 599, 605, 621, 622, 623, 632, 639, 640, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 700, 706, 707, 711, 712, 713, 714, 715, 716, 717, 721, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 750, 757, 758, 759, 760, 761, 762, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 788, 789, 790, 791, 796, 797, 798, 799, 800, 801, 802, 809, 810, 811, 812, 813, 814, 815, 829, 833, 834, 835, 836, 837, 838, 839, 851, 852, 853, 854, 855, 856, 857, 858, 865, 866, 867, 868, 869, 870, 871, 874, 884, 885, 886, 887, 888, 889, 890, 891, 902, 915, 916, 917, 918, 928, 939, 940, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979, 980, 981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1019, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1047, 1053, 1054, 1055, 1064, 1065, 1075, 1090, 1091, 1092, 1093, 1100, 1101, 1102, 1103, 1109, 1115, 1116, 1117, 1118, 1119, 1120, 1133, 1134, 1141, 1142, 1143, 1144, 1145, 1146, 1147, 1148, 1149, 1150, 1151, 1152, 1153, 1154, 1155, 1156, 1157, 1158, 1165, 1166, 1167, 1168, 1169, 1178, 1179, 1180, 1181, 1182, 1200, 1201, 1202, 1203, 1204, 1205, 1206, 1207, 1208, 1209, 1210, 1211, 1212, 1213, 1215, 1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223, 1224, 1225, 1226, 1227, 1228, 1229, 1230, 1231, 1243, 1254, 1255, 1256, 1257, 1258, 1289, 1290, 1291, 1292, 1293, 1294, 1295, 1296, 1297, 1300, 1301, 1302, 1333, 1334, 1335, 1336, 1337, 1338, 1339, 1340, 1341, 1342, 1343, 1344, 1345, 1378, 1379, 1380, 1381, 1382, 1383, 1384, 1385, 1386, 1387, 1388, 1397, 1398, 1400, 1416, 1417, 1418, 1419, 1420, 1421, 1422, 1423, 1424, 1425, 1426, 1427, 1428, 1429, 1430, 1431, 1442, 1443, 1444, 1445, 1446, 1447, 1448, 1449, 1488, 1489, 1492, 1497
+2021-07-01 10:29:05,158 - __main__ - INFO - Cropping ends
+2021-07-01 10:29:05,162 - __main__ - INFO - Removed 3 bases from start of seq001
+2021-07-01 10:29:05,162 - __main__ - INFO - Removed 6 bases from end of seq001
+2021-07-01 10:29:05,166 - __main__ - INFO - Removed 17 bases from start of seq002
+2021-07-01 10:29:05,170 - __main__ - INFO - Removed 15 bases from start of seq003
+2021-07-01 10:29:05,170 - __main__ - INFO - Removed 3 bases from end of seq003
+2021-07-01 10:29:05,174 - __main__ - INFO - Removed 13 bases from start of seq004
+2021-07-01 10:29:05,177 - __main__ - INFO - Removed 3 bases from start of seq005
+2021-07-01 10:29:05,181 - __main__ - INFO - Removed 7 bases from start of seq006
+2021-07-01 10:29:05,184 - __main__ - INFO - Removed 39 bases from end of seq007
+2021-07-01 10:29:05,188 - __main__ - INFO - Removed 3 bases from start of seq008
+2021-07-01 10:29:05,188 - __main__ - INFO - Removed 2 bases from end of seq008
+2021-07-01 10:29:05,192 - __main__ - INFO - Removed 14 bases from start of seq009
+2021-07-01 10:29:05,195 - __main__ - INFO - Removed 15 bases from start of seq010
+2021-07-01 10:29:05,199 - __main__ - INFO - Removed 4 bases from start of seq011
+2021-07-01 10:29:05,203 - __main__ - INFO - Removed 20 bases from start of seq012
+2021-07-01 10:29:05,207 - __main__ - INFO - Removed 1 bases from start of seq013
+2021-07-01 10:29:05,210 - __main__ - INFO - Removed 59 bases from start of seq014
+2021-07-01 10:29:05,214 - __main__ - INFO - Removed 7 bases from start of seq015
+2021-07-01 10:29:05,217 - __main__ - INFO - Removed 3 bases from start of seq016
+2021-07-01 10:29:05,221 - __main__ - INFO - Removed 30 bases from start of seq017
+2021-07-01 10:29:05,225 - __main__ - INFO - Removed 25 bases from start of seq018
+2021-07-01 10:29:05,228 - __main__ - INFO - Removed 3 bases from start of seq019
+2021-07-01 10:29:05,232 - __main__ - INFO - Removed 3 bases from start of seq020
+2021-07-01 10:29:05,235 - __main__ - INFO - Removed 26 bases from start of seq021
+2021-07-01 10:29:05,239 - __main__ - INFO - Removed 26 bases from start of seq022
+2021-07-01 10:29:05,243 - __main__ - INFO - Removed 9 bases from start of seq023
+2021-07-01 10:29:05,243 - __main__ - INFO - Removed 5 bases from end of seq023
+2021-07-01 10:29:05,246 - __main__ - INFO - Removed 38 bases from start of seq024
+2021-07-01 10:29:05,250 - __main__ - INFO - Removed 29 bases from start of seq025
+2021-07-01 10:29:05,254 - __main__ - INFO - Removed 48 bases from start of seq026
+2021-07-01 10:29:05,258 - __main__ - INFO - Removed 28 bases from start of seq027
+2021-07-01 10:29:05,261 - __main__ - INFO - Removed 3 bases from start of seq028
+2021-07-01 10:29:05,265 - __main__ - INFO - Removed 24 bases from start of seq029
+2021-07-01 10:29:05,269 - __main__ - INFO - Removed 3 bases from start of seq030
+2021-07-01 10:29:05,272 - __main__ - INFO - Removed 5 bases from start of seq031
+2021-07-01 10:29:05,279 - __main__ - INFO - Removed 12 bases from start of seq033
+2021-07-01 10:29:05,283 - __main__ - INFO - Removed 15 bases from start of seq034
+2021-07-01 10:29:05,286 - __main__ - INFO - Removed 3 bases from start of seq035
+2021-07-01 10:29:05,333 - __main__ - INFO - Removed 7 bases from start of seq050
+2021-07-01 10:29:05,337 - __main__ - INFO - Removed 7 bases from start of seq051
+2021-07-01 10:29:05,341 - __main__ - INFO - Removed 7 bases from start of seq052
+2021-07-01 10:29:05,347 - __main__ - INFO - Removed 19 bases from start of seq054
+2021-07-01 10:29:05,351 - __main__ - INFO - Removed 19 bases from start of seq055
+2021-07-01 10:29:05,355 - __main__ - INFO - Removed 19 bases from start of seq056
+2021-07-01 10:29:05,359 - __main__ - INFO - Removed 5 bases from start of seq057
+2021-07-01 10:29:05,363 - __main__ - INFO - Removed 46 bases from start of seq058
+2021-07-01 10:29:05,366 - __main__ - INFO - Removed 46 bases from start of seq059
+2021-07-01 10:29:05,370 - __main__ - INFO - Removed 46 bases from start of seq060
+2021-07-01 10:29:05,377 - __main__ - INFO - Removed 3 bases from start of seq062
+2021-07-01 10:29:05,380 - __main__ - INFO - Removed 4 bases from start of seq063
+2021-07-01 10:29:05,384 - __main__ - INFO - Removed 3 bases from start of seq064
+2021-07-01 10:29:05,388 - __main__ - INFO - Removed 3 bases from start of seq065
+2021-07-01 10:29:05,392 - __main__ - INFO - Removed 4 bases from start of seq066
+2021-07-01 10:29:05,392 - __main__ - INFO - Removed 4 bases from end of seq066
+2021-07-01 10:29:05,395 - __main__ - INFO - Removed 4 bases from start of seq067
+2021-07-01 10:29:05,399 - __main__ - INFO - Removed 4 bases from start of seq068
+2021-07-01 10:29:05,403 - __main__ - INFO - Removed 17 bases from start of seq069
+2021-07-01 10:29:05,406 - __main__ - INFO - Removed 17 bases from start of seq070
+2021-07-01 10:29:05,410 - __main__ - INFO - Removed 4 bases from start of seq071
+2021-07-01 10:29:05,410 - __main__ - INFO - Removed 1 bases from end of seq071
+2021-07-01 10:29:05,414 - __main__ - INFO - Removed 3 bases from start of seq072
+2021-07-01 10:29:05,414 - __main__ - INFO - Removed 1 bases from end of seq072
+2021-07-01 10:29:05,430 - __main__ - INFO - Removed 7 bases from start of seq077
+2021-07-01 10:29:05,433 - __main__ - INFO - Removed 37 bases from start of seq078
+2021-07-01 10:29:05,440 - __main__ - INFO - Removed 51 bases from start of seq080
+2021-07-01 10:29:05,444 - __main__ - INFO - Removed 32 bases from start of seq081
+2021-07-01 10:29:05,447 - __main__ - INFO - Removed 7 bases from start of seq082

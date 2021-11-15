@@ -1,0 +1,104 @@
+2021-07-01 03:06:40,597 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile med_stringent_config_BB.ini --infile reference_set_6/mafft/test_2a_apo_2_ref6_global_max100.fasta --outfile_stem reference_set_6/mafft/med_stringent_test_2a_apo_2_ref6_global_max100
+Config File (med_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.2
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 03:06:40,609 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 03:06:40,610 - __main__ - INFO - Removing divergent sequences
+2021-07-01 03:06:40,787 - __main__ - INFO - Removing divergent sequences APE_CANFA-F_9, ape_mouse_9, APE_CAVPO_9
+2021-07-01 03:06:40,787 - __main__ - INFO - Removing insertions
+2021-07-01 03:06:40,788 - __main__ - INFO - Removing insertions
+
+2021-07-01 03:06:40,927 - __main__ - INFO - Removing sites 21, 22, 23, 24, 30, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 89, 90, 91
+2021-07-01 03:06:40,927 - __main__ - INFO - Cropping ends
+2021-07-01 03:06:40,927 - __main__ - WARNING - Given the length of sequence APE_BOVIN_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,928 - __main__ - WARNING - Given the length of sequence APE_BOVIN_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,929 - __main__ - WARNING - Given the length of sequence APE_BOVIN_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,930 - __main__ - WARNING - Given the length of sequence APE_BOVIN_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,931 - __main__ - WARNING - Given the length of sequence APE_BOVIN_5, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,933 - __main__ - WARNING - Given the length of sequence APE_BOVIN_7, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,934 - __main__ - WARNING - Given the length of sequence APE_BOVIN_8, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,935 - __main__ - WARNING - Given the length of sequence APE_BOVIN_9, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,936 - __main__ - WARNING - Given the length of sequence APE_CANFA-F_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,937 - __main__ - WARNING - Given the length of sequence APE_CANFA-F_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,938 - __main__ - WARNING - Given the length of sequence APE_CANFA-F_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,939 - __main__ - WARNING - Given the length of sequence APE_CANFA-F_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,940 - __main__ - WARNING - Given the length of sequence APE_CANFA-F_5, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,942 - __main__ - WARNING - Given the length of sequence APE_CANFA-F_7, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,943 - __main__ - WARNING - Given the length of sequence APE_CANFA-F_8, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,944 - __main__ - WARNING - Given the length of sequence APE_CAVPO_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,945 - __main__ - WARNING - Given the length of sequence APE_CAVPO_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,946 - __main__ - WARNING - Given the length of sequence APE_CAVPO_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,947 - __main__ - WARNING - Given the length of sequence APE_CAVPO_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,949 - __main__ - WARNING - Given the length of sequence APE_CAVPO_5, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,950 - __main__ - WARNING - Given the length of sequence APE_CAVPO_7, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,951 - __main__ - WARNING - Given the length of sequence APE_CAVPO_8, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,952 - __main__ - WARNING - Given the length of sequence ape_mouse_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,953 - __main__ - WARNING - Given the length of sequence ape_mouse_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,954 - __main__ - WARNING - Given the length of sequence ape_mouse_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,955 - __main__ - WARNING - Given the length of sequence ape_mouse_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,956 - __main__ - WARNING - Given the length of sequence ape_mouse_5, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,958 - __main__ - WARNING - Given the length of sequence ape_mouse_7, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,959 - __main__ - WARNING - Given the length of sequence ape_mouse_8, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,960 - __main__ - WARNING - Given the length of sequence ape_pig_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,962 - __main__ - WARNING - Given the length of sequence ape_pig_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,963 - __main__ - WARNING - Given the length of sequence ape_pig_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,964 - __main__ - WARNING - Given the length of sequence ape_pig_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,965 - __main__ - WARNING - Given the length of sequence ape_pig_5, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,967 - __main__ - WARNING - Given the length of sequence ape_pig_7, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,967 - __main__ - WARNING - Given the length of sequence ape_pig_8, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,968 - __main__ - WARNING - Given the length of sequence ape_pig_9, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,969 - __main__ - WARNING - Given the length of sequence ape_rabit_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,970 - __main__ - WARNING - Given the length of sequence ape_rabit_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,971 - __main__ - WARNING - Given the length of sequence ape_rabit_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,972 - __main__ - WARNING - Given the length of sequence ape_rabit_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,973 - __main__ - WARNING - Given the length of sequence ape_rabit_5, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,975 - __main__ - WARNING - Given the length of sequence ape_rabit_7, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,976 - __main__ - WARNING - Given the length of sequence ape_rabit_8, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:06:40,977 - __main__ - WARNING - Given the length of sequence ape_rabit_9, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.

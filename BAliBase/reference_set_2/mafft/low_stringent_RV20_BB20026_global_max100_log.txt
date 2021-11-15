@@ -1,0 +1,84 @@
+2021-07-01 01:17:52,616 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile low_stringent_config_BB.ini --infile reference_set_2/mafft/RV20_BB20026_global_max100.fasta --outfile_stem reference_set_2/mafft/low_stringent_RV20_BB20026_global_max100
+Config File (low_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.05
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.15
+  remove_insertions: 1
+  insertion_min_size:5
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 01:17:52,693 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 01:17:52,694 - __main__ - INFO - Removing divergent sequences
+2021-07-01 01:17:54,797 - __main__ - INFO - Removing insertions
+2021-07-01 01:17:54,797 - __main__ - INFO - Removing insertions
+
+2021-07-01 01:17:58,479 - __main__ - INFO - Removing sites 23, 24, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 72, 73, 74, 75, 83, 87, 105, 106, 107, 108, 109, 110, 111, 125, 126, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 197, 198, 227, 228, 247, 248, 249, 250, 251, 252, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 292, 296, 297, 298, 299, 351, 352, 353, 354, 355, 356, 357, 385, 386, 401, 402, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 585, 586, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 668, 669, 670, 671, 672, 673, 674, 675, 676, 682, 701, 702, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 739, 751, 752, 763, 764, 765, 766, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821, 845, 851, 852, 930, 931, 932, 933, 939, 942, 957, 958, 1033, 1034, 1037, 1042, 1088, 1184, 1185, 1186, 1187, 1188, 1189, 1190, 1191, 1192, 1193, 1194, 1195, 1196, 1197, 1198, 1199, 1200, 1201, 1227, 1228, 1236, 1237, 1274, 1275, 1276, 1277
+2021-07-01 01:17:58,479 - __main__ - INFO - Cropping ends
+2021-07-01 01:17:58,503 - __main__ - INFO - Removed 2 bases from end of EX9_VIBCH
+2021-07-01 01:17:58,513 - __main__ - INFO - Removed 2 bases from start of EX53_BUCBP
+2021-07-01 01:17:58,513 - __main__ - INFO - Removed 7 bases from end of EX53_BUCBP
+2021-07-01 01:17:58,523 - __main__ - INFO - Removed 1 bases from start of EX53_AQUAE
+2021-07-01 01:17:58,524 - __main__ - INFO - Removed 13 bases from end of EX53_AQUAE
+2021-07-01 01:17:58,534 - __main__ - INFO - Removed 1 bases from start of EX53_UREPA
+2021-07-01 01:17:58,534 - __main__ - INFO - Removed 7 bases from end of EX53_UREPA
+2021-07-01 01:17:58,601 - __main__ - INFO - Removed 2 bases from start of EX53_BUCAI
+2021-07-01 01:17:58,610 - __main__ - INFO - Removed 2 bases from start of EX53_BUCAP
+2021-07-01 01:17:58,619 - __main__ - INFO - Removed 2 bases from start of EX53_MYCPU
+2021-07-01 01:17:58,619 - __main__ - INFO - Removed 29 bases from end of EX53_MYCPU
+2021-07-01 01:17:58,629 - __main__ - INFO - Removed 1 bases from start of EX53_MYCPN
+2021-07-01 01:17:58,629 - __main__ - INFO - Removed 4 bases from end of EX53_MYCPN
+2021-07-01 01:17:58,639 - __main__ - INFO - Removed 1 bases from start of EX53_MYCGE
+2021-07-01 01:17:58,639 - __main__ - INFO - Removed 4 bases from end of EX53_MYCGE
+2021-07-01 01:17:58,649 - __main__ - INFO - Removed 1 bases from start of EX53_BACSU
+2021-07-01 01:17:58,650 - __main__ - INFO - Removed 15 bases from end of EX53_BACSU
+2021-07-01 01:17:58,658 - __main__ - INFO - Removed 1 bases from start of EX53_BACHD
+2021-07-01 01:17:58,658 - __main__ - INFO - Removed 10 bases from end of EX53_BACHD
+2021-07-01 01:17:58,679 - __main__ - INFO - Removed 1 bases from start of DPO1_ANATH
+2021-07-01 01:17:58,717 - __main__ - INFO - Removed 1 bases from start of EX53_STRCO
+2021-07-01 01:17:58,717 - __main__ - INFO - Removed 6 bases from end of EX53_STRCO
+2021-07-01 01:17:58,727 - __main__ - INFO - Removed 2 bases from start of EX53_MYCTU
+2021-07-01 01:17:58,727 - __main__ - INFO - Removed 9 bases from end of EX53_MYCTU
+2021-07-01 01:17:58,737 - __main__ - INFO - Removed 23 bases from end of 1exn_A
+2021-07-01 01:17:58,746 - __main__ - INFO - Removed 29 bases from end of 1b43_A

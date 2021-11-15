@@ -1,0 +1,77 @@
+2021-07-01 03:32:01,414 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BB.ini --infile reference_set_6/mafft/test_4_sushi_2_ref6_global_max100.fasta --outfile_stem reference_set_6/mafft/highly_stringent_test_4_sushi_2_ref6_global_max100
+Config File (highly_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 03:32:01,425 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 03:32:01,425 - __main__ - INFO - Removing divergent sequences
+2021-07-01 03:32:01,630 - __main__ - INFO - Removing insertions
+2021-07-01 03:32:01,630 - __main__ - INFO - Removing insertions
+
+2021-07-01 03:32:02,838 - __main__ - INFO - Removing sites 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 248, 266, 288, 300, 301, 302, 303, 304, 329, 330, 331, 332, 333, 364, 377, 378, 379, 380, 381, 382, 392, 393, 394, 395, 396, 397, 398, 424, 431, 432, 433, 434, 435, 442, 443, 453, 464, 465, 466, 477, 478, 479, 480, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 515, 516, 517, 518, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 545, 546, 547, 548, 549, 555, 556, 563, 569, 570, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 628, 629, 630, 631, 632, 633, 634, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 678, 679, 680, 681, 682, 683, 684, 685, 704, 707, 708, 709, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 744, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760, 781, 782, 783, 784, 794, 800, 801, 821, 822, 834, 835, 836, 837, 838, 839, 844, 845, 859
+2021-07-01 03:32:02,838 - __main__ - INFO - Cropping ends
+2021-07-01 03:32:02,839 - __main__ - WARNING - Given the length of sequence O01654_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:32:02,841 - __main__ - INFO - Removed 2 bases from start of O01654_1
+2021-07-01 03:32:02,841 - __main__ - INFO - Removed 14 bases from end of O01654_1
+2021-07-01 03:32:02,843 - __main__ - INFO - Removed 2 bases from start of O01654_2
+2021-07-01 03:32:02,846 - __main__ - INFO - Removed 25 bases from end of Q62223_1
+2021-07-01 03:32:02,848 - __main__ - INFO - Removed 10 bases from start of Q62223_2
+2021-07-01 03:32:02,848 - __main__ - INFO - Removed 6 bases from end of Q62223_2
+2021-07-01 03:32:02,848 - __main__ - WARNING - Given the length of sequence CASP_MESAU_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:32:02,851 - __main__ - INFO - Removed 5 bases from start of CASP_MESAU_1
+2021-07-01 03:32:02,852 - __main__ - INFO - Removed 10 bases from end of CASP_MESAU_1
+2021-07-01 03:32:02,854 - __main__ - INFO - Removed 2 bases from start of CASP_MESAU_2
+2021-07-01 03:32:02,855 - __main__ - WARNING - Given the length of sequence C1R_HUMAN_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:32:02,858 - __main__ - INFO - Removed 7 bases from start of C1R_HUMAN_1
+2021-07-01 03:32:02,861 - __main__ - INFO - Removed 2 bases from start of C1R_HUMAN_2
+2021-07-01 03:32:02,861 - __main__ - INFO - Removed 2 bases from end of C1R_HUMAN_2
+2021-07-01 03:32:02,861 - __main__ - WARNING - Given the length of sequence C1S_HUMAN_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:32:02,864 - __main__ - INFO - Removed 3 bases from start of C1S_HUMAN_1
+2021-07-01 03:32:02,864 - __main__ - INFO - Removed 10 bases from end of C1S_HUMAN_1
+2021-07-01 03:32:02,866 - __main__ - INFO - Removed 2 bases from start of C1S_HUMAN_2

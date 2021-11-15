@@ -1,0 +1,165 @@
+2021-07-01 03:19:58,918 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile med_stringent_config_BB.ini --infile reference_set_6/muscle/test_2c_lrr_2_ref6_max100.fasta --outfile_stem reference_set_6/muscle/med_stringent_test_2c_lrr_2_ref6_max100
+Config File (med_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.2
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 03:19:58,953 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 03:19:58,953 - __main__ - INFO - Removing divergent sequences
+2021-07-01 03:19:59,299 - __main__ - INFO - Removing divergent sequences PGS2_HUMAN_10, 1YRGB_11, 1YRGB_10, 1YRGB_1, rini_pig_11, CHAO_DROME_10, 1D0BA_1, 1YRGB_4, CHAO_DROME_25, 1YRGB_2, CHAO_DROME_16, 1YRGB_7, 1YRGB_3
+2021-07-01 03:19:59,299 - __main__ - INFO - Removing insertions
+2021-07-01 03:19:59,299 - __main__ - INFO - Removing insertions
+
+2021-07-01 03:19:59,620 - __main__ - INFO - Removing sites 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 105, 106, 109, 110, 111, 112, 113, 116, 117, 118, 119, 120, 121, 122, 123, 124
+2021-07-01 03:19:59,621 - __main__ - INFO - Cropping ends
+2021-07-01 03:19:59,621 - __main__ - WARNING - Given the length of sequence CHAO_DROME_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,622 - __main__ - WARNING - Given the length of sequence rini_pig_13, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,623 - __main__ - WARNING - Given the length of sequence rini_pig_05, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,624 - __main__ - WARNING - Given the length of sequence rini_pig_07, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,625 - __main__ - WARNING - Given the length of sequence rini_pig_01, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,627 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_01, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,628 - __main__ - WARNING - Given the length of sequence CHAO_DROME_15, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,629 - __main__ - WARNING - Given the length of sequence A2GL_HUMAN_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,630 - __main__ - WARNING - Given the length of sequence CHAO_DROME_11, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,632 - __main__ - WARNING - Given the length of sequence CHAD_BOVIN_01, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,634 - __main__ - WARNING - Given the length of sequence rini_pig_09, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,635 - __main__ - WARNING - Given the length of sequence CHAO_DROME_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,637 - __main__ - WARNING - Given the length of sequence PGS2_HUMAN_6, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,639 - __main__ - INFO - Removed 1 bases from end of PGS2_HUMAN_6
+2021-07-01 03:19:59,639 - __main__ - WARNING - Given the length of sequence CHAO_DROME_21, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,640 - __main__ - WARNING - Given the length of sequence CHAO_DROME_39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,641 - __main__ - WARNING - Given the length of sequence CHAO_DROME_35, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,641 - __main__ - WARNING - Given the length of sequence CHAO_DROME_24, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,642 - __main__ - WARNING - Given the length of sequence CHAO_DROME_36, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,643 - __main__ - WARNING - Given the length of sequence CHAO_DROME_27, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,644 - __main__ - WARNING - Given the length of sequence CHAO_DROME_33, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,645 - __main__ - WARNING - Given the length of sequence CHAO_DROME_7, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,646 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_13, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,647 - __main__ - WARNING - Given the length of sequence CHAO_DROME_9, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,648 - __main__ - WARNING - Given the length of sequence 1YRGB_6, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,650 - __main__ - WARNING - Given the length of sequence 1D0BA_5, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,652 - __main__ - WARNING - Given the length of sequence CHAD_BOVIN_04, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,654 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_12, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,655 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_09, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,656 - __main__ - WARNING - Given the length of sequence CHAO_DROME_6, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,657 - __main__ - WARNING - Given the length of sequence A2GL_HUMAN_7, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,658 - __main__ - WARNING - Given the length of sequence CHAO_DROME_5, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,659 - __main__ - WARNING - Given the length of sequence CHAO_DROME_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,660 - __main__ - WARNING - Given the length of sequence 1YRGB_8, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,661 - __main__ - WARNING - Given the length of sequence A2GL_HUMAN_9, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,661 - __main__ - WARNING - Given the length of sequence CHAO_DROME_37, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,662 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_10, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,664 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_03, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,666 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_06, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,668 - __main__ - WARNING - Given the length of sequence CHAD_BOVIN_06, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,669 - __main__ - WARNING - Given the length of sequence A2GL_HUMAN_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,671 - __main__ - WARNING - Given the length of sequence A2GL_HUMAN_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,673 - __main__ - WARNING - Given the length of sequence A2GL_HUMAN_6, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,674 - __main__ - WARNING - Given the length of sequence A2GL_HUMAN_10, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,675 - __main__ - WARNING - Given the length of sequence CHAO_DROME_41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,676 - __main__ - WARNING - Given the length of sequence CHAO_DROME_31, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,676 - __main__ - WARNING - Given the length of sequence rini_pig_15, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,678 - __main__ - WARNING - Given the length of sequence CHAO_DROME_29, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,679 - __main__ - WARNING - Given the length of sequence CHAO_DROME_26, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,681 - __main__ - WARNING - Given the length of sequence CHAD_BOVIN_08, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,682 - __main__ - WARNING - Given the length of sequence CHAO_DROME_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,684 - __main__ - WARNING - Given the length of sequence CHAO_DROME_32, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,686 - __main__ - WARNING - Given the length of sequence CHAO_DROME_17, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,687 - __main__ - WARNING - Given the length of sequence CHAO_DROME_19, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,688 - __main__ - WARNING - Given the length of sequence CHAO_DROME_13, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,689 - __main__ - WARNING - Given the length of sequence PGS2_HUMAN_5, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,690 - __main__ - WARNING - Given the length of sequence PGS2_HUMAN_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,692 - __main__ - WARNING - Given the length of sequence CHAO_DROME_40, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,694 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_02, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,695 - __main__ - WARNING - Given the length of sequence CHAO_DROME_22, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,697 - __main__ - WARNING - Given the length of sequence CHAO_DROME_18, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,698 - __main__ - WARNING - Given the length of sequence rini_pig_03, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,700 - __main__ - WARNING - Given the length of sequence CHAO_DROME_14, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,701 - __main__ - WARNING - Given the length of sequence CHAO_DROME_38, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,702 - __main__ - WARNING - Given the length of sequence CHAO_DROME_12, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,704 - __main__ - WARNING - Given the length of sequence A2GL_HUMAN_5, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,705 - __main__ - WARNING - Given the length of sequence CHAD_BOVIN_07, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,705 - __main__ - WARNING - Given the length of sequence CHAD_BOVIN_10, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,706 - __main__ - WARNING - Given the length of sequence CHAO_DROME_34, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,707 - __main__ - WARNING - Given the length of sequence CHAO_DROME_30, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,708 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_04, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,709 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_14, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,712 - __main__ - WARNING - Given the length of sequence CHAO_DROME_20, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,712 - __main__ - WARNING - Given the length of sequence 1YRGB_12, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,714 - __main__ - WARNING - Given the length of sequence 1D0BA_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,716 - __main__ - WARNING - Given the length of sequence rini_pig_06, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,717 - __main__ - WARNING - Given the length of sequence PGS2_HUMAN_7, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,719 - __main__ - WARNING - Given the length of sequence rini_pig_14, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,720 - __main__ - WARNING - Given the length of sequence PGS2_HUMAN_9, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,720 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_07, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,721 - __main__ - WARNING - Given the length of sequence rini_pig_02, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,723 - __main__ - WARNING - Given the length of sequence A2GL_HUMAN_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,724 - __main__ - WARNING - Given the length of sequence rini_pig_12, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,725 - __main__ - WARNING - Given the length of sequence rini_pig_08, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,726 - __main__ - WARNING - Given the length of sequence rini_pig_04, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,726 - __main__ - WARNING - Given the length of sequence rini_pig_10, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,727 - __main__ - WARNING - Given the length of sequence CHAD_BOVIN_09, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,728 - __main__ - WARNING - Given the length of sequence PGS2_HUMAN_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,729 - __main__ - WARNING - Given the length of sequence 1D0BA_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,731 - __main__ - WARNING - Given the length of sequence CHAO_DROME_8, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,732 - __main__ - WARNING - Given the length of sequence CHAO_DROME_28, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,733 - __main__ - WARNING - Given the length of sequence CHAD_BOVIN_05, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,736 - __main__ - WARNING - Given the length of sequence 1D0BA_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,737 - __main__ - WARNING - Given the length of sequence 1D0BA_6, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,738 - __main__ - WARNING - Given the length of sequence 1YRGB_9, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,740 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_08, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,740 - __main__ - WARNING - Given the length of sequence CHAO_DROME_23, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,741 - __main__ - WARNING - Given the length of sequence CHAD_BOVIN_02, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,742 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_11, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,744 - __main__ - WARNING - Given the length of sequence GPV_MOUSE_05, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,745 - __main__ - WARNING - Given the length of sequence PGS2_HUMAN_8, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,746 - __main__ - WARNING - Given the length of sequence A2GL_HUMAN_8, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,747 - __main__ - WARNING - Given the length of sequence 1YRGB_5, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,749 - __main__ - WARNING - Given the length of sequence CHAD_BOVIN_03, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,751 - __main__ - WARNING - Given the length of sequence 1D0BA_7, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:19:59,752 - __main__ - WARNING - Given the length of sequence PGS2_HUMAN_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.

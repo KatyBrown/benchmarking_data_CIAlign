@@ -1,0 +1,50 @@
+2021-07-06 07:14:45,017 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --remove_divergent --remove_divergent_minperc 0.15 --crop_ends --remove_insertion --remove_short --infile combined/aligned/Stap_Strp_toxin_aligned.fasta --outfile_stem combined/aligned/cialign/Stap_Strp_toxin
+Defaults:
+  --crop_ends_mingap_perc:0.05
+  --crop_ends_redefine_perc:0.1
+  --insertion_min_size:3
+  --insertion_max_size:200
+  --insertion_min_flank:5
+  --remove_min_length:50
+  --consensus_type:  majority
+  --consensus_name:  consensus
+  --plot_dpi:        300
+  --plot_format:     png
+  --plot_width:      5
+  --plot_height:     3
+  --sequence_logo_type:bar
+  --sequence_logo_dpi:300
+  --sequence_logo_font:monospace
+  --sequence_logo_nt_per_row:50
+  --sequence_logo_filetype:png
+  --plot_coverage_dpi:300
+  --plot_coverage_height:3
+  --plot_coverage_width:5
+  --plot_coverage_colour:#007bf5
+  --plot_coverage_filetype:png
+  --make_simmatrix_dp:4
+  --make_simmatrix_minoverlap:1
+  --make_simmatrix_keepgaps:0
+
+2021-07-06 07:14:45,104 - __main__ - INFO - Amino acid alignment detected
+2021-07-06 07:14:45,104 - __main__ - INFO - Removing divergent sequences
+2021-07-06 07:14:47,827 - __main__ - INFO - Removing gap only columns
+2021-07-06 07:14:47,829 - __main__ - INFO - Removing insertions
+2021-07-06 07:14:47,829 - __main__ - INFO - Removing insertions
+
+2021-07-06 07:14:48,188 - __main__ - INFO - Removing sites 140, 141, 20, 156, 29, 34, 163, 164, 48, 64, 65, 66, 67, 196, 197, 121, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 249, 122
+2021-07-06 07:14:48,189 - __main__ - INFO - Removing gap only columns
+2021-07-06 07:14:48,191 - __main__ - INFO - Cropping ends
+2021-07-06 07:14:48,195 - __main__ - INFO - Removed 11 bases from start of 3tss
+2021-07-06 07:14:48,200 - __main__ - INFO - Removed 7 bases from start of Q56D15_STRPY/1-78
+2021-07-06 07:14:48,206 - __main__ - WARNING - Given the length of sequence Q6R2F8_STAAU/1-40, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:14:48,318 - __main__ - WARNING - Given the length of sequence Q6R2F9_STAAU/1-36, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:14:48,346 - __main__ - WARNING - Given the length of sequence Q6R2G0_STAAU/1-40, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:14:48,438 - __main__ - WARNING - Given the length of sequence Q6R2G1_STAAU/1-48, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:14:48,524 - __main__ - INFO - Removed 5 bases from start of D0EZH6_STREQ/1-75
+2021-07-06 07:14:48,563 - __main__ - INFO - Removing gap only columns
+2021-07-06 07:14:48,565 - __main__ - INFO - Removing short sequences
+2021-07-06 07:14:48,567 - __main__ - INFO - Removing too short sequences A5X5S2_STAAU/1-41, A5X5Q5_9STAP/1-41, A5X5R1_STAAU/1-41, A5X5R4_STAAU/1-41, D1QIX5_STAAU/8-49, A5X5R6_STAAU/1-41, Q4EVY5_STRPY/1-20, A5X5Q9_9STAP/1-41, A5X5P5_9STAP/1-41, A5X5Q0_9STAP/1-41, Q4EVY3_STRPY/1-20, A5X5S8_STAAU/1-41, D0K663_STAAD/1-49, Q6R2F8_STAAU/1-40, A5X5S0_STAAU/1-41, A5X5R0_9STAP/1-41, A5X5P7_9STAP/1-41, Q4EVY4_STRPY/1-20, A5X5R8_STAAU/1-41, A5X5Q4_9STAP/1-41, Q6R2G0_STAAU/1-40, A5X5R3_STAAU/1-41, Q6R2F9_STAAU/1-36, A5X5P6_9STAP/1-41, A5X5P8_9STAP/1-41, Q6R2G1_STAAU/1-48, A5X5P4_9STAP/1-41, C2K6U0_STAAU/1-42
+2021-07-06 07:14:48,567 - __main__ - INFO - Removing gap only columns

@@ -1,0 +1,129 @@
+2021-03-03 02:49:28,803 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_3/mafft/RV30_BB30003_local_max100.fasta --outfile_stem reference_set_3/mafft/high_stringency_RV30_BB30003_local_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 02:49:28,895 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 02:49:28,895 - __main__ - INFO - Removing divergent sequences
+2021-03-03 02:49:32,298 - __main__ - INFO - Removing divergent sequences TPL_CLOTE, AAT1_METJA, TNAA_VIBPA, TNAA_ECO57, HIS8_BUCAP, AAT1_MEDSA, HIS8_VIBCH, HI81_HAEIN, TNAA_CLOTE, AAT1_ARATH, AATC_YEAST, AATA_RHIME, 1dty_A, TYRB_PARDE, HIS8_THETN, HIS8_XANAC, AAT_BACY2, AAT_AQUAE, HIS8_METTH, TNAA_CHRVO, HIS8_XYLFA, AAT_SYNY3, GLY1_YEAST, HIS8_BUCAI, HIS8_CHLTE, TNAA_AERPE, TPL_PASMU, AATM_BOVIN, 1ax4_A, TNAA_ENTAE, AATC_CAEEL, AAT_HAEIN, AATM_YEAST, HI82_ANASP, GLY1_ASHGO, DAT_HAEIN, BIOA_AQUAE, AAB1_RHIME, AAT_PSEAE, 1b5o_A, TNA1_SYMTH, TNAA_THETN, AAT1_BACSU, 2dkb_, AAT5_ARATH, 1ajs_A, ATTY_RHIME, AAT_PYRAB, AAT_RICCN, LTAE_ECO57, TPL_CITFR, GLY1_SCHPO, TYRB_ECOLI, AAT4_ARATH, AGT2_HUMAN, TPA_BILWA, 1jg8_A, GLY1_CANAL, GABT_CAEEL, TNAA_HALN1, HI81_PASMU, HIS8_PYRFU, TPL_SYMS1, PHHC_PSEAE, TNAA_RHOCA, AAT_BACST, TOXG_COCCA, HIS8_GLOVI, LTAA_AERJA, GABT_ECOLI, 1ohv_A, GATA_USTMA, 1h1c_A, HIS8_BUCBP, HIS8_YERPE, 1fg3_A, AAT_THEMA, AAT_ECOLI
+2021-03-03 02:49:32,298 - __main__ - INFO - Removing insertions
+2021-03-03 02:49:32,298 - __main__ - INFO - Removing insertions
+
+2021-03-03 02:49:33,377 - __main__ - INFO - Removing sites 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 123, 124, 137, 148, 171, 175, 176, 177, 178, 179, 180, 181, 186, 189, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 221, 222, 223, 226, 227, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 282, 302, 303, 308, 309, 310, 311, 312, 313, 314, 323, 324, 327, 328, 329, 330, 331, 332, 333, 334, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 381, 382, 383, 384, 385, 386, 387, 388, 389, 394, 395, 396, 397, 398, 399, 400, 401, 409, 434, 448, 457, 462, 463, 464, 465, 466, 467, 468, 469, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 500, 501, 502, 503, 504, 505, 509, 510, 511, 512, 517, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 545, 546, 547, 548, 549, 550, 551, 552, 557, 558, 559, 560, 561, 585, 586, 587, 588, 589, 590, 591, 592, 593, 600, 619, 620, 621, 624, 627, 635, 636, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 674, 676, 679, 680, 681, 682, 683, 684, 685, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 712, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 761, 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776
+2021-03-03 02:49:33,377 - __main__ - INFO - Cropping ends
+2021-03-03 02:49:33,379 - __main__ - INFO - Removed 1 bases from start of ARGD_BACAA
+2021-03-03 02:49:33,381 - __main__ - INFO - Removed 1 bases from start of ARGD_STRMU
+2021-03-03 02:49:33,381 - __main__ - INFO - Removed 1 bases from end of ARGD_STRMU
+2021-03-03 02:49:33,383 - __main__ - INFO - Removed 1 bases from start of ARGD_LACPL
+2021-03-03 02:49:33,385 - __main__ - INFO - Removed 1 bases from start of ARGD_STRCL
+2021-03-03 02:49:33,385 - __main__ - INFO - Removed 2 bases from end of ARGD_STRCL
+2021-03-03 02:49:33,388 - __main__ - INFO - Removed 1 bases from start of ARGD_NITEU
+2021-03-03 02:49:33,392 - __main__ - INFO - Removed 1 bases from start of ARD2_PSESM
+2021-03-03 02:49:33,394 - __main__ - INFO - Removed 1 bases from start of ARGD_HAEDU
+2021-03-03 02:49:33,396 - __main__ - INFO - Removed 4 bases from end of ARGD_ALNGL
+2021-03-03 02:49:33,398 - __main__ - INFO - Removed 1 bases from start of ARGD_METJA
+2021-03-03 02:49:33,400 - __main__ - INFO - Removed 1 bases from start of ARGD_CLOAB
+2021-03-03 02:49:33,402 - __main__ - INFO - Removed 1 bases from start of ARGD_BACST
+2021-03-03 02:49:33,403 - __main__ - INFO - Removed 1 bases from start of ARD1_BORBR
+2021-03-03 02:49:33,405 - __main__ - INFO - Removed 2 bases from start of ARGD_SYNEL
+2021-03-03 02:49:33,411 - __main__ - INFO - Removed 1 bases from start of ARGD_PROMM
+2021-03-03 02:49:33,411 - __main__ - INFO - Removed 1 bases from end of ARGD_PROMM
+2021-03-03 02:49:33,413 - __main__ - INFO - Removed 1 bases from start of ARGD_SYNPX
+2021-03-03 02:49:33,413 - __main__ - INFO - Removed 1 bases from end of ARGD_SYNPX
+2021-03-03 02:49:33,415 - __main__ - INFO - Removed 1 bases from start of ARGD_PROMP
+2021-03-03 02:49:33,417 - __main__ - INFO - Removed 5 bases from start of ARGD_OCEIH
+2021-03-03 02:49:33,417 - __main__ - INFO - Removed 6 bases from end of ARGD_OCEIH
+2021-03-03 02:49:33,419 - __main__ - INFO - Removed 1 bases from start of ARGM_CAUCR
+2021-03-03 02:49:33,422 - __main__ - INFO - Removed 1 bases from start of ARGD_RHILO
+2021-03-03 02:49:33,425 - __main__ - INFO - Removed 1 bases from start of ARGD_CAUCR
+2021-03-03 02:49:33,427 - __main__ - INFO - Removed 5 bases from start of ARGD_MYXXA
+2021-03-03 02:49:33,429 - __main__ - INFO - Removed 1 bases from start of ARGD_NEIMA
+2021-03-03 02:49:33,431 - __main__ - INFO - Removed 1 bases from start of ARGM_YERPE
+2021-03-03 02:49:33,433 - __main__ - INFO - Removed 1 bases from start of ARUC_PSEAE
+2021-03-03 02:49:33,435 - __main__ - INFO - Removed 1 bases from start of ARGD_PSEPK
+2021-03-03 02:49:33,437 - __main__ - INFO - Removed 1 bases from start of ARD1_PSESM
+2021-03-03 02:49:33,439 - __main__ - INFO - Removed 1 bases from start of ARGD_YERPE
+2021-03-03 02:49:33,441 - __main__ - INFO - Removed 1 bases from start of ARGD_ECO57
+2021-03-03 02:49:33,446 - __main__ - INFO - Removed 1 bases from start of ARGD_PHOLL
+2021-03-03 02:49:33,448 - __main__ - INFO - Removed 1 bases from start of ARGD_SHEON
+2021-03-03 02:49:33,450 - __main__ - INFO - Removed 1 bases from start of ARGD_VIBCH
+2021-03-03 02:49:33,453 - __main__ - INFO - Removed 2 bases from start of ARGM_PHOLL
+2021-03-03 02:49:33,455 - __main__ - INFO - Removed 1 bases from start of ARGD_BUCAI
+2021-03-03 02:49:33,457 - __main__ - INFO - Removed 1 bases from start of ARGD_BUCAP
+2021-03-03 02:49:33,460 - __main__ - INFO - Removed 1 bases from start of ARGD_XYLFA
+2021-03-03 02:49:33,462 - __main__ - INFO - Removed 1 bases from start of ARGD_CHLTE
+2021-03-03 02:49:33,464 - __main__ - INFO - Removed 1 bases from start of ARGD_LEPIN
+2021-03-03 02:49:33,466 - __main__ - INFO - Removed 5 bases from start of ARGD_WOLSU
+2021-03-03 02:49:33,468 - __main__ - INFO - Removed 1 bases from start of ARGD_YEAST
+2021-03-03 02:49:33,470 - __main__ - INFO - Removed 1 bases from start of ARGD_KLULA
+2021-03-03 02:49:33,472 - __main__ - INFO - Removed 4 bases from start of ARGD_BIFLO
+2021-03-03 02:49:33,477 - __main__ - INFO - Removed 1 bases from start of ARD1_STAEP
+2021-03-03 02:49:33,479 - __main__ - INFO - Removed 1 bases from start of OAT_BACAA
+2021-03-03 02:49:33,482 - __main__ - INFO - Removed 1 bases from start of OAT_BACSU
+2021-03-03 02:49:33,484 - __main__ - INFO - Removed 1 bases from start of OAT_BACHD
+2021-03-03 02:49:33,486 - __main__ - INFO - Removed 1 bases from start of OAT_OCEIH
+2021-03-03 02:49:33,488 - __main__ - INFO - Removed 1 bases from start of ARD3_BRAJA
+2021-03-03 02:49:33,489 - __main__ - INFO - Removed 2 bases from end of ARD3_BRAJA
+2021-03-03 02:49:33,492 - __main__ - INFO - Removed 1 bases from start of OAT_BORBR
+2021-03-03 02:49:33,495 - __main__ - INFO - Removed 8 bases from start of OAT_CAEEL
+2021-03-03 02:49:33,497 - __main__ - INFO - Removed 1 bases from start of OAT_PLAFD
+2021-03-03 02:49:33,500 - __main__ - INFO - Removed 4 bases from start of OAT_EMENI
+2021-03-03 02:49:33,502 - __main__ - INFO - Removed 1 bases from start of OAT_SCHPO
+2021-03-03 02:49:33,504 - __main__ - INFO - Removed 1 bases from start of OAT_YEAST
+2021-03-03 02:49:33,505 - __main__ - INFO - Removed 1 bases from start of OAT_ECOLI
+2021-03-03 02:49:33,507 - __main__ - INFO - Removed 2 bases from start of ARGD_DEIRA
+2021-03-03 02:49:33,509 - __main__ - INFO - Removed 1 bases from start of ARGD_SULTO
+2021-03-03 02:49:33,511 - __main__ - INFO - Removed 2 bases from start of ARGD_SULSO
+2021-03-03 02:49:33,513 - __main__ - INFO - Removed 1 bases from start of ARGD_PYRAE
+2021-03-03 02:49:33,515 - __main__ - INFO - Removed 1 bases from start of ARGD_AERPE
+2021-03-03 02:49:33,515 - __main__ - INFO - Removed 2 bases from end of ARGD_AERPE
+2021-03-03 02:49:33,517 - __main__ - INFO - Removed 1 bases from start of 1gbn_A
+2021-03-03 02:49:33,523 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 02:49:34,259 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 02:49:34,789 - __main__ - INFO - Building consensus sequence

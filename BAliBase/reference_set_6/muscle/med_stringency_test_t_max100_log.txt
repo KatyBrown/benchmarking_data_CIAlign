@@ -1,0 +1,359 @@
+2021-03-03 05:05:00,926 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini --infile reference_set_6/muscle/test_t_max100.fasta --outfile_stem reference_set_6/muscle/med_stringency_test_t_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.3
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 05:05:01,439 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 05:05:01,439 - __main__ - INFO - Removing divergent sequences
+2021-03-03 05:05:03,944 - __main__ - INFO - Removing divergent sequences fem1_caeel_6, mad3_human_5, fem1_caeel_8, BCL3_HUMAN_1, kbf1_HUMAN_6, BCL3_HUMAN_7, HT16_HYDAT_1, O04242_4, YAZ4_SCHPO_1, akr1_YEAST_3, kbf1_HUMAN_1, SWI6_YEAST_1, O04242_1, akr_ARATH_2, HT16_HYDAT_5, dapk_human_9, mad3_human_1, cc10_SCHPO_2, SWI6_YEAST_4, SWI6_YEAST_2, KDGZ_HUMAN_1, ANK1_MOUSE_05, akr1_YEAST_6, p532_human_1, fem1_caeel_1, akr1_YEAST_1, Q13418_4, KDGZ_HUMAN_4, SWI6_YEAST_3, cdn2_mouse_1, CACT_DROME_4, cc10_SCHPO_1, Q92625-F_8, CACT_DROME_7, cdn7_mouse_1, p532_human_4, cc10_SCHPO_4, ANK1_MOUSE_23, cdn2_human_4, YAZ4_SCHPO_3, RN5A_HUMAN_9, ankh_CHRVI_8, O04242_6, gabb_human_5, fem1_caeel_12, fem1_caeel_7, mad3_human_3, O89019_15, dapk_human_1, CACT_DROME_3, ankb_HUMAN_5, fem1_caeel_9, ankb_HUMAN_1, akr_ARATH_1, CACT_DROME_1, notc_DROME_7
+2021-03-03 05:05:03,944 - __main__ - INFO - Removing insertions
+2021-03-03 05:05:03,944 - __main__ - INFO - Removing insertions
+
+2021-03-03 05:05:06,146 - __main__ - INFO - Removing sites 2016, 2017, 1737, 1738, 1739, 1740, 1741, 1742, 1743, 1744, 1745, 1746, 1747, 1748, 1749, 1750, 1751, 1755, 1756, 1758, 1759, 1760, 1761, 1762, 1763, 1764, 1765, 1766, 1767, 1768, 1769, 1770, 1771, 1772, 1773, 1774, 1775, 1776, 1777, 1778, 1779, 1780, 1781, 1782, 1783, 1784, 1785, 1786, 1787, 1788, 1789, 1790, 1791, 1792, 1793, 1794, 1795, 1796, 1797, 1798, 1799, 1800, 1801, 2025, 1803, 1804, 1805, 1806, 1807, 1808, 1809, 1810, 1811, 1812, 1813, 1814, 1815, 1816, 1817, 1818, 1819, 1820, 1821, 1822, 1823, 2026, 1825, 977, 2027, 978, 979, 980, 981, 2028, 985, 986, 987, 2029, 988, 989, 990, 991, 2030, 2015, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 2000, 976, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 982, 983, 984, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 992, 993, 994, 995, 996, 997, 998, 999, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 2031
+2021-03-03 05:05:06,149 - __main__ - INFO - Cropping ends
+2021-03-03 05:05:06,171 - __main__ - INFO - Removed 2 bases from start of cc10_SCHPO_3
+2021-03-03 05:05:06,171 - __main__ - INFO - Removed 2 bases from end of cc10_SCHPO_3
+2021-03-03 05:05:06,197 - __main__ - INFO - Removed 2 bases from start of HT16_HYDAT_3
+2021-03-03 05:05:06,197 - __main__ - INFO - Removed 2 bases from end of HT16_HYDAT_3
+2021-03-03 05:05:06,211 - __main__ - INFO - Removed 2 bases from start of O89019_5
+2021-03-03 05:05:06,212 - __main__ - INFO - Removed 2 bases from end of O89019_5
+2021-03-03 05:05:06,226 - __main__ - INFO - Removed 2 bases from start of v1p_MOUSE_1
+2021-03-03 05:05:06,226 - __main__ - INFO - Removed 2 bases from end of v1p_MOUSE_1
+2021-03-03 05:05:06,250 - __main__ - INFO - Removed 2 bases from start of RN5A_HUMAN_6
+2021-03-03 05:05:06,250 - __main__ - INFO - Removed 2 bases from end of RN5A_HUMAN_6
+2021-03-03 05:05:06,265 - __main__ - INFO - Removed 2 bases from start of BCL3_HUMAN_5
+2021-03-03 05:05:06,265 - __main__ - INFO - Removed 2 bases from end of BCL3_HUMAN_5
+2021-03-03 05:05:06,280 - __main__ - INFO - Removed 2 bases from start of KDGZ_HUMAN_3
+2021-03-03 05:05:06,280 - __main__ - INFO - Removed 2 bases from end of KDGZ_HUMAN_3
+2021-03-03 05:05:06,295 - __main__ - INFO - Removed 2 bases from start of fem1_caeel_2
+2021-03-03 05:05:06,296 - __main__ - INFO - Removed 2 bases from end of fem1_caeel_2
+2021-03-03 05:05:06,310 - __main__ - INFO - Removed 2 bases from start of notc_DROME_4
+2021-03-03 05:05:06,310 - __main__ - INFO - Removed 2 bases from end of notc_DROME_4
+2021-03-03 05:05:06,325 - __main__ - INFO - Removed 2 bases from start of dapk_human_2
+2021-03-03 05:05:06,325 - __main__ - INFO - Removed 2 bases from end of dapk_human_2
+2021-03-03 05:05:06,340 - __main__ - INFO - Removed 2 bases from start of CACT_DROME_5
+2021-03-03 05:05:06,340 - __main__ - INFO - Removed 2 bases from end of CACT_DROME_5
+2021-03-03 05:05:06,355 - __main__ - INFO - Removed 2 bases from start of cdn2_mouse_3
+2021-03-03 05:05:06,355 - __main__ - INFO - Removed 2 bases from end of cdn2_mouse_3
+2021-03-03 05:05:06,370 - __main__ - INFO - Removed 2 bases from start of cdn2_human_3
+2021-03-03 05:05:06,370 - __main__ - INFO - Removed 2 bases from end of cdn2_human_3
+2021-03-03 05:05:06,385 - __main__ - INFO - Removed 2 bases from start of cdn5_MOUSE_3
+2021-03-03 05:05:06,385 - __main__ - INFO - Removed 2 bases from end of cdn5_MOUSE_3
+2021-03-03 05:05:06,399 - __main__ - INFO - Removed 2 bases from start of cdn6_human_3
+2021-03-03 05:05:06,399 - __main__ - INFO - Removed 2 bases from end of cdn6_human_3
+2021-03-03 05:05:06,414 - __main__ - INFO - Removed 2 bases from start of cdn7_mouse_3
+2021-03-03 05:05:06,414 - __main__ - INFO - Removed 2 bases from end of cdn7_mouse_3
+2021-03-03 05:05:06,429 - __main__ - INFO - Removed 2 bases from start of ankh_CHRVI_6
+2021-03-03 05:05:06,429 - __main__ - INFO - Removed 2 bases from end of ankh_CHRVI_6
+2021-03-03 05:05:06,444 - __main__ - INFO - Removed 2 bases from start of kbf1_HUMAN_4
+2021-03-03 05:05:06,444 - __main__ - INFO - Removed 2 bases from end of kbf1_HUMAN_4
+2021-03-03 05:05:06,458 - __main__ - INFO - Removed 2 bases from start of dapk_human_5
+2021-03-03 05:05:06,458 - __main__ - INFO - Removed 2 bases from end of dapk_human_5
+2021-03-03 05:05:06,473 - __main__ - INFO - Removed 2 bases from start of mad3_human_4
+2021-03-03 05:05:06,474 - __main__ - INFO - Removed 2 bases from end of mad3_human_4
+2021-03-03 05:05:06,489 - __main__ - INFO - Removed 2 bases from start of fem1_caeel_4
+2021-03-03 05:05:06,489 - __main__ - INFO - Removed 2 bases from end of fem1_caeel_4
+2021-03-03 05:05:06,524 - __main__ - INFO - Removed 2 bases from start of BCL3_HUMAN_6
+2021-03-03 05:05:06,524 - __main__ - INFO - Removed 2 bases from end of BCL3_HUMAN_6
+2021-03-03 05:05:06,539 - __main__ - INFO - Removed 2 bases from start of cdn7_mouse_2
+2021-03-03 05:05:06,539 - __main__ - INFO - Removed 2 bases from end of cdn7_mouse_2
+2021-03-03 05:05:06,563 - __main__ - INFO - Removed 2 bases from start of O89019_13
+2021-03-03 05:05:06,563 - __main__ - INFO - Removed 2 bases from end of O89019_13
+2021-03-03 05:05:06,578 - __main__ - INFO - Removed 2 bases from start of cdn6_human_2
+2021-03-03 05:05:06,578 - __main__ - INFO - Removed 2 bases from end of cdn6_human_2
+2021-03-03 05:05:06,593 - __main__ - INFO - Removed 2 bases from start of cdn2_mouse_2
+2021-03-03 05:05:06,593 - __main__ - INFO - Removed 2 bases from end of cdn2_mouse_2
+2021-03-03 05:05:06,607 - __main__ - INFO - Removed 2 bases from start of cdn2_human_2
+2021-03-03 05:05:06,607 - __main__ - INFO - Removed 2 bases from end of cdn2_human_2
+2021-03-03 05:05:06,622 - __main__ - INFO - Removed 2 bases from start of cdn5_MOUSE_2
+2021-03-03 05:05:06,622 - __main__ - INFO - Removed 2 bases from end of cdn5_MOUSE_2
+2021-03-03 05:05:06,637 - __main__ - INFO - Removed 2 bases from start of cdn7_mouse_4
+2021-03-03 05:05:06,637 - __main__ - INFO - Removed 2 bases from end of cdn7_mouse_4
+2021-03-03 05:05:06,652 - __main__ - INFO - Removed 2 bases from start of cdn6_human_4
+2021-03-03 05:05:06,652 - __main__ - INFO - Removed 2 bases from end of cdn6_human_4
+2021-03-03 05:05:06,667 - __main__ - INFO - Removed 2 bases from start of kbf1_HUMAN_3
+2021-03-03 05:05:06,667 - __main__ - INFO - Removed 2 bases from end of kbf1_HUMAN_3
+2021-03-03 05:05:06,681 - __main__ - INFO - Removed 2 bases from start of O04242_3
+2021-03-03 05:05:06,681 - __main__ - INFO - Removed 2 bases from end of O04242_3
+2021-03-03 05:05:06,696 - __main__ - INFO - Removed 2 bases from start of dapk_human_3
+2021-03-03 05:05:06,696 - __main__ - INFO - Removed 2 bases from end of dapk_human_3
+2021-03-03 05:05:06,711 - __main__ - INFO - Removed 1 bases from start of cdn7_mouse_5
+2021-03-03 05:05:06,711 - __main__ - INFO - Removed 1 bases from end of cdn7_mouse_5
+2021-03-03 05:05:06,726 - __main__ - INFO - Removed 2 bases from start of HT16_HYDAT_4
+2021-03-03 05:05:06,726 - __main__ - INFO - Removed 2 bases from end of HT16_HYDAT_4
+2021-03-03 05:05:06,741 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_09
+2021-03-03 05:05:06,741 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_09
+2021-03-03 05:05:06,756 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_9
+2021-03-03 05:05:06,756 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_9
+2021-03-03 05:05:06,771 - __main__ - INFO - Removed 2 bases from start of fem1_caeel_3
+2021-03-03 05:05:06,771 - __main__ - INFO - Removed 2 bases from end of fem1_caeel_3
+2021-03-03 05:05:06,786 - __main__ - INFO - Removed 3 bases from start of RN5A_HUMAN_4
+2021-03-03 05:05:06,786 - __main__ - INFO - Removed 3 bases from end of RN5A_HUMAN_4
+2021-03-03 05:05:06,800 - __main__ - INFO - Removed 2 bases from start of p532_human_3
+2021-03-03 05:05:06,800 - __main__ - INFO - Removed 2 bases from end of p532_human_3
+2021-03-03 05:05:06,814 - __main__ - INFO - Removed 2 bases from start of CACT_DROME_2
+2021-03-03 05:05:06,815 - __main__ - INFO - Removed 2 bases from end of CACT_DROME_2
+2021-03-03 05:05:06,829 - __main__ - INFO - Removed 2 bases from start of BCL3_HUMAN_2
+2021-03-03 05:05:06,829 - __main__ - INFO - Removed 2 bases from end of BCL3_HUMAN_2
+2021-03-03 05:05:06,843 - __main__ - INFO - Removed 2 bases from start of mad3_human_2
+2021-03-03 05:05:06,843 - __main__ - INFO - Removed 2 bases from end of mad3_human_2
+2021-03-03 05:05:06,858 - __main__ - INFO - Removed 2 bases from start of kbf1_HUMAN_2
+2021-03-03 05:05:06,858 - __main__ - INFO - Removed 2 bases from end of kbf1_HUMAN_2
+2021-03-03 05:05:06,872 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_20
+2021-03-03 05:05:06,872 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_20
+2021-03-03 05:05:06,886 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_20
+2021-03-03 05:05:06,886 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_20
+2021-03-03 05:05:06,901 - __main__ - INFO - Removed 4 bases from start of ANK1_MOUSE_01
+2021-03-03 05:05:06,915 - __main__ - INFO - Removed 2 bases from start of O89019_2
+2021-03-03 05:05:06,915 - __main__ - INFO - Removed 2 bases from end of O89019_2
+2021-03-03 05:05:06,929 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_21
+2021-03-03 05:05:06,929 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_21
+2021-03-03 05:05:06,943 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_21
+2021-03-03 05:05:06,944 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_21
+2021-03-03 05:05:06,958 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_12
+2021-03-03 05:05:06,958 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_12
+2021-03-03 05:05:06,972 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_12
+2021-03-03 05:05:06,972 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_12
+2021-03-03 05:05:06,987 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_10
+2021-03-03 05:05:06,987 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_10
+2021-03-03 05:05:07,001 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_10
+2021-03-03 05:05:07,001 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_10
+2021-03-03 05:05:07,016 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_16
+2021-03-03 05:05:07,016 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_16
+2021-03-03 05:05:07,030 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_16
+2021-03-03 05:05:07,030 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_16
+2021-03-03 05:05:07,044 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_17
+2021-03-03 05:05:07,044 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_17
+2021-03-03 05:05:07,058 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_17
+2021-03-03 05:05:07,059 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_17
+2021-03-03 05:05:07,073 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_06
+2021-03-03 05:05:07,073 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_06
+2021-03-03 05:05:07,087 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_6
+2021-03-03 05:05:07,087 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_6
+2021-03-03 05:05:07,111 - __main__ - INFO - Removed 2 bases from start of RN5A_HUMAN_2
+2021-03-03 05:05:07,111 - __main__ - INFO - Removed 2 bases from end of RN5A_HUMAN_2
+2021-03-03 05:05:07,125 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_07
+2021-03-03 05:05:07,125 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_07
+2021-03-03 05:05:07,140 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_7
+2021-03-03 05:05:07,140 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_7
+2021-03-03 05:05:07,154 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_19
+2021-03-03 05:05:07,154 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_19
+2021-03-03 05:05:07,169 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_19
+2021-03-03 05:05:07,169 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_19
+2021-03-03 05:05:07,184 - __main__ - INFO - Removed 2 bases from start of cdn6_human_1
+2021-03-03 05:05:07,184 - __main__ - INFO - Removed 2 bases from end of cdn6_human_1
+2021-03-03 05:05:07,209 - __main__ - INFO - Removed 2 bases from start of cdn2_human_1
+2021-03-03 05:05:07,209 - __main__ - INFO - Removed 2 bases from end of cdn2_human_1
+2021-03-03 05:05:07,224 - __main__ - INFO - Removed 2 bases from start of cdn5_MOUSE_1
+2021-03-03 05:05:07,224 - __main__ - INFO - Removed 2 bases from end of cdn5_MOUSE_1
+2021-03-03 05:05:07,238 - __main__ - INFO - Removed 2 bases from start of notc_DROME_3
+2021-03-03 05:05:07,238 - __main__ - INFO - Removed 2 bases from end of notc_DROME_3
+2021-03-03 05:05:07,253 - __main__ - INFO - Removed 2 bases from start of cdn6_human_5
+2021-03-03 05:05:07,253 - __main__ - INFO - Removed 2 bases from end of cdn6_human_5
+2021-03-03 05:05:07,268 - __main__ - INFO - Removed 2 bases from start of akr1_YEAST_5
+2021-03-03 05:05:07,268 - __main__ - INFO - Removed 2 bases from end of akr1_YEAST_5
+2021-03-03 05:05:07,283 - __main__ - INFO - Removed 2 bases from start of O89019_11
+2021-03-03 05:05:07,283 - __main__ - INFO - Removed 2 bases from end of O89019_11
+2021-03-03 05:05:07,299 - __main__ - INFO - Removed 2 bases from start of O89019_14
+2021-03-03 05:05:07,299 - __main__ - INFO - Removed 2 bases from end of O89019_14
+2021-03-03 05:05:07,314 - __main__ - INFO - Removed 2 bases from start of BCL3_HUMAN_3
+2021-03-03 05:05:07,314 - __main__ - INFO - Removed 2 bases from end of BCL3_HUMAN_3
+2021-03-03 05:05:07,329 - __main__ - INFO - Removed 2 bases from start of fem1_caeel_10
+2021-03-03 05:05:07,329 - __main__ - INFO - Removed 2 bases from end of fem1_caeel_10
+2021-03-03 05:05:07,343 - __main__ - INFO - Removed 2 bases from start of KDGZ_HUMAN_2
+2021-03-03 05:05:07,343 - __main__ - INFO - Removed 2 bases from end of KDGZ_HUMAN_2
+2021-03-03 05:05:07,358 - __main__ - INFO - Removed 2 bases from start of akr1_YEAST_4
+2021-03-03 05:05:07,358 - __main__ - INFO - Removed 2 bases from end of akr1_YEAST_4
+2021-03-03 05:05:07,372 - __main__ - INFO - Removed 2 bases from start of O89019_4
+2021-03-03 05:05:07,372 - __main__ - INFO - Removed 2 bases from end of O89019_4
+2021-03-03 05:05:07,387 - __main__ - INFO - Removed 2 bases from start of O89019_3
+2021-03-03 05:05:07,387 - __main__ - INFO - Removed 2 bases from end of O89019_3
+2021-03-03 05:05:07,401 - __main__ - INFO - Removed 2 bases from start of Q92625-F_3
+2021-03-03 05:05:07,402 - __main__ - INFO - Removed 2 bases from end of Q92625-F_3
+2021-03-03 05:05:07,416 - __main__ - INFO - Removed 2 bases from start of dapk_human_4
+2021-03-03 05:05:07,416 - __main__ - INFO - Removed 2 bases from end of dapk_human_4
+2021-03-03 05:05:07,430 - __main__ - INFO - Removed 2 bases from start of dapk_human_7
+2021-03-03 05:05:07,430 - __main__ - INFO - Removed 2 bases from end of dapk_human_7
+2021-03-03 05:05:07,445 - __main__ - INFO - Removed 3 bases from start of cdn2_mouse_4
+2021-03-03 05:05:07,445 - __main__ - INFO - Removed 3 bases from end of cdn2_mouse_4
+2021-03-03 05:05:07,459 - __main__ - INFO - Removed 1 bases from start of cdn5_MOUSE_4
+2021-03-03 05:05:07,460 - __main__ - INFO - Removed 1 bases from end of cdn5_MOUSE_4
+2021-03-03 05:05:07,474 - __main__ - INFO - Removed 2 bases from start of akr_ARATH_3
+2021-03-03 05:05:07,474 - __main__ - INFO - Removed 2 bases from end of akr_ARATH_3
+2021-03-03 05:05:07,489 - __main__ - INFO - Removed 2 bases from start of Q13418_3
+2021-03-03 05:05:07,489 - __main__ - INFO - Removed 2 bases from end of Q13418_3
+2021-03-03 05:05:07,507 - __main__ - INFO - Removed 2 bases from start of O89019_9
+2021-03-03 05:05:07,507 - __main__ - INFO - Removed 2 bases from end of O89019_9
+2021-03-03 05:05:07,522 - __main__ - INFO - Removed 2 bases from start of Q92625-F_5
+2021-03-03 05:05:07,522 - __main__ - INFO - Removed 2 bases from end of Q92625-F_5
+2021-03-03 05:05:07,546 - __main__ - INFO - Removed 2 bases from start of RN5A_HUMAN_7
+2021-03-03 05:05:07,546 - __main__ - INFO - Removed 2 bases from end of RN5A_HUMAN_7
+2021-03-03 05:05:07,561 - __main__ - INFO - Removed 1 bases from start of ANK1_MOUSE_04
+2021-03-03 05:05:07,561 - __main__ - INFO - Removed 1 bases from end of ANK1_MOUSE_04
+2021-03-03 05:05:07,576 - __main__ - INFO - Removed 1 bases from start of ankb_HUMAN_4
+2021-03-03 05:05:07,576 - __main__ - INFO - Removed 1 bases from end of ankb_HUMAN_4
+2021-03-03 05:05:07,591 - __main__ - INFO - Removed 2 bases from start of fem1_caeel_11
+2021-03-03 05:05:07,591 - __main__ - INFO - Removed 2 bases from end of fem1_caeel_11
+2021-03-03 05:05:07,606 - __main__ - INFO - Removed 2 bases from start of O89019_12
+2021-03-03 05:05:07,606 - __main__ - INFO - Removed 2 bases from end of O89019_12
+2021-03-03 05:05:07,621 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_23
+2021-03-03 05:05:07,621 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_23
+2021-03-03 05:05:07,636 - __main__ - INFO - Removed 1 bases from start of RN5A_HUMAN_8
+2021-03-03 05:05:07,636 - __main__ - INFO - Removed 1 bases from end of RN5A_HUMAN_8
+2021-03-03 05:05:07,660 - __main__ - INFO - Removed 2 bases from start of notc_DROME_2
+2021-03-03 05:05:07,660 - __main__ - INFO - Removed 2 bases from end of notc_DROME_2
+2021-03-03 05:05:07,675 - __main__ - INFO - Removed 2 bases from start of dapk_human_8
+2021-03-03 05:05:07,675 - __main__ - INFO - Removed 2 bases from end of dapk_human_8
+2021-03-03 05:05:07,690 - __main__ - INFO - Removed 2 bases from start of gabb_human_4
+2021-03-03 05:05:07,690 - __main__ - INFO - Removed 2 bases from end of gabb_human_4
+2021-03-03 05:05:07,704 - __main__ - INFO - Removed 2 bases from start of O89019_6
+2021-03-03 05:05:07,704 - __main__ - INFO - Removed 2 bases from end of O89019_6
+2021-03-03 05:05:07,718 - __main__ - INFO - Removed 2 bases from start of YAZ4_SCHPO_2
+2021-03-03 05:05:07,719 - __main__ - INFO - Removed 2 bases from end of YAZ4_SCHPO_2
+2021-03-03 05:05:07,733 - __main__ - INFO - Removed 2 bases from start of notc_DROME_6
+2021-03-03 05:05:07,733 - __main__ - INFO - Removed 2 bases from end of notc_DROME_6
+2021-03-03 05:05:07,747 - __main__ - INFO - Removed 2 bases from start of CACT_DROME_6
+2021-03-03 05:05:07,747 - __main__ - INFO - Removed 2 bases from end of CACT_DROME_6
+2021-03-03 05:05:07,762 - __main__ - INFO - Removed 2 bases from start of kbf1_HUMAN_5
+2021-03-03 05:05:07,762 - __main__ - INFO - Removed 2 bases from end of kbf1_HUMAN_5
+2021-03-03 05:05:07,776 - __main__ - INFO - Removed 2 bases from start of notc_DROME_5
+2021-03-03 05:05:07,776 - __main__ - INFO - Removed 2 bases from end of notc_DROME_5
+2021-03-03 05:05:07,791 - __main__ - INFO - Removed 2 bases from start of O89019_8
+2021-03-03 05:05:07,791 - __main__ - INFO - Removed 2 bases from end of O89019_8
+2021-03-03 05:05:07,805 - __main__ - INFO - Removed 2 bases from start of dapk_human_6
+2021-03-03 05:05:07,805 - __main__ - INFO - Removed 2 bases from end of dapk_human_6
+2021-03-03 05:05:07,820 - __main__ - INFO - Removed 2 bases from start of Q92625-F_6
+2021-03-03 05:05:07,820 - __main__ - INFO - Removed 2 bases from end of Q92625-F_6
+2021-03-03 05:05:07,834 - __main__ - INFO - Removed 2 bases from start of gabb_human_2
+2021-03-03 05:05:07,834 - __main__ - INFO - Removed 2 bases from end of gabb_human_2
+2021-03-03 05:05:07,848 - __main__ - INFO - Removed 2 bases from start of Q92625-F_4
+2021-03-03 05:05:07,848 - __main__ - INFO - Removed 2 bases from end of Q92625-F_4
+2021-03-03 05:05:07,862 - __main__ - INFO - Removed 2 bases from start of Q92625-F_7
+2021-03-03 05:05:07,863 - __main__ - INFO - Removed 2 bases from end of Q92625-F_7
+2021-03-03 05:05:07,877 - __main__ - INFO - Removed 2 bases from start of ankh_CHRVI_2
+2021-03-03 05:05:07,877 - __main__ - INFO - Removed 2 bases from end of ankh_CHRVI_2
+2021-03-03 05:05:07,891 - __main__ - INFO - Removed 2 bases from start of BCL3_HUMAN_4
+2021-03-03 05:05:07,891 - __main__ - INFO - Removed 2 bases from end of BCL3_HUMAN_4
+2021-03-03 05:05:07,906 - __main__ - INFO - Removed 2 bases from start of O89019_10
+2021-03-03 05:05:07,906 - __main__ - INFO - Removed 2 bases from end of O89019_10
+2021-03-03 05:05:07,921 - __main__ - INFO - Removed 2 bases from start of p532_human_2
+2021-03-03 05:05:07,921 - __main__ - INFO - Removed 2 bases from end of p532_human_2
+2021-03-03 05:05:07,935 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_13
+2021-03-03 05:05:07,935 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_13
+2021-03-03 05:05:07,949 - __main__ - INFO - Removed 2 bases from start of gabb_human_1
+2021-03-03 05:05:07,950 - __main__ - INFO - Removed 2 bases from end of gabb_human_1
+2021-03-03 05:05:07,964 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_13
+2021-03-03 05:05:07,964 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_13
+2021-03-03 05:05:07,978 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_02
+2021-03-03 05:05:07,978 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_02
+2021-03-03 05:05:07,993 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_2
+2021-03-03 05:05:07,993 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_2
+2021-03-03 05:05:08,007 - __main__ - INFO - Removed 2 bases from start of ankh_CHRVI_4
+2021-03-03 05:05:08,007 - __main__ - INFO - Removed 2 bases from end of ankh_CHRVI_4
+2021-03-03 05:05:08,022 - __main__ - INFO - Removed 2 bases from start of ankh_CHRVI_7
+2021-03-03 05:05:08,022 - __main__ - INFO - Removed 2 bases from end of ankh_CHRVI_7
+2021-03-03 05:05:08,036 - __main__ - INFO - Removed 2 bases from start of akr1_YEAST_2
+2021-03-03 05:05:08,036 - __main__ - INFO - Removed 2 bases from end of akr1_YEAST_2
+2021-03-03 05:05:08,051 - __main__ - INFO - Removed 2 bases from start of O89019_7
+2021-03-03 05:05:08,051 - __main__ - INFO - Removed 2 bases from end of O89019_7
+2021-03-03 05:05:08,065 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_11
+2021-03-03 05:05:08,065 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_11
+2021-03-03 05:05:08,079 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_11
+2021-03-03 05:05:08,079 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_11
+2021-03-03 05:05:08,094 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_18
+2021-03-03 05:05:08,094 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_18
+2021-03-03 05:05:08,108 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_18
+2021-03-03 05:05:08,108 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_18
+2021-03-03 05:05:08,122 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_15
+2021-03-03 05:05:08,122 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_15
+2021-03-03 05:05:08,137 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_15
+2021-03-03 05:05:08,137 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_15
+2021-03-03 05:05:08,151 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_03
+2021-03-03 05:05:08,151 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_03
+2021-03-03 05:05:08,165 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_3
+2021-03-03 05:05:08,165 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_3
+2021-03-03 05:05:08,179 - __main__ - INFO - Removed 2 bases from start of ankh_CHRVI_3
+2021-03-03 05:05:08,179 - __main__ - INFO - Removed 2 bases from end of ankh_CHRVI_3
+2021-03-03 05:05:08,194 - __main__ - INFO - Removed 2 bases from start of Q92625-F_2
+2021-03-03 05:05:08,194 - __main__ - INFO - Removed 2 bases from end of Q92625-F_2
+2021-03-03 05:05:08,208 - __main__ - INFO - Removed 2 bases from start of O04242_5
+2021-03-03 05:05:08,208 - __main__ - INFO - Removed 2 bases from end of O04242_5
+2021-03-03 05:05:08,222 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_22
+2021-03-03 05:05:08,222 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_22
+2021-03-03 05:05:08,237 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_22
+2021-03-03 05:05:08,237 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_22
+2021-03-03 05:05:08,251 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_14
+2021-03-03 05:05:08,251 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_14
+2021-03-03 05:05:08,265 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_14
+2021-03-03 05:05:08,265 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_14
+2021-03-03 05:05:08,280 - __main__ - INFO - Removed 2 bases from start of ankb_HUMAN_8
+2021-03-03 05:05:08,280 - __main__ - INFO - Removed 2 bases from end of ankb_HUMAN_8
+2021-03-03 05:05:08,296 - __main__ - INFO - Removed 2 bases from start of ANK1_MOUSE_08
+2021-03-03 05:05:08,296 - __main__ - INFO - Removed 2 bases from end of ANK1_MOUSE_08
+2021-03-03 05:05:08,310 - __main__ - INFO - Removed 2 bases from start of Q13418_2
+2021-03-03 05:05:08,311 - __main__ - INFO - Removed 2 bases from end of Q13418_2
+2021-03-03 05:05:08,325 - __main__ - INFO - Removed 2 bases from start of v1p_MOUSE_2
+2021-03-03 05:05:08,325 - __main__ - INFO - Removed 2 bases from end of v1p_MOUSE_2
+2021-03-03 05:05:08,340 - __main__ - INFO - Removed 2 bases from start of gabb_human_3
+2021-03-03 05:05:08,340 - __main__ - INFO - Removed 2 bases from end of gabb_human_3
+2021-03-03 05:05:08,355 - __main__ - INFO - Removed 2 bases from start of RN5A_HUMAN_3
+2021-03-03 05:05:08,355 - __main__ - INFO - Removed 2 bases from end of RN5A_HUMAN_3
+2021-03-03 05:05:08,370 - __main__ - INFO - Removed 2 bases from start of fem1_caeel_5
+2021-03-03 05:05:08,370 - __main__ - INFO - Removed 2 bases from end of fem1_caeel_5
+2021-03-03 05:05:08,385 - __main__ - INFO - Removed 2 bases from start of RN5A_HUMAN_5
+2021-03-03 05:05:08,385 - __main__ - INFO - Removed 2 bases from end of RN5A_HUMAN_5
+2021-03-03 05:05:08,399 - __main__ - INFO - Removed 2 bases from start of HT16_HYDAT_2
+2021-03-03 05:05:08,400 - __main__ - INFO - Removed 2 bases from end of HT16_HYDAT_2
+2021-03-03 05:05:08,414 - __main__ - INFO - Removed 2 bases from start of O04242_2
+2021-03-03 05:05:08,414 - __main__ - INFO - Removed 2 bases from end of O04242_2
+2021-03-03 05:05:08,429 - __main__ - INFO - Removed 2 bases from start of ankh_CHRVI_5
+2021-03-03 05:05:08,429 - __main__ - INFO - Removed 2 bases from end of ankh_CHRVI_5
+2021-03-03 05:05:08,498 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 05:05:09,546 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 05:05:10,414 - __main__ - INFO - Building consensus sequence

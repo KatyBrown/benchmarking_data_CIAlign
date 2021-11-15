@@ -1,0 +1,102 @@
+2021-03-03 02:57:00,952 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_3/mafft/RV30_BB30011_global_max100.fasta --outfile_stem reference_set_3/mafft/high_stringency_RV30_BB30011_global_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 02:57:00,982 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 02:57:00,982 - __main__ - INFO - Removing divergent sequences
+2021-03-03 02:57:02,117 - __main__ - INFO - Removing divergent sequences MDH_MYCLE, 1b8p_A, MDHC_HUMAN, 1ldg_, MDH_THETH, MDHC_ECHGR, MDHC_ARATH, LDH_MYCGA, MDH_RICCN, MDH_RHILV, MDHP_MAIZE, MDHP_SPIOL
+2021-03-03 02:57:02,117 - __main__ - INFO - Removing insertions
+2021-03-03 02:57:02,117 - __main__ - INFO - Removing insertions
+
+2021-03-03 02:57:02,877 - __main__ - INFO - Removing sites 523, 524, 525, 526, 547, 57, 58, 59, 60, 61, 62, 83, 84, 85, 97, 98, 99, 100, 101, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 144, 145, 146, 154, 155, 156, 157, 158, 159, 160, 169, 181, 182, 183, 184, 185, 200, 201, 202, 203, 204, 205, 206, 224, 234, 235, 236, 237, 238, 239, 240, 264, 265, 266, 269, 270, 271, 272, 273, 302, 356, 378, 379, 380, 381, 386, 387, 388, 389, 390, 391, 392, 393, 394, 412, 413, 430, 431, 454, 455, 470, 471, 472, 473, 476, 477, 480, 481, 482, 503
+2021-03-03 02:57:02,878 - __main__ - INFO - Cropping ends
+2021-03-03 02:57:02,883 - __main__ - INFO - Removed 3 bases from start of 1ez4_A
+2021-03-03 02:57:02,885 - __main__ - INFO - Removed 2 bases from start of 1guy_A
+2021-03-03 02:57:02,894 - __main__ - INFO - Removed 1 bases from end of LDHB_ANGRO
+2021-03-03 02:57:02,905 - __main__ - INFO - Removed 27 bases from start of LDHL_HUMAN
+2021-03-03 02:57:02,914 - __main__ - INFO - Removed 3 bases from start of LDH2_LACPL
+2021-03-03 02:57:02,917 - __main__ - INFO - Removed 2 bases from start of LDH_CLOAB
+2021-03-03 02:57:02,919 - __main__ - INFO - Removed 4 bases from start of LDH_CLOPE
+2021-03-03 02:57:02,929 - __main__ - INFO - Removed 3 bases from start of LDH_BACSU
+2021-03-03 02:57:02,932 - __main__ - INFO - Removed 4 bases from start of LDHP_BACPS
+2021-03-03 02:57:02,938 - __main__ - INFO - Removed 4 bases from start of LDH_BACCA
+2021-03-03 02:57:02,945 - __main__ - INFO - Removed 4 bases from start of LDH_BACHD
+2021-03-03 02:57:02,952 - __main__ - INFO - Removed 1 bases from start of LDH2_STAAM
+2021-03-03 02:57:02,958 - __main__ - INFO - Removed 4 bases from start of LDH1_STAAM
+2021-03-03 02:57:02,963 - __main__ - INFO - Removed 4 bases from start of LDH_CORGL
+2021-03-03 02:57:02,965 - __main__ - INFO - Removed 6 bases from start of LDH_BACME
+2021-03-03 02:57:02,969 - __main__ - INFO - Removed 3 bases from start of LDH2_LACLA
+2021-03-03 02:57:02,971 - __main__ - INFO - Removed 6 bases from start of LDH_LACCA
+2021-03-03 02:57:02,974 - __main__ - INFO - Removed 2 bases from start of LDH_LISIN
+2021-03-03 02:57:02,976 - __main__ - INFO - Removed 5 bases from start of LDH_STRBO
+2021-03-03 02:57:02,976 - __main__ - INFO - Removed 1 bases from end of LDH_STRBO
+2021-03-03 02:57:02,979 - __main__ - INFO - Removed 3 bases from start of LDH1_LACLA
+2021-03-03 02:57:02,979 - __main__ - INFO - Removed 1 bases from end of LDH1_LACLA
+2021-03-03 02:57:02,981 - __main__ - INFO - Removed 5 bases from start of LDH_LACHE
+2021-03-03 02:57:02,983 - __main__ - INFO - Removed 3 bases from start of LDH_LACRE
+2021-03-03 02:57:02,983 - __main__ - INFO - Removed 1 bases from end of LDH_LACRE
+2021-03-03 02:57:02,986 - __main__ - INFO - Removed 2 bases from start of LDH_BORBU
+2021-03-03 02:57:02,989 - __main__ - INFO - Removed 3 bases from start of LDH_MYCHY
+2021-03-03 02:57:02,991 - __main__ - INFO - Removed 3 bases from start of LDH_MYCGE
+2021-03-03 02:57:02,993 - __main__ - INFO - Removed 2 bases from start of LDH_MYCPU
+2021-03-03 02:57:02,995 - __main__ - INFO - Removed 6 bases from start of LDH1_BIFLO
+2021-03-03 02:57:02,999 - __main__ - INFO - Removed 4 bases from start of MDH_BACSU
+2021-03-03 02:57:03,002 - __main__ - INFO - Removed 5 bases from start of MDH_BACHD
+2021-03-03 02:57:03,002 - __main__ - INFO - Removed 1 bases from end of MDH_BACHD
+2021-03-03 02:57:03,006 - __main__ - INFO - Removed 3 bases from start of LDH_BOTBR
+2021-03-03 02:57:03,006 - __main__ - INFO - Removed 2 bases from end of LDH_BOTBR
+2021-03-03 02:57:03,009 - __main__ - INFO - Removed 8 bases from start of LDH_TOXGO
+2021-03-03 02:57:03,011 - __main__ - INFO - Removed 4 bases from start of MDH_AQUAE
+2021-03-03 02:57:03,013 - __main__ - INFO - Removed 4 bases from start of MDH_AERPE
+2021-03-03 02:57:03,015 - __main__ - INFO - Removed 1 bases from start of MDH_METKA
+2021-03-03 02:57:03,019 - __main__ - INFO - Removed 15 bases from start of MDHP_MEDSA
+2021-03-03 02:57:03,023 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 02:57:03,649 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 02:57:04,161 - __main__ - INFO - Building consensus sequence

@@ -1,0 +1,73 @@
+2021-07-01 01:42:02,398 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BB.ini --infile reference_set_3/muscle/RV30_BB30003_max100.fasta --outfile_stem reference_set_3/muscle/highly_stringent_RV30_BB30003_max100
+Config File (highly_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 01:42:02,489 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 01:42:02,489 - __main__ - INFO - Removing divergent sequences
+2021-07-01 01:42:06,452 - __main__ - INFO - Removing divergent sequences AAT_SYNY3, TNAA_HALN1, TYRB_PARDE, LTAE_ECO57, AAT_AQUAE, HIS8_BUCAI, TNAA_AERPE, GLY1_ASHGO, AAT_PSEAE, LTAA_AERJA, AATM_BOVIN, AAT5_ARATH, HI81_PASMU, AATM_YEAST, TYRB_ECOLI, AAT_RICCN, AAB1_RHIME, HIS8_THETN, PHHC_PSEAE, HI81_HAEIN, AAT1_METJA, HIS8_BUCBP, TOXG_COCCA, HI82_ANASP, AAT1_MEDSA, AATC_CAEEL, AAT_THEMA, AATC_YEAST, HIS8_XANAC, HIS8_VIBCH, HIS8_XYLFA, AAT1_ARATH, AAT_ECOLI, HIS8_BUCAP, HIS8_CHLTE, AAT4_ARATH, 1jg8_A, HIS8_GLOVI, AAT_HAEIN, AATA_RHIME, GLY1_YEAST, AAT_PYRAB, 1h1c_A, GLY1_CANAL, HIS8_METTH, GLY1_SCHPO, 1ajs_A, 1fg3_A, HIS8_YERPE
+2021-07-01 01:42:06,452 - __main__ - INFO - Removing insertions
+2021-07-01 01:42:06,452 - __main__ - INFO - Removing insertions
+
+2021-07-01 01:42:08,039 - __main__ - INFO - Removing sites 513, 514, 515, 516, 517, 523, 524, 529, 530, 531, 532, 533, 536, 537, 538, 539, 540, 541, 559, 563, 564, 565, 566, 567, 579, 580, 581, 582, 590, 85, 597, 598, 599, 600, 601, 93, 99, 100, 101, 102, 103, 104, 105, 106, 107, 614, 615, 110, 622, 623, 624, 625, 626, 627, 628, 629, 120, 641, 642, 643, 644, 135, 653, 656, 657, 658, 152, 153, 154, 155, 665, 157, 158, 159, 160, 161, 162, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 688, 692, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 697, 698, 198, 199, 200, 201, 202, 203, 204, 205, 714, 207, 715, 716, 717, 720, 721, 213, 722, 723, 724, 725, 726, 727, 235, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 281, 282, 283, 284, 285, 286, 287, 289, 294, 295, 296, 297, 298, 299, 305, 306, 307, 308, 309, 310, 314, 315, 318, 319, 320, 321, 322, 323, 324, 325, 328, 331, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 361, 369, 371, 372, 373, 374, 376, 377, 378, 379, 380, 381, 382, 385, 386, 387, 396, 693, 694, 695, 696, 432, 433, 437, 441, 443, 451, 452, 453, 454, 461, 462, 463, 464, 467, 468, 469, 477, 478, 479, 480, 481, 484, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 509
+2021-07-01 01:42:08,040 - __main__ - INFO - Cropping ends
+2021-07-01 01:42:08,043 - __main__ - INFO - Removed 19 bases from start of ATTY_RHIME
+2021-07-01 01:42:08,043 - __main__ - INFO - Removed 21 bases from end of ATTY_RHIME
+2021-07-01 01:42:08,046 - __main__ - INFO - Removed 22 bases from start of 1b5o_A
+2021-07-01 01:42:08,046 - __main__ - INFO - Removed 19 bases from end of 1b5o_A
+2021-07-01 01:42:08,048 - __main__ - INFO - Removed 23 bases from start of AAT_BACY2
+2021-07-01 01:42:08,048 - __main__ - INFO - Removed 25 bases from end of AAT_BACY2
+2021-07-01 01:42:08,052 - __main__ - INFO - Removed 21 bases from start of AAT_BACST
+2021-07-01 01:42:08,052 - __main__ - INFO - Removed 28 bases from end of AAT_BACST
+2021-07-01 01:42:08,055 - __main__ - INFO - Removed 21 bases from start of AAT1_BACSU
+2021-07-01 01:42:08,055 - __main__ - INFO - Removed 23 bases from end of AAT1_BACSU
+2021-07-01 01:42:08,059 - __main__ - INFO - Removed 22 bases from start of HIS8_PYRFU
+2021-07-01 01:42:08,059 - __main__ - INFO - Removed 25 bases from end of HIS8_PYRFU
+2021-07-01 01:42:08,331 - __main__ - INFO - Removed 7 bases from end of ARD1_BORBR
+2021-07-01 01:42:08,334 - __main__ - INFO - Removed 34 bases from end of ARGD_MYXXA

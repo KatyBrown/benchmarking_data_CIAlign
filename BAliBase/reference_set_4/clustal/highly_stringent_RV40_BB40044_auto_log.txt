@@ -1,0 +1,123 @@
+2021-07-01 02:41:13,600 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BB.ini --infile reference_set_4/clustal/RV40_BB40044_auto.fasta --outfile_stem reference_set_4/clustal/highly_stringent_RV40_BB40044_auto
+Config File (highly_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 02:41:13,624 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 02:41:13,625 - __main__ - INFO - Removing divergent sequences
+2021-07-01 02:41:14,054 - __main__ - INFO - Removing divergent sequences 1a8l_, YBM4_YEAST
+2021-07-01 02:41:14,054 - __main__ - INFO - Removing insertions
+2021-07-01 02:41:14,054 - __main__ - INFO - Removing insertions
+
+2021-07-01 02:41:14,867 - __main__ - INFO - Removing sites 516, 517, 518, 45, 46, 47, 48, 61, 62, 63, 64, 65, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 84, 85, 86, 97, 98, 99, 100, 106, 107, 108, 109, 110, 111, 112, 113, 125, 126, 127, 134, 137, 138, 139, 140, 141, 151, 152, 153, 154, 155, 160, 161, 199, 200, 201, 202, 203, 204, 217, 218, 219, 220, 221, 249, 250, 251, 253, 254, 261, 281, 283, 284, 285, 286, 287, 288, 289, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 384, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 425, 426, 446, 447, 448, 449, 450, 451, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502
+2021-07-01 02:41:14,867 - __main__ - INFO - Cropping ends
+2021-07-01 02:41:14,867 - __main__ - WARNING - Given the length of sequence 2trc_P, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,871 - __main__ - INFO - Removed 3 bases from start of TXN4_HUMAN
+2021-07-01 02:41:14,874 - __main__ - INFO - Removed 6 bases from start of TXL2_HUMAN
+2021-07-01 02:41:14,874 - __main__ - INFO - Removed 18 bases from end of TXL2_HUMAN
+2021-07-01 02:41:14,874 - __main__ - WARNING - Given the length of sequence 1mek_, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,877 - __main__ - INFO - Removed 4 bases from start of 1mek_
+2021-07-01 02:41:14,877 - __main__ - WARNING - Given the length of sequence 1erv_, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,881 - __main__ - WARNING - Given the length of sequence 1r26_A, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,883 - __main__ - WARNING - Given the length of sequence 1thx_, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,886 - __main__ - WARNING - Given the length of sequence THI2_SYNY3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,888 - __main__ - WARNING - Given the length of sequence THIM_CHLRE, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,891 - __main__ - INFO - Removed 8 bases from start of THIM_CHLRE
+2021-07-01 02:41:14,891 - __main__ - WARNING - Given the length of sequence THIO_CYACA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,895 - __main__ - INFO - Removed 2 bases from start of THIO_CYACA
+2021-07-01 02:41:14,895 - __main__ - WARNING - Given the length of sequence THIO_PORPU, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,898 - __main__ - INFO - Removed 1 bases from start of THIO_PORPU
+2021-07-01 02:41:14,898 - __main__ - WARNING - Given the length of sequence THIM_PEA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,901 - __main__ - WARNING - Given the length of sequence THIM_SPIOL, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,904 - __main__ - WARNING - Given the length of sequence THIM_ORYSA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,906 - __main__ - WARNING - Given the length of sequence THIM_MAIZE, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,908 - __main__ - INFO - Removed 16 bases from start of THIM_MAIZE
+2021-07-01 02:41:14,909 - __main__ - WARNING - Given the length of sequence THIM_WHEAT, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,912 - __main__ - INFO - Removed 16 bases from start of THIM_WHEAT
+2021-07-01 02:41:14,912 - __main__ - WARNING - Given the length of sequence THI1_CORNE, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,914 - __main__ - WARNING - Given the length of sequence THM4_ARATH, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,917 - __main__ - WARNING - Given the length of sequence THIM_BRANA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,919 - __main__ - WARNING - Given the length of sequence THM2_ARATH, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,921 - __main__ - WARNING - Given the length of sequence THIO_MYCTU, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,924 - __main__ - INFO - Removed 4 bases from start of THIO_MYCTU
+2021-07-01 02:41:14,924 - __main__ - WARNING - Given the length of sequence THIO_ALIAC, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,926 - __main__ - WARNING - Given the length of sequence THI2_CAEEL, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,930 - __main__ - INFO - Removed 7 bases from start of THI2_CAEEL
+2021-07-01 02:41:14,930 - __main__ - WARNING - Given the length of sequence THI2_BOVIN, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,932 - __main__ - INFO - Removed 15 bases from start of THI2_BOVIN
+2021-07-01 02:41:14,933 - __main__ - WARNING - Given the length of sequence THIO_MYCGA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,935 - __main__ - WARNING - Given the length of sequence THIO_MYCGE, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,940 - __main__ - INFO - Removed 27 bases from end of MPD1_YEAST
+2021-07-01 02:41:14,940 - __main__ - WARNING - Given the length of sequence TXLA_SYNP7, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,943 - __main__ - INFO - Removed 4 bases from start of TXLA_SYNP7
+2021-07-01 02:41:14,943 - __main__ - INFO - Removed 14 bases from end of TXLA_SYNP7
+2021-07-01 02:41:14,943 - __main__ - WARNING - Given the length of sequence THI1_SYNY3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,945 - __main__ - WARNING - Given the length of sequence THI1_CHLTE, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,947 - __main__ - WARNING - Given the length of sequence THI2_ECOLI, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,949 - __main__ - WARNING - Given the length of sequence THM3_ARATH, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,951 - __main__ - WARNING - Given the length of sequence THIO_NEUCR, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,954 - __main__ - INFO - Removed 1 bases from start of THIO_NEUCR
+2021-07-01 02:41:14,954 - __main__ - WARNING - Given the length of sequence THI3_CORNE, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,956 - __main__ - INFO - Removed 11 bases from start of THI3_CORNE
+2021-07-01 02:41:14,957 - __main__ - WARNING - Given the length of sequence THIO_ECHGR, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,960 - __main__ - INFO - Removed 3 bases from start of THIO_ECHGR
+2021-07-01 02:41:14,961 - __main__ - WARNING - Given the length of sequence TRX3_YEAST, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,963 - __main__ - INFO - Removed 12 bases from start of TRX3_YEAST
+2021-07-01 02:41:14,964 - __main__ - WARNING - Given the length of sequence THIO_COPCM, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,966 - __main__ - WARNING - Given the length of sequence THIO_CHLMU, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,970 - __main__ - INFO - Removed 5 bases from end of YE04_YEAST
+2021-07-01 02:41:14,974 - __main__ - INFO - Removed 13 bases from start of YD98_YEAST
+2021-07-01 02:41:14,974 - __main__ - INFO - Removed 6 bases from end of YD98_YEAST
+2021-07-01 02:41:14,974 - __main__ - WARNING - Given the length of sequence THIO_CHICK, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,978 - __main__ - INFO - Removed 18 bases from end of TXNL_HUMAN
+2021-07-01 02:41:14,978 - __main__ - WARNING - Given the length of sequence THH1_ARATH, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,981 - __main__ - INFO - Removed 4 bases from start of THH1_ARATH
+2021-07-01 02:41:14,982 - __main__ - WARNING - Given the length of sequence THIT_DROME, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 02:41:14,984 - __main__ - INFO - Removed 4 bases from end of THIT_DROME
+2021-07-01 02:41:14,985 - __main__ - WARNING - Given the length of sequence THIF_MESCR, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.

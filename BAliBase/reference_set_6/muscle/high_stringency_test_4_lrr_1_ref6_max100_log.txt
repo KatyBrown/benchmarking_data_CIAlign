@@ -1,0 +1,208 @@
+2021-03-03 04:41:54,795 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_6/muscle/test_4_lrr_1_ref6_max100.fasta --outfile_stem reference_set_6/muscle/high_stringency_test_4_lrr_1_ref6_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 04:41:54,859 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 04:41:54,859 - __main__ - INFO - Removing divergent sequences
+2021-03-03 04:41:55,309 - __main__ - INFO - Removing divergent sequences TOLL_DROME_19, TOLL_DROME_12, SLIT_DROME_06, Q26388_12, Q26388_18, TOLL_DROME_14, O75094_10, Q26388_24, TOLL_DROME_20, GPV_MOUSE_15, O94933_11, Q26388_16, SLIT_DROME_13, Q26388_3, O94933_5, O95804_2, TOLL_DROME_11, Q26388_23, TOLL_DROME_17, Q26388_4, O75094_6, Q26388_19, TOLL_DROME_4, CHAD_BOVIN_10, GPV_MOUSE_01, TOLL_DROME_5, SLIT_DROME_02, TOLL_DROME_6, CHAD_BOVIN_02, TOLL_DROME_16, TOLL_DROME_3, GPV_MOUSE_03, Q26388_6, ALS_HUMAN_15, ALS_HUMAN_14, SLIT_DROME_01, Q26388_22, Q26388_5, CHAD_BOVIN_01, O94933_2, CHAD_BOVIN_04, GPV_MOUSE_02, SLIT_DROME_03, O94933_6, O75094_9, TOLL_DROME_2, GPV_MOUSE_04, O75094_3, TOLL_DROME_8, O94933_4, O94933_9, O94933_1, ALS_HUMAN_03, GPV_MOUSE_10, Q26388_21, SLIT_DROME_17, Q26388_17, TOLL_DROME_9, ALS_HUMAN_19, CHAD_BOVIN_07, CHAD_BOVIN_09, Q26388_11, O95804_1, ALS_HUMAN_18, Q26388_1, O75094_15, TOLL_DROME_7, GPV_MOUSE_07, Q26388_25, CHAD_BOVIN_08, ALS_HUMAN_01
+2021-03-03 04:41:55,310 - __main__ - INFO - Removing insertions
+2021-03-03 04:41:55,310 - __main__ - INFO - Removing insertions
+
+2021-03-03 04:41:55,653 - __main__ - INFO - Removing sites 160, 162, 163, 165, 166, 167, 168, 170, 171, 172, 173, 174, 175, 176, 177, 179, 180, 181, 183, 184, 186, 194, 195, 196, 197, 198, 199, 200, 202
+2021-03-03 04:41:55,653 - __main__ - INFO - Cropping ends
+2021-03-03 04:41:55,656 - __main__ - INFO - Removed 4 bases from start of O75094_17
+2021-03-03 04:41:55,656 - __main__ - INFO - Removed 4 bases from end of O75094_17
+2021-03-03 04:41:55,659 - __main__ - INFO - Removed 4 bases from start of O95804_4
+2021-03-03 04:41:55,659 - __main__ - INFO - Removed 4 bases from end of O95804_4
+2021-03-03 04:41:55,662 - __main__ - INFO - Removed 4 bases from start of O75094_7
+2021-03-03 04:41:55,662 - __main__ - INFO - Removed 4 bases from end of O75094_7
+2021-03-03 04:41:55,665 - __main__ - INFO - Removed 4 bases from start of SLIT_DROME_11
+2021-03-03 04:41:55,666 - __main__ - INFO - Removed 4 bases from end of SLIT_DROME_11
+2021-03-03 04:41:55,668 - __main__ - INFO - Removed 7 bases from start of O75094_1
+2021-03-03 04:41:55,668 - __main__ - INFO - Removed 7 bases from end of O75094_1
+2021-03-03 04:41:55,671 - __main__ - INFO - Removed 1 bases from start of O75094_4
+2021-03-03 04:41:55,671 - __main__ - INFO - Removed 1 bases from end of O75094_4
+2021-03-03 04:41:55,674 - __main__ - INFO - Removed 1 bases from start of O75094_8
+2021-03-03 04:41:55,674 - __main__ - INFO - Removed 1 bases from end of O75094_8
+2021-03-03 04:41:55,677 - __main__ - INFO - Removed 1 bases from start of SLIT_DROME_07
+2021-03-03 04:41:55,677 - __main__ - INFO - Removed 1 bases from end of SLIT_DROME_07
+2021-03-03 04:41:55,680 - __main__ - INFO - Removed 4 bases from start of SLIT_DROME_15
+2021-03-03 04:41:55,680 - __main__ - INFO - Removed 4 bases from end of SLIT_DROME_15
+2021-03-03 04:41:55,683 - __main__ - INFO - Removed 1 bases from start of O75094_14
+2021-03-03 04:41:55,683 - __main__ - INFO - Removed 1 bases from end of O75094_14
+2021-03-03 04:41:55,686 - __main__ - INFO - Removed 1 bases from start of SLIT_DROME_12
+2021-03-03 04:41:55,686 - __main__ - INFO - Removed 1 bases from end of SLIT_DROME_12
+2021-03-03 04:41:55,689 - __main__ - INFO - Removed 1 bases from start of Q26388_2
+2021-03-03 04:41:55,689 - __main__ - INFO - Removed 1 bases from end of Q26388_2
+2021-03-03 04:41:55,692 - __main__ - INFO - Removed 1 bases from start of O75094_19
+2021-03-03 04:41:55,692 - __main__ - INFO - Removed 1 bases from end of O75094_19
+2021-03-03 04:41:55,695 - __main__ - INFO - Removed 1 bases from start of O95804_6
+2021-03-03 04:41:55,695 - __main__ - INFO - Removed 1 bases from end of O95804_6
+2021-03-03 04:41:55,698 - __main__ - INFO - Removed 1 bases from start of CHAD_BOVIN_06
+2021-03-03 04:41:55,698 - __main__ - INFO - Removed 1 bases from end of CHAD_BOVIN_06
+2021-03-03 04:41:55,701 - __main__ - INFO - Removed 1 bases from start of ALS_HUMAN_09
+2021-03-03 04:41:55,701 - __main__ - INFO - Removed 1 bases from end of ALS_HUMAN_09
+2021-03-03 04:41:55,704 - __main__ - INFO - Removed 1 bases from start of CHAD_BOVIN_03
+2021-03-03 04:41:55,704 - __main__ - INFO - Removed 1 bases from end of CHAD_BOVIN_03
+2021-03-03 04:41:55,706 - __main__ - INFO - Removed 1 bases from start of TOLL_DROME_15
+2021-03-03 04:41:55,707 - __main__ - INFO - Removed 1 bases from end of TOLL_DROME_15
+2021-03-03 04:41:55,709 - __main__ - INFO - Removed 1 bases from start of ALS_HUMAN_10
+2021-03-03 04:41:55,709 - __main__ - INFO - Removed 1 bases from end of ALS_HUMAN_10
+2021-03-03 04:41:55,712 - __main__ - INFO - Removed 8 bases from start of O75094_11
+2021-03-03 04:41:55,712 - __main__ - INFO - Removed 8 bases from end of O75094_11
+2021-03-03 04:41:55,715 - __main__ - INFO - Removed 8 bases from start of SLIT_DROME_10
+2021-03-03 04:41:55,715 - __main__ - INFO - Removed 8 bases from end of SLIT_DROME_10
+2021-03-03 04:41:55,718 - __main__ - INFO - Removed 1 bases from start of ALS_HUMAN_11
+2021-03-03 04:41:55,718 - __main__ - INFO - Removed 1 bases from end of ALS_HUMAN_11
+2021-03-03 04:41:55,721 - __main__ - INFO - Removed 1 bases from start of Q26388_13
+2021-03-03 04:41:55,721 - __main__ - INFO - Removed 1 bases from end of Q26388_13
+2021-03-03 04:41:55,723 - __main__ - INFO - Removed 1 bases from start of Q26388_9
+2021-03-03 04:41:55,723 - __main__ - INFO - Removed 1 bases from end of Q26388_9
+2021-03-03 04:41:55,726 - __main__ - INFO - Removed 1 bases from start of SLIT_DROME_04
+2021-03-03 04:41:55,726 - __main__ - INFO - Removed 1 bases from end of SLIT_DROME_04
+2021-03-03 04:41:55,729 - __main__ - INFO - Removed 1 bases from start of Q26388_10
+2021-03-03 04:41:55,729 - __main__ - INFO - Removed 1 bases from end of Q26388_10
+2021-03-03 04:41:55,732 - __main__ - INFO - Removed 1 bases from start of SLIT_DROME_16
+2021-03-03 04:41:55,732 - __main__ - INFO - Removed 1 bases from end of SLIT_DROME_16
+2021-03-03 04:41:55,735 - __main__ - INFO - Removed 1 bases from start of O75094_18
+2021-03-03 04:41:55,735 - __main__ - INFO - Removed 1 bases from end of O75094_18
+2021-03-03 04:41:55,738 - __main__ - INFO - Removed 1 bases from start of O95804_5
+2021-03-03 04:41:55,738 - __main__ - INFO - Removed 1 bases from end of O95804_5
+2021-03-03 04:41:55,740 - __main__ - INFO - Removed 1 bases from start of ALS_HUMAN_06
+2021-03-03 04:41:55,741 - __main__ - INFO - Removed 1 bases from end of ALS_HUMAN_06
+2021-03-03 04:41:55,743 - __main__ - INFO - Removed 1 bases from start of SLIT_DROME_08
+2021-03-03 04:41:55,743 - __main__ - INFO - Removed 1 bases from end of SLIT_DROME_08
+2021-03-03 04:41:55,746 - __main__ - INFO - Removed 1 bases from start of Q26388_15
+2021-03-03 04:41:55,746 - __main__ - INFO - Removed 1 bases from end of Q26388_15
+2021-03-03 04:41:55,749 - __main__ - INFO - Removed 1 bases from start of ALS_HUMAN_16
+2021-03-03 04:41:55,749 - __main__ - INFO - Removed 1 bases from end of ALS_HUMAN_16
+2021-03-03 04:41:55,752 - __main__ - INFO - Removed 8 bases from start of SLIT_DROME_05
+2021-03-03 04:41:55,752 - __main__ - INFO - Removed 8 bases from end of SLIT_DROME_05
+2021-03-03 04:41:55,754 - __main__ - INFO - Removed 8 bases from start of SLIT_DROME_14
+2021-03-03 04:41:55,755 - __main__ - INFO - Removed 8 bases from end of SLIT_DROME_14
+2021-03-03 04:41:55,757 - __main__ - INFO - Removed 1 bases from start of Q26388_7
+2021-03-03 04:41:55,757 - __main__ - INFO - Removed 1 bases from end of Q26388_7
+2021-03-03 04:41:55,760 - __main__ - INFO - Removed 1 bases from start of GPV_MOUSE_09
+2021-03-03 04:41:55,760 - __main__ - INFO - Removed 1 bases from end of GPV_MOUSE_09
+2021-03-03 04:41:55,763 - __main__ - INFO - Removed 1 bases from start of TOLL_DROME_10
+2021-03-03 04:41:55,763 - __main__ - INFO - Removed 1 bases from end of TOLL_DROME_10
+2021-03-03 04:41:55,766 - __main__ - INFO - Removed 1 bases from start of ALS_HUMAN_04
+2021-03-03 04:41:55,766 - __main__ - INFO - Removed 1 bases from end of ALS_HUMAN_04
+2021-03-03 04:41:55,769 - __main__ - INFO - Removed 1 bases from start of GPV_MOUSE_05
+2021-03-03 04:41:55,769 - __main__ - INFO - Removed 1 bases from end of GPV_MOUSE_05
+2021-03-03 04:41:55,772 - __main__ - INFO - Removed 1 bases from start of GPV_MOUSE_12
+2021-03-03 04:41:55,772 - __main__ - INFO - Removed 1 bases from end of GPV_MOUSE_12
+2021-03-03 04:41:55,774 - __main__ - INFO - Removed 1 bases from start of GPV_MOUSE_08
+2021-03-03 04:41:55,775 - __main__ - INFO - Removed 1 bases from end of GPV_MOUSE_08
+2021-03-03 04:41:55,777 - __main__ - INFO - Removed 1 bases from start of ALS_HUMAN_02
+2021-03-03 04:41:55,777 - __main__ - INFO - Removed 1 bases from end of ALS_HUMAN_02
+2021-03-03 04:41:55,780 - __main__ - INFO - Removed 1 bases from start of ALS_HUMAN_07
+2021-03-03 04:41:55,780 - __main__ - INFO - Removed 1 bases from end of ALS_HUMAN_07
+2021-03-03 04:41:55,783 - __main__ - INFO - Removed 1 bases from start of Q26388_14
+2021-03-03 04:41:55,783 - __main__ - INFO - Removed 1 bases from end of Q26388_14
+2021-03-03 04:41:55,786 - __main__ - INFO - Removed 1 bases from start of Q26388_8
+2021-03-03 04:41:55,786 - __main__ - INFO - Removed 1 bases from end of Q26388_8
+2021-03-03 04:41:55,789 - __main__ - INFO - Removed 1 bases from start of Q26388_20
+2021-03-03 04:41:55,789 - __main__ - INFO - Removed 1 bases from end of Q26388_20
+2021-03-03 04:41:55,792 - __main__ - INFO - Removed 1 bases from start of ALS_HUMAN_13
+2021-03-03 04:41:55,792 - __main__ - INFO - Removed 1 bases from end of ALS_HUMAN_13
+2021-03-03 04:41:55,794 - __main__ - INFO - Removed 1 bases from start of ALS_HUMAN_17
+2021-03-03 04:41:55,794 - __main__ - INFO - Removed 1 bases from end of ALS_HUMAN_17
+2021-03-03 04:41:55,797 - __main__ - INFO - Removed 1 bases from start of ALS_HUMAN_05
+2021-03-03 04:41:55,797 - __main__ - INFO - Removed 1 bases from end of ALS_HUMAN_05
+2021-03-03 04:41:55,800 - __main__ - INFO - Removed 1 bases from start of GPV_MOUSE_13
+2021-03-03 04:41:55,800 - __main__ - INFO - Removed 1 bases from end of GPV_MOUSE_13
+2021-03-03 04:41:55,803 - __main__ - INFO - Removed 1 bases from start of GPV_MOUSE_14
+2021-03-03 04:41:55,803 - __main__ - INFO - Removed 1 bases from end of GPV_MOUSE_14
+2021-03-03 04:41:55,806 - __main__ - INFO - Removed 1 bases from start of GPV_MOUSE_11
+2021-03-03 04:41:55,806 - __main__ - INFO - Removed 1 bases from end of GPV_MOUSE_11
+2021-03-03 04:41:55,810 - __main__ - INFO - Removed 1 bases from start of TOLL_DROME_13
+2021-03-03 04:41:55,810 - __main__ - INFO - Removed 1 bases from end of TOLL_DROME_13
+2021-03-03 04:41:55,813 - __main__ - INFO - Removed 1 bases from start of O94933_3
+2021-03-03 04:41:55,813 - __main__ - INFO - Removed 1 bases from end of O94933_3
+2021-03-03 04:41:55,816 - __main__ - INFO - Removed 1 bases from start of O75094_5
+2021-03-03 04:41:55,816 - __main__ - INFO - Removed 1 bases from end of O75094_5
+2021-03-03 04:41:55,819 - __main__ - INFO - Removed 8 bases from start of O75094_16
+2021-03-03 04:41:55,819 - __main__ - INFO - Removed 8 bases from end of O75094_16
+2021-03-03 04:41:55,822 - __main__ - INFO - Removed 8 bases from start of O95804_3
+2021-03-03 04:41:55,822 - __main__ - INFO - Removed 8 bases from end of O95804_3
+2021-03-03 04:41:55,824 - __main__ - INFO - Removed 1 bases from start of O94933_7
+2021-03-03 04:41:55,824 - __main__ - INFO - Removed 1 bases from end of O94933_7
+2021-03-03 04:41:55,827 - __main__ - INFO - Removed 1 bases from start of SLIT_DROME_09
+2021-03-03 04:41:55,827 - __main__ - INFO - Removed 1 bases from end of SLIT_DROME_09
+2021-03-03 04:41:55,830 - __main__ - INFO - Removed 1 bases from start of TOLL_DROME_18
+2021-03-03 04:41:55,830 - __main__ - INFO - Removed 1 bases from end of TOLL_DROME_18
+2021-03-03 04:41:55,833 - __main__ - INFO - Removed 1 bases from start of ALS_HUMAN_08
+2021-03-03 04:41:55,833 - __main__ - INFO - Removed 1 bases from end of ALS_HUMAN_08
+2021-03-03 04:41:55,836 - __main__ - INFO - Removed 1 bases from start of ALS_HUMAN_12
+2021-03-03 04:41:55,836 - __main__ - INFO - Removed 1 bases from end of ALS_HUMAN_12
+2021-03-03 04:41:55,839 - __main__ - INFO - Removed 8 bases from start of SLIT_DROME_18
+2021-03-03 04:41:55,839 - __main__ - INFO - Removed 8 bases from end of SLIT_DROME_18
+2021-03-03 04:41:55,845 - __main__ - INFO - Removed 4 bases from start of O75094_12
+2021-03-03 04:41:55,845 - __main__ - INFO - Removed 4 bases from end of O75094_12
+2021-03-03 04:41:55,847 - __main__ - INFO - Removed 1 bases from start of Q26388_27
+2021-03-03 04:41:55,847 - __main__ - INFO - Removed 1 bases from end of Q26388_27
+2021-03-03 04:41:55,850 - __main__ - INFO - Removed 1 bases from start of CHAD_BOVIN_05
+2021-03-03 04:41:55,850 - __main__ - INFO - Removed 1 bases from end of CHAD_BOVIN_05
+2021-03-03 04:41:55,853 - __main__ - INFO - Removed 1 bases from start of O75094_13
+2021-03-03 04:41:55,853 - __main__ - INFO - Removed 1 bases from end of O75094_13
+2021-03-03 04:41:55,858 - __main__ - INFO - Removed 1 bases from start of O94933_8
+2021-03-03 04:41:55,858 - __main__ - INFO - Removed 1 bases from end of O94933_8
+2021-03-03 04:41:55,861 - __main__ - INFO - Removed 1 bases from start of GPV_MOUSE_06
+2021-03-03 04:41:55,861 - __main__ - INFO - Removed 1 bases from end of GPV_MOUSE_06
+2021-03-03 04:41:55,864 - __main__ - INFO - Removed 1 bases from start of O75094_2
+2021-03-03 04:41:55,864 - __main__ - INFO - Removed 1 bases from end of O75094_2
+2021-03-03 04:41:55,867 - __main__ - INFO - Removed 1 bases from start of O94933_10
+2021-03-03 04:41:55,867 - __main__ - INFO - Removed 1 bases from end of O94933_10
+2021-03-03 04:41:55,869 - __main__ - INFO - Removed 1 bases from start of Q26388_26
+2021-03-03 04:41:55,869 - __main__ - INFO - Removed 1 bases from end of Q26388_26
+2021-03-03 04:41:55,876 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 04:41:56,277 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 04:41:56,654 - __main__ - INFO - Building consensus sequence

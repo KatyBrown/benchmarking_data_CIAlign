@@ -1,0 +1,105 @@
+2021-07-01 11:49:26,394 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BB.ini --infile reference_set_10/clustal/BBA0187_auto.fasta --outfile_stem reference_set_10/clustal/highly_stringent_BBA0187_auto
+Config File (highly_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 11:49:26,492 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 11:49:26,492 - __main__ - INFO - Removing divergent sequences
+2021-07-01 11:49:28,300 - __main__ - INFO - Removing insertions
+2021-07-01 11:49:28,300 - __main__ - INFO - Removing insertions
+
+2021-07-01 11:49:31,002 - __main__ - INFO - Removing sites 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 325, 326, 327, 328, 329, 333, 334, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 362, 363, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 391, 392, 393, 394, 395, 396, 397, 398, 399, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 496, 500, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 639, 656, 657, 667, 668, 669, 670, 671, 672, 673, 685, 686, 696, 697, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746, 846, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979, 982, 983, 984, 985, 986, 987, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1070, 1071, 1072, 1073, 1074, 1075, 1098, 1107, 1125, 1126, 1151, 1169, 1183, 1184, 1206, 1207, 1208, 1209, 1210, 1211, 1212, 1213, 1214, 1215, 1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223, 1224, 1225, 1226, 1227, 1228, 1229, 1230, 1265, 1266, 1282, 1283, 1284, 1285, 1288, 1291, 1292, 1293, 1294, 1295, 1296, 1297, 1299, 1300, 1301, 1302, 1303, 1304, 1305, 1311, 1312, 1313, 1321, 1483, 1484, 1485, 1486, 1487, 1488, 1489, 1490, 1491
+2021-07-01 11:49:31,002 - __main__ - INFO - Cropping ends
+2021-07-01 11:49:31,066 - __main__ - WARNING - Given the length of sequence seq011, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 11:49:31,081 - __main__ - INFO - Removed 13 bases from start of seq012
+2021-07-01 11:49:31,107 - __main__ - INFO - Removed 46 bases from end of seq016
+2021-07-01 11:49:31,119 - __main__ - INFO - Removed 60 bases from end of seq017
+2021-07-01 11:49:31,129 - __main__ - INFO - Removed 7 bases from start of seq018
+2021-07-01 11:49:31,129 - __main__ - INFO - Removed 45 bases from end of seq018
+2021-07-01 11:49:31,138 - __main__ - INFO - Removed 55 bases from end of seq019
+2021-07-01 11:49:31,147 - __main__ - INFO - Removed 50 bases from start of seq020
+2021-07-01 11:49:31,147 - __main__ - INFO - Removed 16 bases from end of seq020
+2021-07-01 11:49:31,156 - __main__ - INFO - Removed 16 bases from end of seq021
+2021-07-01 11:49:31,166 - __main__ - INFO - Removed 55 bases from end of seq022
+2021-07-01 11:49:31,176 - __main__ - INFO - Removed 16 bases from end of seq023
+2021-07-01 11:49:31,190 - __main__ - INFO - Removed 16 bases from end of seq024
+2021-07-01 11:49:31,200 - __main__ - INFO - Removed 55 bases from end of seq025
+2021-07-01 11:49:31,208 - __main__ - INFO - Removed 53 bases from end of seq026
+2021-07-01 11:49:31,223 - __main__ - INFO - Removed 50 bases from start of seq028
+2021-07-01 11:49:31,223 - __main__ - INFO - Removed 16 bases from end of seq028
+2021-07-01 11:49:31,233 - __main__ - INFO - Removed 54 bases from end of seq029
+2021-07-01 11:49:31,242 - __main__ - INFO - Removed 17 bases from start of seq030
+2021-07-01 11:49:31,242 - __main__ - INFO - Removed 55 bases from end of seq030
+2021-07-01 11:49:31,251 - __main__ - INFO - Removed 1 bases from start of seq031
+2021-07-01 11:49:31,251 - __main__ - INFO - Removed 45 bases from end of seq031
+2021-07-01 11:49:31,279 - __main__ - INFO - Removed 16 bases from end of seq035
+2021-07-01 11:49:31,288 - __main__ - INFO - Removed 16 bases from end of seq036
+2021-07-01 11:49:31,296 - __main__ - INFO - Removed 55 bases from end of seq037
+2021-07-01 11:49:31,305 - __main__ - INFO - Removed 16 bases from end of seq038
+2021-07-01 11:49:31,314 - __main__ - INFO - Removed 30 bases from start of seq039
+2021-07-01 11:49:31,314 - __main__ - INFO - Removed 16 bases from end of seq039
+2021-07-01 11:49:31,322 - __main__ - INFO - Removed 2 bases from end of seq040
+2021-07-01 11:49:31,333 - __main__ - INFO - Removed 22 bases from end of seq041
+2021-07-01 11:49:31,343 - __main__ - INFO - Removed 36 bases from end of seq042
+2021-07-01 11:49:31,352 - __main__ - INFO - Removed 8 bases from start of seq043
+2021-07-01 11:49:31,352 - __main__ - INFO - Removed 2 bases from end of seq043
+2021-07-01 11:49:31,353 - __main__ - WARNING - Given the length of sequence seq044, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 11:49:31,368 - __main__ - INFO - Removed 26 bases from end of seq045
+2021-07-01 11:49:31,384 - __main__ - INFO - Removed 39 bases from end of seq047
+2021-07-01 11:49:31,385 - __main__ - WARNING - Given the length of sequence seq048, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 11:49:31,392 - __main__ - WARNING - Given the length of sequence seq049, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 11:49:31,407 - __main__ - INFO - Removed 14 bases from start of seq050
+2021-07-01 11:49:31,417 - __main__ - INFO - Removed 7 bases from start of seq051
+2021-07-01 11:49:31,433 - __main__ - INFO - Removed 54 bases from start of seq053
+2021-07-01 11:49:31,442 - __main__ - INFO - Removed 25 bases from start of seq054
+2021-07-01 11:49:31,451 - __main__ - INFO - Removed 50 bases from start of seq055
+2021-07-01 11:49:31,479 - __main__ - INFO - Removed 40 bases from start of seq059
+2021-07-01 11:49:31,583 - __main__ - INFO - Removed 23 bases from start of seq074
+2021-07-01 11:49:31,592 - __main__ - INFO - Removed 41 bases from end of seq075
+2021-07-01 11:49:31,601 - __main__ - INFO - Removed 34 bases from end of seq076

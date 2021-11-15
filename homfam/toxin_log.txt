@@ -1,0 +1,155 @@
+2021-07-06 07:50:43,085 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --remove_divergent --remove_divergent_minperc 0.15 --crop_ends --remove_insertion --remove_short --infile combined/aligned/toxin_aligned.fasta --outfile_stem combined/aligned/cialign/toxin
+Defaults:
+  --crop_ends_mingap_perc:0.05
+  --crop_ends_redefine_perc:0.1
+  --insertion_min_size:3
+  --insertion_max_size:200
+  --insertion_min_flank:5
+  --remove_min_length:50
+  --consensus_type:  majority
+  --consensus_name:  consensus
+  --plot_dpi:        300
+  --plot_format:     png
+  --plot_width:      5
+  --plot_height:     3
+  --sequence_logo_type:bar
+  --sequence_logo_dpi:300
+  --sequence_logo_font:monospace
+  --sequence_logo_nt_per_row:50
+  --sequence_logo_filetype:png
+  --plot_coverage_dpi:300
+  --plot_coverage_height:3
+  --plot_coverage_width:5
+  --plot_coverage_colour:#007bf5
+  --plot_coverage_filetype:png
+  --make_simmatrix_dp:4
+  --make_simmatrix_minoverlap:1
+  --make_simmatrix_keepgaps:0
+
+2021-07-06 07:50:43,118 - __main__ - INFO - Amino acid alignment detected
+2021-07-06 07:50:43,118 - __main__ - INFO - Removing divergent sequences
+2021-07-06 07:50:44,541 - __main__ - INFO - Removing gap only columns
+2021-07-06 07:50:44,542 - __main__ - INFO - Removing insertions
+2021-07-06 07:50:44,543 - __main__ - INFO - Removing insertions
+
+2021-07-06 07:50:44,746 - __main__ - INFO - Removing sites 14, 15, 16, 17, 18, 22, 26, 34, 35, 36, 37, 38, 39, 40, 41, 51, 52, 53, 54, 55, 56, 57, 58, 65, 66, 67, 68, 69, 70, 71, 72, 77, 82, 83, 84, 85, 89, 90, 92, 97, 98, 99, 100, 101, 102, 103, 105, 111, 114
+2021-07-06 07:50:44,747 - __main__ - INFO - Removing gap only columns
+2021-07-06 07:50:44,748 - __main__ - INFO - Cropping ends
+2021-07-06 07:50:44,748 - __main__ - INFO - Removed 3 bases from start of 1kbt
+2021-07-06 07:50:44,748 - __main__ - INFO - Removed 3 bases from start of 2crt
+2021-07-06 07:50:44,748 - __main__ - INFO - Removed 3 bases from start of 2cdx
+2021-07-06 07:50:44,749 - __main__ - INFO - Removed 3 bases from start of 1cdta
+2021-07-06 07:50:44,749 - __main__ - INFO - Removed 3 bases from start of 1tgxa
+2021-07-06 07:50:44,750 - __main__ - INFO - Removed 7 bases from start of 1txb
+2021-07-06 07:50:44,768 - __main__ - INFO - Removed 6 bases from start of NXL2_AUSSU/22-85
+2021-07-06 07:50:44,768 - __main__ - INFO - Removed 6 bases from start of B2BRQ5_AUSLA/22-85
+2021-07-06 07:50:44,769 - __main__ - WARNING - Given the length of sequence Q6TAR6_BUNCA/1-36, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:50:44,772 - __main__ - INFO - Removed 6 bases from start of NXL1_ACAAN/1-64
+2021-07-06 07:50:44,772 - __main__ - INFO - Removed 6 bases from start of NXL1_NOTSC/22-85
+2021-07-06 07:50:44,773 - __main__ - INFO - Removed 6 bases from start of B2BRQ6_AUSLA/22-85
+2021-07-06 07:50:44,778 - __main__ - WARNING - Given the length of sequence NXL31_OPHHA/51-89, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:50:44,787 - __main__ - INFO - Removed 6 bases from start of NXL1_LAPHA/22-85
+2021-07-06 07:50:44,788 - __main__ - INFO - Removed 6 bases from start of NXL3_LAPHA/22-85
+2021-07-06 07:50:44,788 - __main__ - INFO - Removed 6 bases from start of NXL1_ASTST/1-64
+2021-07-06 07:50:44,788 - __main__ - INFO - Removed 6 bases from start of NXL2_ASTST/1-64
+2021-07-06 07:50:44,803 - __main__ - WARNING - Given the length of sequence CXHA_MATBI/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:50:44,803 - __main__ - INFO - Removed 1 bases from end of CXHA_MATBI/1-41
+2021-07-06 07:50:44,804 - __main__ - INFO - Removed 5 bases from start of NTXLI_BUNFA/22-79
+2021-07-06 07:50:44,804 - __main__ - INFO - Removed 5 bases from start of NTXLK_BUNFA/22-78
+2021-07-06 07:50:44,804 - __main__ - INFO - Removed 5 bases from start of NXS2_BUNFA/1-57
+2021-07-06 07:50:44,805 - __main__ - INFO - Removed 5 bases from start of TX6_OXYMI/22-81
+2021-07-06 07:50:44,805 - __main__ - INFO - Removed 4 bases from start of TX5_OXYMI/22-79
+2021-07-06 07:50:44,805 - __main__ - INFO - Removed 4 bases from start of TXS_OXYSC/22-79
+2021-07-06 07:50:44,805 - __main__ - INFO - Removed 4 bases from start of NXS3_OXYSC/22-79
+2021-07-06 07:50:44,806 - __main__ - INFO - Removed 4 bases from start of NXS2_PSETE/22-79
+2021-07-06 07:50:44,806 - __main__ - INFO - Removed 4 bases from start of NXS3_PSETE/22-79
+2021-07-06 07:50:44,806 - __main__ - INFO - Removed 4 bases from start of NXS7_PSETE/22-79
+2021-07-06 07:50:44,807 - __main__ - INFO - Removed 4 bases from start of NXS6_PSETE/22-79
+2021-07-06 07:50:44,807 - __main__ - INFO - Removed 4 bases from start of NXS8_PSETE/22-79
+2021-07-06 07:50:44,807 - __main__ - INFO - Removed 4 bases from start of NXS1_PSETE/22-79
+2021-07-06 07:50:44,808 - __main__ - INFO - Removed 4 bases from start of NXS4_PSETE/22-79
+2021-07-06 07:50:44,808 - __main__ - INFO - Removed 4 bases from start of NXS11_MICSU/1-58
+2021-07-06 07:50:44,814 - __main__ - INFO - Removed 4 bases from start of C6JUP4_MICCO/22-79
+2021-07-06 07:50:44,814 - __main__ - INFO - Removed 4 bases from start of C6JUP5_MICCO/22-79
+2021-07-06 07:50:44,817 - __main__ - WARNING - Given the length of sequence O93443_NAJAT/11-48, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:50:44,818 - __main__ - INFO - Removed 3 bases from start of CTX5_NAJOX/1-60
+2021-07-06 07:50:44,818 - __main__ - INFO - Removed 3 bases from start of CX2_NAJOX/1-60
+2021-07-06 07:50:44,819 - __main__ - INFO - Removed 3 bases from start of CX5D_NAJAT/1-60
+2021-07-06 07:50:44,819 - __main__ - INFO - Removed 3 bases from start of CX5C_NAJAT/1-60
+2021-07-06 07:50:44,819 - __main__ - INFO - Removed 3 bases from start of CX5A_NAJAT/1-60
+2021-07-06 07:50:44,820 - __main__ - INFO - Removed 3 bases from start of CTX10_NAJAT/23-82
+2021-07-06 07:50:44,820 - __main__ - INFO - Removed 4 bases from start of CTXA6_NAJAT/21-81
+2021-07-06 07:50:44,820 - __main__ - INFO - Removed 4 bases from start of CTX6_NAJAT/21-82
+2021-07-06 07:50:44,820 - __main__ - INFO - Removed 4 bases from start of CX8_NAJAT/21-81
+2021-07-06 07:50:44,821 - __main__ - INFO - Removed 4 bases from start of CX3D_NAJAT/21-81
+2021-07-06 07:50:44,821 - __main__ - INFO - Removed 4 bases from start of CTX8_NAJAT/21-81
+2021-07-06 07:50:44,821 - __main__ - INFO - Removed 4 bases from start of CTX1_NAJSP/21-81
+2021-07-06 07:50:44,822 - __main__ - INFO - Removed 4 bases from start of CTXA3_NAJAT/21-81
+2021-07-06 07:50:44,822 - __main__ - INFO - Removed 4 bases from start of CTX4_NAJKA/21-81
+2021-07-06 07:50:44,822 - __main__ - INFO - Removed 4 bases from start of CTX_NAJSP/21-81
+2021-07-06 07:50:44,823 - __main__ - INFO - Removed 4 bases from start of CTX3_NAJSP/21-81
+2021-07-06 07:50:44,823 - __main__ - INFO - Removed 4 bases from start of CTX4B_NAJSP/21-81
+2021-07-06 07:50:44,823 - __main__ - INFO - Removed 4 bases from start of CTX4A_NAJSP/21-81
+2021-07-06 07:50:44,823 - __main__ - INFO - Removed 4 bases from start of CTX2A_NAJSP/21-81
+2021-07-06 07:50:44,824 - __main__ - INFO - Removed 4 bases from start of CTX2B_NAJSP/21-81
+2021-07-06 07:50:44,824 - __main__ - INFO - Removed 3 bases from start of CX2_NAJNA/1-60
+2021-07-06 07:50:44,824 - __main__ - INFO - Removed 4 bases from start of CTX2C_NAJSP/21-81
+2021-07-06 07:50:44,825 - __main__ - INFO - Removed 4 bases from start of CX3B_NAJAT/21-81
+2021-07-06 07:50:44,825 - __main__ - INFO - Removed 4 bases from start of CTX2_NAJKA/21-81
+2021-07-06 07:50:44,825 - __main__ - INFO - Removed 4 bases from start of CX3A_NAJAT/21-81
+2021-07-06 07:50:44,825 - __main__ - INFO - Removed 3 bases from start of CX4_NAJMO/1-60
+2021-07-06 07:50:44,826 - __main__ - INFO - Removed 3 bases from start of CX9_NAJHA/1-60
+2021-07-06 07:50:44,826 - __main__ - INFO - Removed 3 bases from start of CX10_NAJHA/1-60
+2021-07-06 07:50:44,826 - __main__ - INFO - Removed 3 bases from start of CX3_NAJNI/1-60
+2021-07-06 07:50:44,827 - __main__ - INFO - Removed 3 bases from start of CX4_NAJHA/1-60
+2021-07-06 07:50:44,827 - __main__ - INFO - Removed 3 bases from start of CX5_NAJHH/1-60
+2021-07-06 07:50:44,827 - __main__ - INFO - Removed 3 bases from start of CX8_NAJHA/1-60
+2021-07-06 07:50:44,828 - __main__ - INFO - Removed 3 bases from start of CX3_NAJHA/1-60
+2021-07-06 07:50:44,828 - __main__ - INFO - Removed 3 bases from start of CX2_NAJNI/1-60
+2021-07-06 07:50:44,828 - __main__ - INFO - Removed 3 bases from start of CX5_NAJHA/1-60
+2021-07-06 07:50:44,828 - __main__ - INFO - Removed 3 bases from start of CX2_NAJHA/1-60
+2021-07-06 07:50:44,829 - __main__ - INFO - Removed 3 bases from start of CX7_NAJHA/1-60
+2021-07-06 07:50:44,829 - __main__ - INFO - Removed 3 bases from start of CX6_NAJHA/1-60
+2021-07-06 07:50:44,829 - __main__ - INFO - Removed 3 bases from start of CX1_NAJHA/1-60
+2021-07-06 07:50:44,830 - __main__ - INFO - Removed 3 bases from start of CX1_NAJNI/1-60
+2021-07-06 07:50:44,830 - __main__ - INFO - Removed 3 bases from start of CX1_NAJME/1-60
+2021-07-06 07:50:44,830 - __main__ - INFO - Removed 3 bases from start of CX1_NAJOX/1-60
+2021-07-06 07:50:44,830 - __main__ - INFO - Removed 3 bases from start of Q9PS33_NAJOX/1-59
+2021-07-06 07:50:44,831 - __main__ - INFO - Removed 4 bases from start of CX1D_NAJAT/21-81
+2021-07-06 07:50:44,831 - __main__ - INFO - Removed 3 bases from start of CX1A_NAJAT/22-81
+2021-07-06 07:50:44,831 - __main__ - INFO - Removed 4 bases from start of CX15_NAJAT/21-81
+2021-07-06 07:50:44,832 - __main__ - INFO - Removed 4 bases from start of CTXA1_NAJAT/21-81
+2021-07-06 07:50:44,832 - __main__ - INFO - Removed 4 bases from start of CX1C_NAJAT/21-81
+2021-07-06 07:50:44,832 - __main__ - INFO - Removed 3 bases from start of CTX1_NAJKA/1-60
+2021-07-06 07:50:44,832 - __main__ - INFO - Removed 4 bases from start of CX16_NAJAT/21-81
+2021-07-06 07:50:44,833 - __main__ - INFO - Removed 4 bases from start of CX1B_NAJAT/21-81
+2021-07-06 07:50:44,833 - __main__ - INFO - Removed 4 bases from start of CX5_NAJAT/21-81
+2021-07-06 07:50:44,833 - __main__ - INFO - Removed 3 bases from start of CTX4B_NAJAT/1-60
+2021-07-06 07:50:44,834 - __main__ - INFO - Removed 4 bases from start of CTX5B_NAJSP/21-81
+2021-07-06 07:50:44,834 - __main__ - INFO - Removed 4 bases from start of CTX5A_NAJSP/21-81
+2021-07-06 07:50:44,834 - __main__ - INFO - Removed 4 bases from start of CTXA2_NAJAT/21-81
+2021-07-06 07:50:44,835 - __main__ - INFO - Removed 3 bases from start of KJC3_NAJSP/1-60
+2021-07-06 07:50:44,835 - __main__ - WARNING - Given the length of sequence CXAG_NAJAT/1-30, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-06 07:50:44,835 - __main__ - INFO - Removed 3 bases from start of CXAG_NAJAT/1-30
+2021-07-06 07:50:44,835 - __main__ - INFO - Removed 5 bases from start of CTX4N_NAJAT/20-81
+2021-07-06 07:50:44,836 - __main__ - INFO - Removed 5 bases from start of CTXA4_NAJAT/20-81
+2021-07-06 07:50:44,836 - __main__ - INFO - Removed 3 bases from start of CTX7_NAJSP/3-62
+2021-07-06 07:50:44,836 - __main__ - INFO - Removed 3 bases from start of CTX6_NAJSP/3-62
+2021-07-06 07:50:44,836 - __main__ - INFO - Removed 3 bases from start of CTX3B_NAJAT/1-60
+2021-07-06 07:50:44,837 - __main__ - INFO - Removed 3 bases from start of CX3_NAJKA/1-60
+2021-07-06 07:50:44,837 - __main__ - INFO - Removed 3 bases from start of CX2_NAJKA/1-60
+2021-07-06 07:50:44,837 - __main__ - INFO - Removed 3 bases from start of CX3_NAJNA/1-60
+2021-07-06 07:50:44,838 - __main__ - INFO - Removed 3 bases from start of CX1_NAJNA/1-60
+2021-07-06 07:50:44,838 - __main__ - INFO - Removed 3 bases from start of CXS_NAJSG/1-60
+2021-07-06 07:50:44,838 - __main__ - INFO - Removed 3 bases from start of CX5_NAJKA/1-60
+2021-07-06 07:50:44,839 - __main__ - INFO - Removed 3 bases from start of CX5_NAJMO/1-60
+2021-07-06 07:50:44,839 - __main__ - INFO - Removed 3 bases from start of CX3_NAJMO/1-60
+2021-07-06 07:50:44,839 - __main__ - INFO - Removed 3 bases from start of CX2_NAJMO/1-60
+2021-07-06 07:50:44,839 - __main__ - INFO - Removed 3 bases from start of CX1_NAJMO/1-60
+2021-07-06 07:50:44,840 - __main__ - INFO - Removed 3 bases from start of CX1_NAJPA/1-60
+2021-07-06 07:50:44,865 - __main__ - INFO - Removing gap only columns
+2021-07-06 07:50:44,866 - __main__ - INFO - Removing short sequences
+2021-07-06 07:50:44,866 - __main__ - INFO - Removing too short sequences NXAC3_TRIBI/65-110, NXM13_DENAN/1-40, O93443_NAJAT/11-48, CXHA_MATBI/1-41, NXS6_OPHHA/22-78, NXSDA_MICPY/1-47, TXW3_NAJHA/1-56, NXOH9_OPHHA/1-57, A8CW84_LUTLO/33-83, NXS32_OPHHA/21-77, NXL31_OPHHA/51-89, C6JUP4_MICCO/22-79, NXS14_OPHHA/22-78, NXS46_OPHHA/22-78, TXW2A_NAJHA/1-57, Q9YH67_BUNMU/12-53, Q6TAR6_BUNCA/1-36, TXW1B_HEMHA/1-57, CXAG_NAJAT/1-30, C6JUP5_MICCO/22-79, NXS11_MICSU/1-58, NXM14_DENAN/1-40, NXS5_OPHHA/22-78, NXS11_OPHHA/22-78, NXS2X_OPHHA/22-78, NXS26_OPHHA/22-78
+2021-07-06 07:50:44,866 - __main__ - INFO - Removing gap only columns

@@ -1,0 +1,59 @@
+2021-07-01 10:06:36,927 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile low_stringent_config_BB.ini --infile reference_set_10/muscle/BBA0106_max100.fasta --outfile_stem reference_set_10/muscle/low_stringent_BBA0106_max100
+Config File (low_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.05
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.15
+  remove_insertions: 1
+  insertion_min_size:5
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 10:06:37,032 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 10:06:37,032 - __main__ - INFO - Removing divergent sequences
+2021-07-01 10:06:40,203 - __main__ - INFO - Removing insertions
+2021-07-01 10:06:40,203 - __main__ - INFO - Removing insertions
+
+2021-07-01 10:06:41,958 - __main__ - INFO - Removing sites 153, 154, 155, 156, 157, 158, 164, 176, 177, 178, 179, 180, 181, 182, 186, 200, 220, 254, 256, 257, 258, 259, 260, 280, 281, 282, 283, 349, 350, 351, 352, 353, 354, 355, 360, 371, 372, 373, 374, 380, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 400, 401, 435, 436, 437, 438, 439, 440, 441, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 496, 498, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 540, 541, 542, 543, 544, 577, 583, 584, 585, 586, 587, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 649, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 677, 678, 679, 680, 681, 682, 683, 684, 691, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 743, 753, 754, 786, 787, 788, 789, 790, 791, 792, 793, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 854, 858, 859, 860, 861, 862, 866, 867, 868, 869, 898, 899, 902, 903, 904, 905, 906, 907, 908, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 929, 954, 958, 959, 960, 961, 962, 963, 965, 966, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1027, 1028, 1038, 1039, 1040, 1056, 1061, 1062, 1063, 1064, 1066, 1067, 1077, 1078, 1079, 1080, 1081, 1082, 1083, 1084, 1085, 1086, 1087, 1096, 1097, 1102, 1103, 1104, 1105, 1124, 1202, 1203, 1204, 1205, 1206, 1207, 1208, 1209, 1210, 1211, 1212, 1213, 1214, 1215, 1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223, 1224, 1225, 1238, 1239, 1256, 1257, 1277, 1278, 1279, 1280, 1281, 1282, 1283, 1284, 1285, 1286, 1287, 1288, 1289, 1290, 1291, 1292, 1293, 1294, 1295, 1296, 1297, 1298, 1299, 1300, 1301, 1302, 1327, 1328, 1329, 1330, 1331, 1332, 1333, 1334, 1335, 1336, 1337, 1338, 1339, 1340, 1349, 1350, 1351, 1352, 1353, 1354, 1355, 1356, 1357, 1358, 1390, 1391, 1392, 1393, 1394, 1395, 1396, 1397, 1398, 1399, 1400, 1401, 1402, 1403, 1404, 1405, 1406, 1407, 1408, 1409, 1410, 1411, 1412, 1413, 1414, 1415, 1416, 1417, 1418, 1419, 1420, 1421, 1422, 1423, 1424, 1425, 1426, 1427, 1428, 1429, 1430, 1431, 1432, 1433, 1434, 1435, 1436, 1437, 1438, 1439, 1440, 1441, 1466, 1481, 1482, 1483, 1484, 1485, 1486, 1487, 1488
+2021-07-01 10:06:41,958 - __main__ - INFO - Cropping ends
+2021-07-01 10:06:42,082 - __main__ - INFO - Removed 28 bases from end of seq034

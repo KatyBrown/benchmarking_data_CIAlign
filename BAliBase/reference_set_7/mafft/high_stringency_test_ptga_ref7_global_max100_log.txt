@@ -1,0 +1,97 @@
+2021-03-03 05:14:01,311 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_7/mafft/test_ptga_ref7_global_max100.fasta --outfile_stem reference_set_7/mafft/high_stringency_test_ptga_ref7_global_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 05:14:01,353 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 05:14:01,353 - __main__ - INFO - Removing divergent sequences
+2021-03-03 05:14:02,396 - __main__ - INFO - Removing divergent sequences Q9RLU2, Q45579, ptga_brela, PTIB_BACSU, p77272, PTDA_ECOLI, PTTB_ECOLI, PTLB_LACLA, q9x565, ptcc_ecoli, O51143, PTCC_BACST, o68468
+2021-03-03 05:14:02,397 - __main__ - INFO - Removing insertions
+2021-03-03 05:14:02,397 - __main__ - INFO - Removing insertions
+
+2021-03-03 05:14:03,649 - __main__ - INFO - Removing sites 30, 65, 89, 90, 91, 92, 93, 103, 104, 105, 117, 118, 119, 147, 148, 149, 150, 151, 152, 153, 160, 165, 166, 167, 168, 169, 170, 172, 180, 181, 182, 183, 184, 185, 186, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 228, 229, 230, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 307, 308, 309, 310, 311, 312, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 368, 369, 370, 371, 372, 373, 395, 396, 397, 398, 399, 400, 428, 435, 436, 437, 438, 439, 462, 463, 464, 468, 472, 473, 474, 475, 484, 485, 486, 487, 488, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 684, 685, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 765, 766, 767, 769, 775, 776, 777, 778, 779, 780, 791, 792, 793, 794, 830, 831, 832, 833, 834, 835, 859, 860, 861, 862, 863, 875, 876, 877, 878, 879, 880, 890, 894, 895, 896, 897, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 954, 959, 960, 961, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1006, 1007, 1041, 1058, 1079, 1080, 1081, 1082, 1083, 1084, 1085, 1086, 1087, 1088, 1089, 1090, 1091, 1092, 1093, 1094, 1095, 1096, 1097, 1098, 1099, 1100, 1101, 1102, 1103, 1104, 1105, 1106, 1107, 1108, 1109, 1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1154, 1157, 1172, 1173, 1205, 1206, 1207, 1208, 1209, 1210, 1211, 1212, 1226, 1227, 1228, 1256, 1257, 1270, 1276
+2021-03-03 05:14:03,649 - __main__ - INFO - Cropping ends
+2021-03-03 05:14:03,652 - __main__ - INFO - Removed 36 bases from start of Q57071
+2021-03-03 05:14:03,654 - __main__ - INFO - Removed 39 bases from start of Q53922
+2021-03-03 05:14:03,657 - __main__ - INFO - Removed 36 bases from start of PTGA_BACSU
+2021-03-03 05:14:03,660 - __main__ - INFO - Removed 38 bases from start of YBFS_BACSU
+2021-03-03 05:14:03,660 - __main__ - INFO - Removed 10 bases from end of YBFS_BACSU
+2021-03-03 05:14:03,663 - __main__ - INFO - Removed 33 bases from start of PTGB_ECOLI
+2021-03-03 05:14:03,663 - __main__ - INFO - Removed 5 bases from end of PTGB_ECOLI
+2021-03-03 05:14:03,665 - __main__ - INFO - Removed 33 bases from start of PTGB_SALTY
+2021-03-03 05:14:03,666 - __main__ - INFO - Removed 5 bases from end of PTGB_SALTY
+2021-03-03 05:14:03,668 - __main__ - INFO - Removed 23 bases from start of O32444
+2021-03-03 05:14:03,668 - __main__ - INFO - Removed 10 bases from end of O32444
+2021-03-03 05:14:03,671 - __main__ - INFO - Removed 33 bases from start of O34521
+2021-03-03 05:14:03,671 - __main__ - INFO - Removed 2 bases from end of O34521
+2021-03-03 05:14:03,674 - __main__ - INFO - Removed 35 bases from start of PTAA_ECOLI
+2021-03-03 05:14:03,677 - __main__ - INFO - Removed 35 bases from start of PTAA_KLEPN
+2021-03-03 05:14:03,682 - __main__ - INFO - Removed 35 bases from start of O51590
+2021-03-03 05:14:03,685 - __main__ - INFO - Removed 42 bases from start of PTOA_ECOLI
+2021-03-03 05:14:03,687 - __main__ - INFO - Removed 40 bases from start of P96159
+2021-03-03 05:14:03,690 - __main__ - INFO - Removed 39 bases from start of Q9RL52
+2021-03-03 05:14:03,693 - __main__ - INFO - Removed 38 bases from start of O07656
+2021-03-03 05:14:03,696 - __main__ - INFO - Removed 54 bases from start of PTGA_MYCGE
+2021-03-03 05:14:03,698 - __main__ - INFO - Removed 20 bases from start of PTGA_MYCPN
+2021-03-03 05:14:03,701 - __main__ - INFO - Removed 6 bases from start of Q9S2H4
+2021-03-03 05:14:03,701 - __main__ - INFO - Removed 10 bases from end of Q9S2H4
+2021-03-03 05:14:03,704 - __main__ - INFO - Removed 5 bases from start of Q9S2H5
+2021-03-03 05:14:03,704 - __main__ - INFO - Removed 10 bases from end of Q9S2H5
+2021-03-03 05:14:03,724 - __main__ - INFO - Removed 35 bases from end of ptsb_staxy
+2021-03-03 05:14:03,726 - __main__ - INFO - Removed 36 bases from end of ptsb_vibal
+2021-03-03 05:14:03,729 - __main__ - INFO - Removed 28 bases from end of PTTB_BACSU
+2021-03-03 05:14:03,732 - __main__ - INFO - Removed 27 bases from end of q9zhj9
+2021-03-03 05:14:03,735 - __main__ - INFO - Removed 35 bases from end of p94470
+2021-03-03 05:14:03,737 - __main__ - INFO - Removed 31 bases from end of ptsb_klepn
+2021-03-03 05:14:03,740 - __main__ - INFO - Removed 31 bases from end of ptsb_salty
+2021-03-03 05:14:03,743 - __main__ - INFO - Removed 31 bases from end of sacx_bacsu
+2021-03-03 05:14:03,746 - __main__ - INFO - Removed 32 bases from end of ptsb_bacsu
+2021-03-03 05:14:03,751 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 05:14:04,203 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 05:14:04,625 - __main__ - INFO - Building consensus sequence

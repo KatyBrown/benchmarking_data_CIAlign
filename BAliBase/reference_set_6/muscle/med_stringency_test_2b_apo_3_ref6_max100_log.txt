@@ -1,0 +1,204 @@
+2021-03-03 04:22:56,377 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini --infile reference_set_6/muscle/test_2b_apo_3_ref6_max100.fasta --outfile_stem reference_set_6/muscle/med_stringency_test_2b_apo_3_ref6_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.3
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 04:22:56,386 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 04:22:56,386 - __main__ - INFO - Removing divergent sequences
+2021-03-03 04:22:56,536 - __main__ - INFO - Removing divergent sequences Q9QUH3_13, APA4_HUMAN_12, Q9QUH3_8, APA4_MOUSE_2, APA4_RAT_5, APA4_HUMAN_5, Q9QUH3_10, Q9UBJ3_1, Q01488_2, Q9UBJ3_10, APA4_PIG_13, Q9UBJ3_9, Q9UBJ3_8, Q9UBJ3_5, Q9UBJ3_13, Q9QUH3_6, Q9UBJ3_6, APA4_RAT_3, APA4_RAT_13, APA4_MOUSE_3, APA4_PAPAN-F_5, APA4_RAT_12, Q01488_5, APA4_PAPAN-F_12, APA4_MACFA_12, APA4_MACFA_5, Q9UBJ3_12, Q01488_3, Q9QUH3_12, APA4_PIG_12, Q01488_13, Q9QUH3_5, Q9QUH3_1, Q01488_12, Q9QUH3_9, APA4_MOUSE_12, APA4_MOUSE_5, APA4_MOUSE_13
+2021-03-03 04:22:56,536 - __main__ - INFO - Removing insertions
+2021-03-03 04:22:56,536 - __main__ - INFO - Removing insertions
+
+2021-03-03 04:22:56,602 - __main__ - INFO - Removing sites 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 71, 77, 78, 79, 80, 81
+2021-03-03 04:22:56,602 - __main__ - INFO - Cropping ends
+2021-03-03 04:22:56,603 - __main__ - INFO - Removed 1 bases from start of APA4_HUMAN_13
+2021-03-03 04:22:56,603 - __main__ - INFO - Removed 1 bases from end of APA4_HUMAN_13
+2021-03-03 04:22:56,603 - __main__ - INFO - Removed 3 bases from start of APA4_PAPAN-F_13
+2021-03-03 04:22:56,603 - __main__ - INFO - Removed 3 bases from end of APA4_PAPAN-F_13
+2021-03-03 04:22:56,606 - __main__ - INFO - Removed 1 bases from start of APA4_RAT_11
+2021-03-03 04:22:56,606 - __main__ - INFO - Removed 1 bases from end of APA4_RAT_11
+2021-03-03 04:22:56,606 - __main__ - INFO - Removed 1 bases from start of APA4_MOUSE_11
+2021-03-03 04:22:56,606 - __main__ - INFO - Removed 1 bases from end of APA4_MOUSE_11
+2021-03-03 04:22:56,607 - __main__ - INFO - Removed 1 bases from start of Q01488_11
+2021-03-03 04:22:56,607 - __main__ - INFO - Removed 1 bases from end of Q01488_11
+2021-03-03 04:22:56,607 - __main__ - INFO - Removed 1 bases from start of APA4_HUMAN_11
+2021-03-03 04:22:56,607 - __main__ - INFO - Removed 1 bases from end of APA4_HUMAN_11
+2021-03-03 04:22:56,608 - __main__ - INFO - Removed 1 bases from start of APA4_MACFA_11
+2021-03-03 04:22:56,608 - __main__ - INFO - Removed 1 bases from end of APA4_MACFA_11
+2021-03-03 04:22:56,608 - __main__ - INFO - Removed 1 bases from start of APA4_PAPAN-F_11
+2021-03-03 04:22:56,608 - __main__ - INFO - Removed 1 bases from end of APA4_PAPAN-F_11
+2021-03-03 04:22:56,609 - __main__ - INFO - Removed 1 bases from start of APA4_PIG_11
+2021-03-03 04:22:56,609 - __main__ - INFO - Removed 1 bases from end of APA4_PIG_11
+2021-03-03 04:22:56,609 - __main__ - INFO - Removed 1 bases from start of APA4_RAT_10
+2021-03-03 04:22:56,609 - __main__ - INFO - Removed 1 bases from end of APA4_RAT_10
+2021-03-03 04:22:56,610 - __main__ - INFO - Removed 1 bases from start of APA4_MOUSE_10
+2021-03-03 04:22:56,610 - __main__ - INFO - Removed 1 bases from end of APA4_MOUSE_10
+2021-03-03 04:22:56,610 - __main__ - INFO - Removed 1 bases from start of Q01488_10
+2021-03-03 04:22:56,610 - __main__ - INFO - Removed 1 bases from end of Q01488_10
+2021-03-03 04:22:56,611 - __main__ - INFO - Removed 1 bases from start of APA4_PIG_10
+2021-03-03 04:22:56,611 - __main__ - INFO - Removed 1 bases from end of APA4_PIG_10
+2021-03-03 04:22:56,611 - __main__ - INFO - Removed 1 bases from start of APA4_HUMAN_10
+2021-03-03 04:22:56,611 - __main__ - INFO - Removed 1 bases from end of APA4_HUMAN_10
+2021-03-03 04:22:56,612 - __main__ - INFO - Removed 1 bases from start of APA4_MACFA_10
+2021-03-03 04:22:56,612 - __main__ - INFO - Removed 1 bases from end of APA4_MACFA_10
+2021-03-03 04:22:56,612 - __main__ - INFO - Removed 1 bases from start of APA4_PAPAN-F_10
+2021-03-03 04:22:56,612 - __main__ - INFO - Removed 1 bases from end of APA4_PAPAN-F_10
+2021-03-03 04:22:56,613 - __main__ - INFO - Removed 2 bases from start of Q9QUH3_2
+2021-03-03 04:22:56,613 - __main__ - INFO - Removed 2 bases from end of Q9QUH3_2
+2021-03-03 04:22:56,613 - __main__ - INFO - Removed 2 bases from start of Q9UBJ3_2
+2021-03-03 04:22:56,613 - __main__ - INFO - Removed 2 bases from end of Q9UBJ3_2
+2021-03-03 04:22:56,614 - __main__ - INFO - Removed 1 bases from start of Q9QUH3_11
+2021-03-03 04:22:56,614 - __main__ - INFO - Removed 1 bases from end of Q9QUH3_11
+2021-03-03 04:22:56,614 - __main__ - INFO - Removed 1 bases from start of Q9UBJ3_11
+2021-03-03 04:22:56,614 - __main__ - INFO - Removed 1 bases from end of Q9UBJ3_11
+2021-03-03 04:22:56,615 - __main__ - INFO - Removed 1 bases from start of APA4_PIG_5
+2021-03-03 04:22:56,615 - __main__ - INFO - Removed 1 bases from end of APA4_PIG_5
+2021-03-03 04:22:56,615 - __main__ - INFO - Removed 1 bases from start of APA4_RAT_4
+2021-03-03 04:22:56,615 - __main__ - INFO - Removed 1 bases from end of APA4_RAT_4
+2021-03-03 04:22:56,616 - __main__ - INFO - Removed 1 bases from start of APA4_MOUSE_4
+2021-03-03 04:22:56,616 - __main__ - INFO - Removed 1 bases from end of APA4_MOUSE_4
+2021-03-03 04:22:56,616 - __main__ - INFO - Removed 1 bases from start of Q01488_4
+2021-03-03 04:22:56,616 - __main__ - INFO - Removed 1 bases from end of Q01488_4
+2021-03-03 04:22:56,617 - __main__ - INFO - Removed 1 bases from start of Q9QUH3_4
+2021-03-03 04:22:56,617 - __main__ - INFO - Removed 1 bases from end of Q9QUH3_4
+2021-03-03 04:22:56,617 - __main__ - INFO - Removed 1 bases from start of Q9UBJ3_4
+2021-03-03 04:22:56,617 - __main__ - INFO - Removed 1 bases from end of Q9UBJ3_4
+2021-03-03 04:22:56,618 - __main__ - INFO - Removed 1 bases from start of APA4_PIG_4
+2021-03-03 04:22:56,618 - __main__ - INFO - Removed 1 bases from end of APA4_PIG_4
+2021-03-03 04:22:56,618 - __main__ - INFO - Removed 1 bases from start of APA4_HUMAN_4
+2021-03-03 04:22:56,618 - __main__ - INFO - Removed 1 bases from end of APA4_HUMAN_4
+2021-03-03 04:22:56,619 - __main__ - INFO - Removed 1 bases from start of APA4_MACFA_4
+2021-03-03 04:22:56,619 - __main__ - INFO - Removed 1 bases from end of APA4_MACFA_4
+2021-03-03 04:22:56,620 - __main__ - INFO - Removed 1 bases from start of APA4_PAPAN-F_4
+2021-03-03 04:22:56,620 - __main__ - INFO - Removed 1 bases from end of APA4_PAPAN-F_4
+2021-03-03 04:22:56,620 - __main__ - INFO - Removed 1 bases from start of Q9QUH3_3
+2021-03-03 04:22:56,620 - __main__ - INFO - Removed 1 bases from end of Q9QUH3_3
+2021-03-03 04:22:56,621 - __main__ - INFO - Removed 1 bases from start of Q9UBJ3_3
+2021-03-03 04:22:56,621 - __main__ - INFO - Removed 1 bases from end of Q9UBJ3_3
+2021-03-03 04:22:56,621 - __main__ - INFO - Removed 1 bases from start of APA4_HUMAN_8
+2021-03-03 04:22:56,621 - __main__ - INFO - Removed 1 bases from end of APA4_HUMAN_8
+2021-03-03 04:22:56,622 - __main__ - INFO - Removed 1 bases from start of APA4_MACFA_8
+2021-03-03 04:22:56,622 - __main__ - INFO - Removed 1 bases from end of APA4_MACFA_8
+2021-03-03 04:22:56,623 - __main__ - INFO - Removed 1 bases from start of APA4_PAPAN-F_8
+2021-03-03 04:22:56,623 - __main__ - INFO - Removed 1 bases from end of APA4_PAPAN-F_8
+2021-03-03 04:22:56,623 - __main__ - INFO - Removed 1 bases from start of APA4_PIG_8
+2021-03-03 04:22:56,623 - __main__ - INFO - Removed 1 bases from end of APA4_PIG_8
+2021-03-03 04:22:56,624 - __main__ - INFO - Removed 1 bases from start of APA4_MOUSE_8
+2021-03-03 04:22:56,624 - __main__ - INFO - Removed 1 bases from end of APA4_MOUSE_8
+2021-03-03 04:22:56,624 - __main__ - INFO - Removed 1 bases from start of Q01488_8
+2021-03-03 04:22:56,624 - __main__ - INFO - Removed 1 bases from end of Q01488_8
+2021-03-03 04:22:56,625 - __main__ - INFO - Removed 1 bases from start of APA4_RAT_8
+2021-03-03 04:22:56,625 - __main__ - INFO - Removed 1 bases from end of APA4_RAT_8
+2021-03-03 04:22:56,626 - __main__ - INFO - Removed 1 bases from start of APA4_HUMAN_3
+2021-03-03 04:22:56,626 - __main__ - INFO - Removed 1 bases from end of APA4_HUMAN_3
+2021-03-03 04:22:56,626 - __main__ - INFO - Removed 1 bases from start of APA4_MACFA_3
+2021-03-03 04:22:56,626 - __main__ - INFO - Removed 1 bases from end of APA4_MACFA_3
+2021-03-03 04:22:56,627 - __main__ - INFO - Removed 1 bases from start of APA4_PAPAN-F_3
+2021-03-03 04:22:56,627 - __main__ - INFO - Removed 1 bases from end of APA4_PAPAN-F_3
+2021-03-03 04:22:56,627 - __main__ - INFO - Removed 1 bases from start of APA4_PIG_3
+2021-03-03 04:22:56,627 - __main__ - INFO - Removed 1 bases from end of APA4_PIG_3
+2021-03-03 04:22:56,628 - __main__ - INFO - Removed 2 bases from start of APA4_RAT_2
+2021-03-03 04:22:56,628 - __main__ - INFO - Removed 2 bases from end of APA4_RAT_2
+2021-03-03 04:22:56,628 - __main__ - INFO - Removed 2 bases from start of APA4_PIG_2
+2021-03-03 04:22:56,628 - __main__ - INFO - Removed 2 bases from end of APA4_PIG_2
+2021-03-03 04:22:56,629 - __main__ - INFO - Removed 2 bases from start of APA4_HUMAN_2
+2021-03-03 04:22:56,629 - __main__ - INFO - Removed 2 bases from end of APA4_HUMAN_2
+2021-03-03 04:22:56,629 - __main__ - INFO - Removed 2 bases from start of APA4_PAPAN-F_2
+2021-03-03 04:22:56,629 - __main__ - INFO - Removed 2 bases from end of APA4_PAPAN-F_2
+2021-03-03 04:22:56,630 - __main__ - INFO - Removed 2 bases from start of APA4_MACFA_2
+2021-03-03 04:22:56,630 - __main__ - INFO - Removed 2 bases from end of APA4_MACFA_2
+2021-03-03 04:22:56,630 - __main__ - INFO - Removed 1 bases from start of Q9QUH3_7
+2021-03-03 04:22:56,630 - __main__ - INFO - Removed 1 bases from end of Q9QUH3_7
+2021-03-03 04:22:56,631 - __main__ - INFO - Removed 1 bases from start of Q9UBJ3_7
+2021-03-03 04:22:56,631 - __main__ - INFO - Removed 1 bases from end of Q9UBJ3_7
+2021-03-03 04:22:56,631 - __main__ - INFO - Removed 1 bases from start of APA4_MOUSE_7
+2021-03-03 04:22:56,631 - __main__ - INFO - Removed 1 bases from end of APA4_MOUSE_7
+2021-03-03 04:22:56,632 - __main__ - INFO - Removed 1 bases from start of Q01488_7
+2021-03-03 04:22:56,632 - __main__ - INFO - Removed 1 bases from end of Q01488_7
+2021-03-03 04:22:56,632 - __main__ - INFO - Removed 1 bases from start of APA4_RAT_7
+2021-03-03 04:22:56,632 - __main__ - INFO - Removed 1 bases from end of APA4_RAT_7
+2021-03-03 04:22:56,633 - __main__ - INFO - Removed 1 bases from start of APA4_PIG_6
+2021-03-03 04:22:56,633 - __main__ - INFO - Removed 1 bases from end of APA4_PIG_6
+2021-03-03 04:22:56,633 - __main__ - INFO - Removed 1 bases from start of APA4_MACFA_6
+2021-03-03 04:22:56,633 - __main__ - INFO - Removed 1 bases from end of APA4_MACFA_6
+2021-03-03 04:22:56,634 - __main__ - INFO - Removed 1 bases from start of APA4_HUMAN_6
+2021-03-03 04:22:56,634 - __main__ - INFO - Removed 1 bases from end of APA4_HUMAN_6
+2021-03-03 04:22:56,634 - __main__ - INFO - Removed 1 bases from start of APA4_PAPAN-F_6
+2021-03-03 04:22:56,635 - __main__ - INFO - Removed 1 bases from end of APA4_PAPAN-F_6
+2021-03-03 04:22:56,635 - __main__ - INFO - Removed 1 bases from start of APA4_HUMAN_7
+2021-03-03 04:22:56,635 - __main__ - INFO - Removed 1 bases from end of APA4_HUMAN_7
+2021-03-03 04:22:56,636 - __main__ - INFO - Removed 1 bases from start of APA4_MACFA_7
+2021-03-03 04:22:56,636 - __main__ - INFO - Removed 1 bases from end of APA4_MACFA_7
+2021-03-03 04:22:56,636 - __main__ - INFO - Removed 1 bases from start of APA4_PAPAN-F_7
+2021-03-03 04:22:56,636 - __main__ - INFO - Removed 1 bases from end of APA4_PAPAN-F_7
+2021-03-03 04:22:56,637 - __main__ - INFO - Removed 1 bases from start of APA4_PIG_7
+2021-03-03 04:22:56,637 - __main__ - INFO - Removed 1 bases from end of APA4_PIG_7
+2021-03-03 04:22:56,637 - __main__ - INFO - Removed 1 bases from start of APA4_RAT_6
+2021-03-03 04:22:56,637 - __main__ - INFO - Removed 1 bases from end of APA4_RAT_6
+2021-03-03 04:22:56,638 - __main__ - INFO - Removed 1 bases from start of APA4_MOUSE_6
+2021-03-03 04:22:56,638 - __main__ - INFO - Removed 1 bases from end of APA4_MOUSE_6
+2021-03-03 04:22:56,638 - __main__ - INFO - Removed 1 bases from start of Q01488_6
+2021-03-03 04:22:56,638 - __main__ - INFO - Removed 1 bases from end of Q01488_6
+2021-03-03 04:22:56,639 - __main__ - INFO - Removed 3 bases from start of APA4_MOUSE_9
+2021-03-03 04:22:56,639 - __main__ - INFO - Removed 3 bases from end of APA4_MOUSE_9
+2021-03-03 04:22:56,639 - __main__ - INFO - Removed 3 bases from start of Q01488_9
+2021-03-03 04:22:56,640 - __main__ - INFO - Removed 3 bases from end of Q01488_9
+2021-03-03 04:22:56,640 - __main__ - INFO - Removed 3 bases from start of APA4_RAT_9
+2021-03-03 04:22:56,640 - __main__ - INFO - Removed 3 bases from end of APA4_RAT_9
+2021-03-03 04:22:56,640 - __main__ - INFO - Removed 3 bases from start of APA4_PIG_9
+2021-03-03 04:22:56,640 - __main__ - INFO - Removed 3 bases from end of APA4_PIG_9
+2021-03-03 04:22:56,641 - __main__ - INFO - Removed 3 bases from start of APA4_HUMAN_9
+2021-03-03 04:22:56,641 - __main__ - INFO - Removed 3 bases from end of APA4_HUMAN_9
+2021-03-03 04:22:56,641 - __main__ - INFO - Removed 3 bases from start of APA4_MACFA_9
+2021-03-03 04:22:56,641 - __main__ - INFO - Removed 3 bases from end of APA4_MACFA_9
+2021-03-03 04:22:56,642 - __main__ - INFO - Removed 3 bases from start of APA4_PAPAN-F_9
+2021-03-03 04:22:56,642 - __main__ - INFO - Removed 3 bases from end of APA4_PAPAN-F_9
+2021-03-03 04:22:56,643 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 04:22:56,974 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 04:22:57,292 - __main__ - INFO - Building consensus sequence

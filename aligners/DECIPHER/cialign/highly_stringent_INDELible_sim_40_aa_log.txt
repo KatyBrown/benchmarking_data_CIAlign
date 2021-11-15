@@ -1,0 +1,67 @@
+2021-07-01 19:09:05,865 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_INDELible_pep.ini --infile DECIPHER/INDELible_sim_40_aa.fasta --outfile_stem DECIPHER/cialign/highly_stringent_INDELible_sim_40_aa
+Config File (highly_stringent_config_INDELible_pep.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      1
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 19:09:05,868 - __main__ - INFO - Nucleotide alignment detected
+2021-07-01 19:09:05,868 - __main__ - INFO - Removing divergent sequences
+2021-07-01 19:09:05,933 - __main__ - INFO - Removing divergent sequences A4
+2021-07-01 19:09:05,934 - __main__ - INFO - Removing insertions
+2021-07-01 19:09:05,934 - __main__ - INFO - Removing insertions
+
+2021-07-01 19:09:06,057 - __main__ - INFO - Cropping ends
+2021-07-01 19:09:06,057 - __main__ - WARNING - Given the length of sequence A5, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 19:09:06,058 - __main__ - WARNING - Given the length of sequence A6, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 19:09:06,059 - __main__ - WARNING - Given the length of sequence A7, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 19:09:06,060 - __main__ - WARNING - Given the length of sequence A8, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 19:09:06,060 - __main__ - WARNING - Given the length of sequence A1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 19:09:06,061 - __main__ - WARNING - Given the length of sequence A2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 19:09:06,062 - __main__ - WARNING - Given the length of sequence A3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 19:09:06,063 - __main__ - INFO - Removing short sequences
+2021-07-01 19:09:06,064 - __main__ - INFO - Building consensus sequence

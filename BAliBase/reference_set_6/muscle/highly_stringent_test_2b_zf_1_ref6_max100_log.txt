@@ -1,0 +1,71 @@
+2021-07-01 03:14:05,414 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BB.ini --infile reference_set_6/muscle/test_2b_zf_1_ref6_max100.fasta --outfile_stem reference_set_6/muscle/highly_stringent_test_2b_zf_1_ref6_max100
+Config File (highly_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 03:14:05,424 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 03:14:05,424 - __main__ - INFO - Removing divergent sequences
+2021-07-01 03:14:05,544 - __main__ - INFO - Removing insertions
+2021-07-01 03:14:05,544 - __main__ - INFO - Removing insertions
+
+2021-07-01 03:14:06,143 - __main__ - INFO - Removing sites 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639
+2021-07-01 03:14:06,143 - __main__ - INFO - Cropping ends
+2021-07-01 03:14:06,148 - __main__ - INFO - Removed 30 bases from end of YADD_SCHPO_1
+2021-07-01 03:14:06,151 - __main__ - INFO - Removed 57 bases from start of SWI5_YEAST_1
+2021-07-01 03:14:06,152 - __main__ - WARNING - Given the length of sequence SWI5_YEAST_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:14:06,154 - __main__ - WARNING - Given the length of sequence ACE2_YEAST_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:14:06,160 - __main__ - INFO - Removed 6 bases from start of ACE2_YEAST_3
+2021-07-01 03:14:06,161 - __main__ - WARNING - Given the length of sequence SWI5_YEAST_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:14:06,163 - __main__ - WARNING - Given the length of sequence ACE2_YEAST_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:14:06,165 - __main__ - WARNING - Given the length of sequence YADD_SCHPO_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:14:06,172 - __main__ - INFO - Removed 30 bases from end of O14901_1
+2021-07-01 03:14:06,173 - __main__ - WARNING - Given the length of sequence O14901_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:14:06,177 - __main__ - INFO - Removed 6 bases from start of O14901_3
+2021-07-01 03:14:06,178 - __main__ - WARNING - Given the length of sequence YADD_SCHPO_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:14:06,180 - __main__ - WARNING - Given the length of sequence O14901_2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.

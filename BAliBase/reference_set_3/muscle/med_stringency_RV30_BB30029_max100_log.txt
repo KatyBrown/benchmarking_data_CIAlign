@@ -1,0 +1,141 @@
+2021-03-03 03:08:31,978 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini --infile reference_set_3/muscle/RV30_BB30029_max100.fasta --outfile_stem reference_set_3/muscle/med_stringency_RV30_BB30029_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.3
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 03:08:32,054 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 03:08:32,055 - __main__ - INFO - Removing divergent sequences
+2021-03-03 03:08:33,960 - __main__ - INFO - Removing divergent sequences SYQ_BUCBP, SYQ_BUCAI
+2021-03-03 03:08:33,960 - __main__ - INFO - Removing insertions
+2021-03-03 03:08:33,960 - __main__ - INFO - Removing insertions
+
+2021-03-03 03:08:35,190 - __main__ - INFO - Removing sites 512, 513, 514, 515, 516, 1024, 1025, 1026, 1027, 1028, 1029, 510, 1020, 1037, 1023, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 570, 571, 572, 575, 577, 579, 580, 583, 584, 585, 939, 1000, 80, 81, 82, 83, 595, 598, 629, 606, 607, 608, 609, 610, 611, 612, 613, 614, 630, 616, 617, 618, 619, 620, 109, 110, 111, 112, 113, 621, 622, 626, 627, 628, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 941, 942, 649, 143, 742, 743, 744, 673, 674, 675, 677, 712, 713, 714, 715, 205, 206, 207, 208, 209, 720, 723, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 745, 746, 747, 748, 749, 753, 763, 764, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 778, 779, 783, 793, 815, 816, 989, 823, 824, 825, 827, 832, 776, 833, 834, 835, 836, 777, 837, 838, 839, 840, 990, 847, 337, 862, 863, 986, 357, 987, 871, 872, 361, 362, 363, 364, 365, 366, 367, 368, 873, 874, 875, 876, 878, 879, 880, 881, 882, 883, 884, 885, 886, 887, 888, 890, 895, 903, 904, 905, 906, 907, 908, 909, 910, 911, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 415, 927, 928, 929, 419, 420, 930, 931, 932, 933, 937, 938, 934, 940, 935, 427, 428, 936, 430, 431, 432, 433, 434, 435, 437, 948, 949, 950, 951, 952, 953, 957, 447, 448, 449, 450, 1015, 1017, 970, 465, 466, 467, 468, 469, 470, 471, 472, 473, 977, 978, 979, 980, 981, 982, 983, 984, 985, 995, 996, 988, 998, 999, 991, 992, 993, 994, 1004, 492, 493, 494, 495, 496, 1001, 1002, 1003, 501, 1011, 997, 1016, 1012, 1018, 1019, 1013, 1021, 1022, 1014
+2021-03-03 03:08:35,190 - __main__ - INFO - Cropping ends
+2021-03-03 03:08:35,210 - __main__ - INFO - Removed 66 bases from start of SYQ_DEIRA
+2021-03-03 03:08:35,214 - __main__ - INFO - Removed 43 bases from start of SYQ_RALSO
+2021-03-03 03:08:35,218 - __main__ - INFO - Removed 25 bases from start of SYQ_CLOPE
+2021-03-03 03:08:35,222 - __main__ - INFO - Removed 33 bases from start of SYQ_XANAC
+2021-03-03 03:08:35,226 - __main__ - INFO - Removed 33 bases from start of SYQ_XYLFA
+2021-03-03 03:08:35,229 - __main__ - INFO - Removed 27 bases from start of SYQ_BUCAP
+2021-03-03 03:08:35,233 - __main__ - INFO - Removed 18 bases from start of 1euq_A
+2021-03-03 03:08:35,237 - __main__ - INFO - Removed 34 bases from start of SYQ_HAEIN
+2021-03-03 03:08:35,241 - __main__ - INFO - Removed 27 bases from start of SYQ_NEIMA
+2021-03-03 03:08:35,245 - __main__ - INFO - Removed 27 bases from start of SYQ_PSEAE
+2021-03-03 03:08:35,248 - __main__ - INFO - Removed 2 bases from start of SYE1_RICCN
+2021-03-03 03:08:35,252 - __main__ - INFO - Removed 1 bases from start of SYE2_BRUME
+2021-03-03 03:08:35,256 - __main__ - INFO - Removed 1 bases from start of SYE_AZOBR
+2021-03-03 03:08:35,265 - __main__ - INFO - Removed 43 bases from start of SYEM_YEAST
+2021-03-03 03:08:35,272 - __main__ - INFO - Removed 4 bases from start of SYE_TROW8
+2021-03-03 03:08:35,276 - __main__ - INFO - Removed 17 bases from start of SYE_STRAW
+2021-03-03 03:08:35,279 - __main__ - INFO - Removed 13 bases from start of SYE_BIFLO
+2021-03-03 03:08:35,283 - __main__ - INFO - Removed 2 bases from start of SYE_COREF
+2021-03-03 03:08:35,287 - __main__ - INFO - Removed 13 bases from start of SYE_MYCLE
+2021-03-03 03:08:35,294 - __main__ - INFO - Removed 4 bases from start of SYE_CLOTE
+2021-03-03 03:08:35,298 - __main__ - INFO - Removed 4 bases from start of SYE_CLOAB
+2021-03-03 03:08:35,302 - __main__ - INFO - Removed 4 bases from start of SYE_CHLCV
+2021-03-03 03:08:35,308 - __main__ - INFO - Removed 7 bases from start of SYE_FUSNN
+2021-03-03 03:08:35,312 - __main__ - INFO - Removed 2 bases from start of SYE_PSEAE
+2021-03-03 03:08:35,316 - __main__ - INFO - Removed 4 bases from start of SYE_AGRT5
+2021-03-03 03:08:35,320 - __main__ - INFO - Removed 4 bases from start of SYE_RHIME
+2021-03-03 03:08:35,324 - __main__ - INFO - Removed 4 bases from start of SYE_CHLTE
+2021-03-03 03:08:35,328 - __main__ - INFO - Removed 4 bases from start of SYE_PORGI
+2021-03-03 03:08:35,332 - __main__ - INFO - Removed 4 bases from start of SYE_BACTN
+2021-03-03 03:08:35,336 - __main__ - INFO - Removed 2 bases from start of SYE_MYCGA
+2021-03-03 03:08:35,340 - __main__ - INFO - Removed 2 bases from start of SYE_MYCPN
+2021-03-03 03:08:35,343 - __main__ - INFO - Removed 2 bases from start of SYE_MYCGE
+2021-03-03 03:08:35,351 - __main__ - INFO - Removed 3 bases from start of SYE1_CAMJE
+2021-03-03 03:08:35,355 - __main__ - INFO - Removed 2 bases from start of SYE1_HELPJ
+2021-03-03 03:08:35,359 - __main__ - INFO - Removed 2 bases from start of SYE_HELHP
+2021-03-03 03:08:35,366 - __main__ - INFO - Removed 7 bases from start of SYE_CAUCR
+2021-03-03 03:08:35,370 - __main__ - INFO - Removed 7 bases from start of SYE_RHOSH
+2021-03-03 03:08:35,374 - __main__ - INFO - Removed 3 bases from start of SYE_BRAJA
+2021-03-03 03:08:35,377 - __main__ - INFO - Removed 3 bases from start of SYE1_BRUME
+2021-03-03 03:08:35,381 - __main__ - INFO - Removed 3 bases from start of SYE1_RHILO
+2021-03-03 03:08:35,385 - __main__ - INFO - Removed 1 bases from start of SYE_WIGBR
+2021-03-03 03:08:35,389 - __main__ - INFO - Removed 1 bases from start of SYE_BUCBP
+2021-03-03 03:08:35,393 - __main__ - INFO - Removed 1 bases from start of SYE_BUCAP
+2021-03-03 03:08:35,397 - __main__ - INFO - Removed 1 bases from start of SYE_BUCAI
+2021-03-03 03:08:35,401 - __main__ - INFO - Removed 1 bases from start of SYE_XANAC
+2021-03-03 03:08:35,404 - __main__ - INFO - Removed 1 bases from start of SYE_XYLFA
+2021-03-03 03:08:35,411 - __main__ - INFO - Removed 1 bases from start of SYE_NEIMA
+2021-03-03 03:08:35,418 - __main__ - INFO - Removed 20 bases from start of SYE_BORBR
+2021-03-03 03:08:35,422 - __main__ - INFO - Removed 3 bases from start of SYE_RALSO
+2021-03-03 03:08:35,426 - __main__ - INFO - Removed 1 bases from start of SYE_CANBF
+2021-03-03 03:08:35,429 - __main__ - INFO - Removed 2 bases from start of SYE1_COXBU
+2021-03-03 03:08:35,433 - __main__ - INFO - Removed 1 bases from start of SYE_VIBCH
+2021-03-03 03:08:35,437 - __main__ - INFO - Removed 1 bases from start of SYE_ECO57
+2021-03-03 03:08:35,441 - __main__ - INFO - Removed 13 bases from start of SYE_HAEDU
+2021-03-03 03:08:35,445 - __main__ - INFO - Removed 13 bases from start of SYE_HAEIN
+2021-03-03 03:08:35,449 - __main__ - INFO - Removed 1 bases from start of SYE_PROMP
+2021-03-03 03:08:35,453 - __main__ - INFO - Removed 1 bases from start of SYE_PROMA
+2021-03-03 03:08:35,456 - __main__ - INFO - Removed 1 bases from start of SYE_SYNEL
+2021-03-03 03:08:35,460 - __main__ - INFO - Removed 1 bases from start of SYE_PROMM
+2021-03-03 03:08:35,467 - __main__ - INFO - Removed 1 bases from start of SYE_ANASP
+2021-03-03 03:08:35,471 - __main__ - INFO - Removed 1 bases from start of SYE_SYNP7
+2021-03-03 03:08:35,475 - __main__ - INFO - Removed 3 bases from start of SYE1_THETN
+2021-03-03 03:08:35,479 - __main__ - INFO - Removed 42 bases from start of SYE_HORVU
+2021-03-03 03:08:35,485 - __main__ - INFO - Removed 52 bases from start of SYE_ARATH
+2021-03-03 03:08:35,489 - __main__ - INFO - Removed 2 bases from start of SYE_AQUAE
+2021-03-03 03:08:35,493 - __main__ - INFO - Removed 2 bases from start of SYE2_THETN
+2021-03-03 03:08:35,497 - __main__ - INFO - Removed 4 bases from start of SYE_LACDE
+2021-03-03 03:08:35,501 - __main__ - INFO - Removed 3 bases from start of SYE_STRA3
+2021-03-03 03:08:35,509 - __main__ - INFO - Removed 3 bases from start of SYE_LACLA
+2021-03-03 03:08:35,513 - __main__ - INFO - Removed 4 bases from start of SYE_LACPL
+2021-03-03 03:08:35,517 - __main__ - INFO - Removed 2 bases from start of SYE_ENTFA
+2021-03-03 03:08:35,521 - __main__ - INFO - Removed 3 bases from start of SYE_BACHD
+2021-03-03 03:08:35,525 - __main__ - INFO - Removed 3 bases from start of SYE_BACST
+2021-03-03 03:08:35,529 - __main__ - INFO - Removed 3 bases from start of SYE_STAAM
+2021-03-03 03:08:35,533 - __main__ - INFO - Removed 3 bases from start of SYE_OCEIH
+2021-03-03 03:08:35,537 - __main__ - INFO - Removed 5 bases from start of SYE_LISIN
+2021-03-03 03:08:35,541 - __main__ - INFO - Removed 3 bases from start of SYE_BACSU
+2021-03-03 03:08:35,544 - __main__ - INFO - Removed 3 bases from start of SYE_BACAA
+2021-03-03 03:08:35,548 - __main__ - INFO - Removed 23 bases from start of SYE2_THEMA
+2021-03-03 03:08:35,563 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 03:08:36,109 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 03:08:36,623 - __main__ - INFO - Building consensus sequence

@@ -1,0 +1,130 @@
+2021-07-01 01:54:13,655 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BB.ini --infile reference_set_3/mafft/RV30_BB30023_local_max100.fasta --outfile_stem reference_set_3/mafft/highly_stringent_RV30_BB30023_local_max100
+Config File (highly_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 01:54:13,705 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 01:54:13,705 - __main__ - INFO - Removing divergent sequences
+2021-07-01 01:54:15,014 - __main__ - INFO - Removing insertions
+2021-07-01 01:54:15,014 - __main__ - INFO - Removing insertions
+
+2021-07-01 01:54:16,337 - __main__ - INFO - Removing sites 13, 29, 30, 31, 32, 33, 34, 35, 36, 64, 65, 66, 67, 68, 83, 84, 85, 86, 87, 88, 89, 91, 92, 93, 103, 104, 110, 111, 123, 125, 126, 127, 128, 129, 130, 131, 134, 135, 160, 161, 176, 181, 182, 183, 184, 185, 186, 187, 188, 189, 193, 217, 218, 219, 224, 225, 226, 227, 228, 229, 232, 234, 235, 236, 237, 238, 239, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 313, 316, 317, 318, 319, 331, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 356, 357, 358, 359, 360, 361, 362, 367, 368, 369, 370, 371, 372, 373, 379, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 403, 424, 425, 426, 427, 428, 429, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 675, 676, 677, 678, 679, 680, 681, 682, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 712, 713, 714, 715, 716, 717, 748, 749, 750, 751
+2021-07-01 01:54:16,337 - __main__ - INFO - Cropping ends
+2021-07-01 01:54:16,340 - __main__ - INFO - Removed 1 bases from start of 2hsd_A
+2021-07-01 01:54:16,340 - __main__ - INFO - Removed 8 bases from end of 2hsd_A
+2021-07-01 01:54:16,342 - __main__ - INFO - Removed 4 bases from end of YQJQ_BACSU
+2021-07-01 01:54:16,344 - __main__ - INFO - Removed 2 bases from start of YOXD_BACSU
+2021-07-01 01:54:16,344 - __main__ - INFO - Removed 8 bases from end of YOXD_BACSU
+2021-07-01 01:54:16,346 - __main__ - INFO - Removed 1 bases from start of Y432_LISMO
+2021-07-01 01:54:16,347 - __main__ - INFO - Removed 7 bases from end of Y432_LISMO
+2021-07-01 01:54:16,350 - __main__ - INFO - Removed 2 bases from start of YM71_YEAST
+2021-07-01 01:54:16,354 - __main__ - INFO - Removed 1 bases from start of Y945_MYCTU
+2021-07-01 01:54:16,354 - __main__ - INFO - Removed 19 bases from end of Y945_MYCTU
+2021-07-01 01:54:16,358 - __main__ - INFO - Removed 1 bases from start of YDFG_ECOLI
+2021-07-01 01:54:16,362 - __main__ - INFO - Removed 1 bases from start of SDH_AGRT5
+2021-07-01 01:54:16,365 - __main__ - INFO - Removed 2 bases from start of DHKR_STRCM
+2021-07-01 01:54:16,367 - __main__ - INFO - Removed 1 bases from start of 1cyd_A
+2021-07-01 01:54:16,369 - __main__ - INFO - Removed 1 bases from start of PHBB_RHIME
+2021-07-01 01:54:16,372 - __main__ - INFO - Removed 1 bases from start of YOHF_ECOLI
+2021-07-01 01:54:16,374 - __main__ - INFO - Removed 2 bases from start of CBR2_CAEEL
+2021-07-01 01:54:16,378 - __main__ - INFO - Removed 1 bases from start of BDHA_ALCEU
+2021-07-01 01:54:16,381 - __main__ - INFO - Removed 2 bases from start of 1h5q_A
+2021-07-01 01:54:16,383 - __main__ - INFO - Removed 4 bases from start of FABG_MYCAV
+2021-07-01 01:54:16,385 - __main__ - INFO - Removed 1 bases from start of FABG_ECOLI
+2021-07-01 01:54:16,388 - __main__ - INFO - Removed 1 bases from start of FABG_VIBHA
+2021-07-01 01:54:16,391 - __main__ - INFO - Removed 1 bases from start of FABG_BUCAP
+2021-07-01 01:54:16,394 - __main__ - INFO - Removed 1 bases from start of FABG_BUCAI
+2021-07-01 01:54:16,398 - __main__ - INFO - Removed 1 bases from start of FABG_BUCBP
+2021-07-01 01:54:16,402 - __main__ - INFO - Removed 1 bases from start of FABG_RICPR
+2021-07-01 01:54:16,406 - __main__ - INFO - Removed 1 bases from start of PHAB_ACISP
+2021-07-01 01:54:16,409 - __main__ - INFO - Removed 2 bases from start of DHB8_HUMAN
+2021-07-01 01:54:16,415 - __main__ - INFO - Removed 1 bases from start of FABG_CHLPN
+2021-07-01 01:54:16,419 - __main__ - INFO - Removed 1 bases from start of PHAB_PARDE
+2021-07-01 01:54:16,424 - __main__ - INFO - Removed 1 bases from start of YD50_MYCTU
+2021-07-01 01:54:16,428 - __main__ - INFO - Removed 1 bases from start of NODG_AZOBR
+2021-07-01 01:54:16,434 - __main__ - INFO - Removed 1 bases from start of PHBB_ALCEU
+2021-07-01 01:54:16,438 - __main__ - INFO - Removed 1 bases from start of PHBB_CHRVI
+2021-07-01 01:54:16,441 - __main__ - INFO - Removed 2 bases from start of 1doh_A
+2021-07-01 01:54:16,445 - __main__ - INFO - Removed 1 bases from start of YWFD_BACSU
+2021-07-01 01:54:16,449 - __main__ - INFO - Removed 2 bases from start of YXBG_BACSU
+2021-07-01 01:54:16,449 - __main__ - INFO - Removed 10 bases from end of YXBG_BACSU
+2021-07-01 01:54:16,453 - __main__ - INFO - Removed 1 bases from start of YK02_MYCTU
+2021-07-01 01:54:16,453 - __main__ - INFO - Removed 12 bases from end of YK02_MYCTU
+2021-07-01 01:54:16,457 - __main__ - INFO - Removed 2 bases from start of DHBA_BACSU
+2021-07-01 01:54:16,460 - __main__ - INFO - Removed 1 bases from start of ENTA_ECOLI
+2021-07-01 01:54:16,465 - __main__ - INFO - Removed 2 bases from start of DHMA_FLAS1
+2021-07-01 01:54:16,472 - __main__ - INFO - Removed 2 bases from start of Y4VI_RHISN
+2021-07-01 01:54:16,476 - __main__ - INFO - Removed 2 bases from start of BUTA_STAAM
+2021-07-01 01:54:16,480 - __main__ - INFO - Removed 1 bases from start of DHG2_BACSU
+2021-07-01 01:54:16,484 - __main__ - INFO - Removed 2 bases from start of YGFF_ECOLI
+2021-07-01 01:54:16,488 - __main__ - INFO - Removed 2 bases from start of DHS4_BOVIN
+2021-07-01 01:54:16,492 - __main__ - INFO - Removed 2 bases from start of DHS4_PIG
+2021-07-01 01:54:16,496 - __main__ - INFO - Removed 2 bases from start of DHS4_MOUSE
+2021-07-01 01:54:16,499 - __main__ - INFO - Removed 2 bases from start of SORD_KLEPN
+2021-07-01 01:54:16,504 - __main__ - INFO - Removed 1 bases from start of NODG_RHIME
+2021-07-01 01:54:16,507 - __main__ - INFO - Removed 1 bases from start of NOG4_RHIME
+2021-07-01 01:54:16,508 - __main__ - INFO - Removed 4 bases from start of SOU1_CANAL
+2021-07-01 01:54:16,510 - __main__ - INFO - Removed 2 bases from start of GS39_BACSU
+2021-07-01 01:54:16,516 - __main__ - INFO - Removed 4 bases from start of TRNH_DATST
+2021-07-01 01:54:16,522 - __main__ - INFO - Removed 8 bases from start of FIXR_BRAJA
+2021-07-01 01:54:16,528 - __main__ - INFO - Removed 1 bases from start of BDHA_RHIME
+2021-07-01 01:54:16,532 - __main__ - INFO - Removed 2 bases from start of KDUD_ECOLI
+2021-07-01 01:54:16,538 - __main__ - INFO - Removed 4 bases from start of YGCW_ECOLI
+2021-07-01 01:54:16,543 - __main__ - INFO - Removed 1 bases from start of YKUF_BACSU
+2021-07-01 01:54:16,545 - __main__ - INFO - Removed 1 bases from start of HCD2_DROME
+2021-07-01 01:54:16,545 - __main__ - INFO - Removed 18 bases from end of HCD2_DROME
+2021-07-01 01:54:16,549 - __main__ - INFO - Removed 4 bases from start of RFBB_NEIGO
+2021-07-01 01:54:16,558 - __main__ - INFO - Removed 2 bases from end of RFFG_HAEIN
+2021-07-01 01:54:16,562 - __main__ - INFO - Removed 8 bases from end of STRE_STRGR
+2021-07-01 01:54:16,566 - __main__ - INFO - Removed 10 bases from start of TGDS_HUMAN
+2021-07-01 01:54:16,567 - __main__ - INFO - Removed 2 bases from end of TGDS_HUMAN
+2021-07-01 01:54:16,574 - __main__ - INFO - Removed 1 bases from start of EXOB_RHIME
+2021-07-01 01:54:16,574 - __main__ - INFO - Removed 1 bases from end of EXOB_RHIME
+2021-07-01 01:54:16,578 - __main__ - INFO - Removed 2 bases from end of GALE_LACCA
+2021-07-01 01:54:16,582 - __main__ - INFO - Removed 1 bases from end of RFBE_SALTI

@@ -1,0 +1,102 @@
+2021-07-05 16:14:21,314 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --remove_divergent --remove_divergent_minperc 0.15 --crop_ends --remove_insertion --remove_short --infile combined/aligned/ricin_aligned.fasta --outfile_stem combined/aligned/cialign/ricin
+Defaults:
+  --crop_ends_mingap_perc:0.05
+  --crop_ends_redefine_perc:0.1
+  --insertion_min_size:3
+  --insertion_max_size:200
+  --insertion_min_flank:5
+  --remove_min_length:50
+  --consensus_type:  majority
+  --consensus_name:  consensus
+  --plot_dpi:        300
+  --plot_format:     png
+  --plot_width:      5
+  --plot_height:     3
+  --sequence_logo_type:bar
+  --sequence_logo_dpi:300
+  --sequence_logo_font:monospace
+  --sequence_logo_nt_per_row:50
+  --sequence_logo_filetype:png
+  --plot_coverage_dpi:300
+  --plot_coverage_height:3
+  --plot_coverage_width:5
+  --plot_coverage_colour:#007bf5
+  --plot_coverage_filetype:png
+  --make_simmatrix_dp:4
+  --make_simmatrix_minoverlap:1
+  --make_simmatrix_keepgaps:0
+
+2021-07-05 16:14:21,570 - __main__ - INFO - Amino acid alignment detected
+2021-07-05 16:14:21,570 - __main__ - INFO - Removing divergent sequences
+2021-07-05 16:14:29,641 - __main__ - INFO - Removing divergent sequences Q84Z18_ORYSJ/46-150
+2021-07-05 16:14:29,641 - __main__ - INFO - Removing gap only columns
+2021-07-05 16:14:29,646 - __main__ - INFO - Removing insertions
+2021-07-05 16:14:29,646 - __main__ - INFO - Removing insertions
+
+2021-07-05 16:14:32,383 - __main__ - INFO - Removing sites 7, 8, 9, 15, 19, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 48, 49, 50, 58, 59, 60, 61, 62, 63, 64, 70, 71, 72, 73, 74, 75, 77, 78, 79, 80, 83, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 115, 119, 120, 121, 122, 127, 128, 129, 130, 131, 134, 135, 136, 137, 138, 139, 144, 147, 148, 149, 150, 151, 153, 154, 155, 156, 166, 167, 168, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 189, 190, 191, 192, 193, 194, 195, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 237, 238, 239, 240, 241, 242, 243, 244, 246, 248, 249, 250, 251, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 279, 281, 282, 283, 284, 287, 288, 289, 290, 291, 292, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 312, 313, 314, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 347, 348, 349, 350, 351, 352, 361, 362, 363, 364, 365, 366, 368, 370, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 390, 397, 398, 399, 400, 401, 402, 405, 410, 411, 412, 414, 415, 416, 417, 418, 419, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 490, 491, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 513, 525, 526, 527, 528, 529, 530, 531, 532, 540, 542, 543, 544, 545, 546, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 571, 574, 575, 576, 577, 578, 579, 580, 581, 587, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 627, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 653, 654
+2021-07-05 16:14:32,383 - __main__ - INFO - Removing gap only columns
+2021-07-05 16:14:32,385 - __main__ - INFO - Cropping ends
+2021-07-05 16:14:32,461 - __main__ - INFO - Removed 3 bases from start of B9FCS4_ORYSJ/17-186
+2021-07-05 16:14:32,461 - __main__ - INFO - Removed 11 bases from end of B9FCS4_ORYSJ/17-186
+2021-07-05 16:14:32,462 - __main__ - INFO - Removed 3 bases from start of B8AV72_ORYSI/17-186
+2021-07-05 16:14:32,462 - __main__ - INFO - Removed 11 bases from end of B8AV72_ORYSI/17-186
+2021-07-05 16:14:32,464 - __main__ - INFO - Removed 6 bases from start of B9I6M3_POPTR/18-124
+2021-07-05 16:14:32,464 - __main__ - INFO - Removed 3 bases from end of B9I6M3_POPTR/18-124
+2021-07-05 16:14:32,470 - __main__ - INFO - Removed 8 bases from start of Q2RBP6_ORYSJ/53-234
+2021-07-05 16:14:32,471 - __main__ - INFO - Removed 8 bases from start of A3CE39_ORYSJ/180-348
+2021-07-05 16:14:32,472 - __main__ - INFO - Removed 8 bases from start of Q2QYX3_ORYSJ/180-354
+2021-07-05 16:14:32,475 - __main__ - INFO - Removed 6 bases from start of B9GC41_ORYSJ/228-319
+2021-07-05 16:14:32,476 - __main__ - INFO - Removed 6 bases from start of B9GB74_ORYSJ/111-207
+2021-07-05 16:14:32,477 - __main__ - INFO - Removed 12 bases from start of Q2QPC5_ORYSJ/1350-1506
+2021-07-05 16:14:32,480 - __main__ - INFO - Removed 9 bases from start of Q6K8T6_ORYSJ/193-317
+2021-07-05 16:14:32,490 - __main__ - INFO - Removed 4 bases from start of B9FFH3_ORYSJ/79-235
+2021-07-05 16:14:32,491 - __main__ - INFO - Removed 4 bases from start of Q7X788_ORYSJ/159-315
+2021-07-05 16:14:32,491 - __main__ - INFO - Removed 7 bases from start of C5WPB4_SORBI/385-574
+2021-07-05 16:14:32,492 - __main__ - INFO - Removed 2 bases from start of B8B5A1_ORYSI/203-392
+2021-07-05 16:14:32,493 - __main__ - INFO - Removed 2 bases from start of Q7EYL5_ORYSJ/309-498
+2021-07-05 16:14:32,494 - __main__ - INFO - Removed 2 bases from start of A3BMT8_ORYSJ/203-392
+2021-07-05 16:14:32,495 - __main__ - INFO - Removed 3 bases from start of A2YPB5_ORYSI/36-227
+2021-07-05 16:14:32,496 - __main__ - INFO - Removed 8 bases from start of C7J8N5_ORYSJ/678-885
+2021-07-05 16:14:32,497 - __main__ - INFO - Removed 9 bases from start of Q2R1R3_ORYSJ/103-311
+2021-07-05 16:14:32,498 - __main__ - INFO - Removed 9 bases from start of A2ZN21_ORYSI/105-313
+2021-07-05 16:14:32,499 - __main__ - INFO - Removed 9 bases from start of B8BLC9_ORYSI/259-467
+2021-07-05 16:14:32,664 - __main__ - INFO - Removed 9 bases from end of B4UY61_9ACTO/10-195
+2021-07-05 16:14:32,665 - __main__ - INFO - Removed 2 bases from end of B4VB31_9ACTO/10-188
+2021-07-05 16:14:32,673 - __main__ - INFO - Removed 4 bases from start of Q6V1W8_AMATR/92-282
+2021-07-05 16:14:32,755 - __main__ - INFO - Removed 1 bases from end of D2JYS5_RICCO/11-191
+2021-07-05 16:14:32,806 - __main__ - INFO - Removed 8 bases from start of B9S6M4_RICCO/44-222
+2021-07-05 16:14:32,812 - __main__ - INFO - Removed 12 bases from start of Q6Z4E3_ORYSJ/45-205
+2021-07-05 16:14:32,813 - __main__ - INFO - Removed 10 bases from start of B9FVX7_ORYSJ/45-203
+2021-07-05 16:14:32,818 - __main__ - INFO - Removed 4 bases from start of A3ALG8_ORYSJ/71-190
+2021-07-05 16:14:32,824 - __main__ - INFO - Removed 2 bases from start of Q6Z425_ORYSJ/1-177
+2021-07-05 16:14:32,825 - __main__ - INFO - Removed 5 bases from start of C7J7D6_ORYSJ/1-176
+2021-07-05 16:14:32,826 - __main__ - INFO - Removed 12 bases from start of Q7G6L7_ORYSJ/145-327
+2021-07-05 16:14:32,827 - __main__ - INFO - Removed 12 bases from start of Q8S6K7_ORYSA/145-327
+2021-07-05 16:14:32,828 - __main__ - INFO - Removed 12 bases from start of B8BGK3_ORYSI/467-640
+2021-07-05 16:14:32,830 - __main__ - INFO - Removed 1 bases from start of C7IZD0_ORYSJ/4-85
+2021-07-05 16:14:32,831 - __main__ - INFO - Removed 9 bases from start of A3ALG7_ORYSJ/23-199
+2021-07-05 16:14:32,832 - __main__ - INFO - Removed 8 bases from start of Q7Y002_ORYSJ/24-199
+2021-07-05 16:14:32,833 - __main__ - INFO - Removed 8 bases from start of B8APJ8_ORYSI/24-195
+2021-07-05 16:14:32,834 - __main__ - INFO - Removed 6 bases from start of C7IZD1_ORYSJ/33-209
+2021-07-05 16:14:32,835 - __main__ - INFO - Removed 6 bases from start of A2XKR3_ORYSI/16-192
+2021-07-05 16:14:32,836 - __main__ - INFO - Removed 6 bases from start of Q7XZZ7_ORYSJ/16-192
+2021-07-05 16:14:32,837 - __main__ - INFO - Removed 6 bases from start of B9FAM0_ORYSJ/16-115
+2021-07-05 16:14:32,837 - __main__ - INFO - Removed 2 bases from end of B9FAM0_ORYSJ/16-115
+2021-07-05 16:14:32,838 - __main__ - INFO - Removed 11 bases from start of A2XKT6_ORYSI/25-195
+2021-07-05 16:14:32,839 - __main__ - INFO - Removed 4 bases from start of A3ALJ4_ORYSJ/61-153
+2021-07-05 16:14:32,840 - __main__ - INFO - Removed 11 bases from start of Q6AVV8_ORYSJ/25-195
+2021-07-05 16:14:32,841 - __main__ - INFO - Removed 12 bases from start of Q6AVI4_ORYSJ/15-187
+2021-07-05 16:14:32,842 - __main__ - INFO - Removed 12 bases from start of Q0DPI2_ORYSJ/15-172
+2021-07-05 16:14:32,842 - __main__ - INFO - Removed 5 bases from end of Q0DPI2_ORYSJ/15-172
+2021-07-05 16:14:32,843 - __main__ - INFO - Removed 13 bases from start of B8APM3_ORYSI/26-207
+2021-07-05 16:14:32,846 - __main__ - INFO - Removed 2 bases from end of B8APM2_ORYSI/14-172
+2021-07-05 16:14:32,848 - __main__ - INFO - Removed 4 bases from start of A3ALK2_ORYSJ/26-152
+2021-07-05 16:14:32,849 - __main__ - INFO - Removed 2 bases from start of Q10EZ4_ORYSJ/55-175
+2021-07-05 16:14:32,859 - __main__ - INFO - Removed 16 bases from start of A2XJE8_ORYSI/112-291
+2021-07-05 16:14:32,865 - __main__ - INFO - Removed 4 bases from end of Q53K60_ORYSJ/41-186
+2021-07-05 16:14:32,927 - __main__ - INFO - Removing gap only columns
+2021-07-05 16:14:32,929 - __main__ - INFO - Removing short sequences
+2021-07-05 16:14:32,931 - __main__ - INFO - Removing too short sequences C7FPY0_ECOLX/1-44
+2021-07-05 16:14:32,931 - __main__ - INFO - Removing gap only columns

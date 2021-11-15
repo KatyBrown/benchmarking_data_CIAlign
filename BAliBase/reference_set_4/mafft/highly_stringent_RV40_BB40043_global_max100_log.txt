@@ -1,0 +1,74 @@
+2021-07-01 02:40:57,705 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BB.ini --infile reference_set_4/mafft/RV40_BB40043_global_max100.fasta --outfile_stem reference_set_4/mafft/highly_stringent_RV40_BB40043_global_max100
+Config File (highly_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 02:40:57,717 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 02:40:57,717 - __main__ - INFO - Removing divergent sequences
+2021-07-01 02:40:57,940 - __main__ - INFO - Removing insertions
+2021-07-01 02:40:57,940 - __main__ - INFO - Removing insertions
+
+2021-07-01 02:40:58,857 - __main__ - INFO - Removing sites 72, 73, 74, 85, 86, 87, 88, 120, 121, 128, 131, 132, 133, 134, 135, 136, 147, 148, 149, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 187, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 243, 244, 245, 246, 247, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 347, 348, 349, 350, 351, 352, 353, 354, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 568, 569, 570, 571, 572, 583, 584, 585, 586, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 700, 701, 730, 731, 732, 733, 734, 735, 736, 737, 738, 753, 769, 770, 771, 772, 773, 774, 775, 776, 777, 786, 798, 813, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 854, 855, 876, 877, 878, 879, 880, 881, 882, 895, 905, 906, 907, 908, 909, 910, 914, 915, 916, 927, 937, 938, 939, 940, 941, 942, 943, 945, 952, 970, 983, 984, 985, 986, 987, 988, 989, 990
+2021-07-01 02:40:58,857 - __main__ - INFO - Cropping ends
+2021-07-01 02:40:58,860 - __main__ - INFO - Removed 21 bases from start of 1fdr_
+2021-07-01 02:40:58,862 - __main__ - INFO - Removed 2 bases from start of FENR_AZOVI
+2021-07-01 02:40:58,865 - __main__ - INFO - Removed 22 bases from start of FENR_BUCAP
+2021-07-01 02:40:58,867 - __main__ - INFO - Removed 22 bases from start of FENR_BUCAI
+2021-07-01 02:40:58,871 - __main__ - INFO - Removed 22 bases from start of FENR_BUCBP
+2021-07-01 02:40:58,873 - __main__ - INFO - Removed 4 bases from end of 1ndh_
+2021-07-01 02:40:58,876 - __main__ - INFO - Removed 35 bases from start of NIA7_HORVU
+2021-07-01 02:40:58,878 - __main__ - INFO - Removed 18 bases from start of NIA_PHYIN
+2021-07-01 02:40:58,880 - __main__ - INFO - Removed 25 bases from start of YMM5_YEAST
+2021-07-01 02:40:58,882 - __main__ - INFO - Removed 9 bases from start of NDOR_PSEPU
+2021-07-01 02:40:58,884 - __main__ - INFO - Removed 12 bases from start of 1krh_A
+2021-07-01 02:40:58,886 - __main__ - INFO - Removed 1 bases from start of 1qfj_A
+2021-07-01 02:40:58,889 - __main__ - INFO - Removed 1 bases from start of LUXG_VIBFI
+2021-07-01 02:40:58,893 - __main__ - INFO - Removed 1 bases from start of FRE_PHOLU
+2021-07-01 02:40:58,895 - __main__ - INFO - Removed 1 bases from start of FRE_VIBFI
+2021-07-01 02:40:58,898 - __main__ - INFO - Removed 35 bases from start of 1cqx_A

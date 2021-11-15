@@ -1,0 +1,69 @@
+2021-07-01 17:53:44,649 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_INDELible_pep.ini --infile poa/INDELible_sim_74_aa.fasta --outfile_stem poa/cialign/highly_stringent_INDELible_sim_74_aa
+Config File (highly_stringent_config_INDELible_pep.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      1
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 17:53:44,654 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 17:53:44,655 - __main__ - INFO - Removing divergent sequences
+2021-07-01 17:53:44,842 - __main__ - INFO - Removing insertions
+2021-07-01 17:53:44,842 - __main__ - INFO - Removing insertions
+
+2021-07-01 17:53:45,548 - __main__ - INFO - Removing sites 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 66, 67, 68, 69, 70, 71, 72, 73, 79, 81, 84, 100, 101, 102, 103, 104, 105, 111, 123, 124, 135, 136, 137, 138, 139, 143, 146, 161, 162, 187, 195, 197, 199, 200, 201, 203, 204, 222, 223, 238, 239, 240, 241, 242, 259, 271, 272, 274, 275, 276, 281, 282, 287, 288, 289, 290, 291, 298, 314, 315, 316, 317, 324, 325, 326, 332, 333, 337, 338, 342, 352, 353, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404
+2021-07-01 17:53:45,548 - __main__ - INFO - Cropping ends
+2021-07-01 17:53:45,551 - __main__ - INFO - Removed 3 bases from start of A5
+2021-07-01 17:53:45,552 - __main__ - INFO - Removed 3 bases from start of A6
+2021-07-01 17:53:45,553 - __main__ - WARNING - Given the length of sequence A7, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 17:53:45,556 - __main__ - INFO - Removed 3 bases from start of A8
+2021-07-01 17:53:45,556 - __main__ - WARNING - Given the length of sequence A1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 17:53:45,558 - __main__ - WARNING - Given the length of sequence A2, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 17:53:45,560 - __main__ - INFO - Removed 18 bases from start of A2
+2021-07-01 17:53:45,562 - __main__ - INFO - Removed 3 bases from end of A3
+2021-07-01 17:53:45,565 - __main__ - INFO - Removed 3 bases from end of A4
+2021-07-01 17:53:45,566 - __main__ - INFO - Removing short sequences
+2021-07-01 17:53:45,568 - __main__ - INFO - Building consensus sequence

@@ -1,0 +1,92 @@
+2021-07-05 10:06:04,329 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --remove_divergent --remove_divergent_minperc 0.15 --crop_ends --remove_insertion --remove_short --infile combined/aligned/DEATH_aligned.fasta --outfile_stem combined/aligned/cialign/DEATH
+Defaults:
+  --crop_ends_mingap_perc:0.05
+  --crop_ends_redefine_perc:0.1
+  --insertion_min_size:3
+  --insertion_max_size:200
+  --insertion_min_flank:5
+  --remove_min_length:50
+  --consensus_type:  majority
+  --consensus_name:  consensus
+  --plot_dpi:        300
+  --plot_format:     png
+  --plot_width:      5
+  --plot_height:     3
+  --sequence_logo_type:bar
+  --sequence_logo_dpi:300
+  --sequence_logo_font:monospace
+  --sequence_logo_nt_per_row:50
+  --sequence_logo_filetype:png
+  --plot_coverage_dpi:300
+  --plot_coverage_height:3
+  --plot_coverage_width:5
+  --plot_coverage_colour:#007bf5
+  --plot_coverage_filetype:png
+  --make_simmatrix_dp:4
+  --make_simmatrix_minoverlap:1
+  --make_simmatrix_keepgaps:0
+
+2021-07-05 10:06:04,548 - __main__ - INFO - Amino acid alignment detected
+2021-07-05 10:06:04,548 - __main__ - INFO - Removing divergent sequences
+2021-07-05 10:06:11,785 - __main__ - INFO - Removing gap only columns
+2021-07-05 10:06:11,790 - __main__ - INFO - Removing insertions
+2021-07-05 10:06:11,790 - __main__ - INFO - Removing insertions
+
+2021-07-05 10:06:13,326 - __main__ - INFO - Removing sites 12, 13, 14, 15, 16, 29, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 51, 52, 53, 54, 55, 56, 58, 60, 61, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 75, 76, 77, 80, 81, 82, 83, 84, 85, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98, 100, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 122, 123, 124, 125, 126, 127, 128, 129, 131, 132, 133, 134, 138, 140, 141, 142, 143, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 160, 161, 162, 163, 167, 168, 169, 170, 171, 172, 173, 174, 177, 178, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 200, 201, 202, 203, 204, 205, 207, 208, 209, 210, 211, 212, 213, 214, 215, 219, 220, 222, 223, 224, 225, 226, 227, 230, 231, 232, 235, 236, 237, 238, 240, 241, 243, 246, 247, 250, 251, 252, 253, 255, 256, 257, 258, 260, 261, 262, 263, 264, 265, 266, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 283, 284, 285, 286, 288, 289, 290, 291, 292, 293, 294, 295, 298, 299, 300, 301, 306, 307, 308, 311, 312, 313, 314, 315, 316, 333
+2021-07-05 10:06:13,327 - __main__ - INFO - Removing gap only columns
+2021-07-05 10:06:13,329 - __main__ - INFO - Cropping ends
+2021-07-05 10:06:13,330 - __main__ - INFO - Removed 6 bases from start of 1ngr
+2021-07-05 10:06:13,332 - __main__ - INFO - Removed 2 bases from end of 1d2zb
+2021-07-05 10:06:13,352 - __main__ - INFO - Removed 4 bases from start of C3YMW2_BRAFL/181-255
+2021-07-05 10:06:13,365 - __main__ - WARNING - Given the length of sequence C3ZXH2_BRAFL/1-37, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 10:06:13,375 - __main__ - INFO - Removed 4 bases from start of C3XV34_BRAFL/1383-1463
+2021-07-05 10:06:13,381 - __main__ - INFO - Removed 4 bases from start of C3YWZ1_BRAFL/801-880
+2021-07-05 10:06:13,382 - __main__ - INFO - Removed 6 bases from start of C3Y055_BRAFL/873-946
+2021-07-05 10:06:13,393 - __main__ - INFO - Removed 2 bases from start of C4Q910_SCHMA/1506-1559
+2021-07-05 10:06:13,395 - __main__ - INFO - Removed 5 bases from end of C3YEF0_BRAFL/106-182
+2021-07-05 10:06:13,414 - __main__ - INFO - Removed 3 bases from end of B7PIP9_IXOSC/1170-1228
+2021-07-05 10:06:13,434 - __main__ - INFO - Removed 4 bases from start of B3S8E2_TRIAD/393-472
+2021-07-05 10:06:13,446 - __main__ - INFO - Removed 3 bases from start of A7RPN0_NEMVE/939-1022
+2021-07-05 10:06:13,454 - __main__ - INFO - Removed 4 bases from end of B7ZMT3_MOUSE/788-864
+2021-07-05 10:06:13,455 - __main__ - INFO - Removed 4 bases from end of C5IAW8_MOUSE/844-920
+2021-07-05 10:06:13,455 - __main__ - INFO - Removed 4 bases from end of B7ZMT2_MOUSE/781-857
+2021-07-05 10:06:13,456 - __main__ - INFO - Removed 4 bases from end of UNC5D_MOUSE/862-938
+2021-07-05 10:06:13,456 - __main__ - INFO - Removed 4 bases from end of A6H5Z5_MOUSE/790-866
+2021-07-05 10:06:13,457 - __main__ - INFO - Removed 4 bases from end of Q5DTV3_MOUSE/408-484
+2021-07-05 10:06:13,457 - __main__ - INFO - Removed 5 bases from end of D2H692_AILME/825-902
+2021-07-05 10:06:13,457 - __main__ - INFO - Removed 5 bases from end of UNC5D_HUMAN/859-936
+2021-07-05 10:06:13,458 - __main__ - INFO - Removed 5 bases from end of C9J1I0_HUMAN/792-869
+2021-07-05 10:06:13,458 - __main__ - INFO - Removed 5 bases from end of C9J2B6_HUMAN/864-941
+2021-07-05 10:06:13,459 - __main__ - INFO - Removed 5 bases from end of C9JMT0_HUMAN/790-867
+2021-07-05 10:06:13,459 - __main__ - INFO - Removed 6 bases from end of B3KV09_HUMAN/435-513
+2021-07-05 10:06:13,461 - __main__ - INFO - Removed 2 bases from end of A5WZG4_DANRE/828-899
+2021-07-05 10:06:13,482 - __main__ - INFO - Removed 4 bases from start of C3Y9F6_BRAFL/198-279
+2021-07-05 10:06:13,498 - __main__ - INFO - Removed 7 bases from start of A8WWP2_CAEBR/526-603
+2021-07-05 10:06:13,499 - __main__ - INFO - Removed 7 bases from start of Q9U3S0_CAEEL/518-595
+2021-07-05 10:06:13,508 - __main__ - INFO - Removed 5 bases from end of Q8BY25_MOUSE/116-190
+2021-07-05 10:06:13,511 - __main__ - INFO - Removed 7 bases from start of Q28G53_XENTR/20-103
+2021-07-05 10:06:13,515 - __main__ - INFO - Removed 7 bases from start of D1J6Y4_9TELE/20-103
+2021-07-05 10:06:13,515 - __main__ - INFO - Removed 7 bases from start of D1J6Y3_ONCMY/20-103
+2021-07-05 10:06:13,523 - __main__ - INFO - Removed 2 bases from start of D3YTB5_HUMAN/69-129
+2021-07-05 10:06:13,539 - __main__ - INFO - Removed 3 bases from start of D2A4G0_TRICA/12-90
+2021-07-05 10:06:13,554 - __main__ - WARNING - Given the length of sequence B4XKE0_BRAFL/1-37, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 10:06:13,596 - __main__ - INFO - Removed 6 bases from end of Q5XJP2_DANRE/120-194
+2021-07-05 10:06:13,597 - __main__ - INFO - Removed 6 bases from end of Q4SWB9_TETNG/116-191
+2021-07-05 10:06:13,597 - __main__ - INFO - Removed 4 bases from end of Q5F3I3_CHICK/115-189
+2021-07-05 10:06:13,598 - __main__ - INFO - Removed 7 bases from end of Q8IY43_HUMAN/117-194
+2021-07-05 10:06:13,598 - __main__ - INFO - Removed 7 bases from end of Q53XL1_HUMAN/117-194
+2021-07-05 10:06:13,599 - __main__ - INFO - Removed 7 bases from end of CRADD_HUMAN/117-194
+2021-07-05 10:06:13,599 - __main__ - INFO - Removed 7 bases from end of B5BU44_HUMAN/117-194
+2021-07-05 10:06:13,600 - __main__ - INFO - Removed 7 bases from end of CRADD_PONAB/117-194
+2021-07-05 10:06:13,602 - __main__ - INFO - Removed 3 bases from end of C3ZE31_BRAFL/812-874
+2021-07-05 10:06:13,617 - __main__ - INFO - Removed 4 bases from end of C3Y4W6_BRAFL/1788-1843
+2021-07-05 10:06:13,650 - __main__ - INFO - Removed 5 bases from start of C6L429_PENJP/79-160
+2021-07-05 10:06:13,651 - __main__ - INFO - Removed 4 bases from start of B8YQ95_LITVA/80-160
+2021-07-05 10:06:13,651 - __main__ - INFO - Removed 2 bases from start of C3YPQ0_BRAFL/1734-1802
+2021-07-05 10:06:13,683 - __main__ - INFO - Removed 4 bases from start of Q6E5U7_ICTPU/225-303
+2021-07-05 10:06:13,733 - __main__ - INFO - Removing gap only columns
+2021-07-05 10:06:13,736 - __main__ - INFO - Removing short sequences
+2021-07-05 10:06:13,737 - __main__ - INFO - Removing too short sequences A4V9S1_DROSI/94-143, C3YNG7_BRAFL/129-185, C3Y4W6_BRAFL/1788-1843, A4V9S3_DROSI/94-143, B4J9R2_DROGR/980-1035, Q6V4B4_DROYA/180-223, Q52PE2_MARMO/119-166, B4MFS3_DROVI/968-1024, Q6V6J6_DROSI/1-47, C9DTZ5_HORSE/92-136, B4XKE0_BRAFL/1-37, Q6V4B0_DROYA/1-47, B4KS96_DROMO/948-1001, C3ZXH2_BRAFL/1-37, A4V9R9_DROSI/94-143, Q8BY25_MOUSE/116-190, B4XKE3_BRAFL/2-46, A4V9S0_DROSI/94-143, C4Q910_SCHMA/1506-1559, B2T8J4_BURPP/14-72, C0VN21_9GAMM/299-354
+2021-07-05 10:06:13,737 - __main__ - INFO - Removing gap only columns

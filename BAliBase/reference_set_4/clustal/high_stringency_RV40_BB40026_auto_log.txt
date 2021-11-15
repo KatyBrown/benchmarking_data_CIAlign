@@ -1,0 +1,82 @@
+2021-03-03 03:38:48,770 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_4/clustal/RV40_BB40026_auto.fasta --outfile_stem reference_set_4/clustal/high_stringency_RV40_BB40026_auto
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 03:38:48,814 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 03:38:48,814 - __main__ - INFO - Removing divergent sequences
+2021-03-03 03:38:49,578 - __main__ - INFO - Removing divergent sequences AMY3_SCHPO, GLGB_ORYSA, 1h3g_A, 1bag_, 1jdc_, YQ29_SCHPO, AMY_BACCI, 1bvz_A, AMY4_SCHPO, AMY1_SCHPO, 1m7x_A, NEPU_BACST, PULA_THEMA
+2021-03-03 03:38:49,578 - __main__ - INFO - Removing insertions
+2021-03-03 03:38:49,578 - __main__ - INFO - Removing insertions
+
+2021-03-03 03:38:51,101 - __main__ - INFO - Removing sites 389, 390, 391, 392, 393, 394, 396, 397, 398, 399, 406, 407, 408, 409, 410, 411, 412, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 656, 657, 658, 659, 660, 661, 667, 668, 669, 670, 671, 672, 673, 674, 675, 695, 696, 697, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 740, 741, 742, 748, 787, 788, 789, 790, 791, 792, 794, 795, 796, 797, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 874, 875, 876, 877, 878, 879, 880, 881, 882, 883, 893, 917, 918, 919, 920, 921, 922, 940, 947, 948, 949, 950, 951, 952, 953, 954, 999, 1000, 1017, 1018, 1019, 1020, 1021, 1022, 1030, 1031, 1032, 1033, 1035, 1047, 1048, 1049, 1050, 1051, 1052, 1078, 1098, 1099, 1100, 1101, 1102, 1103, 1104, 1105, 1106, 1107, 1108, 1109, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1137, 1138, 1139, 1163, 1164, 1165, 1166, 1167, 1168, 1169, 1174, 1175, 1176, 1177, 1178, 1179, 1180, 1181, 1182, 1206, 1207, 1208, 1211, 1212, 1213, 1214, 1215, 1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223, 1224, 1225, 1226, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1276, 1282, 1283, 1284, 1285, 1286, 1287, 1288, 1289, 1290, 1304, 1305, 1319, 1320, 1321, 1322, 1323, 1324, 1325, 1326, 1327, 1333, 1337, 1338, 1339, 1340, 1341, 1342, 1343, 1344, 1345, 1358, 1359, 1360, 1361, 1362, 1363, 1364, 1365, 1366, 1367, 1368, 1369, 1370, 1371, 1372, 1391, 1396, 1397, 1399, 1400, 1401, 1402, 1403, 1404, 1405, 1416, 1423, 1424, 1425, 1426, 1427, 1428, 1429, 1430, 1445, 1446, 1447, 1471, 1472, 1473, 1474, 1490, 1493, 1494, 1495, 1496, 1501, 1502, 1503, 1518, 1519, 1520, 1521, 1530, 1531, 1532, 1533, 1534, 1535, 1536, 1537, 1538, 1539, 1540, 1541, 1542, 1543, 1544, 1545, 1546, 1547, 1548, 1549, 1550, 1551, 1552, 1553, 1554, 1555, 1556, 1557, 1558, 1559, 1560, 1561, 1562, 1563, 1564, 1565, 1566, 1567, 1570, 1571, 1572, 1573, 1574, 1575, 1576, 1577, 1578, 1579, 1580, 1581, 1582, 1583, 1584, 1585, 1586, 1587, 1588, 1589, 1590, 1591, 1592, 1593, 1594, 1595, 1596, 1597, 1598, 1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607, 1608, 1609, 1610, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1629, 1652, 1653, 1654, 1655, 1656, 1657, 1658, 1659, 1660, 1661, 1662, 1663, 1676, 1684, 1685, 1686, 1687, 1688, 1692, 1693, 1694, 1695, 1696, 1697, 1698, 1699, 1700, 1701, 1722, 1723, 1724, 1725, 1726, 1727, 1728, 1729, 1730, 1731, 1732, 1733, 1734, 1735, 1736, 1737, 1738, 1739, 1742, 1743, 1744, 1745, 1746, 1765, 1766, 1767, 1768, 1769, 1770, 1771, 1772, 1773, 1774, 1775, 1776, 1777, 1778, 1779, 1780, 1781
+2021-03-03 03:38:51,101 - __main__ - INFO - Cropping ends
+2021-03-03 03:38:51,107 - __main__ - INFO - Removed 14 bases from start of 2aaa_
+2021-03-03 03:38:51,113 - __main__ - INFO - Removed 39 bases from start of AMY2_DEBOC
+2021-03-03 03:38:51,119 - __main__ - INFO - Removed 43 bases from start of AMY1_DEBOC
+2021-03-03 03:38:51,124 - __main__ - INFO - Removed 34 bases from start of AMY1_SACFI
+2021-03-03 03:38:51,130 - __main__ - INFO - Removed 30 bases from start of AMYA_ASPAW
+2021-03-03 03:38:51,143 - __main__ - INFO - Removed 19 bases from start of 1pam_A
+2021-03-03 03:38:51,149 - __main__ - INFO - Removed 39 bases from start of CDGT_THETU
+2021-03-03 03:38:51,158 - __main__ - INFO - Removed 2 bases from start of AMY_PECMA
+2021-03-03 03:38:51,164 - __main__ - INFO - Removed 3 bases from start of AMY_STRVL
+2021-03-03 03:38:51,164 - __main__ - INFO - Removed 12 bases from end of AMY_STRVL
+2021-03-03 03:38:51,169 - __main__ - INFO - Removed 3 bases from start of AMY_STRGR
+2021-03-03 03:38:51,169 - __main__ - INFO - Removed 12 bases from end of AMY_STRGR
+2021-03-03 03:38:51,175 - __main__ - INFO - Removed 3 bases from start of AMY_STRTL
+2021-03-03 03:38:51,175 - __main__ - INFO - Removed 26 bases from end of AMY_STRTL
+2021-03-03 03:38:51,181 - __main__ - INFO - Removed 4 bases from start of AMY_THECU
+2021-03-03 03:38:51,186 - __main__ - INFO - Removed 32 bases from end of AMY_ALTHA
+2021-03-03 03:38:51,192 - __main__ - INFO - Removed 62 bases from start of AMY1_AEDAE
+2021-03-03 03:38:51,201 - __main__ - INFO - Removed 4 bases from start of AMYR_DROSU
+2021-03-03 03:38:51,207 - __main__ - INFO - Removed 12 bases from start of AMYR_DROAN
+2021-03-03 03:38:51,216 - __main__ - INFO - Removed 2 bases from start of AMYA_DROMA
+2021-03-03 03:38:51,224 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 03:38:51,688 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 03:38:52,094 - __main__ - INFO - Building consensus sequence

@@ -1,0 +1,68 @@
+2021-06-19 01:06:27,440 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_INDELible.ini --infile PSAlign_tcoffee/INDELible_sim_51.fasta --outfile_stem PSAlign_tcoffee/cialign/highly_stringent_INDELible_sim_51
+Config File (highly_stringent_config_INDELible.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.5
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      1
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-06-19 01:06:27,442 - __main__ - INFO - Nucleotide alignment detected
+2021-06-19 01:06:27,442 - __main__ - INFO - Removing divergent sequences
+2021-06-19 01:06:27,533 - __main__ - INFO - Removing insertions
+2021-06-19 01:06:27,533 - __main__ - INFO - Removing insertions
+
+2021-06-19 01:06:27,935 - __main__ - INFO - Removing sites 5, 6, 7, 23, 30, 31, 32, 33, 34, 35, 36, 37, 41, 45, 63, 66, 69, 76, 77, 78, 79, 80, 81, 92, 94, 110, 126, 130, 131, 132, 133, 134, 135, 142, 143, 144, 153, 155, 159, 163, 174, 175, 179, 187, 202, 203, 204, 205, 206, 209, 213, 215, 222, 224, 236, 244, 245, 246, 254, 259, 261, 262, 263, 264, 267, 268, 269, 270, 271, 279, 280, 281, 282, 287, 294, 295, 296, 297, 298, 299, 300, 318, 320, 321, 323
+2021-06-19 01:06:27,935 - __main__ - INFO - Cropping ends
+2021-06-19 01:06:27,937 - __main__ - INFO - Removed 10 bases from start of A5
+2021-06-19 01:06:27,939 - __main__ - INFO - Removed 14 bases from start of A6
+2021-06-19 01:06:27,939 - __main__ - INFO - Removed 11 bases from end of A6
+2021-06-19 01:06:27,940 - __main__ - INFO - Removed 15 bases from end of A7
+2021-06-19 01:06:27,942 - __main__ - INFO - Removed 4 bases from start of A1
+2021-06-19 01:06:27,943 - __main__ - INFO - Removed 4 bases from start of A2
+2021-06-19 01:06:27,945 - __main__ - INFO - Removed 22 bases from start of A3
+2021-06-19 01:06:27,946 - __main__ - INFO - Removed 9 bases from end of A4
+2021-06-19 01:06:27,946 - __main__ - INFO - Removing short sequences
+2021-06-19 01:06:27,947 - __main__ - INFO - Building consensus sequence

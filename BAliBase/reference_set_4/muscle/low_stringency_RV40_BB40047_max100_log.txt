@@ -1,0 +1,93 @@
+2021-03-03 03:53:50,008 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/low_config_BAliBase.ini --infile reference_set_4/muscle/RV40_BB40047_max100.fasta --outfile_stem reference_set_4/muscle/low_stringency_RV40_BB40047_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/low_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.05
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.2
+  remove_insertions: 1
+  insertion_min_size:5
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 03:53:50,174 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 03:53:50,175 - __main__ - INFO - Removing divergent sequences
+2021-03-03 03:53:51,687 - __main__ - INFO - Removing insertions
+2021-03-03 03:53:51,687 - __main__ - INFO - Removing insertions
+
+2021-03-03 03:53:54,615 - __main__ - INFO - Removing sites 4338, 4339, 4340, 4341, 4342, 4343, 4344, 4345, 4346, 4347, 4348, 4349, 4350, 4351, 4352, 4353, 4354, 4355, 4356, 4357, 4358, 4359, 4360, 4361, 4362, 4363, 4364, 4365, 4366, 4367, 4368, 4369, 4370, 4371, 4372, 4373, 4379, 4380, 4381, 4382, 4410, 4411, 4412, 4413, 4414, 4415, 4418, 4419, 4442, 4443, 4444, 4445, 4446, 4447, 4448, 4449, 4450, 4451, 4452, 4453, 4454, 4467, 4469, 4470, 4471, 4478, 4487, 4488, 4500, 4503, 4504, 4505, 4506, 4507, 4508, 4525, 4526, 4527, 4528, 4529, 4534, 4542, 4543, 4544, 4551, 4552, 4569, 4570, 4596, 4597, 4598, 4599, 4605, 4606, 4607, 4608, 4609, 4610, 4611, 4623, 4625, 4628, 4629, 4630, 4631, 4646, 4647, 4648, 4649, 4665, 4666, 4670, 4684, 2742, 2743, 2744, 2745, 2746, 2747, 2748, 2749, 2750, 2751, 2752, 2753, 2754, 2755, 2756, 2757, 2758, 2759, 2760, 2761, 2762, 2763, 2764, 2765, 2766, 2767, 2768, 2769, 2770, 2771, 2772, 2773, 2774, 2775, 2776, 2777, 2778, 2779, 2780, 2781, 2782, 2847, 2848, 2849, 2850, 2851, 2852, 2853, 2854, 2855, 2856, 2857, 2858, 2859, 2860, 2861, 2862, 2863, 2864, 2865, 2866, 2867, 2868, 2869, 2870, 2871, 2872, 2873, 2874, 2875, 2876, 2877, 2878, 2879, 2880, 2881, 2882, 2883, 2884, 2885, 2886, 2887, 2888, 2889, 2890, 2891, 2892, 2893, 2894, 2895, 2896, 2897, 2898, 2899, 2900, 2901, 2902, 2903, 2904, 2905, 2906, 2907, 2908, 2909, 2910, 2911, 2912, 2913, 2914, 2915, 2916, 2917, 2918, 2919, 2920, 2921, 2922, 2923, 2924, 2925, 2926, 2927, 2928, 2929, 2930, 2931, 2932, 2933, 2934, 2935, 2936, 2937, 2938, 2939, 2940, 2941, 2942, 2949, 2950, 2951, 2952, 2953, 2954, 2955, 2956, 2957, 2958, 2959, 2960, 2961, 2962, 2966, 2967, 2968, 2969, 2970, 2971, 2972, 2978, 3257, 3258, 3259, 3260, 3261, 3262, 3263, 3264, 3265, 3266, 3267, 3268, 3269, 3306, 3307, 3308, 3309, 3310, 3311, 3312, 3313, 3314, 3315, 3316, 3317, 3318, 3319, 3320, 3321, 3322, 3323, 3324, 3325, 3326, 3327, 3328, 3329, 3341, 3342, 3343, 3344, 3345, 3356, 3357, 3810, 3811, 3812, 3813, 3814, 3855, 3856, 3857, 3858, 3859, 3860, 3861, 3862, 3863, 3864, 3865, 3866, 3867, 3868, 3869, 3870, 3871, 3872, 3873, 3874, 3875
+2021-03-03 03:53:54,616 - __main__ - INFO - Cropping ends
+2021-03-03 03:53:54,633 - __main__ - INFO - Removed 44 bases from start of CRAR_HUMAN
+2021-03-03 03:53:54,708 - __main__ - INFO - Removed 43 bases from start of MAS2_HUMAN
+2021-03-03 03:53:54,725 - __main__ - INFO - Removed 50 bases from start of CFAI_RAT
+2021-03-03 03:53:54,742 - __main__ - INFO - Removed 47 bases from start of CFAI_HUMAN
+2021-03-03 03:53:54,760 - __main__ - INFO - Removed 36 bases from start of C1S_HUMAN
+2021-03-03 03:53:54,779 - __main__ - INFO - Removed 18 bases from start of CAP7_HUMAN
+2021-03-03 03:53:54,820 - __main__ - INFO - Removed 44 bases from start of TPA_MOUSE
+2021-03-03 03:53:54,838 - __main__ - INFO - Removed 33 bases from start of UROK_CHICK
+2021-03-03 03:53:54,856 - __main__ - INFO - Removed 33 bases from start of UROK_MOUSE
+2021-03-03 03:53:54,873 - __main__ - INFO - Removed 34 bases from start of UROK_BOVIN
+2021-03-03 03:53:54,891 - __main__ - INFO - Removed 32 bases from start of UROK_HUMAN
+2021-03-03 03:53:54,909 - __main__ - INFO - Removed 34 bases from start of UROK_PIG
+2021-03-03 03:53:54,926 - __main__ - INFO - Removed 14 bases from start of DES1_HUMAN
+2021-03-03 03:53:54,944 - __main__ - INFO - Removed 13 bases from start of HATT_HUMAN
+2021-03-03 03:53:54,975 - __main__ - INFO - Removed 26 bases from start of CTR1_PENVA
+2021-03-03 03:53:55,018 - __main__ - INFO - Removed 28 bases from start of ACRO_MOUSE
+2021-03-03 03:53:55,070 - __main__ - INFO - Removed 63 bases from start of STUB_DROME
+2021-03-03 03:53:55,101 - __main__ - INFO - Removed 25 bases from start of GRAA_MOUSE
+2021-03-03 03:53:55,119 - __main__ - INFO - Removed 9 bases from start of TMS3_HUMAN
+2021-03-03 03:53:55,137 - __main__ - INFO - Removed 13 bases from start of BSS4_HUMAN
+2021-03-03 03:53:55,154 - __main__ - INFO - Removed 32 bases from start of TMS4_HUMAN
+2021-03-03 03:53:55,172 - __main__ - INFO - Removed 30 bases from start of TMS4_MOUSE
+2021-03-03 03:53:55,269 - __main__ - INFO - Removed 40 bases from start of TMS2_MOUSE
+2021-03-03 03:53:55,287 - __main__ - INFO - Removed 40 bases from start of TMS2_HUMAN
+2021-03-03 03:53:55,304 - __main__ - INFO - Removed 8 bases from start of TMS5_MOUSE
+2021-03-03 03:53:55,347 - __main__ - INFO - Removed 23 bases from start of DER3_DERPT
+2021-03-03 03:53:55,366 - __main__ - INFO - Removed 23 bases from start of TRYT_PIG
+2021-03-03 03:53:55,384 - __main__ - INFO - Removed 13 bases from start of HEPS_HUMAN
+2021-03-03 03:53:55,404 - __main__ - INFO - Removed 18 bases from start of CTRA_GADMO
+2021-03-03 03:53:55,459 - __main__ - INFO - Removed 9 bases from start of TRY1_RAT
+2021-03-03 03:53:55,476 - __main__ - INFO - Removed 8 bases from start of KLK5_HUMAN
+2021-03-03 03:53:55,498 - __main__ - INFO - Removed 22 bases from start of KLK8_HUMAN
+2021-03-03 03:53:55,540 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 03:53:56,305 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 03:53:57,010 - __main__ - INFO - Building consensus sequence

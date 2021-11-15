@@ -1,0 +1,67 @@
+2021-03-03 04:02:16,119 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_5/muscle/RV50_BB50011_max100.fasta --outfile_stem reference_set_5/muscle/high_stringency_RV50_BB50011_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 04:02:16,151 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 04:02:16,152 - __main__ - INFO - Removing divergent sequences
+2021-03-03 04:02:16,731 - __main__ - INFO - Removing divergent sequences EX53_MYCGE, EX53_BACHD, EX9_VIBCH, EX53_BACSU, EX53_UREPA, EX53_BUCAP, EX53_MYCPU, 1exn_A, EX53_AQUAE, EX53_BUCAI, RAD2_YEAST, EX53_MYCPN, DIN7_YEAST, RA13_SCHPO, EX53_STRCO, EX53_MYCTU, EX53_BUCBP, EX9_ECOLI
+2021-03-03 04:02:16,732 - __main__ - INFO - Removing insertions
+2021-03-03 04:02:16,732 - __main__ - INFO - Removing insertions
+
+2021-03-03 04:02:17,824 - __main__ - INFO - Removing sites 512, 509, 1032, 1033, 11, 12, 13, 14, 1039, 534, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064, 1065, 42, 1066, 1067, 45, 46, 47, 1068, 1069, 1070, 563, 564, 565, 566, 567, 568, 569, 570, 59, 571, 572, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 1095, 1096, 1097, 1098, 84, 1100, 1101, 1102, 88, 89, 601, 602, 603, 604, 94, 605, 606, 607, 608, 609, 610, 101, 611, 103, 1119, 1124, 1125, 1126, 1127, 1128, 1129, 1131, 1132, 1133, 1134, 1157, 1158, 149, 150, 661, 663, 664, 665, 666, 1183, 1184, 1185, 1186, 164, 165, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 712, 713, 202, 203, 204, 205, 206, 207, 714, 715, 716, 717, 718, 719, 720, 725, 726, 727, 728, 1243, 729, 730, 1237, 1238, 1239, 1240, 1241, 1242, 227, 228, 1262, 753, 1277, 1278, 1279, 1280, 1281, 1282, 781, 782, 783, 784, 785, 274, 275, 276, 277, 786, 787, 1072, 1073, 1074, 1075, 1076, 810, 811, 1329, 1330, 1331, 1332, 1333, 1334, 1335, 1336, 1337, 1338, 1339, 1340, 1341, 1342, 1343, 1344, 1345, 1346, 1071, 1347, 1348, 847, 848, 849, 339, 340, 341, 342, 343, 344, 345, 861, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 1092, 378, 379, 380, 1093, 1094, 392, 1198, 399, 400, 401, 402, 403, 404, 405, 1099, 923, 422, 423, 1103, 945, 946, 947, 948, 949, 950, 951, 1104, 445, 446, 447, 448, 449, 450, 451, 452, 958, 991, 992, 491, 492, 493, 494, 495, 508, 1015, 1118, 1019, 1020, 1021, 510, 511
+2021-03-03 04:02:17,824 - __main__ - INFO - Cropping ends
+2021-03-03 04:02:17,836 - __main__ - INFO - Removed 9 bases from end of FEN_HALN1
+2021-03-03 04:02:17,840 - __main__ - INFO - Removed 36 bases from end of FEN1_HUMAN
+2021-03-03 04:02:17,843 - __main__ - INFO - Removed 35 bases from end of RAD2_SCHPO
+2021-03-03 04:02:17,847 - __main__ - INFO - Removed 35 bases from end of RA27_YEAST
+2021-03-03 04:02:17,856 - __main__ - INFO - Removed 10 bases from start of 1a76_
+2021-03-03 04:02:17,883 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 04:02:18,316 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 04:02:18,717 - __main__ - INFO - Building consensus sequence

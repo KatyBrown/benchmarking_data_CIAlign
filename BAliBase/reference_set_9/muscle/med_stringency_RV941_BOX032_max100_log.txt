@@ -1,0 +1,65 @@
+2021-03-24 19:51:47,453 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini --infile reference_set_9/muscle/RV941_BOX032_max100.fasta --outfile_stem reference_set_9/muscle/med_stringency_RV941_BOX032_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.3
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-24 19:51:47,487 - __main__ - INFO - Amino acid alignment detected
+2021-03-24 19:51:47,487 - __main__ - INFO - Removing divergent sequences
+2021-03-24 19:51:48,769 - __main__ - INFO - Removing divergent sequences Q4N0J0, Q7R1U7, Q1EQ20
+2021-03-24 19:51:48,770 - __main__ - INFO - Removing insertions
+2021-03-24 19:51:48,770 - __main__ - INFO - Removing insertions
+
+2021-03-24 19:51:50,489 - __main__ - INFO - Removing sites 41, 67, 68, 69, 70, 71, 72, 73, 74, 97, 98, 101, 102, 103, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 208, 209, 215, 216, 217, 233, 234, 238, 259, 264, 265, 266, 267, 268, 280, 281, 300, 302, 303, 304, 305, 306, 327, 328, 329, 330, 331, 332, 333, 340, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 384, 385, 388, 389, 390, 391, 392, 393, 407, 408, 419, 420, 425, 426, 427, 428, 429, 430, 431, 432, 434, 435, 436, 437, 438, 458, 459, 477, 497, 498, 499, 500, 501, 502, 503, 504, 513, 525, 562, 563, 564, 565, 569, 607, 608, 609, 610, 611, 612, 613, 629, 630, 631, 632, 633, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 739, 740, 751, 752, 753, 754, 756, 757, 773, 774, 796, 797, 798, 799, 800, 815, 816, 817, 822, 838, 839, 840, 881, 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 929, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979, 980, 981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1044, 1057, 1058, 1059, 1060, 1073, 1074, 1075, 1076, 1088, 1089, 1090, 1091, 1094, 1099, 1117, 1136, 1137, 1138, 1154, 1155, 1159, 1171, 1174, 1175, 1179, 1180, 1181, 1182, 1183, 1184, 1200, 1201, 1202, 1203, 1204, 1205, 1206, 1207, 1208, 1209, 1210, 1211, 1212, 1223, 1224, 1225, 1226, 1231, 1232, 1233, 1239, 1264, 1265, 1266, 1281, 1282, 1283, 1284, 1285, 1288, 1298, 1309, 1328, 1329, 1330, 1331, 1332, 1333, 1334, 1335, 1336, 1337, 1338, 1339
+2021-03-24 19:51:50,490 - __main__ - INFO - Cropping ends
+2021-03-24 19:51:50,494 - __main__ - INFO - Removed 1 bases from end of Q4QIT9
+2021-03-24 19:51:50,579 - __main__ - INFO - Removed 6 bases from end of Q1DM25
+2021-03-24 19:51:50,592 - __main__ - INFO - Removed 3 bases from end of Q55P00
+2021-03-24 19:51:50,600 - __main__ - INFO - Plotting mini alignment for input
+2021-03-24 19:51:51,298 - __main__ - INFO - Plotting mini alignment for output
+2021-03-24 19:51:51,888 - __main__ - INFO - Building consensus sequence

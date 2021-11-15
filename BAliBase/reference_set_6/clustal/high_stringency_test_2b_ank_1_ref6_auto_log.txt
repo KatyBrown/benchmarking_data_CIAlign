@@ -1,0 +1,92 @@
+2021-03-03 04:20:44,014 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_6/clustal/test_2b_ank_1_ref6_auto.fasta --outfile_stem reference_set_6/clustal/high_stringency_test_2b_ank_1_ref6_auto
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 04:20:44,038 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 04:20:44,038 - __main__ - INFO - Removing divergent sequences
+2021-03-03 04:20:44,259 - __main__ - INFO - Removing divergent sequences akr_ARATH_1, cdn5_MOUSE_2, SWI6_YEAST_1, cdn2_mouse_4, cdn2_human_4, p532_human_2, KDGZ_HUMAN_2, cdn2_human_2, KDGZ_HUMAN_4, Q13418_1, Q13418_3, akr_ARATH_3, p532_human_3, SWI6_YEAST_3, cc10_SCHPO_1, cc10_SCHPO_4, akr_ARATH_2, p532_human_4, Q13418_4
+2021-03-03 04:20:44,259 - __main__ - INFO - Removing insertions
+2021-03-03 04:20:44,259 - __main__ - INFO - Removing insertions
+
+2021-03-03 04:20:45,085 - __main__ - INFO - Removing sites 587, 588, 589, 590, 591, 592, 611, 612, 613, 623, 624, 625, 626, 627, 636, 637, 638, 639, 640, 132, 133, 134, 135, 136, 137, 138, 653, 662, 663, 664, 701, 702, 703, 724, 725, 750, 751, 752, 753, 754, 757, 758, 759, 760, 761, 770, 771, 772, 773, 782, 783, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 798, 799, 800, 801, 802, 871, 872, 814, 815, 816, 817, 824, 313, 314, 315, 316, 317, 318, 319, 825, 826, 827, 828, 829, 830, 831, 840, 343, 346, 347, 348, 349, 862, 863, 864, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 873, 380, 893, 894, 870, 915, 916, 917, 918, 919, 408, 409, 410, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 935, 936, 937, 938, 939, 940, 941, 942, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 459, 460, 474, 475, 494, 508
+2021-03-03 04:20:45,085 - __main__ - INFO - Cropping ends
+2021-03-03 04:20:45,088 - __main__ - INFO - Removed 72 bases from start of p532_human_1
+2021-03-03 04:20:45,092 - __main__ - INFO - Removed 4 bases from start of akr_ARATH_4
+2021-03-03 04:20:45,093 - __main__ - INFO - Removed 4 bases from end of akr_ARATH_4
+2021-03-03 04:20:45,097 - __main__ - INFO - Removed 2 bases from start of SWI6_YEAST_2
+2021-03-03 04:20:45,097 - __main__ - INFO - Removed 2 bases from end of SWI6_YEAST_2
+2021-03-03 04:20:45,103 - __main__ - INFO - Removed 2 bases from start of cc10_SCHPO_2
+2021-03-03 04:20:45,103 - __main__ - INFO - Removed 2 bases from end of cc10_SCHPO_2
+2021-03-03 04:20:45,107 - __main__ - INFO - Removed 3 bases from start of cc10_SCHPO_3
+2021-03-03 04:20:45,107 - __main__ - INFO - Removed 3 bases from end of cc10_SCHPO_3
+2021-03-03 04:20:45,112 - __main__ - INFO - Removed 3 bases from start of cdn2_human_1
+2021-03-03 04:20:45,112 - __main__ - INFO - Removed 3 bases from end of cdn2_human_1
+2021-03-03 04:20:45,117 - __main__ - INFO - Removed 2 bases from start of cdn2_human_3
+2021-03-03 04:20:45,117 - __main__ - INFO - Removed 2 bases from end of cdn2_human_3
+2021-03-03 04:20:45,121 - __main__ - INFO - Removed 2 bases from start of cdn2_mouse_1
+2021-03-03 04:20:45,121 - __main__ - INFO - Removed 2 bases from end of cdn2_mouse_1
+2021-03-03 04:20:45,125 - __main__ - INFO - Removed 2 bases from start of cdn2_mouse_2
+2021-03-03 04:20:45,125 - __main__ - INFO - Removed 2 bases from end of cdn2_mouse_2
+2021-03-03 04:20:45,129 - __main__ - INFO - Removed 2 bases from start of cdn2_mouse_3
+2021-03-03 04:20:45,129 - __main__ - INFO - Removed 2 bases from end of cdn2_mouse_3
+2021-03-03 04:20:45,133 - __main__ - INFO - Removed 2 bases from start of cdn5_MOUSE_1
+2021-03-03 04:20:45,133 - __main__ - INFO - Removed 2 bases from end of cdn5_MOUSE_1
+2021-03-03 04:20:45,137 - __main__ - INFO - Removed 2 bases from start of cdn5_MOUSE_3
+2021-03-03 04:20:45,137 - __main__ - INFO - Removed 2 bases from end of cdn5_MOUSE_3
+2021-03-03 04:20:45,142 - __main__ - INFO - Removed 1 bases from start of cdn5_MOUSE_4
+2021-03-03 04:20:45,142 - __main__ - INFO - Removed 1 bases from end of cdn5_MOUSE_4
+2021-03-03 04:20:45,145 - __main__ - INFO - Removed 29 bases from end of KDGZ_HUMAN_1
+2021-03-03 04:20:45,149 - __main__ - INFO - Removed 2 bases from start of KDGZ_HUMAN_3
+2021-03-03 04:20:45,149 - __main__ - INFO - Removed 2 bases from end of KDGZ_HUMAN_3
+2021-03-03 04:20:45,153 - __main__ - INFO - Removed 2 bases from start of Q13418_2
+2021-03-03 04:20:45,153 - __main__ - INFO - Removed 2 bases from end of Q13418_2
+2021-03-03 04:20:45,155 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 04:20:45,578 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 04:20:45,973 - __main__ - INFO - Building consensus sequence

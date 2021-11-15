@@ -1,0 +1,98 @@
+2021-03-03 03:04:33,753 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_3/muscle/RV30_BB30023_max100.fasta --outfile_stem reference_set_3/muscle/high_stringency_RV30_BB30023_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 03:04:33,790 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 03:04:33,790 - __main__ - INFO - Removing divergent sequences
+2021-03-03 03:04:34,693 - __main__ - INFO - Removing divergent sequences YQJQ_BACSU, TRNH_DATST, GALE_LACCA, ACBB_ACTS5, 1o5i_A, Y945_MYCTU, 1cyd_A, 1kep_A, EXOB_RHIME, SDH_AGRT5, Y432_LISMO, BUTA_STAAM, FABG_BUCBP, YGCW_ECOLI, DHBA_BACSU, 1a9y_, BDHA_RHIME, YOHF_ECOLI, SOU1_CANAL, ENTA_ECOLI, YDFG_ECOLI, DHMA_FLAS1, YXBG_BACSU, CBR2_CAEEL, FIXR_BRAJA, YM71_YEAST, GS39_BACSU, 1h5q_A, SPSJ_BACSU, YKUF_BACSU, STRE_STRGR, 1doh_A, TGDS_HUMAN, RFBE_SALTI, 1ae1_A, YJGI_ECOLI, GALE_METJA, GALE_YERPE, BDHA_ALCEU, SORD_KLEPN
+2021-03-03 03:04:34,693 - __main__ - INFO - Removing insertions
+2021-03-03 03:04:34,693 - __main__ - INFO - Removing insertions
+
+2021-03-03 03:04:35,291 - __main__ - INFO - Removing sites 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 635, 510, 528, 532, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 611, 612, 613, 614, 615, 616, 99, 618, 619, 620, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 636, 637, 638, 639, 640, 644, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 666, 674, 617, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 720, 730, 760, 761, 762, 621, 633, 566, 570, 571, 323, 324, 325, 326, 327, 574, 575, 576, 340, 344, 345, 346, 577, 348, 349, 350, 351, 578, 579, 580, 581, 366, 367, 368, 582, 371, 372, 373, 374, 375, 376, 377, 583, 584, 585, 586, 393, 587, 634, 588, 589, 590, 410, 413, 591, 428, 434, 435, 436, 437, 438, 439, 440, 441, 442, 445, 450, 451, 602, 472, 473, 477, 478, 479, 480, 481, 486, 495, 496, 497, 503, 504, 505, 506, 507, 508, 509, 610, 511
+2021-03-03 03:04:35,291 - __main__ - INFO - Cropping ends
+2021-03-03 03:04:35,295 - __main__ - INFO - Removed 17 bases from start of KDUD_ECOLI
+2021-03-03 03:04:35,297 - __main__ - INFO - Removed 11 bases from start of HCD2_DROME
+2021-03-03 03:04:35,297 - __main__ - INFO - Removed 20 bases from end of HCD2_DROME
+2021-03-03 03:04:35,299 - __main__ - INFO - Removed 13 bases from start of YOXD_BACSU
+2021-03-03 03:04:35,299 - __main__ - INFO - Removed 8 bases from end of YOXD_BACSU
+2021-03-03 03:04:35,301 - __main__ - INFO - Removed 21 bases from start of DHS4_MOUSE
+2021-03-03 03:04:35,303 - __main__ - INFO - Removed 21 bases from start of DHS4_BOVIN
+2021-03-03 03:04:35,305 - __main__ - INFO - Removed 21 bases from start of DHS4_PIG
+2021-03-03 03:04:35,309 - __main__ - INFO - Removed 8 bases from start of YGFF_ECOLI
+2021-03-03 03:04:35,311 - __main__ - INFO - Removed 13 bases from start of DHKR_STRCM
+2021-03-03 03:04:35,313 - __main__ - INFO - Removed 18 bases from start of DHB8_HUMAN
+2021-03-03 03:04:35,315 - __main__ - INFO - Removed 9 bases from start of FABG_ACTAC
+2021-03-03 03:04:35,317 - __main__ - INFO - Removed 14 bases from start of YD50_MYCTU
+2021-03-03 03:04:35,319 - __main__ - INFO - Removed 11 bases from start of PHAB_ACISP
+2021-03-03 03:04:35,321 - __main__ - INFO - Removed 9 bases from start of PHBB_RHIME
+2021-03-03 03:04:35,323 - __main__ - INFO - Removed 9 bases from start of PHAB_PARDE
+2021-03-03 03:04:35,325 - __main__ - INFO - Removed 9 bases from start of PHBB_CHRVI
+2021-03-03 03:04:35,327 - __main__ - INFO - Removed 10 bases from start of NODG_AZOBR
+2021-03-03 03:04:35,329 - __main__ - INFO - Removed 10 bases from start of PHBB_ALCEU
+2021-03-03 03:04:35,333 - __main__ - INFO - Removed 14 bases from start of FABG_CHLPN
+2021-03-03 03:04:35,335 - __main__ - INFO - Removed 12 bases from start of FABG_ECOLI
+2021-03-03 03:04:35,337 - __main__ - INFO - Removed 12 bases from start of FABG_VIBHA
+2021-03-03 03:04:35,339 - __main__ - INFO - Removed 12 bases from start of FABG_BUCAP
+2021-03-03 03:04:35,341 - __main__ - INFO - Removed 12 bases from start of FABG_BUCAI
+2021-03-03 03:04:35,343 - __main__ - INFO - Removed 13 bases from start of FABG_RICPR
+2021-03-03 03:04:35,345 - __main__ - INFO - Removed 13 bases from start of NODG_RHIME
+2021-03-03 03:04:35,347 - __main__ - INFO - Removed 13 bases from start of NOG4_RHIME
+2021-03-03 03:04:35,349 - __main__ - INFO - Removed 14 bases from start of DHG2_BACSU
+2021-03-03 03:04:35,351 - __main__ - INFO - Removed 12 bases from start of 2hsd_A
+2021-03-03 03:04:35,353 - __main__ - INFO - Removed 14 bases from start of YK02_MYCTU
+2021-03-03 03:04:35,355 - __main__ - INFO - Removed 14 bases from start of YWFD_BACSU
+2021-03-03 03:04:35,358 - __main__ - INFO - Removed 7 bases from start of RFBB_RHISN
+2021-03-03 03:04:35,360 - __main__ - INFO - Removed 8 bases from start of RFFG_HAEIN
+2021-03-03 03:04:35,362 - __main__ - INFO - Removed 13 bases from start of RFBB_NEIGO
+2021-03-03 03:04:35,364 - __main__ - INFO - Removed 8 bases from start of RFFG_ECOLI
+2021-03-03 03:04:35,366 - __main__ - INFO - Removed 7 bases from start of RBB1_ECOLI
+2021-03-03 03:04:35,368 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 03:04:35,800 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 03:04:36,155 - __main__ - INFO - Building consensus sequence

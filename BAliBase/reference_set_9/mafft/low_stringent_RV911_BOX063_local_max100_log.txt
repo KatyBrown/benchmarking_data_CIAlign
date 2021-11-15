@@ -1,0 +1,59 @@
+2021-07-01 05:33:07,731 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile low_stringent_config_BB.ini --infile reference_set_9/mafft/RV911_BOX063_local_max100.fasta --outfile_stem reference_set_9/mafft/low_stringent_RV911_BOX063_local_max100
+Config File (low_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.05
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.15
+  remove_insertions: 1
+  insertion_min_size:5
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 05:33:07,739 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 05:33:07,739 - __main__ - INFO - Removing divergent sequences
+2021-07-01 05:33:08,132 - __main__ - INFO - Removing insertions
+2021-07-01 05:33:08,132 - __main__ - INFO - Removing insertions
+
+2021-07-01 05:33:10,417 - __main__ - INFO - Removing sites 34, 35, 36, 37, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 117, 118, 184, 185, 186, 187, 188, 195, 196, 217, 218, 219, 220, 235, 236, 237, 249, 250, 251, 252, 253, 254, 255, 256, 272, 273, 274, 275, 276, 281, 282, 314, 315, 316, 317, 332, 333, 334, 335, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 386, 414, 415, 416, 417, 429, 430, 434, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 463, 464, 526, 527, 528, 535, 559, 560, 561, 562, 563, 564, 565, 592, 593, 597, 608, 614, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 684, 699, 700, 717, 728, 729, 742, 743, 744, 745, 746, 747, 748, 779, 802, 803, 842, 846, 859, 870, 885, 886, 887, 906, 907, 908, 925, 926, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 996, 997, 998, 1002, 1006, 1010, 1011, 1037, 1038, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1050, 1051, 1052, 1053, 1054, 1055, 1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1111, 1112, 1113, 1147, 1150, 1151, 1152, 1153, 1154, 1155, 1156, 1157, 1158, 1159, 1160, 1161, 1172, 1173, 1174, 1175, 1176, 1177, 1178, 1179, 1180, 1181, 1182, 1183, 1184, 1185, 1186, 1187, 1188, 1189, 1190, 1191, 1192, 1193, 1194, 1195, 1196, 1197, 1198, 1199, 1200, 1201, 1202, 1203, 1204, 1205, 1206, 1243, 1244, 1245, 1246, 1247, 1248, 1259, 1260, 1261, 1262, 1263, 1264, 1265, 1266, 1291, 1292, 1303, 1304, 1324, 1325, 1326, 1327, 1328, 1347, 1348, 1349, 1367, 1374, 1375, 1376, 1377, 1378, 1379, 1380, 1381, 1565, 1566, 1692, 1699, 1700, 1701, 1741, 1742, 1743, 1744, 1745, 1746, 1747, 1748, 1764, 1765, 1766, 1768, 1769, 1770, 1771, 1772, 1816, 1817, 1818, 1819, 1839, 1840, 1841, 1842, 1843, 1851, 1852, 1872, 1873, 1874, 1875, 1876, 1877, 1887, 1888, 1910, 1911, 1912, 1915, 1916, 1917, 1918, 1919, 1920, 1921, 1932, 1933, 1934
+2021-07-01 05:33:10,417 - __main__ - INFO - Cropping ends
+2021-07-01 05:33:10,446 - __main__ - INFO - Removed 19 bases from end of Q7Q0F6

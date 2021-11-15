@@ -1,0 +1,499 @@
+2021-07-05 11:13:09,665 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --remove_divergent --remove_divergent_minperc 0.15 --crop_ends --remove_insertion --remove_short --infile combined/aligned/hla_aligned.fasta --outfile_stem combined/aligned/cialign/hla
+Defaults:
+  --crop_ends_mingap_perc:0.05
+  --crop_ends_redefine_perc:0.1
+  --insertion_min_size:3
+  --insertion_max_size:200
+  --insertion_min_flank:5
+  --remove_min_length:50
+  --consensus_type:  majority
+  --consensus_name:  consensus
+  --plot_dpi:        300
+  --plot_format:     png
+  --plot_width:      5
+  --plot_height:     3
+  --sequence_logo_type:bar
+  --sequence_logo_dpi:300
+  --sequence_logo_font:monospace
+  --sequence_logo_nt_per_row:50
+  --sequence_logo_filetype:png
+  --plot_coverage_dpi:300
+  --plot_coverage_height:3
+  --plot_coverage_width:5
+  --plot_coverage_colour:#007bf5
+  --plot_coverage_filetype:png
+  --make_simmatrix_dp:4
+  --make_simmatrix_minoverlap:1
+  --make_simmatrix_keepgaps:0
+
+2021-07-05 11:13:12,392 - __main__ - INFO - Amino acid alignment detected
+2021-07-05 11:13:12,392 - __main__ - INFO - Removing divergent sequences
+2021-07-05 11:29:20,717 - __main__ - INFO - Removing gap only columns
+2021-07-05 11:29:20,782 - __main__ - INFO - Removing insertions
+2021-07-05 11:29:20,782 - __main__ - INFO - Removing insertions
+
+2021-07-05 11:29:34,838 - __main__ - INFO - Removing sites 16, 17, 18, 24, 26, 27, 37, 38, 39, 40, 41, 51, 52, 53, 54, 55, 63, 64, 66, 67, 70, 77, 78, 80, 82, 85, 86, 87, 88, 89, 90, 98, 99, 100, 101, 102, 103, 104, 109, 110, 111, 112, 113, 114, 115, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 130, 131, 132, 133, 134, 135, 136, 138, 139, 140, 141, 142, 143, 144, 148, 151, 161, 164, 165, 168, 169, 170, 176, 177, 178, 179, 180, 181, 182, 183, 185, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 201, 203, 205, 206, 207, 208, 217, 218, 219, 220, 222, 224, 227, 229, 230, 231, 232, 233, 235, 236, 237, 238, 240, 247, 248, 249, 253, 254, 255, 256, 257, 258, 259, 260, 261, 271, 272, 273, 274, 275, 280, 281, 282, 283, 284, 287, 288, 289, 290, 291, 292, 294, 295, 296, 297, 299, 300, 301, 302, 303, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 320, 326, 327, 328, 329, 330, 331, 332, 333, 338, 339, 340, 341, 342, 343, 344, 345, 346, 348, 351, 352, 353, 354, 355, 356, 357, 361, 364, 365, 366, 367, 368, 369, 370, 374
+2021-07-05 11:29:34,841 - __main__ - INFO - Removing gap only columns
+2021-07-05 11:29:34,880 - __main__ - INFO - Cropping ends
+2021-07-05 11:29:35,274 - __main__ - INFO - Removed 5 bases from end of A1Z1N9_HUMAN/1-147
+2021-07-05 11:29:35,275 - __main__ - INFO - Removed 5 bases from end of A2ICZ8_HUMAN/1-147
+2021-07-05 11:29:35,336 - __main__ - INFO - Removed 7 bases from start of C9YSQ4_HUMAN/78-177
+2021-07-05 11:29:35,366 - __main__ - INFO - Removed 10 bases from end of B2LRS6_HUMAN/1-101
+2021-07-05 11:29:35,429 - __main__ - INFO - Removed 6 bases from start of O75823_HUMAN/85-179
+2021-07-05 11:29:35,432 - __main__ - INFO - Removed 2 bases from end of O19649_HUMAN/1-95
+2021-07-05 11:29:35,665 - __main__ - INFO - Removed 11 bases from end of O95733_HUMAN/25-187
+2021-07-05 11:29:35,707 - __main__ - INFO - Removed 5 bases from start of P79558_HUMAN/78-178
+2021-07-05 11:29:36,098 - __main__ - INFO - Removed 2 bases from end of A0AAB7_HUMAN/1-97
+2021-07-05 11:29:36,099 - __main__ - INFO - Removed 2 bases from end of D2U825_HUMAN/1-97
+2021-07-05 11:29:36,346 - __main__ - INFO - Removed 1 bases from end of Q9TNQ9_HUMAN/1-90
+2021-07-05 11:29:36,363 - __main__ - INFO - Removed 5 bases from end of A2BCX5_HUMAN/1-145
+2021-07-05 11:29:36,470 - __main__ - INFO - Removed 4 bases from end of Q9BEB4_9PRIM/1-89
+2021-07-05 11:29:36,471 - __main__ - INFO - Removed 4 bases from end of Q29897_HUMAN/25-123
+2021-07-05 11:29:36,473 - __main__ - INFO - Removed 6 bases from end of Q8WML7_9PRIM/1-103
+2021-07-05 11:29:36,474 - __main__ - INFO - Removed 3 bases from end of B4DXN2_HUMAN/25-125
+2021-07-05 11:29:36,491 - __main__ - INFO - Removed 7 bases from end of Q9BEB8_9PRIM/1-89
+2021-07-05 11:29:36,491 - __main__ - INFO - Removed 9 bases from end of Q31611_HUMAN/25-123
+2021-07-05 11:29:36,492 - __main__ - INFO - Removed 9 bases from end of B0V1N6_HUMAN/25-123
+2021-07-05 11:29:36,505 - __main__ - INFO - Removed 1 bases from start of O19588_HUMAN/1-78
+2021-07-05 11:29:36,505 - __main__ - INFO - Removed 4 bases from end of O19588_HUMAN/1-78
+2021-07-05 11:29:36,512 - __main__ - WARNING - Given the length of sequence B2Z461_ATEBE/1-35, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:36,552 - __main__ - WARNING - Given the length of sequence B9WPV6_MACFA/1-28, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:36,751 - __main__ - WARNING - Given the length of sequence Q9TQC1_HUMAN/1-32, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:36,751 - __main__ - INFO - Removed 2 bases from start of Q9TQC1_HUMAN/1-32
+2021-07-05 11:29:36,752 - __main__ - INFO - Removed 4 bases from end of Q95HE2_PAPAN/17-110
+2021-07-05 11:29:36,757 - __main__ - INFO - Removed 7 bases from end of Q95HF3_PAPAN/17-113
+2021-07-05 11:29:36,868 - __main__ - WARNING - Given the length of sequence Q768Q0_CEBAP/25-50, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:36,974 - __main__ - WARNING - Given the length of sequence B2Z465_CEBAP/1-22, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:36,975 - __main__ - WARNING - Given the length of sequence B2Z464_CEBAL/1-26, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:36,984 - __main__ - WARNING - Given the length of sequence Q9TQC4_HUMAN/1-32, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:36,985 - __main__ - INFO - Removed 2 bases from start of Q9TQC4_HUMAN/1-32
+2021-07-05 11:29:37,195 - __main__ - INFO - Removed 8 bases from end of Q95HF2_PAPAN/17-114
+2021-07-05 11:29:37,262 - __main__ - WARNING - Given the length of sequence B2Z462_CEBAL/1-37, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:37,347 - __main__ - INFO - Removed 1 bases from end of Q9MXT1_MACMU/1-141
+2021-07-05 11:29:37,590 - __main__ - WARNING - Given the length of sequence Q31130_MOUSE/1-37, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:37,592 - __main__ - INFO - Removed 9 bases from end of Q31290_MOUSE/1-106
+2021-07-05 11:29:37,607 - __main__ - INFO - Removed 4 bases from end of B2KQE8_RAT/1-97
+2021-07-05 11:29:37,609 - __main__ - INFO - Removed 2 bases from start of Q6MFY3_RAT/118-187
+2021-07-05 11:29:37,615 - __main__ - INFO - Removed 4 bases from start of Q3MI18_MOUSE/11-158
+2021-07-05 11:29:37,622 - __main__ - INFO - Removed 14 bases from end of Q6MFZ4_RAT/26-192
+2021-07-05 11:29:37,622 - __main__ - INFO - Removed 12 bases from end of D3ZXG7_RAT/26-203
+2021-07-05 11:29:37,652 - __main__ - INFO - Removed 1 bases from start of D2I6L3_AILME/84-177
+2021-07-05 11:29:37,700 - __main__ - INFO - Removed 11 bases from end of Q69YQ6_HUMAN/24-147
+2021-07-05 11:29:37,747 - __main__ - INFO - Removed 5 bases from end of B0S8B6_HUMAN/1-90
+2021-07-05 11:29:37,748 - __main__ - INFO - Removed 5 bases from end of Q861E6_HUMAN/24-113
+2021-07-05 11:29:37,749 - __main__ - INFO - Removed 5 bases from end of Q5RIY5_HUMAN/24-113
+2021-07-05 11:29:37,749 - __main__ - INFO - Removed 5 bases from end of B0UZ11_HUMAN/24-113
+2021-07-05 11:29:37,840 - __main__ - INFO - Removed 4 bases from end of B5AIH2_PIG/1-83
+2021-07-05 11:29:37,840 - __main__ - INFO - Removed 4 bases from end of A6YAP8_PIG/26-112
+2021-07-05 11:29:37,863 - __main__ - INFO - Removed 9 bases from end of C9JAB1_HUMAN/23-118
+2021-07-05 11:29:37,864 - __main__ - INFO - Removed 7 bases from end of A0JLQ0_HUMAN/26-157
+2021-07-05 11:29:37,865 - __main__ - INFO - Removed 6 bases from end of ZAGL1_HUMAN/23-118
+2021-07-05 11:29:37,882 - __main__ - INFO - Removed 1 bases from start of Q31423_LATCH/1-75
+2021-07-05 11:29:37,882 - __main__ - INFO - Removed 1 bases from start of Q31418_LATCH/1-75
+2021-07-05 11:29:37,884 - __main__ - INFO - Removed 3 bases from start of Q2QEX0_SALSA/1-76
+2021-07-05 11:29:37,901 - __main__ - WARNING - Given the length of sequence Q768Q5_ATEBE/22-47, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:37,913 - __main__ - INFO - Removed 4 bases from end of O98260_GADMO/1-72
+2021-07-05 11:29:37,939 - __main__ - INFO - Removed 4 bases from end of A0PAJ1_ORENI/1-76
+2021-07-05 11:29:37,957 - __main__ - INFO - Removed 7 bases from start of Q0MQV1_9PERO/1-85
+2021-07-05 11:29:37,960 - __main__ - INFO - Removed 2 bases from start of Q2QEX7_SALSA/3-59
+2021-07-05 11:29:37,964 - __main__ - INFO - Removed 2 bases from start of Q2QEX6_SALSA/3-59
+2021-07-05 11:29:37,988 - __main__ - INFO - Removed 1 bases from start of Q9XRD4_SALSA/1-77
+2021-07-05 11:29:37,989 - __main__ - INFO - Removed 1 bases from start of Q9XRD2_SALSA/1-77
+2021-07-05 11:29:37,990 - __main__ - INFO - Removed 1 bases from start of P79645_ONCTS/1-76
+2021-07-05 11:29:37,991 - __main__ - INFO - Removed 1 bases from start of Q9TNY6_ONCTS/1-76
+2021-07-05 11:29:37,995 - __main__ - INFO - Removed 1 bases from start of P79644_ONCTS/1-76
+2021-07-05 11:29:37,996 - __main__ - INFO - Removed 1 bases from start of Q9TNY5_ONCTS/1-76
+2021-07-05 11:29:37,997 - __main__ - INFO - Removed 1 bases from start of Q9TQN1_SALSA/1-76
+2021-07-05 11:29:37,998 - __main__ - INFO - Removed 1 bases from start of Q9TNY9_ONCTS/1-76
+2021-07-05 11:29:37,998 - __main__ - INFO - Removed 1 bases from start of P79648_ONCTS/1-76
+2021-07-05 11:29:38,006 - __main__ - INFO - Removed 1 bases from start of Q9XRB6_ONCMY/1-76
+2021-07-05 11:29:38,009 - __main__ - INFO - Removed 1 bases from start of Q9XRD3_SALSA/1-77
+2021-07-05 11:29:38,010 - __main__ - INFO - Removed 1 bases from start of Q9TNY7_ONCTS/1-76
+2021-07-05 11:29:38,010 - __main__ - INFO - Removed 1 bases from start of P79646_ONCTS/1-76
+2021-07-05 11:29:38,011 - __main__ - INFO - Removed 1 bases from start of Q9XRD7_SALSA/1-77
+2021-07-05 11:29:38,012 - __main__ - INFO - Removed 1 bases from start of Q9XRD5_SALSA/1-77
+2021-07-05 11:29:38,013 - __main__ - INFO - Removed 1 bases from start of Q9XRD6_SALSA/1-77
+2021-07-05 11:29:38,014 - __main__ - INFO - Removed 1 bases from start of Q9TNY8_ONCTS/1-76
+2021-07-05 11:29:38,014 - __main__ - INFO - Removed 1 bases from start of P79647_ONCTS/1-76
+2021-07-05 11:29:38,015 - __main__ - INFO - Removed 1 bases from start of Q9XRC2_ONCTS/1-76
+2021-07-05 11:29:38,045 - __main__ - INFO - Removed 1 bases from start of O78038_TRISC/1-55
+2021-07-05 11:29:38,187 - __main__ - INFO - Removed 4 bases from start of D3U6K9_SALAL/1-82
+2021-07-05 11:29:38,188 - __main__ - INFO - Removed 4 bases from start of D3U6Q7_SALAL/1-82
+2021-07-05 11:29:38,189 - __main__ - INFO - Removed 4 bases from start of D3U6R3_SALAL/1-82
+2021-07-05 11:29:38,190 - __main__ - INFO - Removed 4 bases from start of D3U6R1_SALAL/1-82
+2021-07-05 11:29:38,190 - __main__ - INFO - Removed 4 bases from start of D3U6T1_SALAL/1-82
+2021-07-05 11:29:38,191 - __main__ - INFO - Removed 4 bases from start of D3U6R0_SALAL/1-82
+2021-07-05 11:29:38,192 - __main__ - INFO - Removed 4 bases from start of D3U6R7_SALAL/1-82
+2021-07-05 11:29:38,192 - __main__ - INFO - Removed 4 bases from start of D3U6R6_SALAL/1-82
+2021-07-05 11:29:38,193 - __main__ - INFO - Removed 4 bases from start of D3U6Q9_SALAL/1-82
+2021-07-05 11:29:38,194 - __main__ - INFO - Removed 4 bases from start of D3U6T6_SALAL/1-82
+2021-07-05 11:29:38,195 - __main__ - INFO - Removed 4 bases from start of D3U6T4_SALAL/1-82
+2021-07-05 11:29:38,195 - __main__ - INFO - Removed 4 bases from start of D3U6R2_SALAL/1-82
+2021-07-05 11:29:38,196 - __main__ - INFO - Removed 4 bases from start of D3U6S7_SALAL/1-82
+2021-07-05 11:29:38,197 - __main__ - INFO - Removed 4 bases from start of D3U6S8_SALAL/1-82
+2021-07-05 11:29:38,198 - __main__ - INFO - Removed 4 bases from start of D3U6Q6_SALAL/1-82
+2021-07-05 11:29:38,198 - __main__ - INFO - Removed 4 bases from start of D3U6S6_SALAL/1-82
+2021-07-05 11:29:38,199 - __main__ - INFO - Removed 4 bases from start of D3U6R4_SALAL/1-82
+2021-07-05 11:29:38,200 - __main__ - INFO - Removed 4 bases from start of D3U6T3_SALAL/1-82
+2021-07-05 11:29:38,201 - __main__ - INFO - Removed 4 bases from start of D3U6R5_SALAL/1-82
+2021-07-05 11:29:38,201 - __main__ - INFO - Removed 4 bases from start of D3U6T2_SALAL/1-82
+2021-07-05 11:29:38,202 - __main__ - INFO - Removed 4 bases from start of D3U6Q5_SALAL/1-82
+2021-07-05 11:29:38,203 - __main__ - INFO - Removed 4 bases from start of D3U6Q8_SALAL/1-82
+2021-07-05 11:29:38,203 - __main__ - INFO - Removed 4 bases from start of D3U6S5_SALAL/1-82
+2021-07-05 11:29:38,204 - __main__ - INFO - Removed 4 bases from start of D3U6R8_SALAL/1-82
+2021-07-05 11:29:38,205 - __main__ - INFO - Removed 4 bases from start of D3U6T5_SALAL/1-82
+2021-07-05 11:29:38,206 - __main__ - INFO - Removed 4 bases from start of D3U6S9_SALAL/1-82
+2021-07-05 11:29:38,206 - __main__ - INFO - Removed 4 bases from start of D3U6T0_SALAL/1-82
+2021-07-05 11:29:38,207 - __main__ - INFO - Removed 4 bases from start of D3U6S1_SALAL/1-82
+2021-07-05 11:29:38,208 - __main__ - INFO - Removed 4 bases from start of D3U6Q2_SALAL/1-82
+2021-07-05 11:29:38,209 - __main__ - INFO - Removed 4 bases from start of D3U6P5_SALAL/1-82
+2021-07-05 11:29:38,210 - __main__ - INFO - Removed 4 bases from start of D3U6P0_SALAL/1-82
+2021-07-05 11:29:38,210 - __main__ - INFO - Removed 4 bases from start of D3U6P1_SALAL/1-82
+2021-07-05 11:29:38,211 - __main__ - INFO - Removed 4 bases from start of D3U6R9_SALAL/1-82
+2021-07-05 11:29:38,212 - __main__ - INFO - Removed 4 bases from start of D3U6P2_SALAL/1-82
+2021-07-05 11:29:38,212 - __main__ - INFO - Removed 4 bases from start of D3U6P3_SALAL/1-82
+2021-07-05 11:29:38,213 - __main__ - INFO - Removed 4 bases from start of D3U6P8_SALAL/1-82
+2021-07-05 11:29:38,214 - __main__ - INFO - Removed 4 bases from start of D3U6P9_SALAL/1-82
+2021-07-05 11:29:38,215 - __main__ - INFO - Removed 4 bases from start of D3U6N9_SALAL/1-82
+2021-07-05 11:29:38,215 - __main__ - INFO - Removed 4 bases from start of D3U6U0_SALAL/1-82
+2021-07-05 11:29:38,216 - __main__ - INFO - Removed 4 bases from start of D3U6U2_SALAL/1-82
+2021-07-05 11:29:38,217 - __main__ - INFO - Removed 4 bases from start of D3U6T9_SALAL/1-82
+2021-07-05 11:29:38,218 - __main__ - INFO - Removed 4 bases from start of D3U6N8_SALAL/1-82
+2021-07-05 11:29:38,218 - __main__ - INFO - Removed 4 bases from start of D3U6P7_SALAL/1-82
+2021-07-05 11:29:38,219 - __main__ - INFO - Removed 4 bases from start of D3U6U1_SALAL/1-82
+2021-07-05 11:29:38,220 - __main__ - INFO - Removed 4 bases from start of D3U6S0_SALAL/1-82
+2021-07-05 11:29:38,221 - __main__ - INFO - Removed 4 bases from start of D3U6Q1_SALAL/1-82
+2021-07-05 11:29:38,221 - __main__ - INFO - Removed 4 bases from start of D3U6P6_SALAL/1-82
+2021-07-05 11:29:38,222 - __main__ - INFO - Removed 4 bases from start of D3U6T8_SALAL/1-82
+2021-07-05 11:29:38,223 - __main__ - INFO - Removed 4 bases from start of D3U6T7_SALAL/1-82
+2021-07-05 11:29:38,224 - __main__ - INFO - Removed 4 bases from start of D3U6P4_SALAL/1-82
+2021-07-05 11:29:38,224 - __main__ - INFO - Removed 4 bases from start of D3U6Q0_SALAL/1-82
+2021-07-05 11:29:38,225 - __main__ - INFO - Removed 4 bases from start of D3U6U3_SALAL/1-82
+2021-07-05 11:29:38,226 - __main__ - INFO - Removed 4 bases from start of D3U6S4_SALAL/1-82
+2021-07-05 11:29:38,226 - __main__ - INFO - Removed 4 bases from start of D3U6Q4_SALAL/1-82
+2021-07-05 11:29:38,227 - __main__ - INFO - Removed 4 bases from start of D3U6S3_SALAL/1-82
+2021-07-05 11:29:38,228 - __main__ - INFO - Removed 4 bases from start of D3U6Q3_SALAL/1-82
+2021-07-05 11:29:38,229 - __main__ - INFO - Removed 4 bases from start of D3U6S2_SALAL/1-82
+2021-07-05 11:29:38,232 - __main__ - INFO - Removed 4 bases from start of D3U6K5_SALAL/1-82
+2021-07-05 11:29:38,233 - __main__ - INFO - Removed 4 bases from start of D3U6K6_SALAL/1-82
+2021-07-05 11:29:38,233 - __main__ - INFO - Removed 4 bases from start of D3U6I4_SALAL/1-82
+2021-07-05 11:29:38,234 - __main__ - INFO - Removed 4 bases from start of D3U6I6_SALAL/1-82
+2021-07-05 11:29:38,240 - __main__ - INFO - Removed 4 bases from start of D3U6L3_SALAL/1-82
+2021-07-05 11:29:38,241 - __main__ - INFO - Removed 4 bases from start of D3U6J1_SALAL/1-82
+2021-07-05 11:29:38,242 - __main__ - INFO - Removed 4 bases from start of D3U6K0_SALAL/1-82
+2021-07-05 11:29:38,243 - __main__ - INFO - Removed 4 bases from start of D3U6K2_SALAL/1-82
+2021-07-05 11:29:38,243 - __main__ - INFO - Removed 4 bases from start of D3U6J8_SALAL/1-82
+2021-07-05 11:29:38,244 - __main__ - INFO - Removed 4 bases from start of D3U6J7_SALAL/1-82
+2021-07-05 11:29:38,245 - __main__ - INFO - Removed 4 bases from start of D3U6K7_SALAL/1-82
+2021-07-05 11:29:38,246 - __main__ - INFO - Removed 4 bases from start of D3U6J4_SALAL/1-82
+2021-07-05 11:29:38,246 - __main__ - INFO - Removed 4 bases from start of D3U6I3_SALAL/1-82
+2021-07-05 11:29:38,252 - __main__ - INFO - Removed 3 bases from end of B1NQV4_ONCMY/20-71
+2021-07-05 11:29:38,273 - __main__ - INFO - Removed 4 bases from start of Q9XR66_ONCMY/1-52
+2021-07-05 11:29:38,282 - __main__ - INFO - Removed 4 bases from start of Q9XR78_ONCTS/1-52
+2021-07-05 11:29:38,287 - __main__ - INFO - Removed 2 bases from start of Q9XRB1_ONCKI/2-78
+2021-07-05 11:29:38,369 - __main__ - INFO - Removed 4 bases from start of D3U6L5_SALAL/1-82
+2021-07-05 11:29:38,370 - __main__ - INFO - Removed 4 bases from start of D3U6I1_SALAL/1-82
+2021-07-05 11:29:38,371 - __main__ - INFO - Removed 4 bases from start of D3U6M0_SALAL/1-82
+2021-07-05 11:29:38,371 - __main__ - INFO - Removed 4 bases from start of D3U6I2_SALAL/1-82
+2021-07-05 11:29:38,372 - __main__ - INFO - Removed 4 bases from start of D3U6K8_SALAL/1-82
+2021-07-05 11:29:38,373 - __main__ - INFO - Removed 4 bases from start of D3U6L0_SALAL/1-82
+2021-07-05 11:29:38,374 - __main__ - INFO - Removed 4 bases from start of D3U6L4_SALAL/1-82
+2021-07-05 11:29:38,390 - __main__ - INFO - Removed 4 bases from start of D3U6J3_SALAL/1-82
+2021-07-05 11:29:38,391 - __main__ - INFO - Removed 4 bases from start of D3U6I8_SALAL/1-82
+2021-07-05 11:29:38,391 - __main__ - INFO - Removed 4 bases from start of D3U6J5_SALAL/1-82
+2021-07-05 11:29:38,392 - __main__ - INFO - Removed 4 bases from start of D3U6J6_SALAL/1-82
+2021-07-05 11:29:38,393 - __main__ - INFO - Removed 4 bases from start of D3U6M5_SALAL/1-82
+2021-07-05 11:29:38,394 - __main__ - INFO - Removed 4 bases from start of D3U6N1_SALAL/1-82
+2021-07-05 11:29:38,394 - __main__ - INFO - Removed 4 bases from start of D3U6M8_SALAL/1-82
+2021-07-05 11:29:38,395 - __main__ - INFO - Removed 4 bases from start of D3U6N7_SALAL/1-82
+2021-07-05 11:29:38,396 - __main__ - INFO - Removed 4 bases from start of D3U6N3_SALAL/1-82
+2021-07-05 11:29:38,397 - __main__ - INFO - Removed 4 bases from start of D3U6M6_SALAL/1-82
+2021-07-05 11:29:38,398 - __main__ - INFO - Removed 4 bases from start of D3U6I9_SALAL/1-82
+2021-07-05 11:29:38,399 - __main__ - INFO - Removed 4 bases from start of D3U6M4_SALAL/1-82
+2021-07-05 11:29:38,400 - __main__ - INFO - Removed 4 bases from start of D3U6N5_SALAL/1-82
+2021-07-05 11:29:38,401 - __main__ - INFO - Removed 4 bases from start of D3U6M2_SALAL/1-82
+2021-07-05 11:29:38,401 - __main__ - INFO - Removed 4 bases from start of D3U6M9_SALAL/1-82
+2021-07-05 11:29:38,407 - __main__ - INFO - Removed 4 bases from start of D3U6M3_SALAL/1-82
+2021-07-05 11:29:38,407 - __main__ - INFO - Removed 4 bases from start of D3U6L2_SALAL/1-82
+2021-07-05 11:29:38,408 - __main__ - INFO - Removed 4 bases from start of D3U6L1_SALAL/1-82
+2021-07-05 11:29:38,412 - __main__ - INFO - Removed 2 bases from start of Q2QEX5_SALSA/3-59
+2021-07-05 11:29:38,416 - __main__ - WARNING - Given the length of sequence Q31593_SALSA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:38,421 - __main__ - INFO - Removed 4 bases from start of D3U6K4_SALAL/1-82
+2021-07-05 11:29:38,422 - __main__ - INFO - Removed 4 bases from start of D3U6M1_SALAL/1-82
+2021-07-05 11:29:38,422 - __main__ - INFO - Removed 4 bases from start of D3U6K3_SALAL/1-82
+2021-07-05 11:29:38,423 - __main__ - INFO - Removed 4 bases from start of D3U6I0_SALAL/1-82
+2021-07-05 11:29:38,424 - __main__ - INFO - Removed 4 bases from start of D3U6L8_SALAL/1-82
+2021-07-05 11:29:38,425 - __main__ - INFO - Removed 4 bases from start of D3U6L6_SALAL/1-82
+2021-07-05 11:29:38,425 - __main__ - INFO - Removed 4 bases from start of D3U6L7_SALAL/1-82
+2021-07-05 11:29:38,426 - __main__ - INFO - Removed 4 bases from start of D3U6J2_SALAL/1-82
+2021-07-05 11:29:38,427 - __main__ - INFO - Removed 4 bases from start of D3U6J0_SALAL/1-82
+2021-07-05 11:29:38,428 - __main__ - INFO - Removed 4 bases from start of D3U6K1_SALAL/1-82
+2021-07-05 11:29:38,428 - __main__ - INFO - Removed 4 bases from start of D3U6J9_SALAL/1-82
+2021-07-05 11:29:38,430 - __main__ - INFO - Removed 4 bases from start of D3U6L9_SALAL/1-82
+2021-07-05 11:29:38,430 - __main__ - INFO - Removed 4 bases from start of D3U6M7_SALAL/1-82
+2021-07-05 11:29:38,431 - __main__ - INFO - Removed 4 bases from start of D3U6N6_SALAL/1-82
+2021-07-05 11:29:38,432 - __main__ - INFO - Removed 4 bases from start of D3U6N4_SALAL/1-82
+2021-07-05 11:29:38,433 - __main__ - INFO - Removed 4 bases from start of D3U6N2_SALAL/1-82
+2021-07-05 11:29:38,434 - __main__ - INFO - Removed 4 bases from start of D3U6N0_SALAL/1-82
+2021-07-05 11:29:38,436 - __main__ - INFO - Removed 4 bases from start of D3U6I5_SALAL/1-82
+2021-07-05 11:29:38,436 - __main__ - INFO - Removed 4 bases from start of D3U6I7_SALAL/1-82
+2021-07-05 11:29:38,439 - __main__ - INFO - Removed 7 bases from start of Q0MQU7_9PERO/1-85
+2021-07-05 11:29:38,442 - __main__ - INFO - Removed 7 bases from start of Q0MQT3_9PERO/1-85
+2021-07-05 11:29:38,443 - __main__ - INFO - Removed 7 bases from start of Q0MQT1_9PERO/1-85
+2021-07-05 11:29:38,450 - __main__ - INFO - Removed 7 bases from end of C6ZIV9_MONDO/1-101
+2021-07-05 11:29:38,460 - __main__ - INFO - Removed 6 bases from start of Q31532_POERE/1-79
+2021-07-05 11:29:38,461 - __main__ - INFO - Removed 6 bases from start of Q31531_POERE/1-79
+2021-07-05 11:29:38,482 - __main__ - INFO - Removed 5 bases from end of B4DDZ1_HUMAN/26-121
+2021-07-05 11:29:38,483 - __main__ - INFO - Removed 6 bases from end of Q9HC63_HUMAN/26-120
+2021-07-05 11:29:38,484 - __main__ - INFO - Removed 5 bases from end of B7ZB37_HUMAN/26-121
+2021-07-05 11:29:38,496 - __main__ - INFO - Removed 7 bases from start of Q0MQT6_9PERO/1-85
+2021-07-05 11:29:38,496 - __main__ - INFO - Removed 7 bases from start of Q0MQT8_9PERO/1-85
+2021-07-05 11:29:38,497 - __main__ - INFO - Removed 7 bases from start of Q0MQU8_9PERO/1-85
+2021-07-05 11:29:38,498 - __main__ - INFO - Removed 7 bases from start of Q0MQU6_9PERO/1-85
+2021-07-05 11:29:38,500 - __main__ - INFO - Removed 2 bases from start of A0PAL0_ORENI/1-76
+2021-07-05 11:29:38,501 - __main__ - INFO - Removed 7 bases from start of Q0MQS2_9PERO/1-85
+2021-07-05 11:29:38,503 - __main__ - INFO - Removed 2 bases from start of A0PAK9_ORENI/1-76
+2021-07-05 11:29:38,504 - __main__ - INFO - Removed 2 bases from start of A0PAK8_ORENI/1-76
+2021-07-05 11:29:38,508 - __main__ - INFO - Removed 7 bases from start of Q0MQU4_9PERO/1-85
+2021-07-05 11:29:38,555 - __main__ - INFO - Removed 7 bases from start of Q0MQT7_9PERO/1-85
+2021-07-05 11:29:38,555 - __main__ - INFO - Removed 7 bases from start of Q0MQS1_9PERO/1-85
+2021-07-05 11:29:38,556 - __main__ - INFO - Removed 7 bases from start of Q0MQS6_9PERO/1-85
+2021-07-05 11:29:38,557 - __main__ - INFO - Removed 7 bases from start of Q0MQS9_9PERO/1-85
+2021-07-05 11:29:38,559 - __main__ - INFO - Removed 2 bases from start of A0PAL2_ORENI/1-66
+2021-07-05 11:29:38,560 - __main__ - INFO - Removed 2 bases from start of A0PAL3_ORENI/1-66
+2021-07-05 11:29:38,561 - __main__ - INFO - Removed 1 bases from start of A0PAL5_ORENI/1-56
+2021-07-05 11:29:38,562 - __main__ - INFO - Removed 1 bases from start of A0PAL4_ORENI/1-56
+2021-07-05 11:29:38,562 - __main__ - INFO - Removed 2 bases from start of A0PAL6_ORENI/1-66
+2021-07-05 11:29:38,563 - __main__ - INFO - Removed 7 bases from start of Q0MQR9_9PERO/1-85
+2021-07-05 11:29:38,565 - __main__ - INFO - Removed 7 bases from start of Q0MQS7_9PERO/1-85
+2021-07-05 11:29:38,566 - __main__ - INFO - Removed 7 bases from start of Q0MQS5_9PERO/1-85
+2021-07-05 11:29:38,569 - __main__ - INFO - Removed 3 bases from start of Q5EEZ4_9PERC/1-81
+2021-07-05 11:29:38,583 - __main__ - INFO - Removed 3 bases from start of Q2KKX4_SINCH/1-81
+2021-07-05 11:29:38,583 - __main__ - INFO - Removed 7 bases from start of Q0MQU9_9PERO/1-85
+2021-07-05 11:29:38,584 - __main__ - INFO - Removed 7 bases from start of Q0MQT4_9PERO/1-85
+2021-07-05 11:29:38,590 - __main__ - INFO - Removed 2 bases from start of A0PAM1_ORENI/1-66
+2021-07-05 11:29:38,591 - __main__ - INFO - Removed 2 bases from start of A0PAM2_ORENI/1-66
+2021-07-05 11:29:38,603 - __main__ - WARNING - Given the length of sequence Q95HZ7_GADMO/1-42, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:38,626 - __main__ - INFO - Removed 7 bases from start of Q0MQU0_9PERO/1-85
+2021-07-05 11:29:38,627 - __main__ - INFO - Removed 7 bases from start of Q0MQT9_9PERO/1-85
+2021-07-05 11:29:38,628 - __main__ - INFO - Removed 7 bases from start of Q0MQS0_9PERO/1-85
+2021-07-05 11:29:38,628 - __main__ - INFO - Removed 7 bases from start of Q0MQV7_9PERO/1-85
+2021-07-05 11:29:38,629 - __main__ - INFO - Removed 7 bases from start of Q0MQV3_9PERO/1-85
+2021-07-05 11:29:38,636 - __main__ - INFO - Removed 7 bases from start of Q0MQV2_9PERO/1-85
+2021-07-05 11:29:38,650 - __main__ - INFO - Removed 2 bases from start of A0PAM0_ORENI/1-66
+2021-07-05 11:29:38,651 - __main__ - INFO - Removed 2 bases from start of A0PAL8_ORENI/1-66
+2021-07-05 11:29:38,651 - __main__ - INFO - Removed 2 bases from start of A0PAL9_ORENI/1-66
+2021-07-05 11:29:38,652 - __main__ - INFO - Removed 2 bases from start of A0PAL7_ORENI/1-65
+2021-07-05 11:29:38,677 - __main__ - INFO - Removed 7 bases from start of Q0MQS8_9PERO/1-85
+2021-07-05 11:29:38,678 - __main__ - INFO - Removed 3 bases from start of Q8SNL1_RIVMA/2-70
+2021-07-05 11:29:38,679 - __main__ - INFO - Removed 1 bases from end of Q8SNL1_RIVMA/2-70
+2021-07-05 11:29:38,682 - __main__ - INFO - Removed 2 bases from end of Q8SNL3_RIVMA/1-70
+2021-07-05 11:29:38,682 - __main__ - INFO - Removed 2 bases from end of Q8SNL4_RIVMA/1-70
+2021-07-05 11:29:38,683 - __main__ - INFO - Removed 2 bases from end of Q8SNL2_RIVMA/1-70
+2021-07-05 11:29:38,686 - __main__ - INFO - Removed 3 bases from end of Q4T1U3_TETNG/1-93
+2021-07-05 11:29:38,715 - __main__ - INFO - Removed 6 bases from start of Q31530_POERE/1-79
+2021-07-05 11:29:38,720 - __main__ - INFO - Removed 2 bases from end of Q95I02_GADMO/1-44
+2021-07-05 11:29:38,733 - __main__ - INFO - Removed 7 bases from start of Q0MQS3_9PERO/1-85
+2021-07-05 11:29:38,734 - __main__ - INFO - Removed 7 bases from start of Q0MQV0_9PERO/1-85
+2021-07-05 11:29:38,735 - __main__ - INFO - Removed 7 bases from start of Q0MQU3_9PERO/1-85
+2021-07-05 11:29:38,736 - __main__ - INFO - Removed 7 bases from start of Q0MQT2_9PERO/1-85
+2021-07-05 11:29:38,736 - __main__ - INFO - Removed 7 bases from start of Q0MQT0_9PERO/1-85
+2021-07-05 11:29:38,762 - __main__ - INFO - Removed 1 bases from start of O98273_GADMO/1-55
+2021-07-05 11:29:38,765 - __main__ - INFO - Removed 3 bases from start of Q95I28_GADMO/3-145
+2021-07-05 11:29:38,842 - __main__ - INFO - Removed 7 bases from start of Q0MQT5_9PERO/1-85
+2021-07-05 11:29:38,893 - __main__ - INFO - Removed 2 bases from end of Q7YPF0_9MURI/1-90
+2021-07-05 11:29:38,894 - __main__ - INFO - Removed 2 bases from end of Q7YPE9_9MURI/1-90
+2021-07-05 11:29:38,913 - __main__ - INFO - Removed 7 bases from start of Q0MQV5_9PERO/1-85
+2021-07-05 11:29:38,918 - __main__ - INFO - Removed 4 bases from start of Q4T5C7_TETNG/44-137
+2021-07-05 11:29:38,925 - __main__ - INFO - Removed 2 bases from start of P79609_AMBME/1-90
+2021-07-05 11:29:38,952 - __main__ - INFO - Removed 3 bases from end of Q9BD48_PONPY/23-91
+2021-07-05 11:29:39,082 - __main__ - INFO - Removed 2 bases from end of A9XM76_SPHPU/2-58
+2021-07-05 11:29:39,097 - __main__ - INFO - Removed 4 bases from start of D3U6G9_SALAL/1-82
+2021-07-05 11:29:39,097 - __main__ - INFO - Removed 4 bases from start of D3U6G5_SALAL/1-82
+2021-07-05 11:29:39,098 - __main__ - INFO - Removed 4 bases from start of D3U6F4_SALAL/1-82
+2021-07-05 11:29:39,099 - __main__ - INFO - Removed 4 bases from start of D3U6H5_SALAL/1-82
+2021-07-05 11:29:39,100 - __main__ - INFO - Removed 4 bases from start of D3U6F9_SALAL/1-82
+2021-07-05 11:29:39,101 - __main__ - INFO - Removed 1 bases from start of Q2QEX4_SALSA/2-59
+2021-07-05 11:29:39,102 - __main__ - INFO - Removed 1 bases from start of Q2QEX3_SALSA/2-59
+2021-07-05 11:29:39,104 - __main__ - INFO - Removed 4 bases from start of D3U6G8_SALAL/1-82
+2021-07-05 11:29:39,106 - __main__ - INFO - Removed 7 bases from start of Q0MQU1_9PERO/1-85
+2021-07-05 11:29:39,107 - __main__ - INFO - Removed 7 bases from start of Q0MQV8_9PERO/1-85
+2021-07-05 11:29:39,108 - __main__ - INFO - Removed 7 bases from start of Q0MQU5_9PERO/1-85
+2021-07-05 11:29:39,108 - __main__ - INFO - Removed 7 bases from start of Q0MQS4_9PERO/1-85
+2021-07-05 11:29:39,109 - __main__ - INFO - Removed 7 bases from start of Q0MQU2_9PERO/1-85
+2021-07-05 11:29:39,149 - __main__ - WARNING - Given the length of sequence A8HK96_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,159 - __main__ - INFO - Removed 3 bases from end of Q1AG54_MONDO/21-140
+2021-07-05 11:29:39,187 - __main__ - WARNING - Given the length of sequence A8HK93_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,187 - __main__ - WARNING - Given the length of sequence A8HK97_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,188 - __main__ - WARNING - Given the length of sequence A8HK98_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,191 - __main__ - WARNING - Given the length of sequence A8HKA3_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,191 - __main__ - WARNING - Given the length of sequence A8HK66_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,192 - __main__ - WARNING - Given the length of sequence A8HK64_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,192 - __main__ - WARNING - Given the length of sequence A8HK69_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,194 - __main__ - WARNING - Given the length of sequence A8HK79_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,195 - __main__ - WARNING - Given the length of sequence A8HK77_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,196 - __main__ - WARNING - Given the length of sequence A8HK75_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,197 - __main__ - WARNING - Given the length of sequence A8HK71_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,198 - __main__ - WARNING - Given the length of sequence A8HKA0_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,199 - __main__ - WARNING - Given the length of sequence A8HK99_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,199 - __main__ - WARNING - Given the length of sequence A8HKA2_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,200 - __main__ - WARNING - Given the length of sequence A8HKA1_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,201 - __main__ - WARNING - Given the length of sequence A8HK91_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,202 - __main__ - WARNING - Given the length of sequence A8HK87_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,202 - __main__ - WARNING - Given the length of sequence A8HK89_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,204 - __main__ - WARNING - Given the length of sequence A8HK85_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,205 - __main__ - WARNING - Given the length of sequence A8HK83_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,205 - __main__ - WARNING - Given the length of sequence A8HK81_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,207 - __main__ - WARNING - Given the length of sequence A8HK62_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,207 - __main__ - WARNING - Given the length of sequence A8HK58_SARHA/1-41, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,229 - __main__ - INFO - Removed 11 bases from start of Q8QRX3_9BETA/56-249
+2021-07-05 11:29:39,249 - __main__ - INFO - Removed 12 bases from start of Q70EU7_HCMV/1-182
+2021-07-05 11:29:39,249 - __main__ - INFO - Removed 12 bases from start of Q70EU2_HCMV/1-182
+2021-07-05 11:29:39,250 - __main__ - INFO - Removed 12 bases from start of Q70EU8_HCMV/1-182
+2021-07-05 11:29:39,251 - __main__ - INFO - Removed 12 bases from start of Q70EU1_HCMV/1-182
+2021-07-05 11:29:39,253 - __main__ - INFO - Removed 12 bases from start of Q70EU6_HCMV/1-182
+2021-07-05 11:29:39,270 - __main__ - INFO - Removed 7 bases from start of Q7YPB3_9MURI/1-88
+2021-07-05 11:29:39,271 - __main__ - INFO - Removed 7 bases from start of Q7YPC7_9MURI/1-88
+2021-07-05 11:29:39,272 - __main__ - INFO - Removed 7 bases from start of Q7YPC6_9MURI/1-88
+2021-07-05 11:29:39,273 - __main__ - INFO - Removed 7 bases from start of Q7YPC8_9MURI/1-88
+2021-07-05 11:29:39,273 - __main__ - INFO - Removed 7 bases from start of Q7YPC5_9MURI/1-88
+2021-07-05 11:29:39,274 - __main__ - INFO - Removed 7 bases from start of Q7YPB6_MUSPL/1-88
+2021-07-05 11:29:39,275 - __main__ - INFO - Removed 7 bases from start of Q7YPC1_MUSMI/1-88
+2021-07-05 11:29:39,276 - __main__ - INFO - Removed 7 bases from start of Q7YPC2_MUSMI/1-88
+2021-07-05 11:29:39,276 - __main__ - INFO - Removed 7 bases from start of Q7YPC0_MUSMI/1-88
+2021-07-05 11:29:39,277 - __main__ - INFO - Removed 7 bases from start of Q7YPB1_9MURI/1-88
+2021-07-05 11:29:39,278 - __main__ - INFO - Removed 7 bases from start of Q7YPB0_9MURI/1-88
+2021-07-05 11:29:39,279 - __main__ - INFO - Removed 7 bases from start of Q7YPB8_MUSPA/1-88
+2021-07-05 11:29:39,279 - __main__ - INFO - Removed 7 bases from start of Q7YPB9_MUSPA/1-88
+2021-07-05 11:29:39,280 - __main__ - INFO - Removed 7 bases from start of Q7YPB7_MUSPA/1-88
+2021-07-05 11:29:39,281 - __main__ - INFO - Removed 7 bases from start of Q7YPB2_9MURI/1-88
+2021-07-05 11:29:39,281 - __main__ - INFO - Removed 7 bases from start of Q7YPC9_MUSDU/1-88
+2021-07-05 11:29:39,301 - __main__ - INFO - Removed 7 bases from start of Q7YPD2_HYBUN/1-88
+2021-07-05 11:29:39,301 - __main__ - INFO - Removed 7 bases from start of Q7YPD0_PRANA/1-88
+2021-07-05 11:29:39,302 - __main__ - INFO - Removed 7 bases from start of Q7YPD4_APOAG/1-88
+2021-07-05 11:29:39,303 - __main__ - INFO - Removed 7 bases from start of Q7YPA7_PERLE/1-88
+2021-07-05 11:29:39,304 - __main__ - INFO - Removed 7 bases from start of Q7YPA6_PERPC/1-88
+2021-07-05 11:29:39,305 - __main__ - INFO - Removed 7 bases from start of Q7YPA8_PERAW/1-88
+2021-07-05 11:29:39,305 - __main__ - INFO - Removed 7 bases from start of Q7YPA5_PERPC/1-88
+2021-07-05 11:29:39,316 - __main__ - WARNING - Given the length of sequence Q768Q4_ATEBE/22-47, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,318 - __main__ - INFO - Removed 12 bases from end of Q31205_MOUSE/29-203
+2021-07-05 11:29:39,321 - __main__ - INFO - Removed 12 bases from end of Q3TSX0_MOUSE/29-183
+2021-07-05 11:29:39,416 - __main__ - INFO - Removed 2 bases from start of Q31191_MOUSE/45-188
+2021-07-05 11:29:39,420 - __main__ - INFO - Removed 1 bases from start of Q31147_MOUSE/1-88
+2021-07-05 11:29:39,429 - __main__ - INFO - Removed 2 bases from start of A0PAL1_ORENI/1-68
+2021-07-05 11:29:39,433 - __main__ - INFO - Removed 3 bases from start of D3YVK7_MOUSE/44-188
+2021-07-05 11:29:39,437 - __main__ - INFO - Removed 2 bases from start of D3YX39_MOUSE/46-188
+2021-07-05 11:29:39,445 - __main__ - INFO - Removed 11 bases from end of Q61640_MOUSE/22-140
+2021-07-05 11:29:39,448 - __main__ - INFO - Removed 2 bases from end of Q4KN84_MOUSE/25-119
+2021-07-05 11:29:39,449 - __main__ - INFO - Removed 5 bases from end of Q4KN86_MUSSP/1-69
+2021-07-05 11:29:39,450 - __main__ - INFO - Removed 4 bases from start of D3U6H3_SALAL/1-82
+2021-07-05 11:29:39,451 - __main__ - INFO - Removed 4 bases from start of D3U6H4_SALAL/1-82
+2021-07-05 11:29:39,452 - __main__ - INFO - Removed 4 bases from start of D3U6H2_SALAL/1-82
+2021-07-05 11:29:39,452 - __main__ - INFO - Removed 4 bases from start of D3U6H7_SALAL/1-82
+2021-07-05 11:29:39,453 - __main__ - INFO - Removed 4 bases from start of D3U6H8_SALAL/1-82
+2021-07-05 11:29:39,454 - __main__ - INFO - Removed 4 bases from start of D3U6H9_SALAL/1-82
+2021-07-05 11:29:39,455 - __main__ - INFO - Removed 4 bases from start of D3U6G4_SALAL/1-82
+2021-07-05 11:29:39,455 - __main__ - INFO - Removed 4 bases from start of D3U6G7_SALAL/1-82
+2021-07-05 11:29:39,456 - __main__ - INFO - Removed 4 bases from start of D3U6G2_SALAL/1-82
+2021-07-05 11:29:39,457 - __main__ - INFO - Removed 4 bases from start of D3U6F7_SALAL/1-82
+2021-07-05 11:29:39,458 - __main__ - INFO - Removed 4 bases from start of D3U6G0_SALAL/1-82
+2021-07-05 11:29:39,458 - __main__ - INFO - Removed 4 bases from start of D3U6F5_SALAL/1-82
+2021-07-05 11:29:39,459 - __main__ - INFO - Removed 4 bases from start of D3U6H1_SALAL/1-82
+2021-07-05 11:29:39,460 - __main__ - INFO - Removed 4 bases from start of D3U6H0_SALAL/1-82
+2021-07-05 11:29:39,461 - __main__ - INFO - Removed 4 bases from start of D3U6F6_SALAL/1-82
+2021-07-05 11:29:39,461 - __main__ - INFO - Removed 4 bases from start of D3U6F2_SALAL/1-82
+2021-07-05 11:29:39,462 - __main__ - INFO - Removed 4 bases from start of D3U6G6_SALAL/1-82
+2021-07-05 11:29:39,463 - __main__ - INFO - Removed 4 bases from start of D3U6G3_SALAL/1-82
+2021-07-05 11:29:39,464 - __main__ - INFO - Removed 4 bases from start of D3U6F1_SALAL/1-82
+2021-07-05 11:29:39,464 - __main__ - INFO - Removed 4 bases from start of D3U6E9_SALAL/1-82
+2021-07-05 11:29:39,465 - __main__ - INFO - Removed 4 bases from start of D3U6G1_SALAL/1-82
+2021-07-05 11:29:39,466 - __main__ - INFO - Removed 4 bases from start of D3U6H6_SALAL/1-82
+2021-07-05 11:29:39,467 - __main__ - INFO - Removed 4 bases from start of D3U6F8_SALAL/1-82
+2021-07-05 11:29:39,467 - __main__ - INFO - Removed 4 bases from start of D3U6F0_SALAL/1-82
+2021-07-05 11:29:39,468 - __main__ - INFO - Removed 4 bases from start of D3U6F3_SALAL/1-82
+2021-07-05 11:29:39,487 - __main__ - WARNING - Given the length of sequence Q768Q3_ATEBE/25-50, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,493 - __main__ - INFO - Removed 4 bases from end of D2CSL0_STECO/1-49
+2021-07-05 11:29:39,556 - __main__ - WARNING - Given the length of sequence Q768P2_AOTTR/22-47, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,624 - __main__ - INFO - Removed 8 bases from end of A5D8X1_HUMAN/64-163
+2021-07-05 11:29:39,624 - __main__ - WARNING - Given the length of sequence Q768P1_AOTTR/22-47, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,663 - __main__ - INFO - Removed 3 bases from end of C9J051_HUMAN/22-114
+2021-07-05 11:29:39,669 - __main__ - INFO - Removed 3 bases from start of Q4JCX8_PANLE/1-55
+2021-07-05 11:29:39,683 - __main__ - INFO - Removed 5 bases from start of Q9GIQ0_EQUAS/11-109
+2021-07-05 11:29:39,739 - __main__ - WARNING - Given the length of sequence Q768P5_MACMU/22-47, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,746 - __main__ - INFO - Removed 8 bases from end of Q6ZRD9_HUMAN/22-116
+2021-07-05 11:29:39,795 - __main__ - WARNING - Given the length of sequence Q768N9_ATEBE/22-47, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,796 - __main__ - WARNING - Given the length of sequence Q768P0_AOTTR/23-48, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:39,817 - __main__ - INFO - Removed 8 bases from end of D4NVU8_PIG/50-147
+2021-07-05 11:29:39,817 - __main__ - INFO - Removed 8 bases from end of D4NVU9_PIG/50-147
+2021-07-05 11:29:39,819 - __main__ - INFO - Removed 9 bases from end of D4NVV0_PIG/50-148
+2021-07-05 11:29:39,850 - __main__ - INFO - Removed 7 bases from start of A4ZVH1_PIG/23-172
+2021-07-05 11:29:40,041 - __main__ - INFO - Removed 1 bases from start of Q31429_LATCH/1-75
+2021-07-05 11:29:40,042 - __main__ - INFO - Removed 1 bases from start of Q31421_LATCH/1-75
+2021-07-05 11:29:40,043 - __main__ - INFO - Removed 6 bases from end of Q2TQE7_CERNI/1-75
+2021-07-05 11:29:40,089 - __main__ - INFO - Removed 6 bases from end of O46723_BOVIN/1-73
+2021-07-05 11:29:40,114 - __main__ - INFO - Removed 4 bases from end of O46784_BOVIN/1-112
+2021-07-05 11:29:40,140 - __main__ - INFO - Removed 4 bases from end of A4ZVY5_SHEEP/1-82
+2021-07-05 11:29:40,141 - __main__ - INFO - Removed 4 bases from end of A4ZVW8_SHEEP/1-82
+2021-07-05 11:29:40,272 - __main__ - WARNING - Given the length of sequence Q8HWS8_HUMAN/25-47, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:40,273 - __main__ - WARNING - Given the length of sequence Q768P8_CEBAP/25-50, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:40,274 - __main__ - INFO - Removed 10 bases from end of Q6ZUK5_HUMAN/25-124
+2021-07-05 11:29:40,274 - __main__ - WARNING - Given the length of sequence Q768Q9_AOTTR/25-50, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:40,275 - __main__ - WARNING - Given the length of sequence Q768P7_CEBAP/22-47, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:40,276 - __main__ - INFO - Removed 2 bases from end of D2SY24_SCHJA/1-89
+2021-07-05 11:29:40,277 - __main__ - INFO - Removed 2 bases from end of D2SY25_SCHJA/1-89
+2021-07-05 11:29:40,277 - __main__ - INFO - Removed 2 bases from end of D2SY16_SCHJA/1-89
+2021-07-05 11:29:40,278 - __main__ - INFO - Removed 2 bases from end of D2SY15_SCHJA/1-89
+2021-07-05 11:29:40,279 - __main__ - INFO - Removed 2 bases from end of D2SY21_SCHJA/1-89
+2021-07-05 11:29:40,279 - __main__ - INFO - Removed 2 bases from end of D2SY13_SCHJA/1-89
+2021-07-05 11:29:40,280 - __main__ - INFO - Removed 2 bases from end of D2SY18_SCHJA/1-89
+2021-07-05 11:29:40,281 - __main__ - INFO - Removed 2 bases from end of D2SY11_SCHJA/1-89
+2021-07-05 11:29:40,282 - __main__ - INFO - Removed 2 bases from end of D2SY19_SCHJA/1-89
+2021-07-05 11:29:40,282 - __main__ - INFO - Removed 2 bases from end of D2SY12_SCHJA/1-89
+2021-07-05 11:29:40,284 - __main__ - INFO - Removed 2 bases from end of D2SY22_SCHJA/1-89
+2021-07-05 11:29:40,285 - __main__ - INFO - Removed 2 bases from end of D2SY17_SCHJA/1-89
+2021-07-05 11:29:40,286 - __main__ - WARNING - Given the length of sequence Q5MH39_HUMAN/1-33, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:40,286 - __main__ - WARNING - Given the length of sequence Q5MH37_HUMAN/1-33, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:40,287 - __main__ - WARNING - Given the length of sequence Q5MH35_HUMAN/1-33, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:40,287 - __main__ - WARNING - Given the length of sequence Q5MH38_HUMAN/1-33, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:40,288 - __main__ - WARNING - Given the length of sequence Q5MH36_HUMAN/1-33, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:40,306 - __main__ - INFO - Removed 8 bases from end of Q9BEB1_PONPY/1-88
+2021-07-05 11:29:40,307 - __main__ - INFO - Removed 7 bases from end of Q9BEB2_PONPY/1-89
+2021-07-05 11:29:40,307 - __main__ - INFO - Removed 2 bases from end of Q30334_CERAE/1-113
+2021-07-05 11:29:40,308 - __main__ - INFO - Removed 2 bases from end of Q30333_CERAE/1-113
+2021-07-05 11:29:40,309 - __main__ - INFO - Removed 2 bases from end of Q30560_MACFA/1-82
+2021-07-05 11:29:40,310 - __main__ - INFO - Removed 2 bases from end of Q30561_MACFA/1-82
+2021-07-05 11:29:40,310 - __main__ - INFO - Removed 2 bases from end of Q30589_MACMU/1-82
+2021-07-05 11:29:40,311 - __main__ - INFO - Removed 2 bases from end of Q30588_MACMU/1-82
+2021-07-05 11:29:40,312 - __main__ - INFO - Removed 2 bases from end of Q30587_MACMU/1-113
+2021-07-05 11:29:40,312 - __main__ - INFO - Removed 2 bases from end of Q30590_MACMU/1-82
+2021-07-05 11:29:40,313 - __main__ - INFO - Removed 2 bases from end of Q30559_MACFA/1-82
+2021-07-05 11:29:40,314 - __main__ - INFO - Removed 2 bases from end of Q30562_MACFA/1-113
+2021-07-05 11:29:40,324 - __main__ - WARNING - Given the length of sequence Q768Q7_AOTTR/25-50, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:40,329 - __main__ - INFO - Removed 7 bases from start of B0S899_HUMAN/3-78
+2021-07-05 11:29:40,329 - __main__ - INFO - Removed 7 bases from start of B0UYZ4_HUMAN/3-78
+2021-07-05 11:29:40,330 - __main__ - INFO - Removed 7 bases from start of A2AQM6_HUMAN/3-78
+2021-07-05 11:29:40,331 - __main__ - INFO - Removed 7 bases from start of B8JIE4_HUMAN/3-78
+2021-07-05 11:29:40,332 - __main__ - INFO - Removed 7 bases from start of A2AAS3_HUMAN/3-78
+2021-07-05 11:29:40,332 - __main__ - INFO - Removed 7 bases from start of A2ACE9_HUMAN/3-78
+2021-07-05 11:29:40,333 - __main__ - INFO - Removed 7 bases from start of B1AZU5_HUMAN/3-78
+2021-07-05 11:29:40,346 - __main__ - INFO - Removed 5 bases from end of D2KT83_PONPY/1-88
+2021-07-05 11:29:40,350 - __main__ - INFO - Removed 3 bases from start of C9JEI0_HUMAN/45-177
+2021-07-05 11:29:40,362 - __main__ - INFO - Removed 6 bases from start of B4DYG3_HUMAN/45-177
+2021-07-05 11:29:40,381 - __main__ - WARNING - Given the length of sequence Q768Q1_ATEBE/25-50, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:40,385 - __main__ - WARNING - Given the length of sequence Q768Q6_AOTTR/25-50, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:40,504 - __main__ - INFO - Removed 5 bases from end of Q5D1X2_HUMAN/25-102
+2021-07-05 11:29:40,755 - __main__ - INFO - Removed 7 bases from end of O19633_HUMAN/25-182
+2021-07-05 11:29:41,053 - __main__ - INFO - Removed 4 bases from end of B4DVX9_HUMAN/25-142
+2021-07-05 11:29:41,082 - __main__ - INFO - Removed 3 bases from end of Q6ZZC0_HUMAN/1-96
+2021-07-05 11:29:41,211 - __main__ - WARNING - Given the length of sequence Q31272_RAT/1-28, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:41,296 - __main__ - WARNING - Given the length of sequence O19688_HUMAN/1-39, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-05 11:29:41,315 - __main__ - INFO - Removed 5 bases from start of B3KW54_HUMAN/182-275
+2021-07-05 11:29:41,320 - __main__ - INFO - Removed 9 bases from start of Q8HWM6_HUMAN/65-162
+2021-07-05 11:29:41,371 - __main__ - INFO - Removed 8 bases from end of B3KW54_HUMAN/25-119
+2021-07-05 11:29:41,974 - __main__ - INFO - Removing gap only columns
+2021-07-05 11:29:42,010 - __main__ - INFO - Removing gap only sites 400, 401, 399
+2021-07-05 11:29:42,010 - __main__ - INFO - Removing short sequences
+2021-07-05 11:29:42,034 - __main__ - INFO - Removing too short sequences Q9TQC5_HUMAN/1-48, Q31130_MOUSE/1-37, A8HK77_SARHA/1-41, A5XC78_NEOPH/1-49, A5XC80_NEOPH/1-49, Q5MH39_HUMAN/1-33, A5XCA4_NEOPH/1-49, Q95HZ4_GADMO/1-48, D2CSJ5_DELCA/1-49, D2CSL6_TURAD/1-49, B3SGM3_SOUCH/1-49, Q9XRA0_ONCKI/1-55, Q8HWY4_RIVMA/1-55, A5XC98_NEOPH/1-49, Q9XR99_ONCKI/1-55, Q9BD60_ESCGI/1-49, A0PAL4_ORENI/1-56, A5XC88_NEOPH/1-49, Q5MH37_HUMAN/1-33, A8HK71_SARHA/1-41, A7J0P5_LIPVE/1-49, A5XC71_NEOPH/1-49, Q9XR88_ONCKI/1-55, B3SGM4_SOUCH/1-49, A5XC97_NEOPH/1-49, D2CSK3_PHOPH/1-49, D2CSK1_9CETA/1-49, Q9XRA8_ONCKI/1-55, A5XC72_NEOPH/1-49, B2Z466_LAGLA/1-44, A8HK62_SARHA/1-41, D2CSK9_STECO/1-49, B2Z464_CEBAL/1-26, Q8MHR7_ESCGI/1-49, B7SA61_CEPHE/1-49, Q9TQM8_SALSA/1-55, O19688_HUMAN/1-39, Q9GIQ1_ESCGI/1-49, Q9XRA3_ONCKI/1-55, B7SA60_CEPHE/1-49, Q9XR92_ONCKI/1-55, Q9XRN0_RHIUN/1-42, Q9XRC9_SALSA/1-55, Q9TQC4_HUMAN/1-32, C6K3A4_MACMU/1-49, Q7YQ58_PHOSS/1-49, A8HKA2_SARHA/1-41, B3SGM1_SOUCH/1-49, Q9XRA9_ONCKI/1-55, A5XC73_NEOPH/1-49, D2CSL3_STECO/1-49, Q9XRC4_SALSA/1-55, Q3UWA5_MOUSE/1-42, Q8HWY2_RIVMA/1-55, Q7M2H8_9CARN/1-47, Q768P8_CEBAP/25-50, O19787_HUMAN/1-47, B2Z465_CEBAP/1-22, Q9XRC5_SALSA/1-55, A8HK75_SARHA/1-41, Q700R8_PIG/1-44, Q9DEL6_9TELE/1-56, Q5MH38_HUMAN/1-33, Q9XRA5_ONCKI/1-55, A8HK91_SARHA/1-41, Q8HWW4_RIVMA/1-55, Q9BD56_ESCGI/1-49, Q9BD58_ESCGI/1-49, A5XC82_NEOPH/1-49, Q2QEX6_SALSA/3-59, B7SA63_CEPHE/1-49, Q8HWY1_RIVMA/1-55, Q95I01_GADMO/1-44, Q9XR89_ONCKI/1-55, Q8HWV9_RIVMA/1-55, Q95HZ5_GADMO/1-48, Q9XRA1_ONCKI/1-55, Q9GIQ3_ESCGI/1-49, A0PAM3_ORENI/1-46, Q9TQC1_HUMAN/1-32, B7SA64_CEPHE/1-49, D2CSK2_PHOPH/1-49, C6K339_MACMU/1-48, D2CSL0_STECO/1-49, B3SGM5_SOUCH/1-49, A8HK66_SARHA/1-41, Q9XR95_ONCKI/1-55, Q9XRC7_SALSA/1-55, Q7YQ59_PHOSS/1-49, D2CSK0_9CETA/1-49, A5XC90_NEOPH/1-49, A5XC81_NEOPH/1-49, Q8HWW5_RIVMA/1-54, A8HK79_SARHA/1-41, Q9XR96_ONCKI/1-55, D2CSL5_STECO/1-49, Q4LBD4_SHEEP/1-49, Q5MH35_HUMAN/1-33, A5XCA3_NEOPH/1-49, Q7YQ54_PHOSS/1-49, Q9XR94_ONCKI/1-55, A8HKA1_SARHA/1-41, A8HK89_SARHA/1-41, A8HKA3_SARHA/1-41, Q9XRA2_ONCKI/1-55, Q9TQN0_SALSA/1-55, Q7YQ60_PHOSS/1-49, Q8HWW2_RIVMA/1-55, Q9XRC8_SALSA/1-55, A5XC89_NEOPH/1-49, A5XC91_NEOPH/1-49, D2CSJ9_GRAGR/1-49, Q95I02_GADMO/1-44, A7J0P4_LIPVE/1-49, D2CSJ8_GRAGR/1-49, B7SA59_CEPHE/1-49, D2CSL4_STECO/1-49, A5XC75_NEOPH/1-49, B2Z462_CEBAL/1-37, Q768Q3_ATEBE/25-50, B3SGM2_SOUCH/1-49, A5XCA1_NEOPH/1-49, Q2QEX5_SALSA/3-59, Q8HWX0_RIVMA/1-55, A5XC74_NEOPH/1-49, D2CSL2_STECO/1-49, Q9GIQ2_ESCGI/1-49, Q8HWS8_HUMAN/25-47, Q768Q6_AOTTR/25-50, A8HK96_SARHA/1-41, A8HK97_SARHA/1-41, Q7YQ57_PHOSS/1-49, Q9XRC3_SALSA/1-55, Q14838_HUMAN/1-42, Q9XRA7_ONCKI/1-55, D2CSK8_STECO/1-49, Q768P0_AOTTR/23-48, A7J0P1_LIPVE/1-49, Q768P7_CEBAP/22-47, D2CSK7_STEAT/1-49, Q31593_SALSA/1-41, Q5MH36_HUMAN/1-33, A5XC87_NEOPH/1-49, O98273_GADMO/1-55, A8HK98_SARHA/1-41, A5XC93_NEOPH/1-49, B7SA62_CEPHE/1-49, B1NQV4_ONCMY/20-71, Q9XR90_ONCKI/1-55, A5XC92_NEOPH/1-49, A8HK58_SARHA/1-41, A5XC96_NEOPH/1-49, Q8HWY5_RIVMA/1-55, A8HK93_SARHA/1-41, A8HK81_SARHA/1-41, Q9XR97_ONCKI/1-55, Q9GIQ5_ESCGI/1-49, A5XC94_NEOPH/1-49, C6K3A3_MACMU/1-48, Q9XR93_ONCKI/1-55, Q31154_MOUSE/1-47, Q9XR98_ONCKI/1-55, D2CSL1_STECO/1-49, A8HK99_SARHA/1-41, Q9XRA4_ONCKI/1-55, Q768Q0_CEBAP/25-50, Q768P1_AOTTR/22-47, Q768P5_MACMU/22-47, Q9XRD0_SALSA/1-55, Q2QEX7_SALSA/3-59, Q9XRC6_SALSA/1-55, A5XC86_NEOPH/1-49, A5XC99_NEOPH/1-49, D2CSK6_STEAT/1-49, A8HK69_SARHA/1-41, Q9XRA6_ONCKI/1-55, Q9GIQ4_ESCGI/1-49, A7J0P3_LIPVE/1-49, A8HK64_SARHA/1-41, Q7YQ56_PHOSS/1-49, A5XC83_NEOPH/1-49, Q768P2_AOTTR/22-47, A5XCA2_NEOPH/1-49, A5XC85_NEOPH/1-49, Q9BD59_ESCGI/1-49, Q8HWW3_RIVMA/1-55, A5XCA0_NEOPH/1-49, D2CSJ7_DELCA/1-49, A7J0P6_LIPVE/1-49, Q768Q1_ATEBE/25-50, B3SGL9_SOUCH/1-49, D2CSL7_TURAD/1-49, A5XC76_NEOPH/1-49, Q768Q9_AOTTR/25-50, Q9BD62_ESCGI/1-49, A5XC84_NEOPH/1-49, B3SGM0_SOUCH/1-49, Q8WM99_HUMAN/1-46, Q95HZ3_GADMO/1-48, A0PAL5_ORENI/1-56, D3ZKH0_RAT/1-46, A5XC95_NEOPH/1-49, A8HK85_SARHA/1-41, D2CSK5_PONBL/1-49, B1NQV6_ONCMY/17-60, D2CSJ6_DELCA/1-49, Q8HWW1_RIVMA/1-54, Q9XR91_ONCKI/1-55, Q9BD61_ESCGI/1-49, B9WPV5_MACFA/1-48, Q9XRD1_SALSA/1-55, Q768N9_ATEBE/22-47, Q768Q5_ATEBE/22-47, A7J0P2_LIPVE/1-49, A8HK87_SARHA/1-41, Q768Q7_AOTTR/25-50, Q8HWW0_RIVMA/1-55, B9WPV6_MACFA/1-28, Q95HZ6_GADMO/1-48, C6K3E6_MACNE/1-48, Q768Q4_ATEBE/22-47, Q9BD55_ESCGI/1-49, Q9XR78_ONCTS/1-52, A8HK83_SARHA/1-41, B2Z461_ATEBE/1-35, Q8HWW6_RIVMA/1-55, Q9XR66_ONCMY/1-52, A5XC77_NEOPH/1-49, Q8HWY3_RIVMA/1-55, Q9TQM9_SALSA/1-55, Q8HWX5_RIVMA/1-55, Q9TQC2_HUMAN/1-48, Q95HZ7_GADMO/1-42, Q95HZ9_GADMO/1-51, O98033_PANLE/1-44, Q9XRB0_ONCKI/1-55, A8HKA0_SARHA/1-41, Q9BD57_ESCGI/1-49, D2CSK4_PONBL/1-49, Q31272_RAT/1-28, Q7YQ55_PHOSS/1-49, A5XC79_NEOPH/1-49
+2021-07-05 11:29:42,035 - __main__ - INFO - Removing gap only columns

@@ -1,0 +1,79 @@
+2021-07-01 01:20:54,529 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BB.ini --infile reference_set_2/mafft/RV20_BB20031_local_max100.fasta --outfile_stem reference_set_2/mafft/highly_stringent_RV20_BB20031_local_max100
+Config File (highly_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 01:20:54,567 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 01:20:54,568 - __main__ - INFO - Removing divergent sequences
+2021-07-01 01:20:55,437 - __main__ - INFO - Removing divergent sequences 1kgd_A
+2021-07-01 01:20:55,437 - __main__ - INFO - Removing insertions
+2021-07-01 01:20:55,437 - __main__ - INFO - Removing insertions
+
+2021-07-01 01:20:56,415 - __main__ - INFO - Removing sites 40, 41, 42, 43, 45, 46, 49, 50, 51, 62, 63, 64, 65, 66, 67, 68, 69, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 96, 97, 98, 99, 100, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 227, 228, 229, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 272, 273, 274, 275, 276, 287, 292, 293, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 446, 447, 448, 449, 450, 451, 456, 466
+2021-07-01 01:20:56,416 - __main__ - INFO - Cropping ends
+2021-07-01 01:20:56,437 - __main__ - INFO - Removed 2 bases from end of KTHY_DEIRA
+2021-07-01 01:20:56,469 - __main__ - INFO - Removed 1 bases from start of KTHY_RICCN
+2021-07-01 01:20:56,469 - __main__ - WARNING - Given the length of sequence KTHY_THEMA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:20:56,472 - __main__ - WARNING - Given the length of sequence KTHY_HALN1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:20:56,480 - __main__ - WARNING - Given the length of sequence KTHY_HELPJ, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:20:56,483 - __main__ - WARNING - Given the length of sequence KTHY_CAMJE, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:20:56,507 - __main__ - INFO - Removed 3 bases from end of KTHY_PYRHO
+2021-07-01 01:20:56,510 - __main__ - INFO - Removed 3 bases from end of KTHY_PYRAB
+2021-07-01 01:20:56,514 - __main__ - WARNING - Given the length of sequence KTHY_AQUAE, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:20:56,516 - __main__ - WARNING - Given the length of sequence KTHY_ARCFU, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:20:56,519 - __main__ - WARNING - Given the length of sequence KTHY_THEVO, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:20:56,523 - __main__ - WARNING - Given the length of sequence KTH1_SULSO, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:20:56,526 - __main__ - WARNING - Given the length of sequence KTH1_SULTO, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:20:56,531 - __main__ - WARNING - Given the length of sequence KTHY_PYRAE, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:20:56,534 - __main__ - INFO - Removed 1 bases from start of KTHY_PYRAE
+2021-07-01 01:20:56,535 - __main__ - WARNING - Given the length of sequence KTHY_METTH, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:20:56,537 - __main__ - WARNING - Given the length of sequence KTHY_TREPA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:20:56,539 - __main__ - INFO - Removed 1 bases from start of KTHY_TREPA
+2021-07-01 01:20:56,539 - __main__ - WARNING - Given the length of sequence 1bif_, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:20:56,542 - __main__ - WARNING - Given the length of sequence 1dvr_A, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.

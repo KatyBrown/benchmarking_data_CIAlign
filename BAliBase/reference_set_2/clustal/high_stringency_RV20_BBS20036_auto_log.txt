@@ -1,0 +1,466 @@
+2021-03-03 00:38:08,397 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_2/clustal/RV20_BBS20036_auto.fasta --outfile_stem reference_set_2/clustal/high_stringency_RV20_BBS20036_auto
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:1
+  make_similarity_matrix_output:1
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 00:38:08,403 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 00:38:08,403 - __main__ - INFO - Removing divergent sequences
+2021-03-03 00:38:08,641 - __main__ - INFO - Removing divergent sequences YE04_YEAST, 2trc_P, 1j0f_A, 1fov_A, 1a8l_, YD98_YEAST
+2021-03-03 00:38:08,642 - __main__ - INFO - Removing insertions
+2021-03-03 00:38:08,642 - __main__ - INFO - Removing insertions
+
+2021-03-03 00:38:08,679 - __main__ - INFO - Removing sites 32, 67, 68, 69, 70, 71, 41, 42, 43, 49, 50, 53, 31
+2021-03-03 00:38:08,679 - __main__ - INFO - Cropping ends
+2021-03-03 00:38:08,680 - __main__ - INFO - Removed 6 bases from start of 1erv_
+2021-03-03 00:38:08,680 - __main__ - INFO - Removed 6 bases from end of 1erv_
+2021-03-03 00:38:08,681 - __main__ - INFO - Removed 6 bases from start of 1r26_A
+2021-03-03 00:38:08,681 - __main__ - INFO - Removed 6 bases from end of 1r26_A
+2021-03-03 00:38:08,681 - __main__ - INFO - Removed 6 bases from start of THIO_STAAM
+2021-03-03 00:38:08,682 - __main__ - INFO - Removed 6 bases from end of THIO_STAAM
+2021-03-03 00:38:08,682 - __main__ - INFO - Removed 6 bases from start of THIO_BACSU
+2021-03-03 00:38:08,682 - __main__ - INFO - Removed 6 bases from end of THIO_BACSU
+2021-03-03 00:38:08,683 - __main__ - INFO - Removed 6 bases from start of THIO_LISMO
+2021-03-03 00:38:08,683 - __main__ - INFO - Removed 6 bases from end of THIO_LISMO
+2021-03-03 00:38:08,683 - __main__ - INFO - Removed 6 bases from start of THI1_ANASP
+2021-03-03 00:38:08,683 - __main__ - INFO - Removed 6 bases from end of THI1_ANASP
+2021-03-03 00:38:08,683 - __main__ - INFO - Removed 6 bases from start of THIO_CYACA
+2021-03-03 00:38:08,683 - __main__ - INFO - Removed 6 bases from end of THIO_CYACA
+2021-03-03 00:38:08,684 - __main__ - INFO - Removed 6 bases from start of THIO_PORPU
+2021-03-03 00:38:08,684 - __main__ - INFO - Removed 6 bases from end of THIO_PORPU
+2021-03-03 00:38:08,684 - __main__ - INFO - Removed 6 bases from start of THIO_RICCN
+2021-03-03 00:38:08,684 - __main__ - INFO - Removed 6 bases from end of THIO_RICCN
+2021-03-03 00:38:08,685 - __main__ - INFO - Removed 6 bases from start of THIO_STRAU
+2021-03-03 00:38:08,685 - __main__ - INFO - Removed 6 bases from end of THIO_STRAU
+2021-03-03 00:38:08,685 - __main__ - INFO - Removed 6 bases from start of THIO_RHOSH
+2021-03-03 00:38:08,685 - __main__ - INFO - Removed 6 bases from end of THIO_RHOSH
+2021-03-03 00:38:08,686 - __main__ - INFO - Removed 6 bases from start of THIO_PASMU
+2021-03-03 00:38:08,686 - __main__ - INFO - Removed 6 bases from end of THIO_PASMU
+2021-03-03 00:38:08,686 - __main__ - INFO - Removed 6 bases from start of THIO_HAEIN
+2021-03-03 00:38:08,686 - __main__ - INFO - Removed 6 bases from end of THIO_HAEIN
+2021-03-03 00:38:08,686 - __main__ - INFO - Removed 6 bases from start of THIO_PSEAE
+2021-03-03 00:38:08,686 - __main__ - INFO - Removed 6 bases from end of THIO_PSEAE
+2021-03-03 00:38:08,687 - __main__ - INFO - Removed 6 bases from start of THIO_STRCL
+2021-03-03 00:38:08,687 - __main__ - INFO - Removed 6 bases from end of THIO_STRCL
+2021-03-03 00:38:08,687 - __main__ - INFO - Removed 6 bases from start of THI2_CHLTE
+2021-03-03 00:38:08,687 - __main__ - INFO - Removed 6 bases from end of THI2_CHLTE
+2021-03-03 00:38:08,688 - __main__ - INFO - Removed 6 bases from start of THIO_ALIAC
+2021-03-03 00:38:08,688 - __main__ - INFO - Removed 6 bases from end of THIO_ALIAC
+2021-03-03 00:38:08,688 - __main__ - INFO - Removed 6 bases from start of THIO_SCHPO
+2021-03-03 00:38:08,688 - __main__ - INFO - Removed 6 bases from end of THIO_SCHPO
+2021-03-03 00:38:08,688 - __main__ - INFO - Removed 6 bases from start of THIO_CHLMU
+2021-03-03 00:38:08,688 - __main__ - INFO - Removed 6 bases from end of THIO_CHLMU
+2021-03-03 00:38:08,689 - __main__ - INFO - Removed 6 bases from start of THIO_CHICK
+2021-03-03 00:38:08,689 - __main__ - INFO - Removed 6 bases from end of THIO_CHICK
+2021-03-03 00:38:08,689 - __main__ - INFO - Removed 6 bases from start of THIO_OPHHA
+2021-03-03 00:38:08,689 - __main__ - INFO - Removed 6 bases from end of THIO_OPHHA
+2021-03-03 00:38:08,690 - __main__ - INFO - Removed 6 bases from start of THIT_DROME
+2021-03-03 00:38:08,690 - __main__ - INFO - Removed 6 bases from end of THIT_DROME
+2021-03-03 00:38:08,690 - __main__ - INFO - Removed 6 bases from start of THI2_CORNE
+2021-03-03 00:38:08,690 - __main__ - INFO - Removed 6 bases from end of THI2_CORNE
+2021-03-03 00:38:08,690 - __main__ - INFO - Removed 6 bases from start of THIO_MYCGA
+2021-03-03 00:38:08,690 - __main__ - INFO - Removed 6 bases from end of THIO_MYCGA
+2021-03-03 00:38:08,691 - __main__ - INFO - Removed 6 bases from start of THIO_MYCGE
+2021-03-03 00:38:08,691 - __main__ - INFO - Removed 6 bases from end of THIO_MYCGE
+2021-03-03 00:38:08,691 - __main__ - INFO - Removed 6 bases from start of THIO_MYCPN
+2021-03-03 00:38:08,691 - __main__ - INFO - Removed 6 bases from end of THIO_MYCPN
+2021-03-03 00:38:08,692 - __main__ - INFO - Removed 6 bases from start of TRX2_YEAST
+2021-03-03 00:38:08,692 - __main__ - INFO - Removed 6 bases from end of TRX2_YEAST
+2021-03-03 00:38:08,692 - __main__ - INFO - Removed 6 bases from start of THIO_COPCM
+2021-03-03 00:38:08,692 - __main__ - INFO - Removed 6 bases from end of THIO_COPCM
+2021-03-03 00:38:08,692 - __main__ - INFO - Removed 6 bases from start of THIO_CHLPN
+2021-03-03 00:38:08,693 - __main__ - INFO - Removed 6 bases from end of THIO_CHLPN
+2021-03-03 00:38:08,693 - __main__ - INFO - Removed 6 bases from start of THIO_CHLCV
+2021-03-03 00:38:08,693 - __main__ - INFO - Removed 6 bases from end of THIO_CHLCV
+2021-03-03 00:38:08,693 - __main__ - INFO - Removed 6 bases from start of THIO_ICTPU
+2021-03-03 00:38:08,693 - __main__ - INFO - Removed 6 bases from end of THIO_ICTPU
+2021-03-03 00:38:08,694 - __main__ - INFO - Removed 6 bases from start of TXL2_HUMAN
+2021-03-03 00:38:08,694 - __main__ - INFO - Removed 6 bases from end of TXL2_HUMAN
+2021-03-03 00:38:08,694 - __main__ - INFO - Removed 6 bases from start of THIM_CHLRE
+2021-03-03 00:38:08,694 - __main__ - INFO - Removed 6 bases from end of THIM_CHLRE
+2021-03-03 00:38:08,695 - __main__ - INFO - Removed 6 bases from start of THIO_GRIPA
+2021-03-03 00:38:08,695 - __main__ - INFO - Removed 6 bases from end of THIO_GRIPA
+2021-03-03 00:38:08,695 - __main__ - INFO - Removed 6 bases from start of THIM_PEA
+2021-03-03 00:38:08,695 - __main__ - INFO - Removed 6 bases from end of THIM_PEA
+2021-03-03 00:38:08,695 - __main__ - INFO - Removed 6 bases from start of THIM_SPIOL
+2021-03-03 00:38:08,695 - __main__ - INFO - Removed 6 bases from end of THIM_SPIOL
+2021-03-03 00:38:08,696 - __main__ - INFO - Removed 6 bases from start of THIM_ORYSA
+2021-03-03 00:38:08,696 - __main__ - INFO - Removed 6 bases from end of THIM_ORYSA
+2021-03-03 00:38:08,696 - __main__ - INFO - Removed 6 bases from start of THIM_MAIZE
+2021-03-03 00:38:08,696 - __main__ - INFO - Removed 6 bases from end of THIM_MAIZE
+2021-03-03 00:38:08,697 - __main__ - INFO - Removed 6 bases from start of THIO_BUCAI
+2021-03-03 00:38:08,697 - __main__ - INFO - Removed 6 bases from end of THIO_BUCAI
+2021-03-03 00:38:08,697 - __main__ - INFO - Removed 6 bases from start of THIO_RHORU
+2021-03-03 00:38:08,697 - __main__ - INFO - Removed 6 bases from end of THIO_RHORU
+2021-03-03 00:38:08,697 - __main__ - INFO - Removed 6 bases from start of THM4_ARATH
+2021-03-03 00:38:08,697 - __main__ - INFO - Removed 6 bases from end of THM4_ARATH
+2021-03-03 00:38:08,698 - __main__ - INFO - Removed 6 bases from start of THIM_BRANA
+2021-03-03 00:38:08,698 - __main__ - INFO - Removed 6 bases from end of THIM_BRANA
+2021-03-03 00:38:08,698 - __main__ - INFO - Removed 6 bases from start of THM2_ARATH
+2021-03-03 00:38:08,698 - __main__ - INFO - Removed 6 bases from end of THM2_ARATH
+2021-03-03 00:38:08,699 - __main__ - INFO - Removed 6 bases from start of THIO_ECHGR
+2021-03-03 00:38:08,699 - __main__ - INFO - Removed 6 bases from end of THIO_ECHGR
+2021-03-03 00:38:08,699 - __main__ - INFO - Removed 6 bases from start of TRX1_YEAST
+2021-03-03 00:38:08,699 - __main__ - INFO - Removed 6 bases from end of TRX1_YEAST
+2021-03-03 00:38:08,700 - __main__ - INFO - Removed 6 bases from start of THIO_EMENI
+2021-03-03 00:38:08,700 - __main__ - INFO - Removed 6 bases from end of THIO_EMENI
+2021-03-03 00:38:08,700 - __main__ - INFO - Removed 6 bases from start of THH1_ARATH
+2021-03-03 00:38:08,701 - __main__ - INFO - Removed 6 bases from end of THH1_ARATH
+2021-03-03 00:38:08,701 - __main__ - INFO - Removed 6 bases from start of THH2_TOBAC
+2021-03-03 00:38:08,701 - __main__ - INFO - Removed 6 bases from end of THH2_TOBAC
+2021-03-03 00:38:08,702 - __main__ - INFO - Removed 6 bases from start of THH1_TOBAC
+2021-03-03 00:38:08,702 - __main__ - INFO - Removed 6 bases from end of THH1_TOBAC
+2021-03-03 00:38:08,702 - __main__ - INFO - Removed 6 bases from start of THH5_ARATH
+2021-03-03 00:38:08,702 - __main__ - INFO - Removed 6 bases from end of THH5_ARATH
+2021-03-03 00:38:08,703 - __main__ - INFO - Removed 6 bases from start of THIH_FAGES
+2021-03-03 00:38:08,703 - __main__ - INFO - Removed 6 bases from end of THIH_FAGES
+2021-03-03 00:38:08,703 - __main__ - INFO - Removed 6 bases from start of THIH_ORYSA
+2021-03-03 00:38:08,703 - __main__ - INFO - Removed 6 bases from end of THIH_ORYSA
+2021-03-03 00:38:08,704 - __main__ - INFO - Removed 6 bases from start of THIH_WHEAT
+2021-03-03 00:38:08,704 - __main__ - INFO - Removed 6 bases from end of THIH_WHEAT
+2021-03-03 00:38:08,704 - __main__ - INFO - Removed 6 bases from start of THH2_ARATH
+2021-03-03 00:38:08,704 - __main__ - INFO - Removed 6 bases from end of THH2_ARATH
+2021-03-03 00:38:08,704 - __main__ - INFO - Removed 6 bases from start of THI3_DICDI
+2021-03-03 00:38:08,704 - __main__ - INFO - Removed 6 bases from end of THI3_DICDI
+2021-03-03 00:38:08,705 - __main__ - INFO - Removed 6 bases from start of THI2_SYNY3
+2021-03-03 00:38:08,705 - __main__ - INFO - Removed 6 bases from end of THI2_SYNY3
+2021-03-03 00:38:08,705 - __main__ - INFO - Removed 6 bases from start of THIM_WHEAT
+2021-03-03 00:38:08,705 - __main__ - INFO - Removed 6 bases from end of THIM_WHEAT
+2021-03-03 00:38:08,706 - __main__ - INFO - Removed 6 bases from start of THI1_CORNE
+2021-03-03 00:38:08,706 - __main__ - INFO - Removed 6 bases from end of THI1_CORNE
+2021-03-03 00:38:08,706 - __main__ - INFO - Removed 6 bases from start of THIO_THIFE
+2021-03-03 00:38:08,706 - __main__ - INFO - Removed 6 bases from end of THIO_THIFE
+2021-03-03 00:38:08,706 - __main__ - INFO - Removed 6 bases from start of THIO_MYCTU
+2021-03-03 00:38:08,707 - __main__ - INFO - Removed 6 bases from end of THIO_MYCTU
+2021-03-03 00:38:08,707 - __main__ - INFO - Removed 6 bases from start of THIO_MYCSM
+2021-03-03 00:38:08,707 - __main__ - INFO - Removed 6 bases from end of THIO_MYCSM
+2021-03-03 00:38:08,707 - __main__ - INFO - Removed 6 bases from start of THIO_CHLLT
+2021-03-03 00:38:08,707 - __main__ - INFO - Removed 6 bases from end of THIO_CHLLT
+2021-03-03 00:38:08,708 - __main__ - INFO - Removed 6 bases from start of THI1_SYNY3
+2021-03-03 00:38:08,708 - __main__ - INFO - Removed 6 bases from end of THI1_SYNY3
+2021-03-03 00:38:08,708 - __main__ - INFO - Removed 6 bases from start of THI1_CHLTE
+2021-03-03 00:38:08,708 - __main__ - INFO - Removed 6 bases from end of THI1_CHLTE
+2021-03-03 00:38:08,709 - __main__ - INFO - Removed 6 bases from start of THI2_ECOLI
+2021-03-03 00:38:08,709 - __main__ - INFO - Removed 6 bases from end of THI2_ECOLI
+2021-03-03 00:38:08,709 - __main__ - INFO - Removed 6 bases from start of THIO_PENCH
+2021-03-03 00:38:08,709 - __main__ - INFO - Removed 6 bases from end of THIO_PENCH
+2021-03-03 00:38:08,709 - __main__ - INFO - Removed 6 bases from start of TRX3_YEAST
+2021-03-03 00:38:08,709 - __main__ - INFO - Removed 6 bases from end of TRX3_YEAST
+2021-03-03 00:38:08,710 - __main__ - INFO - Removed 6 bases from start of THIO_TREPA
+2021-03-03 00:38:08,710 - __main__ - INFO - Removed 6 bases from end of THIO_TREPA
+2021-03-03 00:38:08,710 - __main__ - INFO - Removed 6 bases from start of THIO_GEOCY
+2021-03-03 00:38:08,710 - __main__ - INFO - Removed 6 bases from end of THIO_GEOCY
+2021-03-03 00:38:08,711 - __main__ - INFO - Removed 6 bases from start of THH3_ARATH
+2021-03-03 00:38:08,711 - __main__ - INFO - Removed 6 bases from end of THH3_ARATH
+2021-03-03 00:38:08,712 - __main__ - INFO - Removed 6 bases from start of THIH_CHLRE
+2021-03-03 00:38:08,712 - __main__ - INFO - Removed 6 bases from end of THIH_CHLRE
+2021-03-03 00:38:08,712 - __main__ - INFO - Removed 6 bases from start of THIF_SPIOL
+2021-03-03 00:38:08,712 - __main__ - INFO - Removed 6 bases from end of THIF_SPIOL
+2021-03-03 00:38:08,713 - __main__ - INFO - Removed 6 bases from start of THI2_BOVIN
+2021-03-03 00:38:08,713 - __main__ - INFO - Removed 6 bases from end of THI2_BOVIN
+2021-03-03 00:38:08,713 - __main__ - INFO - Removed 6 bases from start of THIO_NEUCR
+2021-03-03 00:38:08,713 - __main__ - INFO - Removed 6 bases from end of THIO_NEUCR
+2021-03-03 00:38:08,714 - __main__ - INFO - Removed 6 bases from start of THI2_DROME
+2021-03-03 00:38:08,714 - __main__ - INFO - Removed 6 bases from end of THI2_DROME
+2021-03-03 00:38:08,714 - __main__ - INFO - Removed 6 bases from start of THI1_CAEEL
+2021-03-03 00:38:08,714 - __main__ - INFO - Removed 6 bases from end of THI1_CAEEL
+2021-03-03 00:38:08,714 - __main__ - INFO - Removed 6 bases from start of THI1_DICDI
+2021-03-03 00:38:08,715 - __main__ - INFO - Removed 6 bases from end of THI1_DICDI
+2021-03-03 00:38:08,715 - __main__ - INFO - Removed 6 bases from start of THIF_MESCR
+2021-03-03 00:38:08,715 - __main__ - INFO - Removed 6 bases from end of THIF_MESCR
+2021-03-03 00:38:08,715 - __main__ - INFO - Removed 6 bases from start of THF1_ARATH
+2021-03-03 00:38:08,715 - __main__ - INFO - Removed 6 bases from end of THF1_ARATH
+2021-03-03 00:38:08,716 - __main__ - INFO - Removed 6 bases from start of THIF_PEA
+2021-03-03 00:38:08,716 - __main__ - INFO - Removed 6 bases from end of THIF_PEA
+2021-03-03 00:38:08,716 - __main__ - INFO - Removed 6 bases from start of TXNL_HUMAN
+2021-03-03 00:38:08,716 - __main__ - INFO - Removed 6 bases from end of TXNL_HUMAN
+2021-03-03 00:38:08,717 - __main__ - INFO - Removed 6 bases from start of THH1_BRANA
+2021-03-03 00:38:08,717 - __main__ - INFO - Removed 6 bases from end of THH1_BRANA
+2021-03-03 00:38:08,717 - __main__ - INFO - Removed 6 bases from start of THIH_PICMA
+2021-03-03 00:38:08,717 - __main__ - INFO - Removed 6 bases from end of THIH_PICMA
+2021-03-03 00:38:08,717 - __main__ - INFO - Removed 6 bases from start of THH2_BRANA
+2021-03-03 00:38:08,717 - __main__ - INFO - Removed 6 bases from end of THH2_BRANA
+2021-03-03 00:38:08,718 - __main__ - INFO - Removed 6 bases from start of THI1_DROME
+2021-03-03 00:38:08,718 - __main__ - INFO - Removed 6 bases from end of THI1_DROME
+2021-03-03 00:38:08,719 - __main__ - INFO - Building similarity matrix for input alignment
+2021-03-03 00:38:10,991 - __main__ - INFO - Building similarity matrix for output alignment
+2021-03-03 00:38:12,705 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 00:38:13,060 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 00:38:13,421 - __main__ - INFO - Building consensus sequence
+2021-03-03 02:43:29,225 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_2/clustal/RV20_BBS20036_auto.fasta --outfile_stem reference_set_2/clustal/high_stringency_RV20_BBS20036_auto
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 02:43:29,231 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 02:43:29,231 - __main__ - INFO - Removing divergent sequences
+2021-03-03 02:43:29,503 - __main__ - INFO - Removing divergent sequences 1fov_A, 1a8l_, 2trc_P, YE04_YEAST, 1j0f_A, YD98_YEAST
+2021-03-03 02:43:29,503 - __main__ - INFO - Removing insertions
+2021-03-03 02:43:29,503 - __main__ - INFO - Removing insertions
+
+2021-03-03 02:43:29,543 - __main__ - INFO - Removing sites 32, 67, 68, 69, 70, 71, 41, 42, 43, 49, 50, 53, 31
+2021-03-03 02:43:29,543 - __main__ - INFO - Cropping ends
+2021-03-03 02:43:29,544 - __main__ - INFO - Removed 6 bases from start of 1erv_
+2021-03-03 02:43:29,544 - __main__ - INFO - Removed 6 bases from end of 1erv_
+2021-03-03 02:43:29,545 - __main__ - INFO - Removed 6 bases from start of 1r26_A
+2021-03-03 02:43:29,545 - __main__ - INFO - Removed 6 bases from end of 1r26_A
+2021-03-03 02:43:29,545 - __main__ - INFO - Removed 6 bases from start of THIO_STAAM
+2021-03-03 02:43:29,545 - __main__ - INFO - Removed 6 bases from end of THIO_STAAM
+2021-03-03 02:43:29,546 - __main__ - INFO - Removed 6 bases from start of THIO_BACSU
+2021-03-03 02:43:29,546 - __main__ - INFO - Removed 6 bases from end of THIO_BACSU
+2021-03-03 02:43:29,546 - __main__ - INFO - Removed 6 bases from start of THIO_LISMO
+2021-03-03 02:43:29,546 - __main__ - INFO - Removed 6 bases from end of THIO_LISMO
+2021-03-03 02:43:29,547 - __main__ - INFO - Removed 6 bases from start of THI1_ANASP
+2021-03-03 02:43:29,547 - __main__ - INFO - Removed 6 bases from end of THI1_ANASP
+2021-03-03 02:43:29,547 - __main__ - INFO - Removed 6 bases from start of THIO_CYACA
+2021-03-03 02:43:29,547 - __main__ - INFO - Removed 6 bases from end of THIO_CYACA
+2021-03-03 02:43:29,548 - __main__ - INFO - Removed 6 bases from start of THIO_PORPU
+2021-03-03 02:43:29,548 - __main__ - INFO - Removed 6 bases from end of THIO_PORPU
+2021-03-03 02:43:29,548 - __main__ - INFO - Removed 6 bases from start of THIO_RICCN
+2021-03-03 02:43:29,548 - __main__ - INFO - Removed 6 bases from end of THIO_RICCN
+2021-03-03 02:43:29,548 - __main__ - INFO - Removed 6 bases from start of THIO_STRAU
+2021-03-03 02:43:29,548 - __main__ - INFO - Removed 6 bases from end of THIO_STRAU
+2021-03-03 02:43:29,549 - __main__ - INFO - Removed 6 bases from start of THIO_RHOSH
+2021-03-03 02:43:29,549 - __main__ - INFO - Removed 6 bases from end of THIO_RHOSH
+2021-03-03 02:43:29,549 - __main__ - INFO - Removed 6 bases from start of THIO_PASMU
+2021-03-03 02:43:29,549 - __main__ - INFO - Removed 6 bases from end of THIO_PASMU
+2021-03-03 02:43:29,550 - __main__ - INFO - Removed 6 bases from start of THIO_HAEIN
+2021-03-03 02:43:29,550 - __main__ - INFO - Removed 6 bases from end of THIO_HAEIN
+2021-03-03 02:43:29,550 - __main__ - INFO - Removed 6 bases from start of THIO_PSEAE
+2021-03-03 02:43:29,550 - __main__ - INFO - Removed 6 bases from end of THIO_PSEAE
+2021-03-03 02:43:29,550 - __main__ - INFO - Removed 6 bases from start of THIO_STRCL
+2021-03-03 02:43:29,550 - __main__ - INFO - Removed 6 bases from end of THIO_STRCL
+2021-03-03 02:43:29,551 - __main__ - INFO - Removed 6 bases from start of THI2_CHLTE
+2021-03-03 02:43:29,551 - __main__ - INFO - Removed 6 bases from end of THI2_CHLTE
+2021-03-03 02:43:29,551 - __main__ - INFO - Removed 6 bases from start of THIO_ALIAC
+2021-03-03 02:43:29,551 - __main__ - INFO - Removed 6 bases from end of THIO_ALIAC
+2021-03-03 02:43:29,552 - __main__ - INFO - Removed 6 bases from start of THIO_SCHPO
+2021-03-03 02:43:29,552 - __main__ - INFO - Removed 6 bases from end of THIO_SCHPO
+2021-03-03 02:43:29,553 - __main__ - INFO - Removed 6 bases from start of THIO_CHLMU
+2021-03-03 02:43:29,553 - __main__ - INFO - Removed 6 bases from end of THIO_CHLMU
+2021-03-03 02:43:29,553 - __main__ - INFO - Removed 6 bases from start of THIO_CHICK
+2021-03-03 02:43:29,553 - __main__ - INFO - Removed 6 bases from end of THIO_CHICK
+2021-03-03 02:43:29,553 - __main__ - INFO - Removed 6 bases from start of THIO_OPHHA
+2021-03-03 02:43:29,553 - __main__ - INFO - Removed 6 bases from end of THIO_OPHHA
+2021-03-03 02:43:29,554 - __main__ - INFO - Removed 6 bases from start of THIT_DROME
+2021-03-03 02:43:29,554 - __main__ - INFO - Removed 6 bases from end of THIT_DROME
+2021-03-03 02:43:29,554 - __main__ - INFO - Removed 6 bases from start of THI2_CORNE
+2021-03-03 02:43:29,554 - __main__ - INFO - Removed 6 bases from end of THI2_CORNE
+2021-03-03 02:43:29,555 - __main__ - INFO - Removed 6 bases from start of THIO_MYCGA
+2021-03-03 02:43:29,555 - __main__ - INFO - Removed 6 bases from end of THIO_MYCGA
+2021-03-03 02:43:29,555 - __main__ - INFO - Removed 6 bases from start of THIO_MYCGE
+2021-03-03 02:43:29,555 - __main__ - INFO - Removed 6 bases from end of THIO_MYCGE
+2021-03-03 02:43:29,555 - __main__ - INFO - Removed 6 bases from start of THIO_MYCPN
+2021-03-03 02:43:29,555 - __main__ - INFO - Removed 6 bases from end of THIO_MYCPN
+2021-03-03 02:43:29,556 - __main__ - INFO - Removed 6 bases from start of TRX2_YEAST
+2021-03-03 02:43:29,556 - __main__ - INFO - Removed 6 bases from end of TRX2_YEAST
+2021-03-03 02:43:29,556 - __main__ - INFO - Removed 6 bases from start of THIO_COPCM
+2021-03-03 02:43:29,556 - __main__ - INFO - Removed 6 bases from end of THIO_COPCM
+2021-03-03 02:43:29,557 - __main__ - INFO - Removed 6 bases from start of THIO_CHLPN
+2021-03-03 02:43:29,557 - __main__ - INFO - Removed 6 bases from end of THIO_CHLPN
+2021-03-03 02:43:29,557 - __main__ - INFO - Removed 6 bases from start of THIO_CHLCV
+2021-03-03 02:43:29,557 - __main__ - INFO - Removed 6 bases from end of THIO_CHLCV
+2021-03-03 02:43:29,557 - __main__ - INFO - Removed 6 bases from start of THIO_ICTPU
+2021-03-03 02:43:29,557 - __main__ - INFO - Removed 6 bases from end of THIO_ICTPU
+2021-03-03 02:43:29,558 - __main__ - INFO - Removed 6 bases from start of TXL2_HUMAN
+2021-03-03 02:43:29,558 - __main__ - INFO - Removed 6 bases from end of TXL2_HUMAN
+2021-03-03 02:43:29,558 - __main__ - INFO - Removed 6 bases from start of THIM_CHLRE
+2021-03-03 02:43:29,558 - __main__ - INFO - Removed 6 bases from end of THIM_CHLRE
+2021-03-03 02:43:29,559 - __main__ - INFO - Removed 6 bases from start of THIO_GRIPA
+2021-03-03 02:43:29,559 - __main__ - INFO - Removed 6 bases from end of THIO_GRIPA
+2021-03-03 02:43:29,560 - __main__ - INFO - Removed 6 bases from start of THIM_PEA
+2021-03-03 02:43:29,560 - __main__ - INFO - Removed 6 bases from end of THIM_PEA
+2021-03-03 02:43:29,560 - __main__ - INFO - Removed 6 bases from start of THIM_SPIOL
+2021-03-03 02:43:29,560 - __main__ - INFO - Removed 6 bases from end of THIM_SPIOL
+2021-03-03 02:43:29,561 - __main__ - INFO - Removed 6 bases from start of THIM_ORYSA
+2021-03-03 02:43:29,561 - __main__ - INFO - Removed 6 bases from end of THIM_ORYSA
+2021-03-03 02:43:29,561 - __main__ - INFO - Removed 6 bases from start of THIM_MAIZE
+2021-03-03 02:43:29,561 - __main__ - INFO - Removed 6 bases from end of THIM_MAIZE
+2021-03-03 02:43:29,562 - __main__ - INFO - Removed 6 bases from start of THIO_BUCAI
+2021-03-03 02:43:29,562 - __main__ - INFO - Removed 6 bases from end of THIO_BUCAI
+2021-03-03 02:43:29,562 - __main__ - INFO - Removed 6 bases from start of THIO_RHORU
+2021-03-03 02:43:29,562 - __main__ - INFO - Removed 6 bases from end of THIO_RHORU
+2021-03-03 02:43:29,563 - __main__ - INFO - Removed 6 bases from start of THM4_ARATH
+2021-03-03 02:43:29,563 - __main__ - INFO - Removed 6 bases from end of THM4_ARATH
+2021-03-03 02:43:29,563 - __main__ - INFO - Removed 6 bases from start of THIM_BRANA
+2021-03-03 02:43:29,563 - __main__ - INFO - Removed 6 bases from end of THIM_BRANA
+2021-03-03 02:43:29,564 - __main__ - INFO - Removed 6 bases from start of THM2_ARATH
+2021-03-03 02:43:29,564 - __main__ - INFO - Removed 6 bases from end of THM2_ARATH
+2021-03-03 02:43:29,564 - __main__ - INFO - Removed 6 bases from start of THIO_ECHGR
+2021-03-03 02:43:29,564 - __main__ - INFO - Removed 6 bases from end of THIO_ECHGR
+2021-03-03 02:43:29,565 - __main__ - INFO - Removed 6 bases from start of TRX1_YEAST
+2021-03-03 02:43:29,565 - __main__ - INFO - Removed 6 bases from end of TRX1_YEAST
+2021-03-03 02:43:29,565 - __main__ - INFO - Removed 6 bases from start of THIO_EMENI
+2021-03-03 02:43:29,565 - __main__ - INFO - Removed 6 bases from end of THIO_EMENI
+2021-03-03 02:43:29,566 - __main__ - INFO - Removed 6 bases from start of THH1_ARATH
+2021-03-03 02:43:29,566 - __main__ - INFO - Removed 6 bases from end of THH1_ARATH
+2021-03-03 02:43:29,566 - __main__ - INFO - Removed 6 bases from start of THH2_TOBAC
+2021-03-03 02:43:29,566 - __main__ - INFO - Removed 6 bases from end of THH2_TOBAC
+2021-03-03 02:43:29,567 - __main__ - INFO - Removed 6 bases from start of THH1_TOBAC
+2021-03-03 02:43:29,567 - __main__ - INFO - Removed 6 bases from end of THH1_TOBAC
+2021-03-03 02:43:29,567 - __main__ - INFO - Removed 6 bases from start of THH5_ARATH
+2021-03-03 02:43:29,567 - __main__ - INFO - Removed 6 bases from end of THH5_ARATH
+2021-03-03 02:43:29,568 - __main__ - INFO - Removed 6 bases from start of THIH_FAGES
+2021-03-03 02:43:29,568 - __main__ - INFO - Removed 6 bases from end of THIH_FAGES
+2021-03-03 02:43:29,568 - __main__ - INFO - Removed 6 bases from start of THIH_ORYSA
+2021-03-03 02:43:29,568 - __main__ - INFO - Removed 6 bases from end of THIH_ORYSA
+2021-03-03 02:43:29,569 - __main__ - INFO - Removed 6 bases from start of THIH_WHEAT
+2021-03-03 02:43:29,569 - __main__ - INFO - Removed 6 bases from end of THIH_WHEAT
+2021-03-03 02:43:29,569 - __main__ - INFO - Removed 6 bases from start of THH2_ARATH
+2021-03-03 02:43:29,569 - __main__ - INFO - Removed 6 bases from end of THH2_ARATH
+2021-03-03 02:43:29,569 - __main__ - INFO - Removed 6 bases from start of THI3_DICDI
+2021-03-03 02:43:29,569 - __main__ - INFO - Removed 6 bases from end of THI3_DICDI
+2021-03-03 02:43:29,570 - __main__ - INFO - Removed 6 bases from start of THI2_SYNY3
+2021-03-03 02:43:29,570 - __main__ - INFO - Removed 6 bases from end of THI2_SYNY3
+2021-03-03 02:43:29,570 - __main__ - INFO - Removed 6 bases from start of THIM_WHEAT
+2021-03-03 02:43:29,570 - __main__ - INFO - Removed 6 bases from end of THIM_WHEAT
+2021-03-03 02:43:29,571 - __main__ - INFO - Removed 6 bases from start of THI1_CORNE
+2021-03-03 02:43:29,571 - __main__ - INFO - Removed 6 bases from end of THI1_CORNE
+2021-03-03 02:43:29,571 - __main__ - INFO - Removed 6 bases from start of THIO_THIFE
+2021-03-03 02:43:29,571 - __main__ - INFO - Removed 6 bases from end of THIO_THIFE
+2021-03-03 02:43:29,571 - __main__ - INFO - Removed 6 bases from start of THIO_MYCTU
+2021-03-03 02:43:29,571 - __main__ - INFO - Removed 6 bases from end of THIO_MYCTU
+2021-03-03 02:43:29,572 - __main__ - INFO - Removed 6 bases from start of THIO_MYCSM
+2021-03-03 02:43:29,572 - __main__ - INFO - Removed 6 bases from end of THIO_MYCSM
+2021-03-03 02:43:29,572 - __main__ - INFO - Removed 6 bases from start of THIO_CHLLT
+2021-03-03 02:43:29,572 - __main__ - INFO - Removed 6 bases from end of THIO_CHLLT
+2021-03-03 02:43:29,573 - __main__ - INFO - Removed 6 bases from start of THI1_SYNY3
+2021-03-03 02:43:29,573 - __main__ - INFO - Removed 6 bases from end of THI1_SYNY3
+2021-03-03 02:43:29,573 - __main__ - INFO - Removed 6 bases from start of THI1_CHLTE
+2021-03-03 02:43:29,574 - __main__ - INFO - Removed 6 bases from end of THI1_CHLTE
+2021-03-03 02:43:29,574 - __main__ - INFO - Removed 6 bases from start of THI2_ECOLI
+2021-03-03 02:43:29,574 - __main__ - INFO - Removed 6 bases from end of THI2_ECOLI
+2021-03-03 02:43:29,574 - __main__ - INFO - Removed 6 bases from start of THIO_PENCH
+2021-03-03 02:43:29,574 - __main__ - INFO - Removed 6 bases from end of THIO_PENCH
+2021-03-03 02:43:29,575 - __main__ - INFO - Removed 6 bases from start of TRX3_YEAST
+2021-03-03 02:43:29,575 - __main__ - INFO - Removed 6 bases from end of TRX3_YEAST
+2021-03-03 02:43:29,575 - __main__ - INFO - Removed 6 bases from start of THIO_TREPA
+2021-03-03 02:43:29,575 - __main__ - INFO - Removed 6 bases from end of THIO_TREPA
+2021-03-03 02:43:29,576 - __main__ - INFO - Removed 6 bases from start of THIO_GEOCY
+2021-03-03 02:43:29,576 - __main__ - INFO - Removed 6 bases from end of THIO_GEOCY
+2021-03-03 02:43:29,576 - __main__ - INFO - Removed 6 bases from start of THH3_ARATH
+2021-03-03 02:43:29,576 - __main__ - INFO - Removed 6 bases from end of THH3_ARATH
+2021-03-03 02:43:29,577 - __main__ - INFO - Removed 6 bases from start of THIH_CHLRE
+2021-03-03 02:43:29,577 - __main__ - INFO - Removed 6 bases from end of THIH_CHLRE
+2021-03-03 02:43:29,578 - __main__ - INFO - Removed 6 bases from start of THIF_SPIOL
+2021-03-03 02:43:29,578 - __main__ - INFO - Removed 6 bases from end of THIF_SPIOL
+2021-03-03 02:43:29,578 - __main__ - INFO - Removed 6 bases from start of THI2_BOVIN
+2021-03-03 02:43:29,578 - __main__ - INFO - Removed 6 bases from end of THI2_BOVIN
+2021-03-03 02:43:29,579 - __main__ - INFO - Removed 6 bases from start of THIO_NEUCR
+2021-03-03 02:43:29,579 - __main__ - INFO - Removed 6 bases from end of THIO_NEUCR
+2021-03-03 02:43:29,579 - __main__ - INFO - Removed 6 bases from start of THI2_DROME
+2021-03-03 02:43:29,579 - __main__ - INFO - Removed 6 bases from end of THI2_DROME
+2021-03-03 02:43:29,580 - __main__ - INFO - Removed 6 bases from start of THI1_CAEEL
+2021-03-03 02:43:29,580 - __main__ - INFO - Removed 6 bases from end of THI1_CAEEL
+2021-03-03 02:43:29,580 - __main__ - INFO - Removed 6 bases from start of THI1_DICDI
+2021-03-03 02:43:29,580 - __main__ - INFO - Removed 6 bases from end of THI1_DICDI
+2021-03-03 02:43:29,581 - __main__ - INFO - Removed 6 bases from start of THIF_MESCR
+2021-03-03 02:43:29,581 - __main__ - INFO - Removed 6 bases from end of THIF_MESCR
+2021-03-03 02:43:29,581 - __main__ - INFO - Removed 6 bases from start of THF1_ARATH
+2021-03-03 02:43:29,582 - __main__ - INFO - Removed 6 bases from end of THF1_ARATH
+2021-03-03 02:43:29,582 - __main__ - INFO - Removed 6 bases from start of THIF_PEA
+2021-03-03 02:43:29,582 - __main__ - INFO - Removed 6 bases from end of THIF_PEA
+2021-03-03 02:43:29,582 - __main__ - INFO - Removed 6 bases from start of TXNL_HUMAN
+2021-03-03 02:43:29,582 - __main__ - INFO - Removed 6 bases from end of TXNL_HUMAN
+2021-03-03 02:43:29,583 - __main__ - INFO - Removed 6 bases from start of THH1_BRANA
+2021-03-03 02:43:29,583 - __main__ - INFO - Removed 6 bases from end of THH1_BRANA
+2021-03-03 02:43:29,583 - __main__ - INFO - Removed 6 bases from start of THIH_PICMA
+2021-03-03 02:43:29,583 - __main__ - INFO - Removed 6 bases from end of THIH_PICMA
+2021-03-03 02:43:29,584 - __main__ - INFO - Removed 6 bases from start of THH2_BRANA
+2021-03-03 02:43:29,584 - __main__ - INFO - Removed 6 bases from end of THH2_BRANA
+2021-03-03 02:43:29,584 - __main__ - INFO - Removed 6 bases from start of THI1_DROME
+2021-03-03 02:43:29,584 - __main__ - INFO - Removed 6 bases from end of THI1_DROME
+2021-03-03 02:43:29,585 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 02:43:29,968 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 02:43:30,359 - __main__ - INFO - Building consensus sequence

@@ -1,0 +1,95 @@
+2021-07-01 02:37:44,153 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile med_stringent_config_BB.ini --infile reference_set_4/muscle/RV40_BB40039_max100.fasta --outfile_stem reference_set_4/muscle/med_stringent_RV40_BB40039_max100
+Config File (med_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.2
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 02:37:44,261 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 02:37:44,262 - __main__ - INFO - Removing divergent sequences
+2021-07-01 02:37:45,671 - __main__ - INFO - Removing insertions
+2021-07-01 02:37:45,671 - __main__ - INFO - Removing insertions
+
+2021-07-01 02:37:48,499 - __main__ - INFO - Removing sites 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 2292, 2293, 2294, 2295, 2296, 2297, 2298, 2299, 2300, 2301, 2302, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 2313, 2314, 2315, 2316, 2317, 279, 280, 2343, 2344, 2345, 2346, 2347, 2348, 2357, 2358, 2359, 2363, 2364, 2365, 2366, 2367, 2387, 2388, 2389, 2390, 2391, 2392, 2393, 2397, 2398, 2399, 2454, 2455, 2456, 2457, 2458, 2459, 2460, 2461, 2462, 508, 2482, 2483, 506, 2493, 2502, 2505, 2506, 2507, 2508, 507, 500, 501, 502, 2531, 2532, 2533, 2534, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 498, 499, 2546, 2547, 495, 496, 497, 2553, 503, 504, 505, 2557, 2558, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 2616, 2623, 2624, 2559, 2636, 2637, 2638, 2639, 2560, 2650, 2655, 2656, 2657, 2658, 2659, 2674, 2675, 2676, 2677, 2678, 2691, 2703, 2704, 2705, 2706, 2707, 2708, 2709, 2710, 2711, 2712, 2713, 2714, 2715, 509, 510, 2716, 2717, 2718, 2719, 2720, 2721, 2722, 2723, 2724, 2725, 2726, 2727, 2728, 2729, 2732, 2733, 2734, 2739, 2749, 2750, 2751, 2752, 2759, 2760, 2762, 2763, 2764, 2765, 2766, 2775, 2776, 2777, 2782, 2783, 2784, 2785, 2786, 2787, 2788, 2795, 2796, 2799, 2800, 2801, 2802, 2803, 2839, 2840, 2841, 2842, 2843, 2844, 2845, 2846, 2601, 2847, 2848, 2849, 2850, 2602, 2851, 2852, 2853, 2854, 2603, 2856, 2860, 2604, 2605, 2870, 2606, 2876, 2877, 2878, 2879, 2880, 2881, 2909, 2910, 2911, 2912, 2913, 2914, 2915, 2916, 2917, 2918, 2919, 2920, 2921, 2922, 2923, 2924, 3120, 3121, 3122, 3123, 3124, 2303, 2304, 2305, 2306, 2307, 2308, 2309, 2310, 2311, 2312, 1673, 1674, 1675, 1860, 1861, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2041, 2042
+2021-07-01 02:37:48,500 - __main__ - INFO - Cropping ends
+2021-07-01 02:37:48,523 - __main__ - INFO - Removed 47 bases from start of 1cle_A
+2021-07-01 02:37:48,523 - __main__ - INFO - Removed 43 bases from end of 1cle_A
+2021-07-01 02:37:48,535 - __main__ - INFO - Removed 41 bases from start of PCD_ARTOX
+2021-07-01 02:37:48,546 - __main__ - INFO - Removed 41 bases from start of EST2_CAEEL
+2021-07-01 02:37:48,556 - __main__ - INFO - Removed 27 bases from start of D2_DICDI
+2021-07-01 02:37:48,567 - __main__ - INFO - Removed 29 bases from start of CRYS_DICDI
+2021-07-01 02:37:48,577 - __main__ - INFO - Removed 41 bases from start of EST1_CAEBR
+2021-07-01 02:37:48,588 - __main__ - INFO - Removed 22 bases from start of ESTE_MYZPE
+2021-07-01 02:37:48,588 - __main__ - INFO - Removed 36 bases from end of ESTE_MYZPE
+2021-07-01 02:37:48,598 - __main__ - INFO - Removed 37 bases from start of ACES_LEPDE
+2021-07-01 02:37:48,611 - __main__ - INFO - Removed 43 bases from start of 1dx4_A
+2021-07-01 02:37:48,621 - __main__ - INFO - Removed 29 bases from start of ACES_ANOST
+2021-07-01 02:37:48,632 - __main__ - INFO - Removed 48 bases from start of ACE1_CAEBR
+2021-07-01 02:37:48,651 - __main__ - INFO - Removed 33 bases from start of ACES_BOVIN
+2021-07-01 02:37:48,662 - __main__ - INFO - Removed 32 bases from start of ACES_BUNFA
+2021-07-01 02:37:48,674 - __main__ - INFO - Removed 43 bases from start of 1acj_
+2021-07-01 02:37:48,684 - __main__ - INFO - Removed 57 bases from start of ACES_BRARE
+2021-07-01 02:37:48,695 - __main__ - INFO - Removed 57 bases from start of ACES_ELEEL
+2021-07-01 02:37:48,706 - __main__ - INFO - Removed 49 bases from start of ESTM_MOUSE
+2021-07-01 02:37:48,718 - __main__ - INFO - Removed 48 bases from start of EST2_RABIT
+2021-07-01 02:37:48,728 - __main__ - INFO - Removed 27 bases from start of EST1_MESAU
+2021-07-01 02:37:48,739 - __main__ - INFO - Removed 25 bases from start of SASB_ANAPL
+2021-07-01 02:37:48,750 - __main__ - INFO - Removed 53 bases from start of EST4_RAT
+2021-07-01 02:37:48,750 - __main__ - INFO - Removed 10 bases from end of EST4_RAT
+2021-07-01 02:37:48,761 - __main__ - INFO - Removed 54 bases from start of ES22_MOUSE
+2021-07-01 02:37:48,761 - __main__ - INFO - Removed 10 bases from end of ES22_MOUSE
+2021-07-01 02:37:48,772 - __main__ - INFO - Removed 53 bases from start of EST1_RAT
+2021-07-01 02:37:48,772 - __main__ - INFO - Removed 9 bases from end of EST1_RAT
+2021-07-01 02:37:48,783 - __main__ - INFO - Removed 54 bases from start of EST1_PIG
+2021-07-01 02:37:48,795 - __main__ - INFO - Removed 44 bases from start of 1k4y_A
+2021-07-01 02:37:48,806 - __main__ - INFO - Removed 53 bases from start of ES10_RAT
+2021-07-01 02:37:48,818 - __main__ - INFO - Removed 43 bases from start of 1akn_
+2021-07-01 02:37:48,829 - __main__ - INFO - Removed 53 bases from start of CEL_MOUSE
+2021-07-01 02:37:48,841 - __main__ - INFO - Removed 63 bases from start of CEL_HUMAN
+2021-07-01 02:37:48,852 - __main__ - INFO - Removed 71 bases from start of NLG2_HUMAN
+2021-07-01 02:37:48,862 - __main__ - INFO - Removed 75 bases from start of NLG4_HUMAN
+2021-07-01 02:37:48,873 - __main__ - INFO - Removed 48 bases from start of NLG1_HUMAN

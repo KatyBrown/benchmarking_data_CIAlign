@@ -1,0 +1,101 @@
+2021-03-03 03:48:48,398 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_4/clustal/RV40_BB40041_auto.fasta --outfile_stem reference_set_4/clustal/high_stringency_RV40_BB40041_auto
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 03:48:48,489 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 03:48:48,489 - __main__ - INFO - Removing divergent sequences
+2021-03-03 03:48:49,252 - __main__ - INFO - Removing divergent sequences FDXN_RHISN, RNFB_BUCBP, FER_DESGI, RNFB_BUCAP, FRHG_METVO, FER_ENTHI, FER9_METJA, Y514_METJA, RNFC_VIBCH, FERN_AZOVI, FER8_METJA, NARH_BACSU, NUOI_RHOCA, 1a6l_, FER4_METJA, YEIA_ECOLI, FRHG_METJA, FPRB_MYCTU, HYCF_ECOLI, 1q16_B, FDXN_ANASP, FER2_METJA, FER_STRGR, FER2_THEAC, HDRA_METAC, Y208_METJA, HYFH_ECOLI, PHF1_CLOPA
+2021-03-03 03:48:49,253 - __main__ - INFO - Removing insertions
+2021-03-03 03:48:49,253 - __main__ - INFO - Removing insertions
+
+2021-03-03 03:48:51,490 - __main__ - INFO - Removing sites 2094, 2095, 2096, 2128, 242, 253, 254, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 330, 331, 332, 333, 334, 335, 336, 337, 338, 403, 414, 415, 416, 417, 418, 436, 437, 438, 439, 440, 441, 466, 500, 516, 517, 518, 557, 558, 559, 560, 566, 567, 568, 569, 570, 571, 572, 604, 605, 606, 607, 608, 609, 610, 611, 616, 617, 618, 619, 620, 622, 623, 624, 625, 626, 627, 649, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 735, 776, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 839, 840, 841, 842, 894, 895, 896, 897, 898, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 958, 959, 960, 961, 969, 982, 983, 984, 985, 986, 987, 988, 989, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1050, 1051, 1085, 1086, 1087, 1088, 1089, 1090, 1091, 1092, 1093, 1094, 1095, 1096, 1097, 1098, 1099, 1100, 1101, 1105, 1106, 1107, 1108, 1119, 1120, 1121, 1122, 1128, 1129, 1130, 1131, 1150, 1151, 1167, 1168, 1169, 1170, 1171, 1172, 1173, 1174, 1175, 1176, 1177, 1178, 1179, 1180, 1181, 1182, 1183, 1184, 1185, 1186, 1187, 1188, 1189, 1190, 1191, 1192, 1193, 1209, 1211, 1212, 1213, 1214, 1215, 1216, 1237, 1238, 1239, 1240, 1241, 1242, 1246, 1247, 1258, 1259, 1260, 1269, 1270, 1271, 1272, 1273, 1274, 1275, 1287, 1300, 1301, 1302, 1303, 1304, 1305, 1306, 1307, 1308, 1309, 1310, 1311, 1312, 1313, 1314, 1315, 1316, 1317, 1318, 1319, 1320, 1321, 1322, 1323, 1324, 1325, 1326, 1327, 1328, 1347, 1404, 1405, 1406, 1407, 1408, 1409, 1410, 1411, 1412, 1413, 1427, 1428, 1429, 1430, 1431, 1432, 1433, 1434, 1435, 1436, 1437, 1438, 1439, 1440, 1441, 1442, 1443, 1444, 1445, 1446, 1447, 1448, 1449, 1450, 1451, 1492, 1493, 1504, 1505, 1506, 1507, 1508, 1509, 1510, 1511, 1512, 1513, 1514, 1515, 1516, 1517, 1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525, 1526, 1527, 1528, 1529, 1530, 1531, 1532, 1533, 1534, 1544, 1545, 1556, 1557, 1558, 1559, 1560, 1561, 1562, 1563, 1564, 1565, 1566, 1567, 1568, 1569, 1570, 1571, 1572, 1573, 1574, 1575, 1576, 1577, 1578, 1579, 1580, 1581, 1582, 1583, 1584, 1585, 1586, 1587, 1597, 1598, 1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607, 1608, 1609, 1610, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1622, 1623, 1624, 1625, 1626, 1627, 1628, 1629, 1630, 1631, 1632, 1645, 1646, 1647, 1648, 1649, 1650, 1651, 1652, 1653, 1654, 1655, 1656, 1657, 1658, 1659, 1660, 1661, 1675, 1676, 1677, 1678, 1679, 1680, 1681, 1682, 1683, 1684, 1685, 1686, 1687, 1688, 1689, 1706, 1707, 1708, 1709, 1710, 1711, 1712, 1713, 1714, 1715, 1716, 1738, 1739, 1740, 1741, 1742, 1743, 1744, 1745, 1746, 1747, 1748, 1749, 1750, 1751, 1752, 1753, 1754, 1755, 1756, 1757, 1758, 1759, 1760, 1761, 1762, 1763, 1764, 1765, 1766, 1767, 1768, 1769, 1770, 1771, 1772, 1773, 1774, 1775, 1776, 1777, 1778, 1779, 1780, 1781, 1782, 1783, 1784, 1785, 1786, 1787, 1788, 1789, 1790, 1791, 1792, 1793, 1794, 1795, 1796, 1797, 1798, 1799, 1800, 1801, 1802, 1824, 1825, 1826, 1827, 1828, 1829, 1861, 1862, 1877, 1878, 1879, 1880, 1887, 1888, 1889, 1890, 1891, 1892, 1920, 1921, 1922, 1923, 1924, 1925, 1926, 1927, 1932, 1933, 1936, 1937, 1938, 1951, 1952, 1956, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+2021-03-03 03:48:51,491 - __main__ - INFO - Cropping ends
+2021-03-03 03:48:51,502 - __main__ - INFO - Removed 5 bases from start of 1blu_
+2021-03-03 03:48:51,502 - __main__ - INFO - Removed 5 bases from end of 1blu_
+2021-03-03 03:48:51,511 - __main__ - INFO - Removed 5 bases from start of 1rgv_A
+2021-03-03 03:48:51,511 - __main__ - INFO - Removed 5 bases from end of 1rgv_A
+2021-03-03 03:48:51,520 - __main__ - INFO - Removed 4 bases from start of FER2_CHLLI
+2021-03-03 03:48:51,520 - __main__ - INFO - Removed 4 bases from end of FER2_CHLLI
+2021-03-03 03:48:51,529 - __main__ - INFO - Removed 6 bases from start of YFHL_ECOLI
+2021-03-03 03:48:51,529 - __main__ - INFO - Removed 7 bases from end of YFHL_ECOLI
+2021-03-03 03:48:51,538 - __main__ - INFO - Removed 5 bases from start of FDXN_BRAJA
+2021-03-03 03:48:51,538 - __main__ - INFO - Removed 5 bases from end of FDXN_BRAJA
+2021-03-03 03:48:51,547 - __main__ - INFO - Removed 5 bases from start of FDXN_AZOCH
+2021-03-03 03:48:51,547 - __main__ - INFO - Removed 5 bases from end of FDXN_AZOCH
+2021-03-03 03:48:51,556 - __main__ - INFO - Removed 6 bases from start of 1bc6_
+2021-03-03 03:48:51,556 - __main__ - INFO - Removed 6 bases from end of 1bc6_
+2021-03-03 03:48:51,566 - __main__ - INFO - Removed 4 bases from start of 1clf_
+2021-03-03 03:48:51,566 - __main__ - INFO - Removed 4 bases from end of 1clf_
+2021-03-03 03:48:51,575 - __main__ - INFO - Removed 6 bases from start of FER_ALIAC
+2021-03-03 03:48:51,575 - __main__ - INFO - Removed 6 bases from end of FER_ALIAC
+2021-03-03 03:48:51,584 - __main__ - INFO - Removed 6 bases from start of FER_THETH
+2021-03-03 03:48:51,584 - __main__ - INFO - Removed 6 bases from end of FER_THETH
+2021-03-03 03:48:51,593 - __main__ - INFO - Removed 26 bases from end of 1e08_A
+2021-03-03 03:48:51,618 - __main__ - INFO - Removed 18 bases from start of PHFL_DESVO
+2021-03-03 03:48:51,618 - __main__ - INFO - Removed 22 bases from end of PHFL_DESVO
+2021-03-03 03:48:51,628 - __main__ - INFO - Removed 4 bases from start of FER_CLOSP
+2021-03-03 03:48:51,628 - __main__ - INFO - Removed 4 bases from end of FER_CLOSP
+2021-03-03 03:48:51,637 - __main__ - INFO - Removed 4 bases from start of FER_METBA
+2021-03-03 03:48:51,637 - __main__ - INFO - Removed 4 bases from end of FER_METBA
+2021-03-03 03:48:51,647 - __main__ - INFO - Removed 5 bases from start of YCXI_PORPU
+2021-03-03 03:48:51,647 - __main__ - INFO - Removed 5 bases from end of YCXI_PORPU
+2021-03-03 03:48:51,661 - __main__ - INFO - Removed 1 bases from start of RNFB_VIBPA
+2021-03-03 03:48:51,661 - __main__ - INFO - Removed 8 bases from end of RNFB_VIBPA
+2021-03-03 03:48:51,670 - __main__ - INFO - Removed 3 bases from start of RNFB_PASMU
+2021-03-03 03:48:51,670 - __main__ - INFO - Removed 7 bases from end of RNFB_PASMU
+2021-03-03 03:48:51,679 - __main__ - INFO - Removed 1 bases from start of RNFB_ECO57
+2021-03-03 03:48:51,687 - __main__ - INFO - Removed 1 bases from start of RNFB_YERPE
+2021-03-03 03:48:51,701 - __main__ - INFO - Removed 36 bases from start of AEGA_ECOLI
+2021-03-03 03:48:51,701 - __main__ - INFO - Removed 3 bases from end of AEGA_ECOLI
+2021-03-03 03:48:51,709 - __main__ - INFO - Removed 36 bases from start of YGFT_ECOLI
+2021-03-03 03:48:51,717 - __main__ - INFO - Removed 6 bases from end of DPYD_CAEEL
+2021-03-03 03:48:51,724 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 03:48:52,276 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 03:48:52,727 - __main__ - INFO - Building consensus sequence

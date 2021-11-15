@@ -1,0 +1,111 @@
+2021-03-03 03:03:00,711 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_3/muscle/RV30_BB30020_max100.fasta --outfile_stem reference_set_3/muscle/high_stringency_RV30_BB30020_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 03:03:00,747 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 03:03:00,747 - __main__ - INFO - Removing divergent sequences
+2021-03-03 03:03:01,131 - __main__ - INFO - Removing divergent sequences FER_PSEAE, UBIL_NPVAC, 1jq4_A, 1iyf_A, ADRX_YEAST, FER_BUCBP, 1ubi_, SMT3_CAEEL, RUB3_ARATH, YCBX_ECOLI, SMT3_ARATH, 1a5r_, SMT3_SCHPO, DSK2_YEAST, 1i7h_A, SM31_HUMAN, FER_BUCAP, ADXH_DROME, SMT3_YEAST, FER_HAEIN, 1lm8_B, FER6_RHOCA, FER_BUCAI, FER5_AQUAE, NED8_HUMAN, UBL1_SCHPO
+2021-03-03 03:03:01,131 - __main__ - INFO - Removing insertions
+2021-03-03 03:03:01,131 - __main__ - INFO - Removing insertions
+
+2021-03-03 03:03:01,755 - __main__ - INFO - Removing sites 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 560, 566, 579, 587, 588, 589, 590, 591, 597, 598, 602, 613, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 142, 143, 144, 654, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 681, 682, 683, 684, 685, 686, 687, 223, 655, 224, 225, 226, 227, 656, 228, 229, 230, 231, 657, 257, 258, 259, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511
+2021-03-03 03:03:01,755 - __main__ - INFO - Cropping ends
+2021-03-03 03:03:01,758 - __main__ - INFO - Removed 2 bases from end of YEAX_ECOLI
+2021-03-03 03:03:01,761 - __main__ - INFO - Removed 2 bases from end of POBB_PSEPS
+2021-03-03 03:03:01,763 - __main__ - INFO - Removed 3 bases from end of VANB_PSESP
+2021-03-03 03:03:01,766 - __main__ - INFO - Removed 2 bases from end of VANB_PSEPU
+2021-03-03 03:03:01,769 - __main__ - INFO - Removed 17 bases from end of 2pia_
+2021-03-03 03:03:01,772 - __main__ - INFO - Removed 17 bases from end of PHT2_PSEPU
+2021-03-03 03:03:01,775 - __main__ - INFO - Removed 10 bases from start of FER2_SYNP6
+2021-03-03 03:03:01,779 - __main__ - INFO - Removed 8 bases from start of FER_PERBI
+2021-03-03 03:03:01,779 - __main__ - INFO - Removed 8 bases from end of FER_PERBI
+2021-03-03 03:03:01,782 - __main__ - INFO - Removed 9 bases from start of FER_LEUGL
+2021-03-03 03:03:01,782 - __main__ - INFO - Removed 8 bases from end of FER_LEUGL
+2021-03-03 03:03:01,785 - __main__ - INFO - Removed 8 bases from start of FER_SOLLY
+2021-03-03 03:03:01,786 - __main__ - INFO - Removed 8 bases from end of FER_SOLLY
+2021-03-03 03:03:01,789 - __main__ - INFO - Removed 9 bases from start of FER1_RAPSA
+2021-03-03 03:03:01,789 - __main__ - INFO - Removed 8 bases from end of FER1_RAPSA
+2021-03-03 03:03:01,792 - __main__ - INFO - Removed 8 bases from start of FER_PORPU
+2021-03-03 03:03:01,792 - __main__ - INFO - Removed 8 bases from end of FER_PORPU
+2021-03-03 03:03:01,795 - __main__ - INFO - Removed 8 bases from start of FER_ODOSI
+2021-03-03 03:03:01,795 - __main__ - INFO - Removed 8 bases from end of FER_ODOSI
+2021-03-03 03:03:01,798 - __main__ - INFO - Removed 8 bases from start of FER_BUMFI
+2021-03-03 03:03:01,798 - __main__ - INFO - Removed 8 bases from end of FER_BUMFI
+2021-03-03 03:03:01,801 - __main__ - INFO - Removed 8 bases from start of FER_GLEJA
+2021-03-03 03:03:01,801 - __main__ - INFO - Removed 8 bases from end of FER_GLEJA
+2021-03-03 03:03:01,804 - __main__ - INFO - Removed 8 bases from start of FER_RHOPL
+2021-03-03 03:03:01,804 - __main__ - INFO - Removed 8 bases from end of FER_RHOPL
+2021-03-03 03:03:01,807 - __main__ - INFO - Removed 8 bases from start of FER_EUGVI
+2021-03-03 03:03:01,807 - __main__ - INFO - Removed 8 bases from end of FER_EUGVI
+2021-03-03 03:03:01,810 - __main__ - INFO - Removed 8 bases from start of FER_APHSA
+2021-03-03 03:03:01,810 - __main__ - INFO - Removed 8 bases from end of FER_APHSA
+2021-03-03 03:03:01,814 - __main__ - INFO - Removed 9 bases from start of FER_MARPO
+2021-03-03 03:03:01,814 - __main__ - INFO - Removed 8 bases from end of FER_MARPO
+2021-03-03 03:03:01,817 - __main__ - INFO - Removed 8 bases from start of FER1_ANASP
+2021-03-03 03:03:01,817 - __main__ - INFO - Removed 8 bases from end of FER1_ANASP
+2021-03-03 03:03:01,820 - __main__ - INFO - Removed 8 bases from start of FER_SYNEL
+2021-03-03 03:03:01,820 - __main__ - INFO - Removed 8 bases from end of FER_SYNEL
+2021-03-03 03:03:01,823 - __main__ - INFO - Removed 8 bases from start of 1awd_
+2021-03-03 03:03:01,823 - __main__ - INFO - Removed 8 bases from end of 1awd_
+2021-03-03 03:03:01,827 - __main__ - INFO - Removed 9 bases from start of FER1_DUNSA
+2021-03-03 03:03:01,827 - __main__ - INFO - Removed 8 bases from end of FER1_DUNSA
+2021-03-03 03:03:01,839 - __main__ - INFO - Removed 8 bases from start of FER1_CYAPA
+2021-03-03 03:03:01,840 - __main__ - INFO - Removed 8 bases from end of FER1_CYAPA
+2021-03-03 03:03:01,843 - __main__ - INFO - Removed 8 bases from start of FER3_CYACA
+2021-03-03 03:03:01,843 - __main__ - INFO - Removed 8 bases from end of FER3_CYACA
+2021-03-03 03:03:01,846 - __main__ - INFO - Removed 8 bases from start of FER2_CYACA
+2021-03-03 03:03:01,846 - __main__ - INFO - Removed 8 bases from end of FER2_CYACA
+2021-03-03 03:03:01,849 - __main__ - INFO - Removed 8 bases from start of FER1_CYACA
+2021-03-03 03:03:01,849 - __main__ - INFO - Removed 8 bases from end of FER1_CYACA
+2021-03-03 03:03:01,852 - __main__ - INFO - Removed 9 bases from start of RFBI_SALTY
+2021-03-03 03:03:01,855 - __main__ - INFO - Removed 8 bases from start of ASCD_YERPE
+2021-03-03 03:03:01,860 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 03:03:02,278 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 03:03:02,661 - __main__ - INFO - Building consensus sequence

@@ -1,0 +1,157 @@
+2021-03-03 03:03:44,776 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini --infile reference_set_3/mafft/RV30_BB30021_global_max100.fasta --outfile_stem reference_set_3/mafft/med_stringency_RV30_BB30021_global_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.3
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 03:03:44,830 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 03:03:44,830 - __main__ - INFO - Removing divergent sequences
+2021-03-03 03:03:46,049 - __main__ - INFO - Removing divergent sequences KCY_DICDI, KAD_SCHMA, KTHY_HALN1, KAD_HELPJ, UMPK_SCHPO, KTHY_MYCPN, KAD_ENTHI
+2021-03-03 03:03:46,049 - __main__ - INFO - Removing insertions
+2021-03-03 03:03:46,049 - __main__ - INFO - Removing insertions
+
+2021-03-03 03:03:46,818 - __main__ - INFO - Removing sites 11, 34, 39, 40, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 110, 111, 112, 113, 114, 115, 116, 118, 119, 120, 121, 122, 123, 124, 127, 128, 129, 130, 131, 132, 133, 134, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 187, 189, 190, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 263, 264, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 415, 419, 420, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 475, 476, 477, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 609, 610, 611, 612
+2021-03-03 03:03:46,819 - __main__ - INFO - Cropping ends
+2021-03-03 03:03:46,820 - __main__ - INFO - Removed 7 bases from end of 4tmk_A
+2021-03-03 03:03:46,821 - __main__ - INFO - Removed 9 bases from end of KTHY_THETN
+2021-03-03 03:03:46,822 - __main__ - INFO - Removed 8 bases from end of KTHY_CHLTE
+2021-03-03 03:03:46,823 - __main__ - INFO - Removed 8 bases from end of KTHY_ANASP
+2021-03-03 03:03:46,824 - __main__ - INFO - Removed 9 bases from end of KTHY_PSESM
+2021-03-03 03:03:46,826 - __main__ - INFO - Removed 9 bases from end of KTHY_PSEAE
+2021-03-03 03:03:46,827 - __main__ - INFO - Removed 3 bases from end of KTHY_RALSO
+2021-03-03 03:03:46,828 - __main__ - INFO - Removed 6 bases from end of KTHY_NEIMA
+2021-03-03 03:03:46,829 - __main__ - INFO - Removed 5 bases from end of KTHY_DEIRA
+2021-03-03 03:03:46,830 - __main__ - INFO - Removed 6 bases from end of KTHY_CAUCR
+2021-03-03 03:03:46,831 - __main__ - INFO - Removed 10 bases from end of KTHY_BRUME
+2021-03-03 03:03:46,833 - __main__ - INFO - Removed 1 bases from start of KTHY_AGRT5
+2021-03-03 03:03:46,833 - __main__ - INFO - Removed 16 bases from end of KTHY_AGRT5
+2021-03-03 03:03:46,834 - __main__ - INFO - Removed 5 bases from start of KTHY_RHIME
+2021-03-03 03:03:46,834 - __main__ - INFO - Removed 19 bases from end of KTHY_RHIME
+2021-03-03 03:03:46,835 - __main__ - INFO - Removed 18 bases from end of KTHY_RHILO
+2021-03-03 03:03:46,838 - __main__ - INFO - Removed 1 bases from end of KTHY_CHLCV
+2021-03-03 03:03:46,839 - __main__ - INFO - Removed 1 bases from end of KTHY_CHLPN
+2021-03-03 03:03:46,840 - __main__ - INFO - Removed 7 bases from end of KTHY_LACLA
+2021-03-03 03:03:46,841 - __main__ - INFO - Removed 5 bases from end of KTHY_STRP3
+2021-03-03 03:03:46,843 - __main__ - INFO - Removed 6 bases from end of KTHY_STRPN
+2021-03-03 03:03:46,844 - __main__ - INFO - Removed 9 bases from end of KTHY_BACSU
+2021-03-03 03:03:46,845 - __main__ - INFO - Removed 6 bases from end of KTHY_BACHD
+2021-03-03 03:03:46,846 - __main__ - INFO - Removed 16 bases from end of KTHY_LACPL
+2021-03-03 03:03:46,847 - __main__ - INFO - Removed 5 bases from end of KTHY_STAEP
+2021-03-03 03:03:46,848 - __main__ - INFO - Removed 7 bases from end of KTHY_STAAM
+2021-03-03 03:03:46,849 - __main__ - INFO - Removed 5 bases from end of KTHY_LISIN
+2021-03-03 03:03:46,851 - __main__ - INFO - Removed 3 bases from start of KTHY_RICCN
+2021-03-03 03:03:46,852 - __main__ - INFO - Removed 8 bases from end of KTHY_THEMA
+2021-03-03 03:03:46,854 - __main__ - INFO - Removed 10 bases from end of KTHY_MYCGE
+2021-03-03 03:03:46,855 - __main__ - INFO - Removed 5 bases from end of KTHY_MYCPU
+2021-03-03 03:03:46,856 - __main__ - INFO - Removed 10 bases from end of KTHY_VIBCH
+2021-03-03 03:03:46,857 - __main__ - INFO - Removed 7 bases from end of KTHY_VIBPA
+2021-03-03 03:03:46,858 - __main__ - INFO - Removed 10 bases from end of KTHY_YERPE
+2021-03-03 03:03:46,859 - __main__ - INFO - Removed 9 bases from end of KTHY_HAEIN
+2021-03-03 03:03:46,861 - __main__ - INFO - Removed 7 bases from end of KTHY_PASMU
+2021-03-03 03:03:46,862 - __main__ - INFO - Removed 8 bases from end of KTHY_WIGBR
+2021-03-03 03:03:46,863 - __main__ - INFO - Removed 9 bases from end of KTHY_BUCBP
+2021-03-03 03:03:46,864 - __main__ - INFO - Removed 9 bases from end of KTHY_BUCAI
+2021-03-03 03:03:46,865 - __main__ - INFO - Removed 9 bases from end of KTHY_BUCAP
+2021-03-03 03:03:46,866 - __main__ - INFO - Removed 6 bases from end of KTHY_PYRHO
+2021-03-03 03:03:46,867 - __main__ - INFO - Removed 6 bases from end of KTHY_PYRAB
+2021-03-03 03:03:46,869 - __main__ - INFO - Removed 11 bases from end of KTHY_PYRFU
+2021-03-03 03:03:46,870 - __main__ - INFO - Removed 6 bases from end of KTHY_AQUAE
+2021-03-03 03:03:46,871 - __main__ - INFO - Removed 11 bases from end of KTHY_ARCFU
+2021-03-03 03:03:46,872 - __main__ - INFO - Removed 7 bases from end of KTH1_SULTO
+2021-03-03 03:03:46,873 - __main__ - INFO - Removed 1 bases from start of KTHY_PYRAE
+2021-03-03 03:03:46,874 - __main__ - INFO - Removed 2 bases from start of KTHY_XANAC
+2021-03-03 03:03:46,874 - __main__ - INFO - Removed 10 bases from end of KTHY_XANAC
+2021-03-03 03:03:46,879 - __main__ - INFO - Removed 3 bases from start of F263_BOVIN
+2021-03-03 03:03:46,880 - __main__ - INFO - Removed 4 bases from start of F26_YEAST
+2021-03-03 03:03:46,881 - __main__ - INFO - Removed 14 bases from end of F26_CAEEL
+2021-03-03 03:03:46,882 - __main__ - INFO - Removed 7 bases from start of 1uky_
+2021-03-03 03:03:46,883 - __main__ - INFO - Removed 1 bases from start of KAD_COREF
+2021-03-03 03:03:46,884 - __main__ - INFO - Removed 1 bases from start of KAD_XANAC
+2021-03-03 03:03:46,885 - __main__ - INFO - Removed 1 bases from start of KAD_XYLFA
+2021-03-03 03:03:46,887 - __main__ - INFO - Removed 2 bases from start of KAD_MICLU
+2021-03-03 03:03:46,888 - __main__ - INFO - Removed 2 bases from start of KAD1_SYNY3
+2021-03-03 03:03:46,889 - __main__ - INFO - Removed 2 bases from start of KAD1_ANASP
+2021-03-03 03:03:46,890 - __main__ - INFO - Removed 2 bases from start of KAD_SYNP6
+2021-03-03 03:03:46,891 - __main__ - INFO - Removed 1 bases from start of KAD_SYNEL
+2021-03-03 03:03:46,892 - __main__ - INFO - Removed 6 bases from start of KAD_DEIRA
+2021-03-03 03:03:46,894 - __main__ - INFO - Removed 1 bases from start of KAD_MYCLE
+2021-03-03 03:03:46,895 - __main__ - INFO - Removed 1 bases from start of KAD_LEPIN
+2021-03-03 03:03:46,896 - __main__ - INFO - Removed 1 bases from start of KAD_RHIME
+2021-03-03 03:03:46,900 - __main__ - INFO - Removed 1 bases from start of KAD_BRUME
+2021-03-03 03:03:46,901 - __main__ - INFO - Removed 1 bases from start of KAD_AGRT5
+2021-03-03 03:03:46,903 - __main__ - INFO - Removed 1 bases from start of KAD_RHILO
+2021-03-03 03:03:46,904 - __main__ - INFO - Removed 1 bases from start of KAD_CAUCR
+2021-03-03 03:03:46,905 - __main__ - INFO - Removed 1 bases from start of KCY_HUMAN
+2021-03-03 03:03:46,907 - __main__ - INFO - Removed 1 bases from start of KAD1_BOVIN
+2021-03-03 03:03:46,908 - __main__ - INFO - Removed 5 bases from start of KAD1_CAEEL
+2021-03-03 03:03:46,909 - __main__ - INFO - Removed 2 bases from start of KAD5_HUMAN
+2021-03-03 03:03:46,910 - __main__ - INFO - Removed 4 bases from start of UMPK_ARATH
+2021-03-03 03:03:46,912 - __main__ - INFO - Removed 2 bases from start of KAD_CAMJE
+2021-03-03 03:03:46,912 - __main__ - INFO - Removed 1 bases from end of KAD_CAMJE
+2021-03-03 03:03:46,913 - __main__ - INFO - Removed 1 bases from start of KAD_BIFLO
+2021-03-03 03:03:46,915 - __main__ - INFO - Removed 1 bases from start of KAD2_ANASP
+2021-03-03 03:03:46,916 - __main__ - INFO - Removed 1 bases from start of KAD2_SYNY3
+2021-03-03 03:03:46,918 - __main__ - INFO - Removed 3 bases from start of KGUA_SYNY3
+2021-03-03 03:03:46,919 - __main__ - INFO - Removed 10 bases from start of KGUA_STRCO
+2021-03-03 03:03:46,920 - __main__ - INFO - Removed 5 bases from start of KGUA_DEIRA
+2021-03-03 03:03:46,925 - __main__ - INFO - Removed 3 bases from start of KGUA_CLOPE
+2021-03-03 03:03:46,946 - __main__ - INFO - Removed 20 bases from start of KGUA_RICCN
+2021-03-03 03:03:46,947 - __main__ - INFO - Removed 8 bases from start of KGUA_RHIME
+2021-03-03 03:03:46,948 - __main__ - INFO - Removed 8 bases from start of KGUA_AGRT5
+2021-03-03 03:03:46,949 - __main__ - INFO - Removed 8 bases from start of KGUA_RHILO
+2021-03-03 03:03:46,950 - __main__ - INFO - Removed 8 bases from start of KGUA_BRUME
+2021-03-03 03:03:46,951 - __main__ - INFO - Removed 8 bases from start of KGUA_BRAJA
+2021-03-03 03:03:46,953 - __main__ - INFO - Removed 4 bases from start of KGUA_CAUCR
+2021-03-03 03:03:46,953 - __main__ - INFO - Removed 1 bases from end of KGUA_CAUCR
+2021-03-03 03:03:46,955 - __main__ - INFO - Removed 3 bases from end of KGUA_CAMJE
+2021-03-03 03:03:46,956 - __main__ - INFO - Removed 13 bases from end of KGUA_THEMA
+2021-03-03 03:03:46,958 - __main__ - INFO - Removed 5 bases from start of KGUA_MYCGA
+2021-03-03 03:03:46,959 - __main__ - INFO - Removed 1 bases from start of KGUA_MYCGE
+2021-03-03 03:03:46,966 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 03:03:47,393 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 03:03:47,763 - __main__ - INFO - Building consensus sequence

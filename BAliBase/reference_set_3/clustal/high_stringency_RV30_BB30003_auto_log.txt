@@ -1,0 +1,68 @@
+2021-03-03 02:49:23,011 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_3/clustal/RV30_BB30003_auto.fasta --outfile_stem reference_set_3/clustal/high_stringency_RV30_BB30003_auto
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 02:49:23,096 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 02:49:23,096 - __main__ - INFO - Removing divergent sequences
+2021-03-03 02:49:26,165 - __main__ - INFO - Removing divergent sequences TPL_PASMU, GATA_USTMA, AAT_BACST, LTAA_AERJA, ARGD_AERPE, AAT1_MEDSA, TNAA_THETN, OAT_SCHPO, 1b5o_A, AAT_HAEIN, AATM_BOVIN, AATC_YEAST, TNAA_ENTAE, GLY1_YEAST, AAT_PSEAE, HIS8_XYLFA, HI81_HAEIN, HIS8_PYRFU, BIOA_AQUAE, HIS8_XANAC, ATTY_RHIME, AAT5_ARATH, AAT1_METJA, TPL_CITFR, HIS8_VIBCH, HI82_ANASP, 2dkb_, TNAA_CLOTE, AAT_PYRAB, 1ajs_A, PHHC_PSEAE, TPL_SYMS1, HIS8_METTH, 1ohv_A, AAT_ECOLI, AAT1_ARATH, TYRB_ECOLI, TOXG_COCCA, HIS8_BUCAI, AATM_YEAST, AATA_RHIME, TNAA_RHOCA, GABT_ECOLI, HIS8_GLOVI, 1jg8_A, HIS8_THETN, TNA1_SYMTH, AAT_BACY2, DAT_HAEIN, TNAA_ECO57, TNAA_HALN1, AAT1_BACSU, TPL_CLOTE, AAT_RICCN, AATC_CAEEL, HIS8_BUCAP, GLY1_ASHGO, AGT2_HUMAN, AAT4_ARATH, HIS8_CHLTE, TNAA_VIBPA, HI81_PASMU, 1ax4_A, TPA_BILWA, AAT_AQUAE, GLY1_CANAL, AAT_SYNY3, GABT_CAEEL, TNAA_AERPE, AAT_THEMA, 1h1c_A, HIS8_BUCBP, 1fg3_A, HIS8_YERPE, 1dty_A, GLY1_SCHPO, TNAA_CHRVO, LTAE_ECO57, TYRB_PARDE, AAB1_RHIME
+2021-03-03 02:49:26,165 - __main__ - INFO - Removing insertions
+2021-03-03 02:49:26,165 - __main__ - INFO - Removing insertions
+
+2021-03-03 02:49:26,997 - __main__ - INFO - Removing sites 512, 513, 514, 515, 516, 517, 518, 519, 520, 526, 527, 531, 532, 533, 534, 535, 536, 562, 563, 564, 53, 54, 55, 56, 57, 58, 59, 60, 569, 72, 76, 77, 591, 592, 593, 595, 602, 603, 99, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 618, 619, 114, 620, 621, 622, 623, 631, 632, 624, 625, 626, 627, 628, 629, 630, 132, 652, 653, 654, 143, 655, 656, 657, 659, 660, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 167, 168, 169, 170, 679, 680, 683, 684, 685, 180, 197, 198, 199, 200, 201, 202, 203, 205, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 301, 303, 313, 314, 318, 319, 320, 321, 322, 323, 324, 325, 332, 333, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 400, 426, 445, 446, 447, 448, 449, 450, 451, 455, 456, 461, 462, 463, 464, 466, 467, 468, 469, 470, 471, 477, 478, 488, 499, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511
+2021-03-03 02:49:26,997 - __main__ - INFO - Cropping ends
+2021-03-03 02:49:27,013 - __main__ - INFO - Removed 26 bases from start of ARGD_ALNGL
+2021-03-03 02:49:27,031 - __main__ - INFO - Removed 9 bases from start of ARGD_PROMP
+2021-03-03 02:49:27,095 - __main__ - INFO - Removed 5 bases from start of ARGD_YEAST
+2021-03-03 02:49:27,098 - __main__ - INFO - Removed 5 bases from start of ARGD_KLULA
+2021-03-03 02:49:27,100 - __main__ - INFO - Removed 4 bases from start of ARGD_BIFLO
+2021-03-03 02:49:27,117 - __main__ - INFO - Removed 12 bases from start of OAT_CAEEL
+2021-03-03 02:49:27,138 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 02:49:27,715 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 02:49:28,171 - __main__ - INFO - Building consensus sequence

@@ -1,0 +1,107 @@
+2021-03-03 03:05:19,639 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini --infile reference_set_3/mafft/RV30_BB30024_local_max100.fasta --outfile_stem reference_set_3/mafft/med_stringency_RV30_BB30024_local_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/med_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.3
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 03:05:19,700 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 03:05:19,701 - __main__ - INFO - Removing divergent sequences
+2021-03-03 03:05:21,058 - __main__ - INFO - Removing divergent sequences FENR_AZOVI, RFBI_SALTY, FENR_SPISP, 1qfj_A, HMPA_ERWCH, NDOR_PSEPU, 1krh_A, 1cqx_A, FHP_CANNO, FENR_BUCAI, LUXG_VIBFI, FHP_YEAST, HMPA_VIBPA, FRE_VIBFI, FENR_BUCAP, FENR_BUCBP, HMPA_ECOLI, MMOC_METCA, 1fdr_, HMPA_BACSU, HMPA_VIBCH, 1fnc_
+2021-03-03 03:05:21,058 - __main__ - INFO - Removing insertions
+2021-03-03 03:05:21,058 - __main__ - INFO - Removing insertions
+
+2021-03-03 03:05:22,354 - __main__ - INFO - Removing sites 1027, 1028, 1029, 1030, 1031, 1034, 533, 534, 535, 1057, 1060, 1061, 1062, 1063, 1064, 1065, 69, 1093, 587, 588, 589, 78, 79, 80, 81, 82, 595, 596, 83, 84, 85, 86, 87, 88, 89, 90, 91, 94, 95, 599, 600, 601, 602, 603, 604, 605, 1164, 106, 107, 108, 109, 1132, 1133, 1134, 1135, 626, 627, 628, 1136, 1137, 1143, 1138, 1145, 1146, 121, 122, 123, 124, 125, 126, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 1173, 1174, 1175, 672, 1188, 1189, 1190, 1191, 1192, 1193, 682, 683, 172, 684, 685, 686, 1194, 1195, 1196, 1202, 1203, 1204, 1205, 1206, 1207, 1106, 1210, 187, 188, 189, 190, 191, 192, 193, 1157, 1158, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 1159, 1160, 1225, 1161, 1235, 1236, 1237, 1238, 1162, 1239, 1240, 1241, 1243, 1244, 1245, 1246, 1242, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 1165, 748, 761, 765, 1280, 1281, 1282, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 1303, 800, 302, 303, 308, 309, 314, 315, 837, 838, 851, 852, 853, 854, 863, 884, 866, 867, 868, 869, 870, 871, 872, 885, 881, 369, 883, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 886, 887, 888, 889, 901, 902, 1163, 392, 398, 399, 400, 401, 402, 910, 911, 912, 590, 921, 922, 923, 924, 591, 925, 1099, 1100, 592, 931, 932, 933, 934, 593, 1101, 938, 1102, 594, 1103, 1104, 439, 1105, 440, 441, 951, 952, 597, 953, 954, 955, 956, 598, 957, 958, 959, 961, 1107, 1108, 975, 976, 977, 979, 981, 997, 998, 999, 1000, 1001, 1002, 1003, 1007, 496, 497, 498, 499, 500, 1008, 1009, 1021
+2021-03-03 03:05:22,354 - __main__ - INFO - Cropping ends
+2021-03-03 03:05:22,359 - __main__ - INFO - Removed 1 bases from start of 1ep1_B
+2021-03-03 03:05:22,363 - __main__ - INFO - Removed 1 bases from start of PYRK_BACCL
+2021-03-03 03:05:22,368 - __main__ - INFO - Removed 1 bases from start of PYRK_BACAA
+2021-03-03 03:05:22,375 - __main__ - INFO - Removed 1 bases from start of PYRK_BACHD
+2021-03-03 03:05:22,385 - __main__ - INFO - Removed 1 bases from start of PYRK_STRMU
+2021-03-03 03:05:22,390 - __main__ - INFO - Removed 1 bases from start of PYRK_ENTFA
+2021-03-03 03:05:22,397 - __main__ - INFO - Removed 1 bases from start of PYRK_THETN
+2021-03-03 03:05:22,401 - __main__ - INFO - Removed 1 bases from start of PYRK_AQUAE
+2021-03-03 03:05:22,406 - __main__ - INFO - Removed 1 bases from start of PYRK_CLOAB
+2021-03-03 03:05:22,406 - __main__ - INFO - Removed 1 bases from end of PYRK_CLOAB
+2021-03-03 03:05:22,410 - __main__ - INFO - Removed 1 bases from start of PYRK_CLOPE
+2021-03-03 03:05:22,415 - __main__ - INFO - Removed 1 bases from start of PYRK_THEMA
+2021-03-03 03:05:22,419 - __main__ - INFO - Removed 19 bases from end of PYRK_ARCFU
+2021-03-03 03:05:22,424 - __main__ - INFO - Removed 1 bases from start of PYRK_PYRFU
+2021-03-03 03:05:22,428 - __main__ - INFO - Removed 1 bases from start of PYRK_PYRAB
+2021-03-03 03:05:22,428 - __main__ - INFO - Removed 1 bases from end of PYRK_PYRAB
+2021-03-03 03:05:22,433 - __main__ - INFO - Removed 1 bases from start of PYRK_METKA
+2021-03-03 03:05:22,433 - __main__ - INFO - Removed 2 bases from end of PYRK_METKA
+2021-03-03 03:05:22,437 - __main__ - INFO - Removed 1 bases from start of PYRK_METAC
+2021-03-03 03:05:22,442 - __main__ - INFO - Removed 2 bases from end of PYRK_THEVO
+2021-03-03 03:05:22,446 - __main__ - INFO - Removed 2 bases from end of PYRK_THEAC
+2021-03-03 03:05:22,450 - __main__ - INFO - Removed 1 bases from start of 1ndh_
+2021-03-03 03:05:22,455 - __main__ - INFO - Removed 1 bases from start of NIA2_MAIZE
+2021-03-03 03:05:22,459 - __main__ - INFO - Removed 16 bases from start of NIA7_HORVU
+2021-03-03 03:05:22,462 - __main__ - INFO - Removed 1 bases from start of NIA3_MAIZE
+2021-03-03 03:05:22,466 - __main__ - INFO - Removed 1 bases from start of NIA1_HORVU
+2021-03-03 03:05:22,469 - __main__ - INFO - Removed 1 bases from start of NIA_SPIOL
+2021-03-03 03:05:22,473 - __main__ - INFO - Removed 1 bases from start of NIA1_PHAVU
+2021-03-03 03:05:22,476 - __main__ - INFO - Removed 1 bases from start of NIA1_SOYBN
+2021-03-03 03:05:22,480 - __main__ - INFO - Removed 1 bases from start of NIA_LOTJA
+2021-03-03 03:05:22,483 - __main__ - INFO - Removed 1 bases from start of NIA_BETVE
+2021-03-03 03:05:22,487 - __main__ - INFO - Removed 1 bases from start of NIA_CUCMA
+2021-03-03 03:05:22,490 - __main__ - INFO - Removed 1 bases from start of NIA_CICIN
+2021-03-03 03:05:22,494 - __main__ - INFO - Removed 1 bases from start of NIA1_TOBAC
+2021-03-03 03:05:22,497 - __main__ - INFO - Removed 1 bases from start of NIA1_ARATH
+2021-03-03 03:05:22,500 - __main__ - INFO - Removed 1 bases from start of NIA2_ARATH
+2021-03-03 03:05:22,504 - __main__ - INFO - Removed 21 bases from start of NIA_VOLCA
+2021-03-03 03:05:22,508 - __main__ - INFO - Removed 35 bases from start of NIA_PHYIN
+2021-03-03 03:05:22,511 - __main__ - INFO - Removed 1 bases from start of NIA_LEPMC
+2021-03-03 03:05:22,515 - __main__ - INFO - Removed 1 bases from start of NIA_ASPNG
+2021-03-03 03:05:22,518 - __main__ - INFO - Removed 1 bases from start of NIA_EMENI
+2021-03-03 03:05:22,522 - __main__ - INFO - Removed 2 bases from start of NIA_FUSOX
+2021-03-03 03:05:22,525 - __main__ - INFO - Removed 12 bases from start of NIA_BEABA
+2021-03-03 03:05:22,532 - __main__ - INFO - Removed 6 bases from start of NIA_PICAN
+2021-03-03 03:05:22,535 - __main__ - INFO - Removed 1 bases from start of NIA_USTMA
+2021-03-03 03:05:22,542 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 03:05:23,037 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 03:05:23,478 - __main__ - INFO - Building consensus sequence

@@ -1,0 +1,150 @@
+2021-03-03 04:19:27,065 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_6/mafft/test_2a_myb_2_ref6_local_max100.fasta --outfile_stem reference_set_6/mafft/high_stringency_test_2a_myb_2_ref6_local_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 04:19:27,110 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 04:19:27,110 - __main__ - INFO - Removing divergent sequences
+2021-03-03 04:19:27,661 - __main__ - INFO - Removing divergent sequences MYB_DROME_3, Q9S7G7_3, O01719_1, O01719_3, MYBH_DICDI_3, Q9SPN3_3, Q9S7G7_1
+2021-03-03 04:19:27,661 - __main__ - INFO - Removing insertions
+2021-03-03 04:19:27,661 - __main__ - INFO - Removing insertions
+
+2021-03-03 04:19:28,704 - __main__ - INFO - Removing sites 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 214, 215, 216, 227, 228, 229, 230, 231, 252, 253, 254, 272, 300, 301, 302, 303, 312, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 342, 343, 350, 359, 365, 366, 367, 368, 369, 390, 408, 409, 410, 411, 412, 413, 414, 424, 434, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 494, 495, 496, 497, 498, 499, 500, 501, 510, 511, 512, 513, 514, 515, 516, 517, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 545, 546, 550, 551, 552, 553, 554, 566, 572, 573, 574, 575, 576, 588, 592, 593, 594, 609, 610, 611, 612, 613, 614, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 640, 641, 642, 643, 686, 687, 688, 689, 690, 691, 692, 693, 694, 701, 707, 708, 709, 728, 744, 745, 746, 747, 748, 749, 750, 751, 785, 786, 795, 796, 806, 807, 808, 809, 822, 823, 824, 825, 826, 827, 828, 833, 834, 846, 847, 848, 849, 850, 851, 869, 870, 871, 872, 879, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 938, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979, 980, 981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1029, 1057, 1062, 1067
+2021-03-03 04:19:28,705 - __main__ - INFO - Cropping ends
+2021-03-03 04:19:28,708 - __main__ - INFO - Removed 4 bases from start of Q9S7G7_2
+2021-03-03 04:19:28,708 - __main__ - INFO - Removed 4 bases from end of Q9S7G7_2
+2021-03-03 04:19:28,711 - __main__ - INFO - Removed 7 bases from start of Q9SPN3_1
+2021-03-03 04:19:28,711 - __main__ - INFO - Removed 7 bases from end of Q9SPN3_1
+2021-03-03 04:19:28,714 - __main__ - INFO - Removed 4 bases from start of Q9SPN3_2
+2021-03-03 04:19:28,714 - __main__ - INFO - Removed 4 bases from end of Q9SPN3_2
+2021-03-03 04:19:28,718 - __main__ - INFO - Removed 7 bases from start of MYBA_CHICK_1
+2021-03-03 04:19:28,718 - __main__ - INFO - Removed 7 bases from end of MYBA_CHICK_1
+2021-03-03 04:19:28,721 - __main__ - INFO - Removed 4 bases from start of MYBA_CHICK_2
+2021-03-03 04:19:28,721 - __main__ - INFO - Removed 4 bases from end of MYBA_CHICK_2
+2021-03-03 04:19:28,726 - __main__ - INFO - Removed 7 bases from start of MYBA_HUMAN_1
+2021-03-03 04:19:28,727 - __main__ - INFO - Removed 7 bases from end of MYBA_HUMAN_1
+2021-03-03 04:19:28,730 - __main__ - INFO - Removed 4 bases from start of MYBA_HUMAN_2
+2021-03-03 04:19:28,730 - __main__ - INFO - Removed 4 bases from end of MYBA_HUMAN_2
+2021-03-03 04:19:28,736 - __main__ - INFO - Removed 7 bases from start of MYBA_MOUSE_1
+2021-03-03 04:19:28,736 - __main__ - INFO - Removed 7 bases from end of MYBA_MOUSE_1
+2021-03-03 04:19:28,739 - __main__ - INFO - Removed 4 bases from start of MYBA_MOUSE_2
+2021-03-03 04:19:28,739 - __main__ - INFO - Removed 4 bases from end of MYBA_MOUSE_2
+2021-03-03 04:19:28,744 - __main__ - INFO - Removed 7 bases from start of MYBA_XENLA_1
+2021-03-03 04:19:28,744 - __main__ - INFO - Removed 7 bases from end of MYBA_XENLA_1
+2021-03-03 04:19:28,748 - __main__ - INFO - Removed 4 bases from start of MYBA_XENLA_2
+2021-03-03 04:19:28,748 - __main__ - INFO - Removed 4 bases from end of MYBA_XENLA_2
+2021-03-03 04:19:28,753 - __main__ - INFO - Removed 7 bases from start of MYBB_CHICK_1
+2021-03-03 04:19:28,753 - __main__ - INFO - Removed 7 bases from end of MYBB_CHICK_1
+2021-03-03 04:19:28,757 - __main__ - INFO - Removed 4 bases from start of MYBB_CHICK_2
+2021-03-03 04:19:28,757 - __main__ - INFO - Removed 4 bases from end of MYBB_CHICK_2
+2021-03-03 04:19:28,762 - __main__ - INFO - Removed 7 bases from start of MYBB_HUMAN_1
+2021-03-03 04:19:28,762 - __main__ - INFO - Removed 7 bases from end of MYBB_HUMAN_1
+2021-03-03 04:19:28,766 - __main__ - INFO - Removed 4 bases from start of MYBB_HUMAN_2
+2021-03-03 04:19:28,766 - __main__ - INFO - Removed 4 bases from end of MYBB_HUMAN_2
+2021-03-03 04:19:28,771 - __main__ - INFO - Removed 7 bases from start of MYBB_MOUSE_1
+2021-03-03 04:19:28,771 - __main__ - INFO - Removed 7 bases from end of MYBB_MOUSE_1
+2021-03-03 04:19:28,774 - __main__ - INFO - Removed 4 bases from start of MYBB_MOUSE_2
+2021-03-03 04:19:28,774 - __main__ - INFO - Removed 4 bases from end of MYBB_MOUSE_2
+2021-03-03 04:19:28,779 - __main__ - INFO - Removed 7 bases from start of MYBB_XENLA_1
+2021-03-03 04:19:28,779 - __main__ - INFO - Removed 7 bases from end of MYBB_XENLA_1
+2021-03-03 04:19:28,783 - __main__ - INFO - Removed 4 bases from start of MYBB_XENLA_2
+2021-03-03 04:19:28,783 - __main__ - INFO - Removed 4 bases from end of MYBB_XENLA_2
+2021-03-03 04:19:28,788 - __main__ - INFO - Removed 7 bases from start of MYBH_DICDI_1
+2021-03-03 04:19:28,788 - __main__ - INFO - Removed 7 bases from end of MYBH_DICDI_1
+2021-03-03 04:19:28,791 - __main__ - INFO - Removed 4 bases from start of MYBH_DICDI_2
+2021-03-03 04:19:28,791 - __main__ - INFO - Removed 4 bases from end of MYBH_DICDI_2
+2021-03-03 04:19:28,796 - __main__ - INFO - Removed 4 bases from start of MYB_AVIMB-F_2
+2021-03-03 04:19:28,796 - __main__ - INFO - Removed 4 bases from end of MYB_AVIMB-F_2
+2021-03-03 04:19:28,799 - __main__ - INFO - Removed 3 bases from end of MYB_AVIMB-F_3
+2021-03-03 04:19:28,802 - __main__ - INFO - Removed 7 bases from start of MYB_BOVIN_1
+2021-03-03 04:19:28,802 - __main__ - INFO - Removed 7 bases from end of MYB_BOVIN_1
+2021-03-03 04:19:28,805 - __main__ - INFO - Removed 4 bases from start of MYB_BOVIN_2
+2021-03-03 04:19:28,805 - __main__ - INFO - Removed 4 bases from end of MYB_BOVIN_2
+2021-03-03 04:19:28,808 - __main__ - INFO - Removed 43 bases from end of MYB_BOVIN_3
+2021-03-03 04:19:28,811 - __main__ - INFO - Removed 7 bases from start of MYB_CHICK_1
+2021-03-03 04:19:28,811 - __main__ - INFO - Removed 7 bases from end of MYB_CHICK_1
+2021-03-03 04:19:28,814 - __main__ - INFO - Removed 4 bases from start of MYB_CHICK_2
+2021-03-03 04:19:28,814 - __main__ - INFO - Removed 4 bases from end of MYB_CHICK_2
+2021-03-03 04:19:28,817 - __main__ - INFO - Removed 43 bases from end of MYB_CHICK_3
+2021-03-03 04:19:28,820 - __main__ - INFO - Removed 7 bases from start of MYB_DROME_1
+2021-03-03 04:19:28,820 - __main__ - INFO - Removed 7 bases from end of MYB_DROME_1
+2021-03-03 04:19:28,823 - __main__ - INFO - Removed 4 bases from start of MYB_DROME_2
+2021-03-03 04:19:28,823 - __main__ - INFO - Removed 4 bases from end of MYB_DROME_2
+2021-03-03 04:19:28,826 - __main__ - INFO - Removed 7 bases from start of MYB_HUMAN_1
+2021-03-03 04:19:28,827 - __main__ - INFO - Removed 7 bases from end of MYB_HUMAN_1
+2021-03-03 04:19:28,830 - __main__ - INFO - Removed 4 bases from start of MYB_HUMAN_2
+2021-03-03 04:19:28,830 - __main__ - INFO - Removed 4 bases from end of MYB_HUMAN_2
+2021-03-03 04:19:28,832 - __main__ - INFO - Removed 43 bases from end of MYB_HUMAN_3
+2021-03-03 04:19:28,835 - __main__ - INFO - Removed 7 bases from start of MYB_MOUSE_1
+2021-03-03 04:19:28,835 - __main__ - INFO - Removed 7 bases from end of MYB_MOUSE_1
+2021-03-03 04:19:28,839 - __main__ - INFO - Removed 4 bases from start of MYB_MOUSE_2
+2021-03-03 04:19:28,839 - __main__ - INFO - Removed 4 bases from end of MYB_MOUSE_2
+2021-03-03 04:19:28,841 - __main__ - INFO - Removed 43 bases from end of MYB_MOUSE_3
+2021-03-03 04:19:28,844 - __main__ - INFO - Removed 7 bases from start of MYB_XENLA_1
+2021-03-03 04:19:28,844 - __main__ - INFO - Removed 7 bases from end of MYB_XENLA_1
+2021-03-03 04:19:28,848 - __main__ - INFO - Removed 4 bases from start of MYB_XENLA_2
+2021-03-03 04:19:28,848 - __main__ - INFO - Removed 4 bases from end of MYB_XENLA_2
+2021-03-03 04:19:28,850 - __main__ - INFO - Removed 41 bases from end of MYB_XENLA_3
+2021-03-03 04:19:28,853 - __main__ - INFO - Removed 4 bases from start of O01719_2
+2021-03-03 04:19:28,853 - __main__ - INFO - Removed 4 bases from end of O01719_2
+2021-03-03 04:19:28,856 - __main__ - INFO - Removed 7 bases from start of P87467-F_1
+2021-03-03 04:19:28,857 - __main__ - INFO - Removed 7 bases from end of P87467-F_1
+2021-03-03 04:19:28,860 - __main__ - INFO - Removed 4 bases from start of P87467-F_2
+2021-03-03 04:19:28,860 - __main__ - INFO - Removed 4 bases from end of P87467-F_2
+2021-03-03 04:19:28,863 - __main__ - INFO - Removed 2 bases from start of P87467-F_3
+2021-03-03 04:19:28,863 - __main__ - INFO - Removed 2 bases from end of P87467-F_3
+2021-03-03 04:19:28,866 - __main__ - INFO - Removed 6 bases from start of P97753-F_1
+2021-03-03 04:19:28,866 - __main__ - INFO - Removed 6 bases from end of P97753-F_1
+2021-03-03 04:19:28,870 - __main__ - INFO - Removed 4 bases from start of P97753-F_2
+2021-03-03 04:19:28,870 - __main__ - INFO - Removed 4 bases from end of P97753-F_2
+2021-03-03 04:19:28,873 - __main__ - INFO - Removed 3 bases from start of P97753-F_3
+2021-03-03 04:19:28,873 - __main__ - INFO - Removed 3 bases from end of P97753-F_3
+2021-03-03 04:19:28,878 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 04:19:29,313 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 04:19:29,692 - __main__ - INFO - Building consensus sequence

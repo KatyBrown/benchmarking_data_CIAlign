@@ -1,0 +1,64 @@
+2021-07-01 02:15:29,409 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BB.ini --infile reference_set_4/muscle/RV40_BB40007_max100.fasta --outfile_stem reference_set_4/muscle/highly_stringent_RV40_BB40007_max100
+Config File (highly_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 02:15:29,428 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 02:15:29,429 - __main__ - INFO - Removing divergent sequences
+2021-07-01 02:15:29,928 - __main__ - INFO - Removing insertions
+2021-07-01 02:15:29,928 - __main__ - INFO - Removing insertions
+
+2021-07-01 02:15:32,576 - __main__ - INFO - Removing sites 2086, 2087, 2088, 2089, 2140, 2141, 2142, 122, 123, 124, 125, 126, 127, 154, 2216, 2217, 2218, 2219, 2221, 2222, 2223, 2224, 183, 223, 230, 231, 232, 239, 240, 241, 2319, 334, 335, 336, 337, 338, 2422, 2423, 2424, 377, 378, 2457, 2458, 2459, 2460, 2461, 426, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 483, 484, 485, 486, 487, 2558, 2559, 562, 563, 564, 565, 566, 567, 568, 569, 610, 611, 612, 632, 654, 655, 656, 657, 658, 659, 660, 716, 717, 718, 719, 720, 721, 747, 748, 790, 817, 819, 820, 821, 838, 839, 840, 841, 842, 843, 856, 857, 858, 859, 860, 861, 880, 881, 882, 883, 884, 921, 922, 923, 932, 933, 946, 968, 969, 970, 971, 972, 973, 974, 975, 1024, 1025, 1026, 1027, 1028, 1062, 1063, 1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1076, 1077, 1144, 1145, 1146, 1147, 1148, 1149, 1150, 1151, 1152, 1153, 1154, 1155, 1156, 1157, 1158, 1159, 1160, 1161, 1162, 1163, 1164, 1179, 1180, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1273, 1322, 1323, 1324, 1325, 1326, 1327, 1328, 1329, 1330, 1331, 1332, 1333, 1334, 1335, 1336, 1337, 1338, 1339, 1340, 1341, 1342, 1343, 1344, 1345, 1346, 1347, 1348, 1349, 1350, 1351, 1352, 1353, 1354, 1355, 1377, 1378, 1379, 1380, 1431, 1493, 1494, 1495, 1496, 1497, 1498, 1499, 1500, 1501, 1502, 1503, 1504, 1546, 1547, 1548, 1549, 1658, 1671, 1672, 1673, 1674, 1715, 1716, 1717, 1718, 1719, 1742, 1743, 1744, 1745, 1746, 1747, 1748, 1749, 1750, 1751, 1752, 1753, 1754, 1755, 1756, 1757, 1758, 1759, 1760, 1761, 1762, 1763, 1764, 1800, 1801, 1802, 1803, 1925, 1926, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939, 1940, 1973, 1974, 1975, 1976, 1977, 1978, 2028, 2029, 2030, 2031, 2032, 2033, 2047
+2021-07-01 02:15:32,577 - __main__ - INFO - Cropping ends
+2021-07-01 02:15:32,588 - __main__ - INFO - Removed 152 bases from start of POLG_HPAV2
+2021-07-01 02:15:32,603 - __main__ - INFO - Removed 190 bases from start of POLG_EC22H
+2021-07-01 02:15:32,628 - __main__ - INFO - Removed 42 bases from start of POLG_HRV1A
+2021-07-01 02:15:32,628 - __main__ - INFO - Removed 21 bases from end of POLG_HRV1A
+2021-07-01 02:15:32,654 - __main__ - INFO - Removed 32 bases from end of POLG_EC16H
+2021-07-01 02:15:32,671 - __main__ - INFO - Removed 4 bases from end of 1al2_ac

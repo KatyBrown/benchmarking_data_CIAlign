@@ -1,0 +1,165 @@
+2021-03-03 03:25:05,858 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile /home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini --infile reference_set_4/muscle/RV40_BB40004_max100.fasta --outfile_stem reference_set_4/muscle/high_stringency_RV40_BB40004_max100
+Config File (/home/katy/CIAlign/benchmarking/BAliBase/high_config_BAliBase.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.4
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 100
+  keep_gaponly:      1
+  make_consensus:    1
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        1
+  plot_output:       1
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-03-03 03:25:05,919 - __main__ - INFO - Amino acid alignment detected
+2021-03-03 03:25:05,919 - __main__ - INFO - Removing divergent sequences
+2021-03-03 03:25:07,310 - __main__ - INFO - Removing divergent sequences PUT2_SCHPO, PUT2_EMENI, GABD_SYNY3, PUT2_AGABI, PUT2_YEAST, PUT2_HUMAN, YM00_YEAST, XYLC_PSEPU, GABD_DEIRA, GAPN_MAIZE, YNEI_ECOLI
+2021-03-03 03:25:07,310 - __main__ - INFO - Removing insertions
+2021-03-03 03:25:07,310 - __main__ - INFO - Removing insertions
+
+2021-03-03 03:25:08,402 - __main__ - INFO - Removing sites 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 1042, 1144, 1152, 645, 646, 647, 648, 649, 1153, 1158, 655, 656, 1175, 1176, 668, 683, 1053, 1054, 697, 698, 699, 700, 701, 1055, 705, 1232, 1059, 1233, 1234, 1235, 725, 1060, 1236, 1237, 1238, 1239, 1061, 1240, 1241, 1242, 1243, 1062, 1244, 1245, 1246, 1247, 1248, 1249, 1250, 1251, 1252, 1253, 1254, 748, 1255, 1256, 1065, 1257, 1258, 1259, 1260, 1066, 1261, 1262, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 767, 1271, 1272, 1273, 771, 1275, 1276, 774, 775, 776, 777, 778, 1274, 1283, 269, 270, 271, 272, 273, 274, 275, 783, 784, 786, 787, 788, 789, 1277, 1278, 802, 803, 1279, 1280, 1281, 1282, 1284, 1285, 1286, 1287, 845, 1288, 1289, 1290, 1291, 1292, 870, 871, 872, 1293, 876, 1294, 1295, 909, 910, 911, 912, 913, 914, 915, 1099, 1100, 937, 938, 1102, 940, 1143, 942, 943, 944, 1103, 1104, 1105, 1106, 980, 507, 991, 1118, 997, 998, 999, 1004, 505, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 506, 508, 509, 510, 511
+2021-03-03 03:25:08,403 - __main__ - INFO - Cropping ends
+2021-03-03 03:25:08,414 - __main__ - INFO - Removed 34 bases from start of ROC1_BACHD
+2021-03-03 03:25:08,414 - __main__ - INFO - Removed 10 bases from end of ROC1_BACHD
+2021-03-03 03:25:08,419 - __main__ - INFO - Removed 34 bases from start of ROC2_BACSU
+2021-03-03 03:25:08,419 - __main__ - INFO - Removed 10 bases from end of ROC2_BACSU
+2021-03-03 03:25:08,424 - __main__ - INFO - Removed 34 bases from start of ROCA_BACAA
+2021-03-03 03:25:08,424 - __main__ - INFO - Removed 10 bases from end of ROCA_BACAA
+2021-03-03 03:25:08,428 - __main__ - INFO - Removed 34 bases from start of ROCA_BACSU
+2021-03-03 03:25:08,429 - __main__ - INFO - Removed 10 bases from end of ROCA_BACSU
+2021-03-03 03:25:08,433 - __main__ - INFO - Removed 34 bases from start of ROCA_STAAM
+2021-03-03 03:25:08,433 - __main__ - INFO - Removed 10 bases from end of ROCA_STAAM
+2021-03-03 03:25:08,438 - __main__ - INFO - Removed 34 bases from start of ROCA_OCEIH
+2021-03-03 03:25:08,438 - __main__ - INFO - Removed 10 bases from end of ROCA_OCEIH
+2021-03-03 03:25:08,443 - __main__ - INFO - Removed 4 bases from start of MMSA_BACSU
+2021-03-03 03:25:08,443 - __main__ - INFO - Removed 16 bases from end of MMSA_BACSU
+2021-03-03 03:25:08,447 - __main__ - INFO - Removed 3 bases from start of ALDA_ECOLI
+2021-03-03 03:25:08,448 - __main__ - INFO - Removed 10 bases from end of ALDA_ECOLI
+2021-03-03 03:25:08,452 - __main__ - INFO - Removed 39 bases from start of SSDH_HUMAN
+2021-03-03 03:25:08,452 - __main__ - INFO - Removed 11 bases from end of SSDH_HUMAN
+2021-03-03 03:25:08,456 - __main__ - INFO - Removed 8 bases from start of GABD_ECOLI
+2021-03-03 03:25:08,456 - __main__ - INFO - Removed 10 bases from end of GABD_ECOLI
+2021-03-03 03:25:08,461 - __main__ - INFO - Removed 15 bases from start of GABD_RHISN
+2021-03-03 03:25:08,461 - __main__ - INFO - Removed 11 bases from end of GABD_RHISN
+2021-03-03 03:25:08,466 - __main__ - INFO - Removed 10 bases from end of YDCW_ECOLI
+2021-03-03 03:25:08,470 - __main__ - INFO - Removed 17 bases from start of FEAB_ECOLI
+2021-03-03 03:25:08,470 - __main__ - INFO - Removed 10 bases from end of FEAB_ECOLI
+2021-03-03 03:25:08,475 - __main__ - INFO - Removed 7 bases from start of DHAL_BACST
+2021-03-03 03:25:08,475 - __main__ - INFO - Removed 10 bases from end of DHAL_BACST
+2021-03-03 03:25:08,480 - __main__ - INFO - Removed 7 bases from start of DHA1_BACSU
+2021-03-03 03:25:08,480 - __main__ - INFO - Removed 10 bases from end of DHA1_BACSU
+2021-03-03 03:25:08,484 - __main__ - INFO - Removed 4 bases from start of DHAB_RHIME
+2021-03-03 03:25:08,484 - __main__ - INFO - Removed 17 bases from end of DHAB_RHIME
+2021-03-03 03:25:08,489 - __main__ - INFO - Removed 3 bases from start of DHAB_ECOLI
+2021-03-03 03:25:08,489 - __main__ - INFO - Removed 17 bases from end of DHAB_ECOLI
+2021-03-03 03:25:08,495 - __main__ - INFO - Removed 17 bases from start of 1a4s_A
+2021-03-03 03:25:08,495 - __main__ - INFO - Removed 17 bases from end of 1a4s_A
+2021-03-03 03:25:08,500 - __main__ - INFO - Removed 8 bases from start of DHAG_HUMAN
+2021-03-03 03:25:08,500 - __main__ - INFO - Removed 17 bases from end of DHAG_HUMAN
+2021-03-03 03:25:08,505 - __main__ - INFO - Removed 10 bases from end of DMPC_PSESP
+2021-03-03 03:25:08,509 - __main__ - INFO - Removed 17 bases from start of DHAL_ECOLI
+2021-03-03 03:25:08,509 - __main__ - INFO - Removed 12 bases from end of DHAL_ECOLI
+2021-03-03 03:25:08,514 - __main__ - INFO - Removed 16 bases from start of DHAL_VIBCH
+2021-03-03 03:25:08,514 - __main__ - INFO - Removed 18 bases from end of DHAL_VIBCH
+2021-03-03 03:25:08,519 - __main__ - INFO - Removed 22 bases from start of ALDB_ECOLI
+2021-03-03 03:25:08,519 - __main__ - INFO - Removed 18 bases from end of ALDB_ECOLI
+2021-03-03 03:25:08,523 - __main__ - INFO - Removed 16 bases from start of DHAL_RHORU
+2021-03-03 03:25:08,523 - __main__ - INFO - Removed 18 bases from end of DHAL_RHORU
+2021-03-03 03:25:08,528 - __main__ - INFO - Removed 16 bases from start of DHA2_ALCEU
+2021-03-03 03:25:08,528 - __main__ - INFO - Removed 18 bases from end of DHA2_ALCEU
+2021-03-03 03:25:08,532 - __main__ - INFO - Removed 26 bases from start of DHAL_DEIRA
+2021-03-03 03:25:08,533 - __main__ - INFO - Removed 18 bases from end of DHAL_DEIRA
+2021-03-03 03:25:08,537 - __main__ - INFO - Removed 17 bases from start of DHAL_STRCO
+2021-03-03 03:25:08,537 - __main__ - INFO - Removed 18 bases from end of DHAL_STRCO
+2021-03-03 03:25:08,542 - __main__ - INFO - Removed 17 bases from start of DHAL_MYCTU
+2021-03-03 03:25:08,542 - __main__ - INFO - Removed 18 bases from end of DHAL_MYCTU
+2021-03-03 03:25:08,546 - __main__ - INFO - Removed 16 bases from start of THCA_RHOER
+2021-03-03 03:25:08,546 - __main__ - INFO - Removed 18 bases from end of THCA_RHOER
+2021-03-03 03:25:08,551 - __main__ - INFO - Removed 20 bases from end of DHAB_BACSU
+2021-03-03 03:25:08,556 - __main__ - INFO - Removed 18 bases from start of DHA2_YEAST
+2021-03-03 03:25:08,556 - __main__ - INFO - Removed 14 bases from end of DHA2_YEAST
+2021-03-03 03:25:08,560 - __main__ - INFO - Removed 10 bases from end of FTDH_HUMAN
+2021-03-03 03:25:08,564 - __main__ - INFO - Removed 17 bases from start of DHAM_LEITA
+2021-03-03 03:25:08,564 - __main__ - INFO - Removed 16 bases from end of DHAM_LEITA
+2021-03-03 03:25:08,569 - __main__ - INFO - Removed 12 bases from start of CROM_OCTDO
+2021-03-03 03:25:08,569 - __main__ - INFO - Removed 15 bases from end of CROM_OCTDO
+2021-03-03 03:25:08,573 - __main__ - INFO - Removed 12 bases from start of CROM_OMMSL
+2021-03-03 03:25:08,574 - __main__ - INFO - Removed 15 bases from end of CROM_OMMSL
+2021-03-03 03:25:08,578 - __main__ - INFO - Removed 31 bases from start of DHAY_YEAST
+2021-03-03 03:25:08,583 - __main__ - INFO - Removed 15 bases from start of DHAL_ENCBU
+2021-03-03 03:25:08,583 - __main__ - INFO - Removed 14 bases from end of DHAL_ENCBU
+2021-03-03 03:25:08,587 - __main__ - INFO - Removed 10 bases from start of 1a4z_A
+2021-03-03 03:25:08,587 - __main__ - INFO - Removed 15 bases from end of 1a4z_A
+2021-03-03 03:25:08,592 - __main__ - INFO - Removed 34 bases from start of DHA5_HUMAN
+2021-03-03 03:25:08,592 - __main__ - INFO - Removed 15 bases from end of DHA5_HUMAN
+2021-03-03 03:25:08,597 - __main__ - INFO - Removed 29 bases from start of DHA6_HUMAN
+2021-03-03 03:25:08,597 - __main__ - INFO - Removed 15 bases from end of DHA6_HUMAN
+2021-03-03 03:25:08,601 - __main__ - INFO - Removed 17 bases from start of DHA1_BOVIN
+2021-03-03 03:25:08,601 - __main__ - INFO - Removed 15 bases from end of DHA1_BOVIN
+2021-03-03 03:25:08,606 - __main__ - INFO - Removed 16 bases from start of DHA2_HUMAN
+2021-03-03 03:25:08,606 - __main__ - INFO - Removed 15 bases from end of DHA2_HUMAN
+2021-03-03 03:25:08,611 - __main__ - INFO - Removed 22 bases from start of DHA6_YEAST
+2021-03-03 03:25:08,611 - __main__ - INFO - Removed 10 bases from end of DHA6_YEAST
+2021-03-03 03:25:08,615 - __main__ - INFO - Removed 41 bases from start of DHA5_YEAST
+2021-03-03 03:25:08,615 - __main__ - INFO - Removed 15 bases from end of DHA5_YEAST
+2021-03-03 03:25:08,620 - __main__ - INFO - Removed 42 bases from start of DHA4_YEAST
+2021-03-03 03:25:08,620 - __main__ - INFO - Removed 12 bases from end of DHA4_YEAST
+2021-03-03 03:25:08,625 - __main__ - INFO - Removed 19 bases from start of DHAL_AGABI
+2021-03-03 03:25:08,625 - __main__ - INFO - Removed 14 bases from end of DHAL_AGABI
+2021-03-03 03:25:08,629 - __main__ - INFO - Removed 20 bases from start of YF19_SCHPO
+2021-03-03 03:25:08,629 - __main__ - INFO - Removed 16 bases from end of YF19_SCHPO
+2021-03-03 03:25:08,634 - __main__ - INFO - Removed 17 bases from start of DHAL_ASPNG
+2021-03-03 03:25:08,634 - __main__ - INFO - Removed 15 bases from end of DHAL_ASPNG
+2021-03-03 03:25:08,639 - __main__ - INFO - Removed 15 bases from start of DHAL_ALTAL
+2021-03-03 03:25:08,639 - __main__ - INFO - Removed 16 bases from end of DHAL_ALTAL
+2021-03-03 03:25:08,643 - __main__ - INFO - Removed 15 bases from start of DHAL_CLAHE
+2021-03-03 03:25:08,643 - __main__ - INFO - Removed 16 bases from end of DHAL_CLAHE
+2021-03-03 03:25:08,648 - __main__ - INFO - Removed 18 bases from start of DHAB_SCHPO
+2021-03-03 03:25:08,648 - __main__ - INFO - Removed 11 bases from end of DHAB_SCHPO
+2021-03-03 03:25:08,653 - __main__ - INFO - Removed 7 bases from start of DHAB_HORVU
+2021-03-03 03:25:08,653 - __main__ - INFO - Removed 24 bases from end of DHAB_HORVU
+2021-03-03 03:25:08,657 - __main__ - INFO - Removed 5 bases from start of DHAB_ARATH
+2021-03-03 03:25:08,657 - __main__ - INFO - Removed 22 bases from end of DHAB_ARATH
+2021-03-03 03:25:08,662 - __main__ - INFO - Removed 5 bases from start of DHAB_AMAHP
+2021-03-03 03:25:08,662 - __main__ - INFO - Removed 22 bases from end of DHAB_AMAHP
+2021-03-03 03:25:08,670 - __main__ - INFO - Plotting mini alignment for input
+2021-03-03 03:25:09,158 - __main__ - INFO - Plotting mini alignment for output
+2021-03-03 03:25:09,609 - __main__ - INFO - Building consensus sequence

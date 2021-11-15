@@ -1,0 +1,75 @@
+2021-07-01 03:30:02,532 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile highly_stringent_config_BB.ini --infile reference_set_6/clustal/test_4_lrr_3_ref6_auto.fasta --outfile_stem reference_set_6/clustal/highly_stringent_test_4_lrr_3_ref6_auto
+Config File (highly_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.01
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.25
+  remove_insertions: 1
+  insertion_min_size:1
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 75
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 03:30:02,554 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 03:30:02,554 - __main__ - INFO - Removing divergent sequences
+2021-07-01 03:30:02,915 - __main__ - INFO - Removing insertions
+2021-07-01 03:30:02,915 - __main__ - INFO - Removing insertions
+
+2021-07-01 03:30:04,298 - __main__ - INFO - Removing sites 326, 327, 328, 397, 414, 439, 440, 441, 442, 443, 444, 445, 462, 463, 464, 465, 466, 467, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 554, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 629, 635, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 710, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 864, 879, 880, 881, 882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 914, 915, 929, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 1025, 1083, 1201, 1202, 1221, 1239, 1240, 1241, 1261, 1262, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1273, 1274, 1275, 1276, 1277, 1278, 1279, 1320, 1321, 1322, 1323, 1324, 1325, 1326
+2021-07-01 03:30:04,298 - __main__ - INFO - Cropping ends
+2021-07-01 03:30:04,304 - __main__ - INFO - Removed 19 bases from start of ALS_HUMAN
+2021-07-01 03:30:04,310 - __main__ - INFO - Removed 1 bases from end of SLIT_DROME_1
+2021-07-01 03:30:04,316 - __main__ - INFO - Removed 4 bases from end of SLIT_DROME_2
+2021-07-01 03:30:04,316 - __main__ - WARNING - Given the length of sequence SLIT_DROME_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:30:04,321 - __main__ - WARNING - Given the length of sequence SLIT_DROME_4, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:30:04,330 - __main__ - INFO - Removed 19 bases from start of O75094_1
+2021-07-01 03:30:04,330 - __main__ - INFO - Removed 1 bases from end of O75094_1
+2021-07-01 03:30:04,336 - __main__ - INFO - Removed 3 bases from end of O75094_2
+2021-07-01 03:30:04,354 - __main__ - INFO - Removed 37 bases from start of GPV_MOUSE
+2021-07-01 03:30:04,359 - __main__ - INFO - Removed 4 bases from start of TOLL_DROME_1
+2021-07-01 03:30:04,364 - __main__ - INFO - Removed 27 bases from start of TOLL_DROME_2
+2021-07-01 03:30:04,364 - __main__ - INFO - Removed 26 bases from end of TOLL_DROME_2
+2021-07-01 03:30:04,370 - __main__ - INFO - Removed 57 bases from start of Q26388_1
+2021-07-01 03:30:04,375 - __main__ - WARNING - Given the length of sequence O95804_1, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:30:04,381 - __main__ - INFO - Removed 13 bases from start of O95804_1
+2021-07-01 03:30:04,388 - __main__ - INFO - Removed 4 bases from end of O95804_2
+2021-07-01 03:30:04,394 - __main__ - INFO - Removed 16 bases from end of O94933_1

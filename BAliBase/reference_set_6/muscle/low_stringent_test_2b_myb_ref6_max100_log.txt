@@ -1,0 +1,68 @@
+2021-07-01 03:13:01,829 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile low_stringent_config_BB.ini --infile reference_set_6/muscle/test_2b_myb_ref6_max100.fasta --outfile_stem reference_set_6/muscle/low_stringent_test_2b_myb_ref6_max100
+Config File (low_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.05
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.15
+  remove_insertions: 1
+  insertion_min_size:5
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 03:13:01,889 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 03:13:01,889 - __main__ - INFO - Removing divergent sequences
+2021-07-01 03:13:02,708 - __main__ - INFO - Removing insertions
+2021-07-01 03:13:02,708 - __main__ - INFO - Removing insertions
+
+2021-07-01 03:13:03,913 - __main__ - INFO - Removing sites 79, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 141, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 220, 221, 222, 223, 224, 250, 261, 262, 263, 264, 265, 266, 267, 272, 273, 274, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 322, 323, 328, 329, 340, 357, 358, 359, 360, 361, 362, 363, 364, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 451, 452, 453, 454, 480, 481, 482, 487, 513, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 689, 700, 701, 702, 757, 758, 759, 760, 761, 762, 763, 764, 765, 766, 782, 783, 784, 785, 786, 787, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 863, 864, 865, 905, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947, 948, 949, 972, 983, 984, 985, 986, 987, 988, 989, 990, 991, 1021
+2021-07-01 03:13:03,913 - __main__ - INFO - Cropping ends
+2021-07-01 03:13:03,956 - __main__ - INFO - Removed 4 bases from end of MYB_AVIMB-F_3
+2021-07-01 03:13:03,965 - __main__ - WARNING - Given the length of sequence P87467-F_3, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 03:13:04,027 - __main__ - INFO - Removed 6 bases from start of MYBB_XENLA_1
+2021-07-01 03:13:04,031 - __main__ - INFO - Removed 6 bases from start of MYBB_CHICK_1
+2021-07-01 03:13:04,035 - __main__ - INFO - Removed 6 bases from start of MYBB_HUMAN_1
+2021-07-01 03:13:04,040 - __main__ - INFO - Removed 6 bases from start of MYBB_MOUSE_1
+2021-07-01 03:13:04,055 - __main__ - INFO - Removed 6 bases from start of MYBA_XENLA_1
+2021-07-01 03:13:04,060 - __main__ - INFO - Removed 6 bases from start of MYBA_CHICK_1
+2021-07-01 03:13:04,068 - __main__ - INFO - Removed 6 bases from start of MYBA_HUMAN_1
+2021-07-01 03:13:04,073 - __main__ - INFO - Removed 6 bases from start of MYBA_MOUSE_1

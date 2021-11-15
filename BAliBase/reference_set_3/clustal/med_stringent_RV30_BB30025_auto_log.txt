@@ -1,0 +1,112 @@
+2021-07-01 01:55:59,319 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile med_stringent_config_BB.ini --infile reference_set_3/clustal/RV30_BB30025_auto.fasta --outfile_stem reference_set_3/clustal/med_stringent_RV30_BB30025_auto
+Config File (med_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.2
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 01:55:59,355 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 01:55:59,355 - __main__ - INFO - Removing divergent sequences
+2021-07-01 01:56:00,090 - __main__ - INFO - Removing divergent sequences 1j0f_A, SH3N_HUMAN
+2021-07-01 01:56:00,090 - __main__ - INFO - Removing insertions
+2021-07-01 01:56:00,091 - __main__ - INFO - Removing insertions
+
+2021-07-01 01:56:00,743 - __main__ - INFO - Removing sites 145, 146, 147, 148, 149, 150, 161, 162, 163, 164, 165, 166, 41, 42, 43, 44, 45, 46, 177, 178, 179, 186, 187, 61, 62, 63, 64, 191, 66, 201, 202, 203, 85, 86, 87, 88, 89, 90, 91, 92, 93, 225, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 234, 235, 241, 242, 243
+2021-07-01 01:56:00,743 - __main__ - INFO - Cropping ends
+2021-07-01 01:56:00,746 - __main__ - INFO - Removed 5 bases from end of SH3B_DROME
+2021-07-01 01:56:00,746 - __main__ - WARNING - Given the length of sequence SH3M_HUMAN, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,751 - __main__ - INFO - Removed 11 bases from end of SH3B_HUMAN
+2021-07-01 01:56:00,752 - __main__ - WARNING - Given the length of sequence 1grx_, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,753 - __main__ - WARNING - Given the length of sequence 1fov_A, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,756 - __main__ - WARNING - Given the length of sequence 1b4q_A, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,758 - __main__ - WARNING - Given the length of sequence GLRX_HAEIN, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,760 - __main__ - WARNING - Given the length of sequence GLR1_SALTY, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,761 - __main__ - WARNING - Given the length of sequence GLRX_PSEAE, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,763 - __main__ - WARNING - Given the length of sequence GLR3_ECOLI, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,765 - __main__ - WARNING - Given the length of sequence GLRX_CHICK, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,767 - __main__ - INFO - Removed 8 bases from end of GLRX_CHICK
+2021-07-01 01:56:00,768 - __main__ - WARNING - Given the length of sequence GLRX_BOVIN, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,772 - __main__ - WARNING - Given the length of sequence GLRX_RICCO, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,774 - __main__ - WARNING - Given the length of sequence GLRX_VERFO, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,779 - __main__ - WARNING - Given the length of sequence GLR1_SCHPO, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,781 - __main__ - WARNING - Given the length of sequence GLRX_NEIMA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,782 - __main__ - WARNING - Given the length of sequence GLRX_RICPR, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,788 - __main__ - INFO - Removed 4 bases from start of 1kng_A
+2021-07-01 01:56:00,790 - __main__ - INFO - Removed 10 bases from end of TYPX_TRYBB
+2021-07-01 01:56:00,793 - __main__ - INFO - Removed 3 bases from end of RESA_BACAA
+2021-07-01 01:56:00,795 - __main__ - INFO - Removed 5 bases from end of RESA_BACHD
+2021-07-01 01:56:00,798 - __main__ - INFO - Removed 8 bases from end of RESA_BACSU
+2021-07-01 01:56:00,800 - __main__ - INFO - Removed 6 bases from end of RESA_OCEIH
+2021-07-01 01:56:00,830 - __main__ - INFO - Removed 4 bases from start of TXN4_HUMAN
+2021-07-01 01:56:00,833 - __main__ - INFO - Removed 10 bases from end of THI2_CORNE
+2021-07-01 01:56:00,833 - __main__ - WARNING - Given the length of sequence THIO_MYCGA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:56:00,836 - __main__ - INFO - Removed 7 bases from end of THIO_MYCGA
+2021-07-01 01:56:00,838 - __main__ - INFO - Removed 8 bases from end of THIO_MYCGE
+2021-07-01 01:56:00,841 - __main__ - INFO - Removed 8 bases from end of THIO_MYCPN
+2021-07-01 01:56:00,843 - __main__ - INFO - Removed 10 bases from start of TRX2_YEAST
+2021-07-01 01:56:00,844 - __main__ - INFO - Removed 10 bases from end of TRX2_YEAST
+2021-07-01 01:56:00,848 - __main__ - INFO - Removed 10 bases from end of THIO_CHLPN
+2021-07-01 01:56:00,852 - __main__ - INFO - Removed 10 bases from end of THIO_CHLCV
+2021-07-01 01:56:00,854 - __main__ - INFO - Removed 10 bases from end of THIO_ICTPU
+2021-07-01 01:56:00,856 - __main__ - INFO - Removed 19 bases from end of TXL2_HUMAN
+2021-07-01 01:56:00,859 - __main__ - INFO - Removed 10 bases from start of THIM_CHLRE
+2021-07-01 01:56:00,859 - __main__ - INFO - Removed 11 bases from end of THIM_CHLRE
+2021-07-01 01:56:00,863 - __main__ - INFO - Removed 10 bases from end of THIM_PEA
+2021-07-01 01:56:00,866 - __main__ - INFO - Removed 10 bases from start of THIM_SPIOL
+2021-07-01 01:56:00,866 - __main__ - INFO - Removed 12 bases from end of THIM_SPIOL
+2021-07-01 01:56:00,868 - __main__ - INFO - Removed 12 bases from end of THIM_ORYSA
+2021-07-01 01:56:00,871 - __main__ - INFO - Removed 13 bases from end of THIM_MAIZE
+2021-07-01 01:56:00,875 - __main__ - INFO - Removed 10 bases from end of THIO_RHORU
+2021-07-01 01:56:00,878 - __main__ - INFO - Removed 12 bases from end of THM4_ARATH
+2021-07-01 01:56:00,880 - __main__ - INFO - Removed 11 bases from end of THIM_BRANA
+2021-07-01 01:56:00,883 - __main__ - INFO - Removed 17 bases from start of THM2_ARATH
+2021-07-01 01:56:00,883 - __main__ - INFO - Removed 11 bases from end of THM2_ARATH
+2021-07-01 01:56:00,885 - __main__ - INFO - Removed 3 bases from start of THIO_ECHGR
+2021-07-01 01:56:00,885 - __main__ - INFO - Removed 10 bases from end of THIO_ECHGR
+2021-07-01 01:56:00,888 - __main__ - INFO - Removed 2 bases from start of TRX1_YEAST
+2021-07-01 01:56:00,888 - __main__ - INFO - Removed 10 bases from end of TRX1_YEAST
+2021-07-01 01:56:00,897 - __main__ - INFO - Removed 10 bases from end of THI3_DICDI

@@ -1,0 +1,131 @@
+2021-07-01 01:25:18,664 - __main__ - INFO - 
+Initial parameters:
+Command Line Args:   --inifile med_stringent_config_BB.ini --infile reference_set_2/mafft/RV20_BB20036_global_max100.fasta --outfile_stem reference_set_2/mafft/med_stringent_RV20_BB20036_global_max100
+Config File (med_stringent_config_BB.ini):
+  silent:            0
+  all:               0
+  crop_ends:         1
+  crop_ends_mingap_perc:0.02
+  crop_ends_redefine_perc:0.1
+  remove_divergent:  1
+  remove_divergent_minperc:0.2
+  remove_insertions: 1
+  insertion_min_size:3
+  insertion_max_size:100
+  insertion_min_flank:5
+  remove_short:      0
+  remove_min_length: 50
+  keep_gaponly:      1
+  make_consensus:    0
+  consensus_type:    majority_nongap
+  consensus_keep_gaps:0
+  consensus_name:    consensus
+  plot_input:        0
+  plot_output:       0
+  plot_markup:       0
+  plot_dpi:          300
+  plot_format:       png
+  plot_width:        5
+  plot_height:       3
+  make_sequence_logo:0
+  sequence_logo_type:bar
+  sequence_logo_dpi: 300
+  sequence_logo_font:monospace
+  sequence_logo_nt_per_row:50
+  sequence_logo_filetype:png
+  list_fonts_only:   0
+  plot_coverage_input:0
+  plot_coverage_output:0
+  plot_coverage_dpi: 300
+  plot_coverage_height:3
+  plot_coverage_width:5
+  plot_coverage_colour:#007bf5
+  plot_coverage_filetype:png
+  make_similarity_matrix_input:0
+  make_similarity_matrix_output:0
+  make_simmatrix_dp: 4
+  make_simmatrix_minoverlap:1
+  make_simmatrix_keepgaps:0
+  unalign_input:     0
+  unalign_output:    0
+
+2021-07-01 01:25:18,774 - __main__ - INFO - Amino acid alignment detected
+2021-07-01 01:25:18,774 - __main__ - INFO - Removing divergent sequences
+2021-07-01 01:25:20,399 - __main__ - INFO - Removing divergent sequences 1fov_A
+2021-07-01 01:25:20,399 - __main__ - INFO - Removing insertions
+2021-07-01 01:25:20,400 - __main__ - INFO - Removing insertions
+
+2021-07-01 01:25:22,578 - __main__ - INFO - Removing sites 40, 51, 52, 53, 54, 55, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 106, 107, 108, 109, 110, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 194, 195, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 219, 220, 221, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 408, 409, 410, 411, 412, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 470, 471, 472, 473, 474, 475, 476, 477, 478, 504, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 586, 587, 588, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 698
+2021-07-01 01:25:22,578 - __main__ - INFO - Cropping ends
+2021-07-01 01:25:22,584 - __main__ - INFO - Removed 1 bases from start of 1erv_
+2021-07-01 01:25:22,594 - __main__ - INFO - Removed 2 bases from start of THIO_STAAM
+2021-07-01 01:25:22,599 - __main__ - INFO - Removed 1 bases from start of THIO_BACSU
+2021-07-01 01:25:22,608 - __main__ - INFO - Removed 1 bases from start of THIO_LISMO
+2021-07-01 01:25:22,613 - __main__ - INFO - Removed 2 bases from start of THI1_ANASP
+2021-07-01 01:25:22,616 - __main__ - INFO - Removed 3 bases from start of THIO_CYACA
+2021-07-01 01:25:22,620 - __main__ - INFO - Removed 2 bases from start of THIO_PORPU
+2021-07-01 01:25:22,623 - __main__ - INFO - Removed 3 bases from start of THIO_RICCN
+2021-07-01 01:25:22,627 - __main__ - INFO - Removed 2 bases from start of THIO_STRAU
+2021-07-01 01:25:22,639 - __main__ - INFO - Removed 2 bases from start of THIO_PASMU
+2021-07-01 01:25:22,646 - __main__ - INFO - Removed 3 bases from start of THIO_HAEIN
+2021-07-01 01:25:22,654 - __main__ - INFO - Removed 4 bases from start of THIO_PSEAE
+2021-07-01 01:25:22,659 - __main__ - INFO - Removed 4 bases from start of THIO_STRCL
+2021-07-01 01:25:22,659 - __main__ - INFO - Removed 6 bases from end of THIO_STRCL
+2021-07-01 01:25:22,663 - __main__ - INFO - Removed 3 bases from start of THI2_CHLTE
+2021-07-01 01:25:22,675 - __main__ - INFO - Removed 1 bases from start of THIO_CHLMU
+2021-07-01 01:25:22,688 - __main__ - INFO - Removed 1 bases from start of THIT_DROME
+2021-07-01 01:25:22,688 - __main__ - INFO - Removed 2 bases from end of THIT_DROME
+2021-07-01 01:25:22,693 - __main__ - INFO - Removed 3 bases from start of THI2_CORNE
+2021-07-01 01:25:22,694 - __main__ - WARNING - Given the length of sequence THIO_MYCGA, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:25:22,703 - __main__ - INFO - Removed 1 bases from start of THIO_MYCGE
+2021-07-01 01:25:22,708 - __main__ - INFO - Removed 1 bases from start of THIO_MYCPN
+2021-07-01 01:25:22,716 - __main__ - INFO - Removed 1 bases from start of THIO_COPCM
+2021-07-01 01:25:22,721 - __main__ - INFO - Removed 1 bases from start of THIO_CHLPN
+2021-07-01 01:25:22,726 - __main__ - INFO - Removed 1 bases from start of THIO_CHLCV
+2021-07-01 01:25:22,730 - __main__ - INFO - Removed 1 bases from start of THIO_ICTPU
+2021-07-01 01:25:22,732 - __main__ - INFO - Removed 3 bases from start of TXL2_HUMAN
+2021-07-01 01:25:22,735 - __main__ - INFO - Removed 6 bases from start of THIM_CHLRE
+2021-07-01 01:25:22,739 - __main__ - INFO - Removed 2 bases from start of THIO_GRIPA
+2021-07-01 01:25:22,753 - __main__ - INFO - Removed 12 bases from start of THIM_MAIZE
+2021-07-01 01:25:22,758 - __main__ - INFO - Removed 3 bases from start of THIO_BUCAI
+2021-07-01 01:25:22,770 - __main__ - INFO - Removed 2 bases from start of THIM_BRANA
+2021-07-01 01:25:22,785 - __main__ - INFO - Removed 5 bases from start of THIO_EMENI
+2021-07-01 01:25:22,788 - __main__ - INFO - Removed 3 bases from start of THH1_ARATH
+2021-07-01 01:25:22,792 - __main__ - INFO - Removed 2 bases from start of THH2_TOBAC
+2021-07-01 01:25:22,797 - __main__ - INFO - Removed 4 bases from start of THH1_TOBAC
+2021-07-01 01:25:22,802 - __main__ - INFO - Removed 3 bases from start of THH5_ARATH
+2021-07-01 01:25:22,805 - __main__ - INFO - Removed 2 bases from start of THIH_FAGES
+2021-07-01 01:25:22,808 - __main__ - INFO - Removed 3 bases from start of THIH_ORYSA
+2021-07-01 01:25:22,814 - __main__ - INFO - Removed 5 bases from start of THIH_WHEAT
+2021-07-01 01:25:22,820 - __main__ - INFO - Removed 10 bases from start of THH2_ARATH
+2021-07-01 01:25:22,825 - __main__ - INFO - Removed 3 bases from start of THI3_DICDI
+2021-07-01 01:25:22,828 - __main__ - INFO - Removed 2 bases from start of THI2_SYNY3
+2021-07-01 01:25:22,831 - __main__ - INFO - Removed 13 bases from start of THIM_WHEAT
+2021-07-01 01:25:22,840 - __main__ - INFO - Removed 4 bases from start of THIO_THIFE
+2021-07-01 01:25:22,846 - __main__ - INFO - Removed 3 bases from start of THIO_MYCTU
+2021-07-01 01:25:22,850 - __main__ - INFO - Removed 2 bases from start of THIO_MYCSM
+2021-07-01 01:25:22,857 - __main__ - INFO - Removed 3 bases from start of THIO_CHLLT
+2021-07-01 01:25:22,862 - __main__ - INFO - Removed 2 bases from start of THI1_SYNY3
+2021-07-01 01:25:22,867 - __main__ - INFO - Removed 2 bases from start of THI1_CHLTE
+2021-07-01 01:25:22,870 - __main__ - INFO - Removed 8 bases from start of THI2_ECOLI
+2021-07-01 01:25:22,875 - __main__ - INFO - Removed 2 bases from start of THIO_PENCH
+2021-07-01 01:25:22,880 - __main__ - INFO - Removed 3 bases from start of TRX3_YEAST
+2021-07-01 01:25:22,885 - __main__ - INFO - Removed 2 bases from start of THIO_TREPA
+2021-07-01 01:25:22,892 - __main__ - INFO - Removed 1 bases from start of THIO_GEOCY
+2021-07-01 01:25:22,897 - __main__ - INFO - Removed 3 bases from start of THH3_ARATH
+2021-07-01 01:25:22,908 - __main__ - INFO - Removed 8 bases from start of THI2_BOVIN
+2021-07-01 01:25:22,914 - __main__ - INFO - Removed 3 bases from start of THIO_NEUCR
+2021-07-01 01:25:22,920 - __main__ - INFO - Removed 1 bases from start of THI2_DROME
+2021-07-01 01:25:22,924 - __main__ - INFO - Removed 6 bases from start of THI1_CAEEL
+2021-07-01 01:25:22,930 - __main__ - INFO - Removed 4 bases from start of THI1_DICDI
+2021-07-01 01:25:22,934 - __main__ - INFO - Removed 2 bases from start of YE04_YEAST
+2021-07-01 01:25:22,939 - __main__ - INFO - Removed 3 bases from start of YD98_YEAST
+2021-07-01 01:25:22,946 - __main__ - INFO - Removed 9 bases from start of THF1_ARATH
+2021-07-01 01:25:22,955 - __main__ - INFO - Removed 3 bases from start of TXNL_HUMAN
+2021-07-01 01:25:22,955 - __main__ - INFO - Removed 5 bases from end of TXNL_HUMAN
+2021-07-01 01:25:22,960 - __main__ - INFO - Removed 4 bases from start of THH1_BRANA
+2021-07-01 01:25:22,964 - __main__ - INFO - Removed 2 bases from start of THIH_PICMA
+2021-07-01 01:25:22,969 - __main__ - INFO - Removed 3 bases from start of THH2_BRANA
+2021-07-01 01:25:22,977 - __main__ - WARNING - Given the length of sequence 1j0f_A, the mingap_perc threshold is too low and the change in gap numbers was replaced by 2.
+2021-07-01 01:25:22,980 - __main__ - INFO - Removed 7 bases from start of 1j0f_A
+2021-07-01 01:25:22,985 - __main__ - INFO - Removed 3 bases from start of 1a8l_
